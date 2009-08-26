@@ -1,9 +1,9 @@
 <?php
 #########################################################
 # Deutsches Sprachpaket (Formell)                     #
-# Version 1.4.8                                         #
-# Datum: 26.06.2009                                     #
-# MyBB-Version 1.4.8                                    #
+# Version x.x.x                                         #
+# Datum: xx.xx.xxxx                                     #
+# MyBB-Version x.x.x                                    #
 # Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
 # (c) 2005-2009 MyBBoard.de | Alle Rechte vorbehalten!  #
 #                                                       #
