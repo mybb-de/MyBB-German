@@ -76,7 +76,7 @@ $l['editing_pad'] = "<a href=\"usercp.php?action=notepad\">Persönliches Notizbu
 $l['editing_password'] = "Ändert sein <a href=\"usercp.php?action=password\">Passwort</a>";
 $l['user_cp'] = "<a href=\"usercp.php\">Benutzer Control-Panel</a>";
 $l['viewing_portal'] = "Sieht sich das <a href=\"portal.php\">Portal</a> an";
-$l['viewing_noperms'] = " Sieht sich eine Seite ohne benötigte Benutzerrechte an";
+$l['viewing_noperms'] = "Sieht sich eine Seite ohne Berechtigung an";
 $l['unknown_location'] = "<a href=\"{1}\">Unbekannter Ort</a>";
 $l['giving_reputation'] = "Gibt eine Bewertung ab";
 $l['member_resendactivation'] = "Schickt sich eine Aktivierungs-Mail";
