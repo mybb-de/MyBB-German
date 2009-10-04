@@ -33,6 +33,7 @@ $l['delete_selected_posts'] = "Markierte Beiträge löschen";
 $l['posted_by'] = "Geschrieben von";
 $l['delete_thread'] = "Themen löschen";
 $l['get_post_ip'] = "Beitrags-IP-Adresse zeigen";
+$l['info_on_ip'] = "Information für diese IP-Adresse";
 $l['ip_address'] = "IP-Adresse:";
 $l['hostname'] = "Host:";
 $l['if_resolvable'] = "(wenn auflösbar)";

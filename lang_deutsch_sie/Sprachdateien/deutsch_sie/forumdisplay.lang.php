@@ -88,6 +88,10 @@ $l['forum_unapproved_threads_count'] = "Es gibt zur Zeit {1} ungeprüfte Themen 
 $l['forum_unapproved_thread_count'] = "Es gibt zur Zeit 1 ungeprüftes Thema in diesem Forum.";
 $l['thread_unapproved_posts_count'] = "Es gibt zur Zeit {1} ungeprüfte Beiträge in diesem Thema.";
 $l['thread_unapproved_post_count'] = "Es gibt zur Zeit 1 ungeprüften Beitrag in diesem Thema.";
+$l['page_selected'] = "Alle <strong>{1}</strong> Themen auf dieser Seite sind ausgewählt.";
+$l['all_selected'] = "Alle <strong>{1}</strong> Themen in diesem Forum sind ausgewählt.";
+$l['select_all'] = "Alle <strong>{1}</strong> Themen in diesem Forum auswählen.";
+$l['clear_selection'] = "Auswahl löschen.";
 
 $l['error_containsnoforums'] = "Entschuldigung, aber das Forum, welches Sie gerade ansehen, enthält keine Unterforen.";
 

@@ -73,6 +73,8 @@ $l['password'] = "Passwort:";
 $l['login_username'] = "Benutzername";
 $l['login_password'] = "Passwort";
 $l['lost_password'] = "Passwort vergessen?";
+$l['remember_me'] = "Meinen Login für spätere Besuche merken.";
+$l['remember_me_desc'] = "Falls aktiv wird Ihr Login auf diesem Computer gespeichert, andernfalls werden Sie ausgeloggt, sobald Sie den Browser schließen."
 
 $l['month_1'] = "Januar";
 $l['month_2'] = "Februar";
@@ -115,6 +117,7 @@ $l['unapprove_attachment'] = "Ablehnen";
 $l['insert_attachment_post'] = "In den Beitrag einfügen";
 $l['new_attachment'] = "Neues Attachment:";
 $l['add_attachment'] = "Attachment hinzufügen";
+$l['update_attachment'] = "Attachment aktualisieren";
 $l['post_preview'] = "Beitragsvorschau";
 $l['change_user'] = "Benutzer wechseln";
 $l['post_icon'] = "Beitrags-Icon:";
@@ -156,6 +159,14 @@ $l['editor_enter_url_title'] = "Optional können Sie auch einen Namen für die W
 $l['editor_enter_email'] = "Geben Sie die einzufügende E-Mail-Adresse ein.";
 $l['editor_enter_email_title'] = "Optional können Sie auch einen Namen zur Adresse eingeben.";
 $l['editor_enter_image'] = "Geben Sie die URL zum einzufügenden Bild ein.";
+$l['editor_enter_video_url'] = "Geben Sie die URL des Videos ein.";
+$l['editor_video_dailymotion'] = "Dailymotion";
+$l['editor_video_googlevideo'] = "Google Video";
+$l['editor_video_metacafe'] = "MetaCafe";
+$l['editor_video_myspacetv'] = "MySpace TV";
+$l['editor_video_vimeo'] = "Vimeo";
+$l['editor_video_yahoo'] = "Yahoo Video";
+$l['editor_video_youtube'] = "YouTube";
 $l['editor_size_xx_small'] = "Kleinste";
 $l['editor_size_x_small'] = "Kleiner";
 $l['editor_size_small'] = "Klein";
@@ -232,6 +243,8 @@ $l['on'] = "aktiviert";
 $l['off'] = "deaktiviert";
 $l['unread_report'] = "Moderatoren-Nachricht: Es gibt einen ungelesenen gemeldeten Beitrag.";
 $l['unread_reports'] = "Moderatoren-Nachricht: Es gibt {1} ungelesene gemeldete Beiträge.";
+$l['pending_joinrequest'] = "Gruppenleiter-Notiz: Sie haben eine austehende Gruppenbeitrittsanfrage.";
+$l['pending_joinrequests'] = "Gruppenleiter-Notiz: Sie haben {1} austehende Gruppenbeitrittsanfragen.";
 
 $l['year'] = "Jahr";
 $l['year_short'] = "J";
@@ -371,8 +384,7 @@ $l['task_promotions_ran'] = "Beförderungen wurden erfolgreich durchgeführt.";
 $l['task_threadviews_ran'] = "Themen wurden erfolgreich als gelesen markiert.";
 $l['task_usercleanup_ran'] = "Die Benutzerdatenbank wurde erfolgreich gesäubert.";
 $l['task_massmail_ran'] = "Massenmails wurden erfolgreich verarbeitet.";
-$l['task_massmail_ran_errors'] = "Ein oder mehrere Probleme sind aufgetreten bei dem Versand an \"{1}\":
-{2}";
+$l['task_userpruning_ran'] = "Die Benutzer wurden erfolgreich reduziert.";
 
 $l['dismiss_notice'] = "Diese Notiz löschen";
 

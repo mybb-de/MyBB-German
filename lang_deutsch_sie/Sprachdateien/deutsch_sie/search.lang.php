@@ -62,8 +62,10 @@ $l['lastpost'] = "Letzter Beitrag";
 $l['post_thread'] = "Thema:";
 $l['post_subject'] = "Beitrag:";
 $l['replies2'] = "Antworten";
-
-$l['moderation_options'] = "Inline-Themenmoderation:";
+$l['selectall'] = "Alle zusätzlichen Ergebnisse auswählen?";
+$l['any_prefix'] = "Themen mit irgendeinem Präfix finden";
+$l['no_prefix'] = "Kein Präfix";
+$l['inline_thread_moderation'] = "Inline-Themenmoderation:";
 $l['close_threads'] = "Themen schließen";
 $l['open_threads'] = "Themen öffnen";
 $l['stick_threads'] = "Themen wichtig";
