@@ -77,7 +77,8 @@ $l['welcome_step'] = '<p>Willkommen zur Installationsroutine f&uuml;r MyBB {1}. 
 	<li>Allgemeine Foreneinstellungen</li>
 </ul>
 <p>Nachdem ein Schritt erfolgreich abgeschlossen wurde, klicke auf "Weiter", um die Installation fortzusetzen.</p>
-<p>Klicke auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>';
+<p>Klicke auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Anonyme Statistik &uuml;ber Serverspezifikationen an die MyBB Group schicken</label> (<a href="http://wiki.mybboard.net/index.php/Anonymous_Statistics" style="color: #555;" target="_blank"><small>Welche Informationen werden gesendet?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -102,11 +103,12 @@ $l['req_step_reqtable'] = '<div class="border_wrapper">
 		<tr class="alt_row">
 			<td class="first">Unterst&uuml;tzte DB-Erweiterungen:</td>
 			<td class="last alt_col">{2}</td>
-		<tr>
+		</tr>
 		<tr class="alt_row">
 			<td class="first">Unterst&uuml;tzte &Uuml;bersetzungs-Erweiterungen:</td>
 			<td class="last alt_col">{3}</td>
-		<tr>
+		</tr>
+		<tr class="alt_row">
 			<td class="first">PHP XML-Erweiterungen:</td>
 			<td class="last alt_col">{4}</td>
 		</tr>
@@ -345,6 +347,7 @@ $l['upgrade_removedir'] = 'Bitte l&ouml;sche den Ordner \"install\", bevor du de
 $l['upgrade_congrats'] = "<p>Herzlichen Gl&uuml;ckwunsch! Dein Forum wurde erfolgreich auf MyBB {1} aktualisiert.</p>{2}<p><strong>Wie geht es weiter?</strong></p><ul><li>Benutze das Tool im Admin-CP, um eigene Templates zu finden, die w&auml;hrend des Upgrades aktualisiert wurden. Du kannst diese entsprechend anpassen oder zur&uuml;cksetzen.</li><li>Stelle sicher, dass das Forum wie erwartet funktioniert.</li></ul>";
 $l['upgrade_template_reversion'] = "Warnung: Templates werden zur&uuml;ckgesetzt";
 $l['upgrade_template_reversion_success'] = "<p>Alle erforderlichen &Auml;nderungen in der Datenbank wurden erfolgreich abgeschlossen.</p><p>Das Upgrade wird alle vorhandenen Templates zur&uuml;cksetzen und aktualisieren. Bitte mache eine Sicherung eigener Templates, bevor du fortf&auml;hrst.";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik &uuml;ber Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"http://wiki.mybboard.net/index.php/Anonymous_Statistics\" style=\"color: #555;\" target=\"_blank\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
 
 /* Error messages */
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu k&ouml;nnen.';
