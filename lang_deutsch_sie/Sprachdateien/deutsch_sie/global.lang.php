@@ -74,7 +74,7 @@ $l['login_username'] = "Benutzername";
 $l['login_password'] = "Passwort";
 $l['lost_password'] = "Passwort vergessen?";
 $l['remember_me'] = "Meinen Login für spätere Besuche merken.";
-$l['remember_me_desc'] = "Falls aktiv wird Ihr Login auf diesem Computer gespeichert, andernfalls werden Sie ausgeloggt, sobald Sie den Browser schließen."
+$l['remember_me_desc'] = "Falls aktiv wird Ihr Login auf diesem Computer gespeichert, andernfalls werden Sie ausgeloggt, sobald Sie den Browser schließen.";
 
 $l['month_1'] = "Januar";
 $l['month_2'] = "Februar";

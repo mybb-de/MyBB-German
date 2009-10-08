@@ -166,6 +166,8 @@ $l['reputation'] = "Bewertung:";
 $l['reputation_vote'] = "Bewerten";
 $l['reputation_details'] = "Details";
 $l['already_logged_in'] = "Hinweis: Sie sind momentan als {1} angemeldet.";
+$l['admin_edit_in_acp'] = "Diesen Benutzer im Admin-CP bearbeiten";
+$l['admin_ban_in_acp'] = "Diesen Benutzer im Admin-CP ausschließen";
 
 $l['redirect_registered_activation'] = "Vielen Dank für Ihre Registrierung bei {1}, {2}.<p>Um Ihre Registrierung abzuschließen, müssen Sie den Anweisungen in der E-Mail folgen, die Ihnen gerade geschickt wurde. Erst danach können Sie Beiträge schreiben.";
 $l['redirect_emailupdated'] = "Ihre E-Mail-Adresse wurde erfolgreich geändert.<br />Sie werden jetzt zur Startseite weitergeleitet.";
