@@ -17,7 +17,7 @@ $l['redirect_emailsent'] = "Ihre E-Mail wurde erfolgreich versandt.";
 $l['redirect_loggedin'] = "Sie haben sich erfolgreich eingeloggt.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort weitergeleitet.";
 
 $l['error_incompletefields'] = "Sie haben mindestens ein erforderliches Feld nicht ausgefüllt. Gehen Sie bitte zurück und geben Sie die benötigten Daten an.";
-$l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte benennen Sie die Datei um und versuchen Sie es erneut.";
+$l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte benennen Sie die Datei um und versuchen Sie es erneut. Alternativ können Sie auch \"Attachment aktualisieren\" klicken.";
 $l['error_nomessage'] = "Entschuldigung, Sie haben keine gültige Nachricht eingegeben. Bitte gehen Sie zurück und korrigieren Sie Ihre Eingaben.";
 $l['error_invalidemail'] = "Sie haben eine ungültige E-Mail-Adresse angegeben.";
 $l['error_nomember'] = "Dieser Benutzer ist ungültig oder nicht vorhanden.";

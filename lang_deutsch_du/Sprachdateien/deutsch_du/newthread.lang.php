@@ -36,6 +36,7 @@ $l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist
 $l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
 $l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";
 $l['error_post_already_submitted'] = "Du hast dieses Thema bereits in diesem Forum gepostet. Bitte besuche das Forum, um das Thema zu sehen.";
+$l['no_prefix'] = "Kein Präfix";
 
 $l['multiquote_external_one'] = "Du hast 1 Beiträg von einem anderen Thema ausgewählt.";
 $l['multiquote_external'] = "Du hast {1} Beiträge von einem anderen Thema ausgewählt.";

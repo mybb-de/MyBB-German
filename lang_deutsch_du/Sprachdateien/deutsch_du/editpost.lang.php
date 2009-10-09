@@ -32,6 +32,7 @@ $l['num_options'] = "Anzahl der Optionen:";
 $l['max_options'] = "(Maximal: {1})";
 $l['delete_now'] = "Jetzt löschen";
 $l['edit_time_limit'] = "Entschuldigung, aber du kannst deinen Beitrag nicht bearbeiten. Der Administrator hat festgelegt, dass Beiträge nur bis zu {1} Minuten nach der Erstellung geändert werden dürfen.";
+$l['no_prefix'] = "Kein Präfix";
 
 $l['redirect_nodelete'] = "Der Beitrag wurde nicht entfernt, weil du die \"Löschen\"-Checkbox nicht aktiviert hast.";
 $l['redirect_postedited'] = "Vielen Dank, der Beitrag wurde bearbeitet.<br />";

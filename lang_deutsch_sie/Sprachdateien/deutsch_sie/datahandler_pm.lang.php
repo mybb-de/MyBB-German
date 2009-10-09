@@ -19,6 +19,7 @@ $l['pmdata_invalid_recipients'] = 'Der Empfänger der Nachricht existiert nicht.
 $l['pmdata_no_recipients'] = "Sie haben vergessen, Empfänger für diese Nachricht einzugeben. Sie müssten mindestens einen Empfänger im Feld \"Empfänger\" eingeben.";
 $l['pmdata_too_many_recipients'] = "Sie dürfen eine Nachricht an höchstens {1} Benutzer gleichzeitig schicken.";
 $l['pmdata_recipient_is_ignoring'] = 'Ihre Nachricht kann nicht verschickt werden, da der Empfänger Sie ignoriert.';
+$l['pmdata_recipient_has_buddy_only'] = "Sie können keine Nachricht an {1} schicken, da Sie nicht auf dessen/deren Freundesliste ist/sind.";
 $l['pmdata_recipient_pms_disabled'] = '{1} hat private Nachrichten deaktiviert. Sie können diesem Benutzer keine Nachricht schicken.';
 $l['pmdata_recipient_reached_quota'] = '{1} hat das Speicherplatzlimit für private Nachrichten erreicht. Ihre Nachricht konnte nicht gesendet werden.';
 

@@ -16,4 +16,7 @@ $l['announcements'] = "Forenankündigung";
 $l['forum_announcement'] = "Forenankündigung: {1}";
 $l['error_invalidannouncement'] = "Die angegebene Ankündigung ist ungültig.";
 
+$l['announcement_edit'] = "Diese Ankündigung bearbeiten";
+$l['announcement_qdelete'] = "Diese Ankündigung löschen";
+$l['announcement_quickdelete_confirm'] = "Sind Sie sicher, dass Sie diese Ankündigung löschen möchten?";
 ?>

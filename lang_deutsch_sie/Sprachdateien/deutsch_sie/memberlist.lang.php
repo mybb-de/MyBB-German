@@ -50,4 +50,30 @@ $l['advanced_search'] = "Erweiterte Suche";
 
 $l['error_no_members'] = "<p>Es wurden keine Mitglieder mit den eingegebenen Kriterien gefunden.</p><p>Bitte versuchen Sie es mit einem anderen Suchwort erneut.</p>";
 
+$l['a'] = 'A';
+$l['b'] = 'B';
+$l['c'] = 'C';
+$l['d'] = 'D';
+$l['e'] = 'E';
+$l['f'] = 'F';
+$l['g'] = 'G';
+$l['h'] = 'H';
+$l['i'] = 'I';
+$l['j'] = 'J';
+$l['k'] = 'K';
+$l['l'] = 'L';
+$l['m'] = 'M';
+$l['n'] = 'N';
+$l['o'] = 'O';
+$l['p'] = 'P';
+$l['q'] = 'Q';
+$l['r'] = 'R';
+$l['s'] = 'S';
+$l['t'] = 'T';
+$l['u'] = 'U';
+$l['v'] = 'V';
+$l['w'] = 'W';
+$l['x'] = 'X';
+$l['y'] = 'Y';
+$l['z'] = 'Z';
 ?>
