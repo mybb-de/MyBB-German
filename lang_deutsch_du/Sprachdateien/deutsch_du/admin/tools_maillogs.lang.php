@@ -11,12 +11,12 @@
 # beiliegenden Readme.                                  #
 #########################################################
 
-$l['user_email_log'] = "Benutzer E-Mail Log-Daten";
+$l['user_email_log'] = "Logs der Benutzer-E-Mails";
 $l['user_email_log_desc'] = "Alle E-Mails, die von einem Benutzer zu einem anderen und auch über die 'Thema einem Freund senden' Funktion, versendet werden werden gespeichert und angezeigt. Hier kannst du eventuelle Beschimpfer erkennen.";
-$l['prune_user_email_log'] = "Prune User Email Log";
+$l['prune_user_email_log'] = "Logs der Benutzer-E-Mails säubern";
 
 $l['close_window'] = "Fenster schließen";
-$l['user_email_log_viewer'] = "Benutzer E-Mail Log-Daten Anzeige";
+$l['user_email_log_viewer'] = "Logs der Benutzer-E-Mails anzeigen";
 $l['to'] = "Empfänger";
 $l['from'] = "Absender";
 $l['ip_address'] = "IP-Adresse";
@@ -32,7 +32,7 @@ $l['find'] = "Finden";
 $l['deleted_user'] = "Gelöschte Benutzer";
 $l['email_sent_to_user'] = "E-Mails, die an diesen Benutzer gesendet wurden";
 $l['no_logs'] = "Es wurden leider keine Ergebnisse entsprechend den Kriterien gefunden.";
-$l['filter_user_email_log'] = "Benutzer E-Mail Log-Daten filtern";
+$l['filter_user_email_log'] = "Logs der Benutzer-E-Mails filtern";
 $l['username_is'] = "Benutzername ist";
 $l['email_contains'] = "E-Mail-Adresse enthält";
 $l['subject_contains'] = "Betreff enthält";

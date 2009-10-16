@@ -75,6 +75,7 @@ $l['admin_log_config_help_documents_delete_document'] = "Hilfe-Seite #{1} ({2}) 
 $l['admin_log_config_languages_edit_properties'] = "Eigenschaften des Sprachpakets bearbeitet: {1}";
 $l['admin_log_config_languages_edit'] = "{2} im Sprachpaket bearbeitet: {1}";
 $l['admin_log_config_languages_edit_admin'] = "admin/{2} im Sprachpaket bearbeitet: {1}";
+$l['admin_log_config_languages_quick_phrases'] = "Schnelleinstellung des Sprachpakets bearbeitet: {1}";
 
 $l['admin_log_config_mod_tools_delete_post_tool'] = "Beitragstool #{1} ({2}) gelöscht";
 $l['admin_log_config_mod_tools_delete_thread_tool'] = "Thementool #{1} ({2}) gelöscht";
@@ -123,6 +124,10 @@ $l['admin_log_config_smilies_mass_edit'] = "Mehrere Smilie bearbeitet";
 $l['admin_log_config_spiders_add'] = "Bot #{1} ({2}) hinzugefügt";
 $l['admin_log_config_spiders_edit'] = "Bot #{1} ({2}) bearbeitet";
 $l['admin_log_config_spiders_delete'] = "Bot #{1} ({2}) gelöscht";
+
+$l['admin_log_config_thread_prefixes_add_prefix'] = 'Präfix #{1} ({2}) hinzugefügt';
+$l['admin_log_config_thread_prefixes_edit_prefix'] = 'Präfix #{1} ({2}) bearbeitet';
+$l['admin_log_config_thread_prefixes_delete_prefix'] = 'Präfix #{1} ({2}) gelöscht';
 
 $l['admin_log_config_warning_add_level'] = "Verwarn-Level hinzugefügt #{1} auf {2}%";
 $l['admin_log_config_warning_edit_level'] = "Verwarn-Level bearbeitet #{1} auf {2}%";
@@ -183,6 +188,7 @@ $l['admin_log_tools_system_health_utf8_conversion'] = "Tabelle {1} zu UTF-8 konv
 
 $l['admin_log_tools_adminlog_prune'] = "{4} Administrator Log-Daten älter als {1} Tage gelöscht";
 $l['admin_log_tools_adminlog_prune_user'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer {2} gelöscht";
+$l['admin_log_user_banning_prune'] = "Beiträge und Themen des Benutzers #{1} ({2}) wurden gelöscht";
 $l['admin_log_tools_adminlog_prune_module'] = "{4} Administrator Log-Daten älter als {1} Tage von Modul {3} gelöscht";
 $l['admin_log_tools_adminlog_prune_user_module'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer {2} und Modul {3} gelöscht";
 
@@ -258,5 +264,13 @@ $l['admin_log_user_users_edit'] = "Benutzer #{1} ({2}) bearbeitet";
 $l['admin_log_user_users_delete'] = "Benutzer #{1} ({2}) gelöscht";
 $l['admin_log_user_users_ipaddresses'] = "IP-Addressen des Benutzers #{1} ({2}) angezeigt";
 $l['admin_log_user_users_merge'] = "Benutzer #{1} ({2}) mit dem Benutzer #{3} ({4}) zusammengefügt";
+
+$l['admin_log_user_users_inline_usergroup'] = "Primäre / sekündäre / Anzeige-Benutzergruppe von {1} Benutzer(n) geändert.";
+$l['admin_log_user_users_inline_delete'] = "{1} Benutzer gelöscht";
+$l['admin_log_user_users_inline_banned_perm'] = "{1} Benutzer permanent gesperrt";
+$l['admin_log_user_users_inline_banned_temp'] = "{1} Benutzer bis {2} gesperrt";
+$l['admin_log_user_users_inline_activated'] = "{1} Benutzer aktiviert";
+$l['admin_log_user_users_inline_lift'] = "{1} Benutzer-Sperrungen(en) aufgehoben";
+
 $l['admin_log_user_mass_mail_delete'] = "Massenmail #{1} gelöscht ({2})";
 ?>

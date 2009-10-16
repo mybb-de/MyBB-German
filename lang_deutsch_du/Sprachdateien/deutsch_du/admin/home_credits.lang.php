@@ -20,4 +20,5 @@ $l['developers'] = "Entwickler";
 $l['graphics_and_style'] = "Grafiken und Style";
 $l['software_quality_assurance'] = "Qualitätssicherung";
 $l['support_representative'] = "Support";
+$l['pr_liaison'] = "PR Kontakt";
 ?>

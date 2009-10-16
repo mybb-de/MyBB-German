@@ -103,6 +103,7 @@ $l['asc'] = "aufsteigend";
 $l['desc'] = "absteigend";
 $l['sort_results_by'] = "Sortiere Ergebnisse nach";
 $l['results_per_page'] = "Ergebnisse pro Seite";
+$l['in'] = "in";
 
 // Buttons
 $l['button_delete_orphans'] = "Lösche ausgewählte Waisen";

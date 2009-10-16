@@ -55,9 +55,9 @@ $l['no_profile_fields'] = "Zur Zeit sind keine eigenen Profilfelder definiert.";
 $l['error_missing_name'] = "Du hast keinen Titel für dieses Profilfeld angegeben.";
 $l['error_missing_description'] = "Du hast keine Beschreibung für dieses Profilfeld angegeben.";
 $l['error_missing_filetype'] = "Du hast keinen Feldtyp für dieses Profilfeld angegeben.";
-$l['error_missing_required'] = "Du mußt bei der Option \"Benötigt?\" zwischen Ja und Nein wählen.";
-$l['error_missing_editable'] = "Du mußt bei der Option \"Bearbeitbar?\" zwischen Ja und Nein wählen.";
-$l['error_missing_hidden'] = "Du mußt bei der Option \"Versteckt?\" zwischen Ja und Nein wählen.";
+$l['error_missing_required'] = "Du musst bei der Option \"Benötigt?\" zwischen Ja und Nein wählen.";
+$l['error_missing_editable'] = "Du musst bei der Option \"Bearbeitbar?\" zwischen Ja und Nein wählen.";
+$l['error_missing_hidden'] = "Du musst bei der Option \"Versteckt?\" zwischen Ja und Nein wählen.";
 $l['error_invalid_fid'] = "Das ausgewählte Profilfeld existiert nicht.";
 
 $l['success_profile_field_added'] = "Das Profilfeld wurde erfolgreich erstellt.";

@@ -16,6 +16,8 @@ $l['languages_desc'] = "Hier finden Sie eine Liste aller installierten Sprachpak
 $l['find_language_packs'] = "Sprachpakete suchen";
 $l['language_files'] = "Sprachdateien";
 $l['language_files_desc'] = "Hier finden Sie eine Liste aller Sprachdateien aus dem gewählten Sprachpaket. Wählen Sie die Datei, die Sie bearbeiten möchten.";
+$l['quick_phrases'] = "Schnelleinstellungen";
+$l['quick_phrases_desc'] = "Schneller Zugriff auf häufig veränderten Sprachvariablen.";
 
 $l['edit_with'] = "Bearbeiten mit {1}";
 $l['edit_language_variables'] = "Sprachvariablen bearbeiten";
@@ -32,6 +34,18 @@ $l['charset'] = "Kodierung";
 $l['admin'] = "Enthält Übersetzung des Admin-CPs?";
 $l['rtl'] = "Rechts-nach-Links?";
 
+$l['quickphrases_agreement'] = 'Einverständniserklärung - Titel';
+$l['quickphrases_agreement_1'] = 'Einverständniserklärung - Absatz 1';
+$l['quickphrases_agreement_2'] = 'Einverständniserklärung - Absatz 2';
+$l['quickphrases_agreement_3'] = 'Einverständniserklärung - Absatz 3';
+$l['quickphrases_agreement_4'] = 'Einverständniserklärung - Absatz 4';
+$l['quickphrases_agreement_5'] = 'Einverständniserklärung - Absatz 5';
+
+$l['quickphrases_error_nopermission_guest_1'] = 'Keine Berechtigung - Absatz 1';
+$l['quickphrases_error_nopermission_guest_2'] = 'Keine Berechtigung - Absatz 2';
+$l['quickphrases_error_nopermission_guest_3'] = 'Keine Berechtigung - Absatz 3';
+$l['quickphrases_error_nopermission_guest_4'] = 'Keine Berechtigung - Absatz 4';
+
 $l['no_languages'] = "Keine Sprachen";
 $l['no_language_files_front_end'] = "Es wurden keine Sprachdateien für das Frontend gefunden.";
 $l['no_language_files_admin_cp'] = "Es wurden keine Sprachdateien für das Admin-CP gefunden.";
@@ -44,5 +58,6 @@ $l['alert_note_cannot_write'] = "Bevor Sie eine Sprachdatei bearbeiten können, 
 
 $l['success_langfile_updated'] = "Sprachdatei erfolgreich aktualisiert.";
 $l['success_langprops_updated'] = "Eigenschaften des Sprachpakets erfolgreich aktualisiert.";
+$l['success_quickphrases_updated'] = "Die Schnelleinstellungen wurden erfolgreich aktualisiert.";
 
 ?>

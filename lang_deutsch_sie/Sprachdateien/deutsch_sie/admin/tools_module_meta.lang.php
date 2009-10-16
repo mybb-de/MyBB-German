@@ -23,6 +23,7 @@ $l['recount_and_rebuild'] = "Neu zählen &amp; aktualisieren";
 $l['view_php_info'] = "Zeige PHP-Info";
 $l['database_backups'] = "Datenbank sichern";
 $l['optimize_database'] = "Datenbank optimieren";
+$l['file_verification'] = "Datei-Überprüfung";
 
 $l['administrator_log'] = "Administrator Log-Daten";
 $l['moderator_log'] = "Moderator Log-Daten";
@@ -38,9 +39,10 @@ $l['can_optimize_db'] = "Kann Datenbank optimieren?";
 $l['can_recount_and_rebuild'] = "Kann neu zählen &amp; aktualisieren?";
 $l['can_manage_admin_logs'] = "Kann Administrator Log-Daten verwalten?";
 $l['can_manage_mod_logs'] = "Kann Moderator Log-Daten verwalten?";
-$l['can_manage_user_mail_log'] = "Kann Benutzer E-Mail Log-Daten verwalten?";
-$l['can_manage_system_mail_log'] = "Kann System E-Mail Log-Daten verwalten?";
+$l['can_manage_user_mail_log'] = "Kann Logs der Benutzer-E-Mails verwalten?";
+$l['can_manage_system_mail_log'] = "Kann Logs der E-Mail-Fehler verwalten?";
 $l['can_manage_user_warning_log'] = "Kann Benutzer Verwarn Log-Daten verwalten?";
 $l['can_view_php_info'] = "Kann PHP-Info ansehen?";
+$l['can_manage_file_verification'] = "Kann Logs der Datei-Überprüfung verwalten?";
 
 ?>

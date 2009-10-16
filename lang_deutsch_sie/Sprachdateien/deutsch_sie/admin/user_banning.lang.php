@@ -35,9 +35,11 @@ $l['error_no_reason'] = "Sie haben keinen Grund für die Sperrung eingegeben.";
 $l['success_ban_lifted'] = "Die Sperrung wurde erfolgreich aufgehoben.";
 $l['success_banned'] = "Der Benutzer wurde erfolgreich gesperrt.";
 $l['success_ban_updated'] = "Die Sperrung wurde erfolgreich aktualisiert.";
+$l['success_pruned'] = "Die Beiträge und Themen des ausgewählen Benutzers wurden erfolgreich gelöscht.";
 
 // Confirm
 $l['confirm_lift_ban'] = "Wollen Sie die Sperrung wirklich aufheben?";
+$l['confirm_prune'] = "Wollen Sie die Beiträge und Themen dieses Benutzers wirklich löschen?";
 
 //== Pages
 //= Add / Edit
@@ -50,6 +52,7 @@ $l['ban_time'] = "Länge der Sperrung <em>*</em>";
 
 //= Index
 $l['user'] = "Benutzer";
+$l['moderation'] = "Moderation";
 $l['ban_lifts_on'] = "Sperrung wird aufgehoben am";
 $l['time_left'] = "Zeit übrig";
 $l['permenantly'] = "permanent";
@@ -58,6 +61,7 @@ $l['for'] = "für";
 $l['bannedby_x_on_x'] = "<strong>{1}</strong><br /><small>Gesperrt von {2} am {3} {4}</small>";
 $l['lift'] = "Aufheben";
 $l['no_banned_users'] = "Es gibt im Moment keine gesperrten Benutzer.";
+$l['prune_threads_and_posts'] = "Themen und Beiträge löschen";
 
 // Buttons
 $l['ban_user'] = "Benutzer sperren";
