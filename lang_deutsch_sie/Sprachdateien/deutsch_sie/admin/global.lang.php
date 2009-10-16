@@ -48,6 +48,7 @@ $l['lost_password'] = "Passwort vergessen?";
 $l['error_invalid_admin_session'] = "Ungültige Administrations-Sitzung";
 $l['error_admin_session_expired'] = "Ihre Administrations-Sitzung ist abgelaufen";
 $l['error_invalid_ip'] = "Ihre IP-Adresse ist für diese Sitzung nicht gültig";
+$l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen";
 
 $l['success_logged_out'] = "Sie haben sich erfolgreich abgemeldet.";
 $l['error_invalid_username_password'] = "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.";
@@ -63,6 +64,7 @@ $l['controls'] = "Steuerungen";
 $l['view'] = "Ansehen";
 $l['yes'] = "Ja";
 $l['no'] = "Nein";
+$l['cancel'] = "Abbrechen";
 $l['options'] = "Optionen";
 $l['proceed'] = "Fortfahren";
 $l['ok'] = "OK";
@@ -220,6 +222,14 @@ $l['editor_enter_url_title'] = "Optional können Sie hier auch einen Namen für 
 $l['editor_enter_email'] = "Geben Sie die einzufügende E-Mail-Adresse ein.";
 $l['editor_enter_email_title'] = "Optional können Sie hier auch einen Namen zur Adresse eingeben.";
 $l['editor_enter_image'] = "Geben Sie bitte die URL zum einzufügenden Bild ein.";
+$l['editor_enter_video_url'] = "Geben Sie bitte die URL zum einzufügenden Videos ein.";
+$l['editor_video_dailymotion'] = "Dailymotion";
+$l['editor_video_googlevideo'] = "Google Video";
+$l['editor_video_metacafe'] = "MetaCafe";
+$l['editor_video_myspacetv'] = "MySpace TV";
+$l['editor_video_vimeo'] = "Vimeo";
+$l['editor_video_yahoo'] = "Yahoo Video";
+$l['editor_video_youtube'] = "YouTube";
 $l['editor_size_xx_small'] = "Kleinste";
 $l['editor_size_x_small'] = "Kleiner";
 $l['editor_size_small'] = "Klein";
@@ -243,13 +253,33 @@ $l['task_promotions_ran'] = "Beförderungen wurden erfolgreich durchgeführt.";
 $l['task_threadviews_ran'] = "Themen wurden erfolgreich als gelesen markiert.";
 $l['task_usercleanup_ran'] = "Die Benutzerdatenbank wurde erfolgreich gesäubert.";
 $l['task_massmail_ran'] = "Massenmails wurden erfolgreich verarbeitet.";
-$l['task_massmail_ran_errors'] = "Ein oder mehrere Probleme sind aufgetreten bei dem Versand an \"{1}\":
-{2}";
+$l['task_userpruning_ran'] = Die Benutzerdatenbank wurde erfolgreich aufgeräumt.";
 
 $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";
 $l['board_name'] = "Forenname";
 $l['board_url'] = "Foren-URL";
+
+// Email message for if an admin account has been locked out
+$l['locked_out_subject'] = "Dein Benutzer-Konto bei {1} wurde ausgeschlossen";
+$l['locked_out_message'] = "{1},
+
+Ihr Benutzer-Konto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen ausgeschlossen.
+
+Um Ihr Benutzer-Konto, öffnen Sie bitte folgenden Link in deinem Browser.
+
+<a href=\"{4}\" target=\"_blank\">{4}</a>
+
+Wenn dieser Link nicht funktioniert, gehen Sie zu
+
+{4}
+
+Sie müssen folgende Daten eingeben:
+Benutzername: {1}
+Aktivierungs-Code: {5}
+
+Vielen Dank,
+{2}-Team";
 
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)

@@ -63,6 +63,7 @@ $l['open'] = "Öffnen";
 $l['close'] = "Schließen";
 $l['toggle'] = "Status umkehren";
 $l['days'] = "Tagen";
+$l['no_prefix'] = "Kein Präfix";
 
 $l['forum_to_move_to'] = "Verschiebe Thema in Forum:";
 $l['leave_redirect'] = "Weiterleitung hinterlassen?";
@@ -78,6 +79,7 @@ $l['merge_thread'] = "Thema zusammenfügen?";
 $l['merge_thread_desc'] = "Nur bei Benutzung der Inlinemoderation.";
 $l['delete_poll'] = "Umfrage löschen?";
 $l['delete_redirects'] = "Weiterleitungen löschen?";
+$l['apply_thread_prefix'] = "Präfix hinzufügen?";
 $l['new_subject'] = "Neuer Betreff?";
 $l['new_subject_desc'] = "{subject} repräsentiert den Originalbetreff. {username} repräsentiert den Benutzernamen des Moderators.";
 

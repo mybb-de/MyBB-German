@@ -11,13 +11,13 @@
 # beiliegenden Readme.                                  #
 #########################################################
 
-$l['system_email_log'] = "System E-Mail Log-Daten";
+$l['system_email_log'] = "Logs der E-Mail-Fehler";
 $l['system_email_log_desc'] = "Alle E-Mails, die vom MyBB versendet wurden, und bei denen beim Senden Fehler auftraten, werden vom MyBB gespeichert und hier angezeigt. Dieser Bereich könnte hilfreich sein um Fehler bei der SMTP-Konfiguration oder der Unterstützung von E-Mails durch den Server zu finden.";
-$l['prune_system_email_log'] = "System E-Mail Log-Daten säubern";
-$l['filter_system_email_log'] = "System E-Mail Log-Daten filtern";
+$l['prune_system_email_log'] = "Logs der E-Mail-Fehler säubern";
+$l['filter_system_email_log'] = "Logs der E-Mail-Fehler filtern";
 
 $l['close_window'] = "Fenster schließen";
-$l['user_email_log_viewer'] = "Benutzer E-Mail Log-Daten Anzeige";
+$l['user_email_log_viewer'] = "Logs der E-Mail-Fehler anzeigen";
 $l['smtp_code'] = "SMTP Code:";
 $l['smtp_server_response'] = "SMTP Server Antwort:";
 $l['to'] = "Empfänger";

@@ -28,6 +28,7 @@ $l['moderator_tools'] = "Moderationstools";
 $l['spiders_bots'] = "Spider/Bots";
 $l['calendars'] = "Kalender";
 $l['warning_system'] = "Warnsystem";
+$l['thread_prefixes'] = "Präfixe";
 
 $l['can_manage_settings'] = "Kann Einstellungen verwalten?";
 $l['can_manage_banned_accounts'] = "Kann Ausschlüsse verwalten?";
@@ -44,5 +45,6 @@ $l['can_manage_spiders_bots'] = "Kann Spider/Bots verwalten?";
 $l['can_manage_calendars'] = "Kann Kalender verwalten?";
 $l['can_manage_warning_system'] = "Kann Warnsystem verwalten?";
 $l['can_manage_mod_tools'] = "Kann Moderationstools verwalten?";
+$l['can_manage_thread_prefixes'] = "Kann Präfixe verwalten?";
 
 ?>

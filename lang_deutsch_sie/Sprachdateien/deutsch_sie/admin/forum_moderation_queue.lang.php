@@ -38,7 +38,6 @@ $l['subject'] = "Betreff";
 $l['author'] = "Autor";
 $l['posted'] = "Geschrieben";
 $l['ignore'] = "Ignorieren";
-$l['delete'] = "Löschen";
 $l['approve'] = "Annehmen";
 $l['forum'] = "Forum:";
 $l['thread'] = "Thema:";

@@ -65,6 +65,13 @@ $l['permissions_canpostpolls'] = "Kann Umfragen erstellen";
 $l['permissions_canuploadattachments'] = "Kann Attachments hochladen";
 $l['permissions_all'] = "Alle?";
 
+$l['overview_allowed_actions'] = "Übersicht: Erlaubte Aktionen";
+$l['overview_disallowed_actions'] = "Übersicht: Verbotene Aktionen";
+$l['perm_drag_canview'] = "&#149; Sehen";
+$l['perm_drag_canpostthreads'] = "&#149; Themen erstellen";
+$l['perm_drag_canpostreplys'] = "&#149; Antworten";
+$l['perm_drag_canpostpolls'] = "&#149; Umfragen erstellen";
+
 $l['moderator_permissions'] = "Moderatorenberechtigungen";
 $l['forum_desc'] = "Zugewiesenes Forum";
 $l['edit_mod_for'] = "Bearbeite Moderatorberechtigungen für \"{1}\"";
@@ -85,6 +92,7 @@ $l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich 
 $l['success_forum_permissions_updated'] = "Die Forenberechtigungen wurden erfolgreich aktualisiert.";
 $l['success_forum_updated'] = "Das Forum wurde erfolgreich aktualisiert.";
 $l['success_moderator_updated'] = "Der Moderator wurde erfolgreich aktualisiert.";
+$l['success_custom_permission_cleared'] = "Die eigenen Foren-Berechtigungen wurden erfolgreich zurückgesetzt.";
 
 $l['error_invalid_forum'] = "Bitte geben Sie ein gültiges Forum an.";
 $l['error_invalid_moderator'] = "Bitte geben Sie einen gültigen Moderator zum Löschen an.";
@@ -95,6 +103,7 @@ $l['error_incorrect_moderator'] = "Bitte geben Sie einen gültigen Moderator an.
 
 $l['confirm_moderator_deletion'] = "Soll dieser Moderator wirklich aus diesem Forum entfernt werden?";
 $l['confirm_forum_deletion'] = "Soll dieses Forum wirklich gelöscht werden?";
+$l['confirm_clear_custom_permission'] = "Soll die eigene Foren-Berechtigung wirklich zurückgesetzt werden?";
 
 $l['create_a'] = "Typ des Forums";
 $l['create_a_desc'] = "Wählen Sie den Typ des neuen Forums. Foren beinhalten Themen und Beiträge, Kategorien beinhalten andere Foren.";
@@ -145,11 +154,16 @@ $l['dont_display_rules'] = "Zeige Regeln nicht an";
 $l['display_rules_inline'] = "Zeige Regeln inline an";
 $l['display_rules_link'] = "Zeige Link zu Regeln an";
 $l['display_method'] = "Anzeigemethode:";
-$l['rules'] = "Regeln:";
+$l['rules'] = "Regeln";
+$l['name'] = "Name";
 $l['forum_rules'] = "Forenregeln";
 $l['username'] = "Benutzername";
 $l['moderator_username_desc'] = "Benutzername des hinzuzufügenden Moderators";
-$l['add_moderator'] = "Moderator hinzufügen";
+$l['add_user_moderator'] = "Benutzer als Moderator hinzufügen";
+$l['usergroup'] = "Benutzergruppe";
+$l['add_usergroup_moderator'] = "Benutzerguppe als Moderator hinzufügen";
+$l['moderator_usergroup_desc'] = "Titel der hinzuzufügenden Benutzergruppe";
+$l['add_moderator'] = "Moderator(en) hinzufügen";
 
 $l['default_view_options'] = "Standard-Ansichtseinstellungen";
 $l['default_date_cut'] = "Standardzeitraum:";
@@ -193,6 +207,7 @@ $l['use_permissions'] = "Benutze Berechtigungen";
 $l['use_permissions_desc'] = "Wählen Sie die Berechtigungen, die Sie für diese Benutzergruppe verwenden möchten - übergeordnete Berechtigungen (eigene Berechtigungen werden überschrieben) oder eigene Berechtigungen.";
 $l['inherit_permissions'] = "Benutze Benutzergruppen-Berechtigungen oder die des übergeordneten Forums";
 $l['custom_permissions'] = "Benutzen Sie die folgenden, eigenen Berechtigungen";
+$l['custom_permissions_for'] = "Eigene Berechtigungen für";
 
 $l['save_permissions'] = "Speichere Forenberechtigungen";
 
@@ -219,6 +234,7 @@ $l['group_misc'] = "Verschiedenes";
 $l['viewing_field_canview'] = "Kann Forum sehen";
 $l['viewing_field_canviewthreads'] = "Kann Themen im Forum lesen";
 $l['viewing_field_candlattachments'] = "Kann Attachments herunterladen";
+$l['viewing_field_canonlyviewownthreads'] = "Kann nur eigenen Themen sehen?";
 
 $l['posting_rating_field_canpostthreads'] = "Kann Themen eröffnen";
 $l['posting_rating_field_canpostreplys'] = "Kann antworten";

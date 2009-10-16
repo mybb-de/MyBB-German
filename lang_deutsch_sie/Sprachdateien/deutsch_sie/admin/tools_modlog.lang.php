@@ -50,7 +50,7 @@ $l['order'] = "Sortierung";
 $l['days'] = "Tage";
 
 $l['prune_moderator_logs'] = "Moderator Log-Daten säubern";
-$l['date_range'] = "Datum zwischen::";
+$l['date_range'] = "Datum zwischen:";
 $l['all_forums'] = "Alle Foren";
 
 $l['success_pruned_mod_logs'] = "Moderator Log-Daten erfolgreich gesäubert.";

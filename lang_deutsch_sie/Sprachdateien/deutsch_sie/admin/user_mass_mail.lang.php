@@ -98,7 +98,6 @@ $l['queued'] = "Wartend";
 $l['delivering'] = "Am Senden";
 $l['na'] = "N/A";
 $l['mass_mail_cancel_confirmation'] = "Sind Sie sicher, dass Sie das Senden dieser Massenmail abbrechen möchten?";
-$l['cancel'] = "Abbrechen";
 $l['no_unsent_messages'] = "Es sind keine abgebrochenen, wartenden oder momenten zu sendende Nachrichten vorhanden.";
 
 $l['error_invalid_mid'] = "Sie haben eine ungültige Massenmail ausgewählt.";
