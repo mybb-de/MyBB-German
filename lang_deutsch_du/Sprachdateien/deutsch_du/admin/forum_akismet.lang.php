@@ -27,8 +27,8 @@ $l['success_spam_deleted'] = "Die Spambeiträge wurden gelöscht.";
 
 $l['confirm_spam_deletion'] = "Sollen wirklich alle gefundenen Beiträge gelöscht werden?";
 
-$l['error_deletepost'] = "Du mußt mindestens einen Beitrag zum Löschen auswählen.";
-$l['error_unmark'] = "Du mußt mindestens einen Beitrag auswählen, um ihn zu demarkieren.";
+$l['error_deletepost'] = "Du musst mindestens einen Beitrag zum Löschen auswählen.";
+$l['error_unmark'] = "Du musst mindestens einen Beitrag auswählen, um ihn zu demarkieren.";
 
 $l['no_spam_found'] = "Es gibt zur Zeit keine von Akismet erkannten Spambeiträge.";
 

@@ -144,7 +144,7 @@ $l['access_denied'] = "Zugriff nicht gestattet";
 $l['access_denied_desc'] = "Dir fehlt die Berechtigung, diesen Teil des Admin-CPs zu betreten.";
 
 // Super Administrator required
-$l['cannot_perform_action_super_admin_general'] = "Entschuldigung, aber du kannst diese Aktion nicht durchführen, da du kein Super-Administrator bist.<br /><br />Um diese Aktion durchzuführen, mußt du deine Benutzer-ID in der Datei \"inc/config.php\" hinterlegen.";
+$l['cannot_perform_action_super_admin_general'] = "Entschuldigung, aber du kannst diese Aktion nicht durchführen, da du kein Super-Administrator bist.<br /><br />Um diese Aktion durchzuführen, musst du deine Benutzer-ID in der Datei \"inc/config.php\" hinterlegen.";
 
 // AJAX
 $l['loading_text'] = "Lade<br />Bitte warten ...";

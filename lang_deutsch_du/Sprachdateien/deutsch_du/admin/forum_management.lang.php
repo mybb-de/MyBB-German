@@ -196,8 +196,8 @@ $l['custom_permissions'] = "Benutze die folgenden, eigenen Berechtigungen";
 
 $l['save_permissions'] = "Speichere Forenberechtigungen";
 
-$l['error_missing_title'] = "Du mußt einen Titel angeben.";
-$l['error_no_parent'] = "Du mußt ein übergeordnetes Forum wählen.";
+$l['error_missing_title'] = "Du musst einen Titel angeben.";
+$l['error_no_parent'] = "Du musst ein übergeordnetes Forum wählen.";
 
 $l['success_forum_added'] = "Das Forum wurde erfolgreich hinzugefügt.";
 $l['success_moderator_added'] = "Der Moderator wurde dem Forum erfolgreich hinzugefügt.";
@@ -206,7 +206,7 @@ $l['success_forum_copied'] = "Das angegebene Forum wurde erfolgreich kopiert.";
 
 $l['error_moderator_already_added'] = "Der angegebene Moderator ist bereits Moderator in diesem Forum.";
 $l['error_moderator_not_found'] = "Der angegebene Benutzername wurde nicht gefunden.";
-$l['error_new_forum_needs_name'] = "Du mußt dem neuen Forum einen Namen geben.";
+$l['error_new_forum_needs_name'] = "Du musst dem neuen Forum einen Namen geben.";
 $l['error_invalid_source_forum'] = "Ungültiges Ausgangsforum.";
 $l['error_invalid_destination_forum'] = "Ungültiges Zielforum.";
 
