@@ -135,7 +135,7 @@ $l['req_step_reqtable'] = '<div class="border_wrapper">
 		</tbody>
 		</table>
 		</div>';
-$l['req_step_reqcomplete'] = '<p><strong>Herzlichen Gl&uuml;ckwunsch, alle Voraussetzungen f&uuml;r den Betrieb des MyBB sind erf&uuml;llt.</strong></p>
+$l['req_step_reqcomplete'] = '<p><strong>Herzlichen Gl&uuml;ckwunsch, alle Voraussetzungen f&uuml;r den Betrieb des Forums sind erf&uuml;llt.</strong></p>
 <p>Klicke auf "Weiter", um die Installation fortzusetzen.</p>';
 
 $l['req_step_span_fail'] = '<span class="fail"><strong>{1}</strong></span>';
