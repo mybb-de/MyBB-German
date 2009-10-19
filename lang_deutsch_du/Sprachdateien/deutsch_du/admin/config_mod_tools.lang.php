@@ -69,6 +69,7 @@ $l['forum_to_move_to'] = "Verschiebe Thema in Forum:";
 $l['leave_redirect'] = "Weiterleitung hinterlassen?";
 $l['delete_redirect_after'] = "Lösche Weiterleitung nach";
 $l['do_not_move_thread'] = "Thema nicht verschieben";
+$l['do_not_copy_thread'] = "Thema nicht kopieren";
 $l['move_thread'] = "Thema verschieben?";
 $l['move_thread_desc'] = "Wenn Themen verschoben werden sollen, ist die Angabe \"Lösche Weiterleitung nach ... Tagen\" nur zu machen, wenn eine Weiterleitung hinterlassen werden soll.";
 $l['forum_to_copy_to'] = "Kopiere Thema in Forum:";
