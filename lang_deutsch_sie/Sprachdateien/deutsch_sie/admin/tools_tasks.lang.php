@@ -27,11 +27,11 @@ $l['short_description'] = "Kurze Beschreibung";
 $l['task_file'] = "Datei";
 $l['task_file_desc'] = "Wählen Sie die Datei aus, die bei dieser Aufgabe ausgeführt werden soll.";
 $l['time_minutes'] = "Zeit: Minuten";
-$l['time_minutes_desc'] = "Trennen Sie die Liste der Minuten (0-59) in denen die Aufgabe ausgeführt werden soll mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jede Minute ausgeführt werden soll.";
+$l['time_minutes_desc'] = "Trennen Sie die Liste der Minuten (0-59), in denen die Aufgabe ausgeführt werden soll, mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jede Minute ausgeführt werden soll.";
 $l['time_hours'] = "Zeit: Stunden";
-$l['time_hours_desc'] = "Trennen Sie die Liste der Stunden (0-23) in denen die Aufgabe ausgeführt werden soll mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jede Stunde ausgeführt werden soll.";
+$l['time_hours_desc'] = "Trennen Sie die Liste der Stunden (0-23), in denen die Aufgabe ausgeführt werden soll, mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jede Stunde ausgeführt werden soll.";
 $l['time_days_of_month'] = "Zeit: Tage im Monat";
-$l['time_days_of_month_desc'] = "Trennen Sie die Liste der Tage (0-31) in denen die Aufgabe ausgeführt werden soll mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jeden Tag ausgeführt werden soll oder wählen Sie die Wochentage unten aus.";
+$l['time_days_of_month_desc'] = "Trennen Sie die Liste der Tage (0-31), in denen die Aufgabe ausgeführt werden soll, mit Kommas. Geben Sie '*' ein, wenn die Aufgabe jeden Tag ausgeführt werden soll oder wählen Sie die Wochentage unten aus.";
 $l['every_weekday'] = "Jeden Wochentag";
 $l['sunday'] = "Sonntag";
 $l['monday'] = "Montag";
@@ -79,6 +79,6 @@ $l['success_task_disabled'] = "Die ausgewählte Aufgabe wurde deaktiviert.";
 $l['success_task_run'] = "Die ausgewählte Aufgabe wurde ausgeführt.";
 
 $l['confirm_task_deletion'] = "Wollen Sie die geplante Aufgabe wirklich löschen?";
-$l['confirm_task_enable'] = "<strong>WARNUNG:</strong> Sie sind gerade dabei eine Aufgabe zu aktivieren, die nur von einem Cron-Job ausgeführt werden sollte (Bitte schauen Sie bei der <a href=\"http://www.mybboard.de/doku.html\" target=\"_blank\">MyBB Doku</a> für weitere Informationen). Fortsetzen?";
+$l['confirm_task_enable'] = "<strong>WARNUNG:</strong> Sie sind gerade dabei, eine Aufgabe zu aktivieren, die nur von einem Cron-Job ausgeführt werden sollte (Bitte schauen Sie in die <a href=\"http://www.mybboard.de/doku.html\" target=\"_blank\">MyBB Doku</a> für weitere Informationen). Fortsetzen?";
 
 ?>

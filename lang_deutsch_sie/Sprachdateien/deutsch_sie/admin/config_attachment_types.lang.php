@@ -12,7 +12,7 @@
 #########################################################
 
 $l['attachment_types'] = "Attachment-Typen";
-$l['attachment_types_desc'] = "Hier können Sie neue Attachment-Typen erstellen oder bestehende bearbeiten. Attachment-Typen geben vor, welche Dateien Benutzer an Beiträge in Ihrem Forum anhängen dürfen.";
+$l['attachment_types_desc'] = "Hier können Sie neue Attachment-Typen erstellen oder bestehende bearbeiten. Attachment-Typen geben vor, welchen Dateityp Benutzer an Beiträge in Ihrem Forum anhängen dürfen.";
 $l['add_new_attachment_type'] = "Neuen Attachment-Typ hinzufügen";
 $l['add_attachment_type'] = "Attachment-Typ hinzufügen";
 $l['add_attachment_type_desc'] = "Wenn Sie einen neuen Attachment-Typen erstellen, können Benutzer Dateien dieses Typs an ihre Beiträge anhängen. Sie haben die Möglichkeit, die Erweiterung, den MIME-Typ, die maximal zulässige Dateigröße und das Datei-Icon zu verwalten.";

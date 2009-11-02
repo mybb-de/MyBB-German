@@ -14,13 +14,13 @@
 $l['optimize_database'] = "Datenbank optimieren";
 
 $l['table_selection'] = "Tabellenauswahl";
-$l['tables_select_desc'] = "Hier können Sie die Tabellen auswählen bei denen Sie die Aktion ausführen wollen. Halten Sie Strg gedrückt, um mehrere Tabellen auszuwählen.";
+$l['tables_select_desc'] = "Hier können Sie die Tabellen auswählen, bei denen Sie die Aktion ausführen wollen. Halten Sie STRG gedrückt, um mehrere Tabellen auszuwählen.";
 $l['select_all'] = "Alle auswählen";
 $l['deselect_all'] = "Alle abwählen";
 $l['select_forum_tables'] = "Tabellen des Forums wählen";
 $l['optimize_selected_tables'] = "Ausgewählte Tabellen optimieren";
 
-$l['error_no_tables_selected'] = "Sie haben keine Datenbank-Tabellen zum Optimieren ausgewählt.";
+$l['error_no_tables_selected'] = "Sie haben keine Datenbank-Tabelle(n) zum Optimieren ausgewählt.";
 
 $l['success_tables_optimized'] = "Die ausgewählten Tabellen wurden erfolgreich optimiert.";
 

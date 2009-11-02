@@ -16,23 +16,23 @@ $l['template_set'] = "Template-Set";
 $l['templates'] = "Templates";
 
 $l['manage_template_sets'] = "Verwalte Template-Set";
-$l['manage_template_sets_desc'] = "Hier können Sie die Template-Sets verwalten, die Templates in den Sets anschauen und anfangen den Style Ihres Forums zu bearbeiten.";
+$l['manage_template_sets_desc'] = "Hier können Sie die Template-Sets verwalten, die Templates in den Sets anschauen und den Style Ihres Forums bearbeiten.";
 $l['add_set'] = "Set hinzufügen";
-$l['add_set_desc'] = "Hier können Sie neue Template-Sets hinzufügen.";
+$l['add_set_desc'] = "Hier können Sie ein neues Template-Set hinzufügen.";
 $l['add_template'] = "Template hinzufügen";
 $l['add_template_desc'] = "Hier können Sie neue Templates hinzufügen.";
 $l['search_replace'] = "Suchen/Ersetzen";
-$l['search_replace_desc'] = "Dieses Werkzeug erlaubt Ihnen nach Template-Namen oder dem Inhalt von Templates zu suchen und optional diesen Text automatisch durch einen anderen zu ersetzen.";
+$l['search_replace_desc'] = "Dieses Werkzeug erlaubt Ihnen, nach Template-Namen oder dem Inhalt von Templates zu suchen und optional diesen Text automatisch durch einen anderen zu ersetzen.";
 $l['find_updated'] = "Finde aktualisierte Templates";
-$l['find_updated_desc'] = "Erlaubt Ihnen aktualisierte Templates in neuen MyBB-Versionen zu finden, damit Sie die Änderungen verwenden können.";
+$l['find_updated_desc'] = "Erlaubt Ihnen, aktualisierte Templates in neuen MyBB-Versionen zu finden, damit Sie die Änderungen verwenden können.";
 $l['edit_template'] = "Template bearbeiten";
 $l['edit_template_desc'] = "Hier können Sie den Code, den Titel und das Set eines Templates bearbeiten.";
 $l['edit_set'] = "Set bearbeiten";
 $l['edit_set_desc'] = "Hier können Sie ein Template-Set bearbeiten.";
 $l['manage_templates'] = "Templates verwalten";
-$l['manage_templates_desc'] = "Hier können Sie die Templates dieses Template-Sets verwalten. Um das Template inline zu bearbeiten, klicken Sie auf seiten Link, oder wähle \"Zum Editor\" um alle Eigenschaften auf einer eigenen Seite zu bearbeiten.";
+$l['manage_templates_desc'] = "Hier können Sie die Templates dieses Template-Sets verwalten. Um das Template inline zu bearbeiten, klicken Sie auf den Seiten-Link oder wählen Sie \"Zum Editor\", um alle Eigenschaften auf einer eigenen Seite zu bearbeiten.";
 $l['diff_report'] = "Differenz-Analyse";
-$l['diff_report_desc'] = "Führt eine Differenz-Analyse zwischen den Templates und zeigt Ihnen genau, welche Änderungen zwischen Ihrer angepassten Kopie und der letzten MyBB-Version gemacht wurden.";
+$l['diff_report_desc'] = "Führt eine Differenz-Analyse zwischen den Templates durch und zeigt Ihnen genau, welche Änderungen zwischen Ihrer angepassten Kopie und der letzten MyBB-Version gemacht wurden.";
 
 $l['title'] = "Titel";
 $l['save'] = "Speichern";
@@ -127,7 +127,7 @@ $l['template_set_desc'] = "In welchem Template-Set soll dieses Templates sein?";
 
 $l['templates_the_same'] = "Die beiden ausgewählten Templates sind gleich und können nicht verglichen werden.";
 $l['master_updated_ins'] = "Veränderungen, die zwischen der vorherigen und dieser Version gemacht wurden, sind so hervorgehoben.";
-$l['master_updated_del'] = "Jede Anpassung, die Sie an Ihrem Template gemacht haben (dem alten) sind so hervorgehoben.";
+$l['master_updated_del'] = "Jede Anpassung, die Sie an Ihrem (alten) Template gemacht haben, sind so hervorgehoben.";
 $l['template_diff_analysis'] = "Template Differenz-Analyse";
 $l['search_names_header'] = "Suche Template, die \"{1}\" enthalten";
 
@@ -142,11 +142,11 @@ $l['confirm_template_set_deletion'] = "Soll das ausgewählte Template-Set wirkli
 $l['confirm_template_deletion'] = "Soll das ausgewählte Template wirklich gelöscht werden?"; 
 $l['confirm_template_revertion'] = "Soll das ausgewählte Template wirklich zurückgesetzt werden?"; 
 
-$l['error_missing_input'] = "Bitte stellen Sie sicher, dass Sie alle benötigten Daten eingeben haben, um das Template zu bearbeiten (tid und sid)";
+$l['error_missing_input'] = "Bitte stellen Sie sicher, dass Sie alle benötigten Daten eingeben haben, um das Template zu bearbeiten (tid und sid).";
 $l['error_already_exists'] = "Der Titel das Templates wird bereits benutzt. Bitte benutzen Sie einen anderen Titel.";
 $l['error_invalid_template'] = "Bitte geben Sie ein korrektes Template ein.";
-$l['error_missing_set_title'] = "Bitte geben Sie einen korrekten Template-Set-Titel ein.";
-$l['error_invalid_input'] = "Bitte stellen Sie sicher, dass Sie eine korrekte Template-Set-ID haben.";
+$l['error_missing_set_title'] = "Bitte geben Sie einen korrekten Titel für das Template-Set ein.";
+$l['error_invalid_input'] = "Bitte stellen Sie sicher, dass Sie eine korrekte ID für das Template-Set eingegeben haben.";
 $l['error_invalid_set'] = "Bitte geben Sie ein korrektes Template-Set ein.";
 $l['error_invalid_template_set'] = "Ungültiges Template-Set ausgewählt.";
 $l['error_themes_attached_template_set'] = "Dieses Template-Set kann nicht gelöscht werden, weil es noch von einem Theme benutzt wird.";

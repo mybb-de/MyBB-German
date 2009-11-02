@@ -15,7 +15,7 @@ $l['themes'] = "Themes";
 $l['themes_desc'] = "Hier kannst du deine Themes verwalten.";
 
 $l['create_new_theme'] = "Neues Theme erstellen";
-$l['create_new_theme_desc'] = "Hier kannst du ein neues Theme erstellen. <strong>Template-Sets, Stylesheets, und andere Einstellungen werden vom übergeordneten Theme vererbt.</strong>";
+$l['create_new_theme_desc'] = "Hier kannst du ein neues Theme erstellen. <strong>Template-Sets, Stylesheets und andere Einstellungen werden vom übergeordneten Theme vererbt.</strong>";
 
 $l['import_a_theme'] = "Theme importieren";
 $l['import_a_theme_desc'] = "Hier kannst du ein Theme importieren.";

@@ -13,9 +13,9 @@
 
 
 $l['mod_logs'] = "Moderator Log-Daten";
-$l['mod_logs_desc'] = "Hier kannst du die Moderator Log-Daten anschauen, säubern und durchsuchen. Diese Log-Daten enthalten die Aktionen jedes Benutzer (Löschung ihrer eigenen Beiträge/Themen) und alle Aktionen von Moderatoren.";
+$l['mod_logs_desc'] = "Hier kannst du die Moderator Log-Daten anschauen, säubern und durchsuchen. Diese Log-Daten enthalten die Aktionen jedes Benutzers (Löschung von eigenen Beiträge/Themen) und alle Aktionen von Moderatoren.";
 $l['prune_mod_logs'] = "Moderator Log-Daten säubern";
-$l['prune_mod_logs_desc'] = "Hier kannst du Moderator Log-Daten säubern, die bestimmte Kriterien erfüllen.";
+$l['prune_mod_logs_desc'] = "Hier kannst du die Moderator Log-Daten säubern, die bestimmte Kriterien erfüllen.";
 
 $l['no_modlogs'] = "Es wurden leider keine Ergebnisse entsprechend den Kriterien gefunden.";
 
@@ -53,6 +53,6 @@ $l['prune_moderator_logs'] = "Moderator Log-Daten säubern";
 $l['date_range'] = "Datum zwischen:";
 $l['all_forums'] = "Alle Foren";
 
-$l['success_pruned_mod_logs'] = "Moderator Log-Daten erfolgreich gesäubert.";
+$l['success_pruned_mod_logs'] = "Die Moderator Log-Daten wurden erfolgreich gesäubert.";
 
 ?>

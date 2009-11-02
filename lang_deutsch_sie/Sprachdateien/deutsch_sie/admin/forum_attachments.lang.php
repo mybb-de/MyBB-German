@@ -15,7 +15,7 @@
 $l['attachments'] = "Attachments";
 $l['stats'] = "Statistiken";
 $l['find_attachments'] = "Attachments suchen";
-$l['find_attachments_desc'] = "Über die Suche können Sie bestimmte Attachments finden, die im Forum an Beiträge angefügt wurden. Benutzen Sie dazu das folgende Formular. Alle Felder sind optional und werden nur in die Suche einbezogen, wenn Sie ausgefüllt wurden.";
+$l['find_attachments_desc'] = "Über die Suche können Sie bestimmte Attachments finden, die im Forum an Beiträge angefügt wurden. Benutzen Sie dazu das folgende Formular. Alle Felder sind optional und werden nur in die Suche einbezogen, wenn sie ausgefüllt wurden.";
 $l['find_orphans'] = "Suche verwaiste Attachments";
 $l['find_orphans_desc'] = "Verwaiste Attachments sind Dateien, die aus irgendeinem Grund auf dem Server oder in der Datenbank fehlen. Über dieses Werkzeug können Sie solche Attachments finden und entfernen.";
 $l['attachment_stats'] = "Attachment-Statistiken";

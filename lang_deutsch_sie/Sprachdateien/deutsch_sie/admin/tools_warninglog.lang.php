@@ -13,18 +13,18 @@
 
 
 $l['warning_logs'] = "Warn Log-Daten";
-$l['warning_logs_desc'] = "Dieser Bereich erlaubt Ihnen den Verlauf von Warnungen anzusehen.";
-$l['warned_user'] = "Gewarnter Benutzer";
+$l['warning_logs_desc'] = "Dieser Bereich erlaubt Ihnen, den Verlauf von Warnungen anzusehen.";
+$l['warned_user'] = "Verwarnter Benutzer";
 $l['warning'] = "Warnung";
 $l['date_issued'] = "Eintragen";
 $l['expires'] = "Läuft aus";
 $l['expiry_date'] = "Läuft aus am";
-$l['issued_date'] = "Eingetragen an";
+$l['date_issued'] = "Eingetragen am";
 $l['issued_by'] = "Eingetragen von";
 $l['details'] = "Details";
 $l['filter_warning_logs'] = "Warn Log-Daten filtern";
-$l['filter_warned_user'] = "Gewarnter Benutzer:";
-$l['filter_issued_by'] = "Warnt von:";
+$l['filter_warned_user'] = "Verwarnter Benutzer:";
+$l['filter_issued_by'] = "Eingetragen von:";
 $l['filter_reason'] = "Grund enthält:";
 $l['sort_by'] = "Sortieren nach:";
 $l['results_per_page'] = "Ergebnisse pro Seite:";
@@ -51,7 +51,7 @@ $l['revoke_warning_desc'] = "Um diese Warnung aufzuheben, geben Sie unten einen 
 $l['reason'] = "Grund:";
 $l['warning_is_revoked'] = "Diese Warnung wurde aufgehoben";
 $l['revoked_by'] = "Augehoben durch:";
-$l['date_revoked'] = "Augehoben am:";
+$l['date_revoked'] = "Aufgehoben am:";
 $l['error_already_revoked'] = "Diese Warnung wurde bereits aufgehoben.";
 $l['error_no_revoke_reason'] = "Sie haben keinen Grund eingegeben, warum Sie diese Warnung aufheben wollen.";
 $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich aufgehoben und die Warn-Punkte wurden gesenkt.";

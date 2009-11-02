@@ -13,7 +13,7 @@
 
 $l['admin_permissions'] = "Administrator-Berechtigungen";
 $l['user_permissions'] = "Benutzer-Berechtigungen";
-$l['user_permissions_desc'] = "Hier kannst du die Administrator-Berechtigungen für die einzelnen Benutzer verwalten. Dies erlaubt dir verschiedenen Administratoren den Zugriff auf bestimmte Bereiche zu verwehren.";
+$l['user_permissions_desc'] = "Hier kannst du die Administrator-Berechtigungen für die einzelnen Benutzer verwalten. Dies erlaubt dir, verschiedenen Administratoren den Zugriff auf bestimmte Bereiche zu verwehren.";
 $l['group_permissions'] = "Benutzergruppen-Berechtigungen";
 $l['group_permissions_desc'] = "Administrator-Berechtigungen können auch Benutzergruppen zugeordnet werden, die Zugriff auf das Admin-CP haben. Genauso kannst du ganzen Gruppen den Zugriff auf bestimmte Bereiche zu verwehren.";
 $l['default_permissions'] = "Standard-Berechtigungen";
@@ -23,7 +23,7 @@ $l['admin_permissions_updated'] = "Die Administrator-Berechtigungen wurden erfol
 $l['revoke_permissions'] = "Berechtigungen zurücknehmen";
 $l['edit_permissions'] = "Berechtigungen ändern";
 $l['set_permissions'] = "Berechtigungen setzen";
-$l['edit_permissions_desc'] = "Hier kannst du den Zugriff auf ganze Tabs oder einzelne Seiten beschränken. Passe auf, dass alle Administratoren den Tab \"Startseite\" betreten können.";
+$l['edit_permissions_desc'] = "Hier kannst du den Zugriff auf ganze Tabs oder einzelne Seiten beschränken. Beachte, dass alle Administratoren den Tab \"Startseite\" betreten können.";
 $l['update_permissions'] = "Berechtigungen aktualisieren";
 $l['view_log'] = "Log-Daten ansehen";
 $l['permissions_type_group'] = "Berechtigungs-Typ der Gruppe";

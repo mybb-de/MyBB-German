@@ -15,7 +15,7 @@ $l['users'] = "Benutzer";
 
 $l['search_for_user'] = "Benutzer suchen";
 $l['browse_users'] = "Benutzer anzeigen";
-$l['browse_users_desc'] = "Hier können Sie die Benutzer Ihres Forums in verschiedenen definierten Ansichten anschauen. Ansichten sind besonders hilfreich um verschiedene Ergebnisse mit verschiedenen Informationen zu generieren - denke an sie als gespeicherte Live-Suchen.";
+$l['browse_users_desc'] = "Hier können Sie die Benutzer Ihres Forums in verschiedenen definierten Ansichten anschauen. Ansichten sind besonders hilfreich, um verschiedene Ergebnisse mit verschiedenen Informationen zu generieren - vergleichbar mit gespeicherten Suchergebnissen.";
 $l['find_users'] = "Benutzer finden";
 $l['find_users_desc'] = "Hier können Sie nach Benutzern Ihres Forums suchen. Je weniger Felder ausgefüllt werden, desto weiter ist die Suche; je mehr ausgefüllt wird, desto enger ist Ihre Suche.";
 $l['create_user'] = "Neuen Benutzer erstellen";

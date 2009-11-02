@@ -13,7 +13,7 @@
 
 $l['cache'] = "Cache:";
 $l['cache_manager'] = "Cache-Manager";
-$l['cache_manager_description'] = "Hier kannst du die Caches verwalten, die benutzt werden, um das MyBB zu optimieren. Das Erneuern des Caches wird alle benötigten Daten laden und neu speichern. Das erneute Laden wird die Daten in die ausgewählen Cache-Technologie laden, was nach einer Änderung der Einstellung in der inc/config.php notwendig ist.";
+$l['cache_manager_description'] = "Hier kannst du die Caches verwalten, die benutzt werden, um das MyBB zu optimieren. Das Erneuern des Caches wird alle benötigten Daten laden und neu speichern. Das erneute Laden wird die Daten in die ausgewählte Cache-Technologie laden, was nach einer Änderung der Einstellung in der inc/config.php notwendig ist.";
 $l['rebuild_cache'] = "Cache erneuern";
 $l['reload_cache'] = "Erneut laden";
 

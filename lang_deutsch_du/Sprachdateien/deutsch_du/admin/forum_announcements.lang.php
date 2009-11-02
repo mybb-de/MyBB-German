@@ -12,7 +12,7 @@
 #########################################################
 
 $l['forum_announcements'] = "Forenankündigungen";
-$l['forum_announcements_desc'] = "Hier kannst Du die Ankündigungen in Deinem Forum verwalten. Globale Ankündigungen werden in allen Foren gezeigt. Ankündigungen, die einem Forum zugewiesen wurden, werden in diesem Forum und dessen Unterforen gezeigt.";
+$l['forum_announcements_desc'] = "Hier kannst du die Ankündigungen in deinem Forum verwalten. Globale Ankündigungen werden in allen Foren gezeigt. Ankündigungen, die einem Forum zugewiesen wurden, werden in diesem Forum und dessen Unterforen gezeigt.";
 $l['add_announcement'] = "Ankündigung hinzufügen";
 $l['add_announcement_desc'] = "Hier kannst du eine Ankündigung für ein Forum oder alle Foren erstellen.";
 $l['update_announcement'] = "Ankündigung aktualisieren";
