@@ -32,10 +32,14 @@ $l['userdata_invalid_website'] = 'Die eingegebene Webseiten-Adresse ist ungülti
 $l['userdata_invalid_icq_number'] = 'Die eingegebene ICQ-Nummer ist ungültig. Bitte gib eine gültige ICQ-Nummer ein oder lasse das Feld leer.';
 $l['userdata_invalid_msn_address'] = 'Die eingegebene MSN-ID ist ungültig. Bitte gib eine gültige MSN-ID ein oder lasse das Feld leer.';
 $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. Bitte gib ein gültiges Geburtsdatum ein oder lasse das Feld leer.';
+$l['userdata_invalid_birthday_coppa'] = 'Gib bitte dein Geburtsjahr ein, um dein Alter verifizieren zu können. Du kannst dein Alter und deinen Geburtstag in den Profiloptionen verstecken.';
+$l['userdata_invalid_birthday_coppa2'] = 'Du musst mindestens 13 Jahre alt sein, um dem Forum beitreten zu können. Bitte kontaktiere einen Administrator.';
 $l['userdata_invalid_referrer'] = 'Der eingegebene Benutzer, der das Forum empfohlen haben soll, existiert nicht. Bitte gib einen gültigen Benutzer an oder lasse das Feld leer.';
 $l['userdata_invalid_language'] = 'Die gewählte Sprache existiert nicht. Bitte wähle eine existierende Sprache.';
 $l['userdata_missing_returndate'] = 'Das Datum der Rückkehr ist nicht vollständig. Stelle sicher, dass du den Tag, den Monat und das Jahr angegeben hast.';
 $l['userdata_missing_required_profile_field'] = 'Die Angabe im Feld "{1}" fehlt. Bitte korrigiere deine Eingabe.';
 $l['userdata_bad_profile_field_values'] = 'Die Angabe im Feld "{1}" ist ungültig. Bitte korrigiere deine Eingabe.';
+$l['userdata_max_limit_reached'] = 'Du hast eine ungültige Anzahl an Zeichen im Feld "{1}" angegeben. Es sind maximal {2} Zeichen erlaubt.';
 $l['userdata_invalid_checkfield'] = "Es wurde festgestellt, dass dieses Formular von einem Spambot verschickt wurde. Wenn dies ein Fehler ist, kontaktiere bitte den Administrator.";
+$l['userdata_invalid_postnum'] = "Die angegebene Beitragszahl ist ungültig. Gib bitte eine gültige Zahl ein oder lass das Feld leer.";
 ?>

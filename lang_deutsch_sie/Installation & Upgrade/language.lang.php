@@ -77,7 +77,8 @@ $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Dies
 	<li>Allgemeine Foreneinstellungen</li>
 </ul>
 <p>Nachdem ein Schritt erfolgreich abgeschlossen wurde, klicken Sie auf "Weiter", um die Installation fortzusetzen.</p>
-<p>Klicken Sie auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>';
+<p>Klicken Sie auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href="http://wiki.mybboard.net/index.php/Anonymous_Statistics" style="color: #555;" target="_blank"><small>Welche Informationen werden gesendet?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -345,6 +346,7 @@ $l['upgrade_removedir'] = 'Bitte löschen Sie den Ordner \"install\", bevor Sie 
 $l['upgrade_congrats'] = "<p>Herzlichen Glückwunsch! Ihr Forum wurde erfolgreich auf MyBB {1} aktualisiert.</p>{2}<p><strong>Wie geht es weiter?</strong></p><ul><li>Benutzen Sie das Tool im Admin-CP, um eigene Templates zu finden, die während des Upgrades aktualisiert wurden. Sie können diese entsprechend anpassen oder zurücksetzen.</li><li>Stellen Sie sicher, dass das Forum wie erwartet funktioniert.</li></ul>";
 $l['upgrade_template_reversion'] = "Warnung: Templates werden zurückgesetzt";
 $l['upgrade_template_reversion_success'] = "<p>Alle erforderlichen Änderungen in der Datenbank wurden erfolgreich abgeschlossen.</p><p>Das Upgrade wird alle vorhandenen Templates zurücksetzen und aktualisieren. Bitte machen Sie eine Sicherung eigener Templates, bevor Sie fortfahren.";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"http://wiki.mybboard.net/index.php/Anonymous_Statistics\" style=\"color: #555;\" target=\"_blank\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
 
 /* Error messages */
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entfernen Sie die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';

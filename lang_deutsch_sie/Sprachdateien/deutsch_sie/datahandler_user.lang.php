@@ -32,10 +32,14 @@ $l['userdata_invalid_website'] = 'Die eingegebene Webseiten-Adresse ist ungülti
 $l['userdata_invalid_icq_number'] = 'Die eingegebene ICQ-Nummer ist ungültig. Bitte geben Sie eine gültige ICQ-Nummer ein oder lassen Sie das Feld leer.';
 $l['userdata_invalid_msn_address'] = 'Die eingegebene MSN-ID ist ungültig. Bitte geben Sie eine gültige MSN-ID ein oder lassen Sie das Feld leer.';
 $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. Bitte geben Sie ein gültiges Geburtsdatum ein oder lassen Sie das Feld leer.';
+$l['userdata_invalid_birthday_coppa'] = 'Geben Sie bitte Ihr Geburtsjahr ein, um Ihr Alter verifizieren zu können. Sie können Ihr Alter und Ihren Geburtstag in den Profiloptionen verstecken.';
+$l['userdata_invalid_birthday_coppa2'] = 'Sie müssen mindestens 13 Jahre alt sein, um dem Forum beitreten zu können. Bitte kontaktieren Sie einen Administrator.';
 $l['userdata_invalid_referrer'] = 'Der eingegebene Benutzer, der das Forum empfohlen haben soll, existiert nicht. Bitte geben Sie einen gültigen Benutzer an oder lassen Sie das Feld leer.';
 $l['userdata_invalid_language'] = 'Die gewählte Sprache existiert nicht. Bitte wählen Sie eine existierende Sprache.';
 $l['userdata_missing_returndate'] = 'Das Datum der Rückkehr ist nicht vollständig. Stellen Sie sicher, dass Sie den Tag, den Monat und das Jahr angegeben haben.';
 $l['userdata_missing_required_profile_field'] = 'Die Angabe im Feld "{1}" fehlt. Bitte korrigieren Sie Ihre Eingabe.';
 $l['userdata_bad_profile_field_values'] = 'Die Angabe im Feld "{1}" ist ungültig. Bitte korrigieren Sie Ihre Eingabe.';
+$l['userdata_max_limit_reached'] = 'Sie haben eine ungültige Anzahl an Zeichen im Feld "{1}" angegeben. Es sind maximal {2} Zeichen erlaubt.';
 $l['userdata_invalid_checkfield'] = "Es wurde festgestellt, dass dieses Formular von einem Spambot verschickt wurde. Wenn dies ein Fehler ist, kontaktieren Sie bitte den Administrator.";
+$l['userdata_invalid_postnum'] = "Die angegebene Beitragszahl ist ungültig. Geben Sie bitte eine gültige Zahl ein oder lassen Sie das Feld leer.";
 ?>

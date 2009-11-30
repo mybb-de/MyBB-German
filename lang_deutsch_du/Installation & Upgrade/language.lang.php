@@ -77,7 +77,8 @@ $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Dies
 	<li>Allgemeine Foreneinstellungen</li>
 </ul>
 <p>Nachdem ein Schritt erfolgreich abgeschlossen wurde, klicke auf "Weiter", um die Installation fortzusetzen.</p>
-<p>Klicke auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>';
+<p>Klicke auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href="http://wiki.mybboard.net/index.php/Anonymous_Statistics" style="color: #555;" target="_blank"><small>Welche Informationen werden gesendet?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -345,6 +346,7 @@ $l['upgrade_removedir'] = 'Bitte lösche den Ordner \"install\", bevor du dein F
 $l['upgrade_congrats'] = "<p>Herzlichen Glückwunsch! Dein Forum wurde erfolgreich auf MyBB {1} aktualisiert.</p>{2}<p><strong>Wie geht es weiter?</strong></p><ul><li>Benutze das Tool im Admin-CP, um eigene Templates zu finden, die während des Upgrades aktualisiert wurden. Du kannst diese entsprechend anpassen oder zurücksetzen.</li><li>Stelle sicher, dass das Forum wie erwartet funktioniert.</li></ul>";
 $l['upgrade_template_reversion'] = "Warnung: Templates werden zurückgesetzt";
 $l['upgrade_template_reversion_success'] = "<p>Alle erforderlichen Änderungen in der Datenbank wurden erfolgreich abgeschlossen.</p><p>Das Upgrade wird alle vorhandenen Templates zurücksetzen und aktualisieren. Bitte mache eine Sicherung eigener Templates, bevor du fortfährst.";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"http://wiki.mybboard.net/index.php/Anonymous_Statistics\" style=\"color: #555;\" target=\"_blank\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
 
 /* Error messages */
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';

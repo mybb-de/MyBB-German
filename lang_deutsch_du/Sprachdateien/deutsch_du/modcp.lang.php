@@ -53,6 +53,8 @@ $l['error_missing_ipaddress'] = "Du hast keine IP-Adresse zum Suchen eingegeben.
 $l['error_no_results'] = "Es gab leider keine Ergebnisse mit den angegebenen Kriterien.";
 $l['redirect_reportsmarked'] = "Die ausgewählten, gemeldeten Beiträge wurden als gelesen markiert.";
 $l['redirect_modnotes'] = "Die Moderatoren-Notiz wurde aktualisiert.";
+$l['multi_approve_posts'] = "Mehrere Beiträge angenommen";
+$l['multi_approve_threads'] = "Mehrere Themen angenommen";
 
 $l['moderator_notes'] = "Moderator-Notizen";
 $l['notes_public_all'] = "Diese Notizen sind für alle Moderatoren sichtbar.";
