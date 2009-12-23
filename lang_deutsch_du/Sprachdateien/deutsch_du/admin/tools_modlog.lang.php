@@ -28,6 +28,7 @@ $l['ipaddress'] = "IP-Addresse";
 $l['forum'] = "Forum:";
 $l['thread'] = "Thema:";
 $l['post'] = "Beitrag:";
+$l['user_info'] = "Benutzer: <a href=\"{2}\">{1}</a>";
 
 $l['filter_moderator_logs'] = "Moderator Log-Daten filtern";
 $l['forum'] = "Forum:";

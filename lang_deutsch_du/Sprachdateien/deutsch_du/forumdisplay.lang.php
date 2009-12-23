@@ -55,6 +55,7 @@ $l['pages_last'] = "letzte";
 $l['users_browsing_forum'] = "Benutzer, die gerade dieses Forum ansehen:";
 $l['users_browsing_forum_guests'] = "{1} Gast/Gäste";
 $l['users_browsing_forum_invis'] = "{1} unsichtbare(r) Benutzer";
+$l['delayed_moderation'] = "Verzögerte Moderation";
 $l['inline_thread_moderation'] = "Inline-Themen-Moderation:";
 $l['close_threads'] = "Themen schließen";
 $l['open_threads'] = "Themen öffnen";

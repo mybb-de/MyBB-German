@@ -26,6 +26,11 @@ $l['edit_stylesheets_desc'] = "Hier kannst du die Stylesheets des Themes bearbei
 $l['add_stylesheet'] = "Stylesheet hinzufügen";
 $l['add_stylesheet_desc'] = "Hier kannst du neue Stylesheets für dieses Theme hinzufügen. Nach dem Erstellen des neuen Stylesheets, kannst du den Stylesheet bearbeiten.";
 
+$l['browse_themes'] = "Themes durchsuchen";
+$l['browse_themes_desc'] = "Hier kannst du die offizelle Mod-Seite nach Themes durchsuchen, die zu deiner MyBB-Version kompatibel sind.";
+
+$l['browse_all_themes'] = "Alle Themes durchsuchen";
+
 $l['export_theme'] = "Theme exportieren";
 $l['export_theme_desc'] = "Hier kannst du dieses Theme exportieren.";
 
@@ -136,6 +141,13 @@ $l['add_stylesheet_to'] = "Stylesheet hinzufügen zu";
 
 $l['full_stylesheet_for'] = "Gesamtes Stylesheet für";
 
+$l['recommended_themes_for_mybb'] = "Vorgeschlagene Themes für MyBB {1}";
+$l['browse_results_for_mybb'] = "Durchsuche die Ergebnisse für MyBB {1}";
+$l['search_for_themes'] = "Nach Themes suchen";
+$l['search'] = "Suchen";
+$l['download'] = "Herunterladen";
+$l['created_by'] = "Erstellt von";
+
 $l['error_invalid_stylesheet'] = "Du hast ein ungültiges Stylesheet ausgewählt.";
 $l['error_invalid_theme'] = "Du hast ein ungültiges Theme ausgewählt.";
 $l['error_missing_name'] = "Gib bitte einen Namen für dieses Theme ein.";
@@ -160,6 +172,8 @@ $l['error_invalid_templateset'] = "Das ausgewählte Template-Set existiert nicht
 $l['error_invalid_editortheme'] = "Das ausgewählte Editor-Theme existiert nicht. Bitte wähle ein gültiges Editor-Theme aus.";
 $l['error_inheriting_stylesheets'] = "Du kannst dieses Theme nicht löschen, weil noch andere Themes Stylesheets von ihm benutzen.";
 $l['error_cannot_parse'] = "MyBB kann dieses Stylesheet nicht für den einfachen Editor wandeln. Es kann nur im erweiterten Modus editiert werden.";
+$l['error_communication_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuche es später erneut.";
+$l['error_no_results_found'] = "Es wurden keine Ergebnisse für den Suchbegriff gefunden.";
 
 $l['success_imported_theme'] = "Das Theme wurde erfolgreich importiert.";
 $l['success_theme_created'] = "Das Theme wurde erfolgreich erstellt.";

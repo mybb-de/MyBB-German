@@ -27,6 +27,7 @@ $l['nav_multi_mergeposts'] = "Markierte Beiträge zusammenfügen";
 $l['nav_multi_movethreads'] = "Themen verschieben";
 
 $l['no_mod_options'] = "Bisher wurden auf dieses Thema keine Moderations-Optionen angewendet.";
+$l['no_delayed_mods'] = "Bisher wurden auf dieses Thema keine verzögerten Moderations-Optionen angewendet.";
 $l['delete_poll'] = "Umfrage löschen";
 $l['delete_posts'] = "Beiträge löschen";
 $l['delete_selected_posts'] = "Markierte Beiträge löschen";
@@ -109,6 +110,27 @@ $l['multi_moved_threads'] = "Themen verschoben";
 $l['multi_copied_threads'] = "Themen kopiert";
 $l['custom_tool'] = "Eigenes Moderations-Tool: {1}";
 
+$l['delayed_moderation'] = "Verzögerte Moderation";
+$l['delayed_moderation_desc'] = "Hier kannst du Moderations-Optionen schon eine festgelegte Zeit vorher eintragen.";
+$l['thread'] = "Thema:";
+$l['threads'] = "Themen:";
+$l['threads_selected'] = "{1} Thema/Themen ausgewählt";
+$l['delay_moderation_for'] = "Verzögerte Moderation für:";
+$l['days'] = "Tag(e)";
+$l['moderation_action'] = "Moderations-Aktion:";
+$l['open_close_thread'] = "Thema öffnen/schließen";
+$l['merge_threads'] = "Themen zusammenfügen";
+$l['remove_redirects'] = "Weiterleitungen entfernen";
+$l['remove_subscriptions'] = "Abonnements entfernen";
+$l['approve_unapprove_thread'] = "Thema freigeben/abweisen";
+$l['stick_unstick_thread'] = "Thema wichtig/unwichtig";
+$l['save_delayed_moderation'] = "Verzögerte Moderation speichern";
+$l['custom'] = "eigen";
+$l['delayed_mod_queue'] = "Warteschlange der verzögerten Moderation";
+$l['days_to_perform_action'] = "Wartezeit für Moderation";
+$l['leave_redirect'] = "Weiterleitung:";
+$l['multiple_threads'] = "Mehrere Themen";
+
 $l['error_nomergeposts'] = "Du musst einen oder mehrere Beiträge des Themas wählen, um sie zusammenzufügen.";
 $l['error_cantsplitonepost'] = "Du kannst ein Thema mit einem Beitrag nicht aufteilen.";
 $l['error_badmergeurl'] = "Die URL für das zusammenzufügende Thema ist ungültig oder leer. Bitte kopiere die exakte URL in die Textbox.<br />Bitte gehe zurück und korrigiere die Eingabe.";
@@ -150,4 +172,8 @@ $l['redirect_removedsubscriptions'] = "Alle Abbonnements für dieses Theme wurde
 $l['redirect_customtool_thread'] = "{1} Moderations-Tool erfolgreich ausgeführt.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_customtool_forum'] = "{1} Moderations-Tool erfolgreich ausgeführt.<br />Du wirst jetzt zum Forum zurückgeleitet.";
 $l['redirect_customtool_search'] = "{1} Moderations-Tool erfolgreich ausgeführt.<br />Du wirst jetzt zur Suche zurückgeleitet.";
+
+$l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Du wirst zum Thema zurückgeleitet.";
+$l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Du wirst zum Forum zurückgeleitet.";
+$l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Du wirst zur Suche zurückgeleitet.";
 ?>

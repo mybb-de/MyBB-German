@@ -25,6 +25,7 @@ $l['send_thread'] = "Thema einem Freund senden";
 $l['subscribe_thread'] = "Thema abonnieren";
 $l['unsubscribe_thread'] = "Abonnement für dieses Thema entfernen";
 $l['moderation_options'] = "Moderationsoptionen";
+$l['delayed_moderation'] = "Verzögerte Moderation";
 $l['thread_notes'] = "Themen-Notizen editieren/anzeigen";
 $l['open_close_thread'] = "Thema öffnen/schließen";
 $l['approve_thread'] = "Thema annehmen";
