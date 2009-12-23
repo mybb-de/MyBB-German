@@ -73,7 +73,7 @@ $l['password'] = "Passwort:";
 $l['login_username'] = "Benutzername";
 $l['login_password'] = "Passwort";
 $l['lost_password'] = "Passwort vergessen?";
-$l['remember_me'] = "Meinen Login für spätere Besuche merken.";
+$l['remember_me'] = "Merken";
 $l['remember_me_desc'] = "Falls aktiv wird Ihr Login auf diesem Computer gespeichert, andernfalls werden Sie ausgeloggt, sobald Sie den Browser schließen.";
 
 $l['month_1'] = "Januar";
@@ -136,6 +136,8 @@ $l['multipage_last'] = "Letzte";
 $l['multipage_first'] = "Erste";
 $l['multipage_next'] = "Nächste";
 $l['multipage_previous'] = "Vorherige";
+$l['multipage_link_start'] = " ...";
+$l['multipage_link_end'] = "... ";
 
 $l['editor_title_bold'] = "Fettgedruckten Text eingeben";
 $l['editor_title_italic'] = "Kursiven Text eingeben";
@@ -306,6 +308,7 @@ $l['size_bytes'] = "Bytes";
 $l['slaps'] = "schlägt";
 $l['with_trout'] = "mit einer großen Forelle.";
 
+$l['mybb_engine'] = "MyBB Engine";
 $l['quickdelete_confirm'] = "Möchten Sie diesen Beitrag wirklich löschen?";
 $l['newpm_notice_one'] = "<strong>Sie haben eine ungelesene Nachricht</strong> von {1} mit dem Betreff <a href=\"private.php?action=read&amp;pmid={2}\" style=\"font-weight:bold;\">{3}</a>";
 $l['newpm_notice_multiple'] = "<strong>Sie haben {1} ungelesene Nachrichten.</strong> Die neueste ist von {2} mit dem Betreff <a href=\"private.php?action=read&amp;pmid={3}\" style=\"font-weight:bold;\">{4}</a>";
@@ -396,4 +399,6 @@ $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";
 $l['board_name'] = "Forenname";
 $l['board_url'] = "Foren-URL";
+
+$l['comma'] = ", ";
 ?>

@@ -30,6 +30,7 @@ $l['moderator_log'] = "Moderator Log-Daten";
 $l['user_email_log'] = "Benutzer E-Mail Log-Daten";
 $l['system_mail_log'] = "System E-Mail Log-Daten";
 $l['user_warning_log'] = "Benutzer Verwarn Log-Daten";
+$l['statistics'] = "Statistiken";
 
 $l['can_access_system_health'] = "Kann System-Status ansehen?";
 $l['can_manage_cache'] = "Kann Cache verwalten?";
@@ -44,5 +45,6 @@ $l['can_manage_system_mail_log'] = "Kann Logs der E-Mail-Fehler verwalten?";
 $l['can_manage_user_warning_log'] = "Kann Benutzer Verwarn Log-Daten verwalten?";
 $l['can_view_php_info'] = "Kann PHP-Info ansehen?";
 $l['can_manage_file_verification'] = "Kann Logs der Datei-Überprüfung verwalten?";
+$l['can_view_statistics'] = "Kann Statistiken sehen?";
 
 ?>

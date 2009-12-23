@@ -188,6 +188,10 @@ $l['mod_queue_attachments_empty'] = "Die Anhangsmoderations-Warteschlange ist mo
 $l['redirect_threadsmoderated'] = "Die markieren Themen wurden moderiert.";
 $l['redirect_postsmoderated'] = "Die markierten Beiträge wurden moderiert.";
 $l['redirect_attachmentsmoderated'] = "Die markierten Anhänge wurden moderiert.";
+$l['multi_approve_posts'] = "Markiere freigegebene Beiträge";
+$l['multi_approve_threads'] = "Markiere freigegebene Themen";
+$l['edited_user'] = "Profil des Benutzers bearbeiten";
+$l['edited_user_info'] = "Benutzer: <a href=\"{2}\">{1}</a>";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
@@ -206,7 +210,33 @@ $l['view'] = "Anzeigen";
 $l['no_warning_logs'] = "Es gibt keine Warnungen, die angezeigt werden könnten.";
 $l['revoked'] = "Aufgehoben ";
 $l['signature'] = "Signatur";
+$l['suspend_signature'] = "<strong>Signatur des Benutzers sperren</strong>";
+$l['suspend_length'] = "Dauer der Sperre:";
+$l['suspend_never_expire'] = "Die Sperre von {1} wird niemals enden (permanent gesperrt).";
+$l['suspend_expire_info'] = "Die Sperre von {1} dauert {2} {3} und wird {4} enden.<br />Gebe unten ein neues Datum ein oder entferne die Option um die Sperre zu beenden.";
 $l['mod_notes'] = "Moderator-Notizen";
+$l['moderation'] = "Moderations-Optionen";
+$l['moderate_posts'] = "Beiträge des Benutzers moderieren";
+$l['suspend_posts'] = "Beitragserstellung sperren";
+$l['modpost_length'] = "Moderieren für:";
+$l['suspost_length'] = "Sperren für:";
+
+$l['moderateposts_for'] = "Moderieren bis {1}, {2}.<br />Entferne die Option oder erweitere sie unten.";
+$l['suspendposting_for'] = "Sperren bis {1}, {2}.<br />Entferne die Option oder erweitere sie unten.";
+$l['suspendsignature_for'] = "Sperren bis {1}, {2}.<br />Entferne die Option oder erweitere sie unten.";
+$l['suspendposting_perm'] = "Permanent sperren.<br />Entferne die Option oder erweitere sie unten.";
+$l['moderateposts_perm'] = "Permanent moderieren.<br />Entferne die Option oder erweitere sie unten.";
+$l['suspendsignature_perm'] = "Permanent sperren.<br />Entferne die Option oder erweitere sie unten.";
+$l['suspendsignature_error'] = "Du hast eine Sperre der Signatur dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Sperre um abzubrechen.";
+$l['moderateposting_error'] = "Du hast eine Moderation der Beiträge dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Moderation um abzubrechen.";
+$l['suspendposting_error'] = "Du hast eine Sperre der Beitragserstellung dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Sperre um abzubrechen.";
+$l['suspendmoderate_error'] = "Du hast die Moderation der Beiträge und die Sperre der Beitragserstellung ausgewählt. Bitte wähle nur eine dieser Optionen aus.";
+
+$l['expire_hours'] = "Stunde(n)";
+$l['expire_days'] = "Tag(e)";
+$l['expire_weeks'] = "Woche(n)";
+$l['expire_months'] = "Monat(e)";
+$l['expire_permanent'] = "Permanent";
 
 $l['manage_announcement'] = "Ankündigungen verwalten";
 $l['forum_announcements'] = "Ankündigungen im Forum";

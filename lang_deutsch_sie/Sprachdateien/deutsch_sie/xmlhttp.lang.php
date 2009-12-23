@@ -31,6 +31,7 @@ $l['captcha_does_not_match'] = "Der von Ihnen eingegebene Captcha-Code war falsc
 $l['captcha_matches'] = "Der von Ihnen eingegebene Captcha-Code war richtig.";
 $l['banned_username'] = "Der von Ihnen eingegebene Mitgliedsname wurden von einem Administrator gesperrt";
 $l['banned_characters_username'] = "Ihr Mitgliedsname enthält ein oder mehrere ungültige Zeichen";
+$l['complex_password_fails'] = "Das Passwort ist nicht komplex genug";
 $l['username_taken'] = "{1} wird bereits von einem anderen Mitglied als Name benutzt";
 $l['username_available'] = "{1} ist verfügbar";
 $l['invalid_username'] = "{1} wird von keinem Mitglied verwendet";

@@ -90,6 +90,10 @@ $l['icon_lock'] = " Geschlossenes Thema.";
 $l['attachment_count'] = "Dieses Thema enthält 1 Attachment.";
 $l['attachment_count_multiple'] = "Dieses Thema enthält {1} Attachments.";
 $l['goto_first_unread'] = "Gehe zum ersten ungelesenen Beitrag";
+$l['page_selected'] = "Alle <strong>{1}</strong> Ergebnisse auf dieser Seite sind ausgewählt.";
+$l['all_selected'] = "Alle <strong>{1}</strong> Ergebnisse dieser Suche sind ausgewählt.";
+$l['select_all'] = "Wähle alle <strong>{1}</strong> Ergebnisse dieser Suche.";
+$l['clear_selection'] = "Auswahl aufheben.";
 
 $l['redirect_searchresults'] = "Ihre Suche wurde durchgeführt. Sie werden jetzt zu den Ergebnissen weitergeleitet.";
 

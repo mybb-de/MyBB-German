@@ -36,8 +36,8 @@ $l['inline_ban'] = "Benutzer sperren";
 $l['inline_usergroup'] = "Benutzergruppe der Benutzer ändern";
 $l['inline_delete'] = "Benutzer löschen";
 $l['inline_prune'] = "Beiträge der Benutzer löschen";
-$l['inline_activated'] = "{1} Benutzer erfolgreich aktiviert!";
-$l['inline_activated_more'] = "{1} Benutzer waren bereits aktiviert.";
+$l['inline_activated'] = "{1} Benutzer wurden erfolgreich aktiviert!";
+$l['inline_activated_more'] = "<small>{1} Benutzer waren bereits aktiviert.</small>";
 $l['inline_activated_failed'] = "Alle ausgewählen Benutzer sind bereits aktiviert!";
 $l['ban_time'] = "Länge der Sperrung <em>*</em>";
 $l['ban_reason'] = "Grund der Sperrung";
@@ -61,11 +61,14 @@ $l['prune_complete'] = "Löscung erfolgreich!";
 $l['prune_fail'] = "Es wurden keine Beiträge bei den ausgewählten Benutzern gefunden. Keine Beiträge wurden gelöscht.";
 $l['no_prune_option'] = "Bitte wähle ein Datum oder eine Option um fortzufahren.";
 $l['prune_posts'] = "Beiträge löschen";
+$l['delete_posts'] = "Beiträge löschen";
 $l['usergroup_info'] = "Die folgende Option betrifft {1} Benutzer. Durch das Auswählen der folgenden Optionen wird die primäre / sekundäre / Anzeige-Benutzergruppe geändert.";
 $l['mass_usergroups'] = "Benutergruppen ändern";
 $l['success_mass_usergroups'] = "Benutzer erfolgreich geändert!";
 $l['alter_usergroups'] = "Änderungen speichern";
 $l['no_usergroup_changed'] = "Bei keinem der ausgewählten Benutzer konnte die Gruppe geändert werden.";
+$l['no_set_option'] = "Es wurde kein gültiges Datum ausgewählt. Bitte wähle eine Option der Auswahl aus oder gebe manuell ein Datum ein.";
+$l['select_an_option'] = "(Wähle eine Option aus)";
 
 $l['month_1'] = "Januar";
 $l['month_2'] = "Februar";
@@ -80,12 +83,12 @@ $l['month_10'] = "Oktober";
 $l['month_11'] = "November";
 $l['month_12'] = "Dezember";
 
-$l['option_1'] = "Lösche Beiträg älter als ein Monat";
-$l['option_2'] = "Lösche Beiträg älter als 3 Monate";
-$l['option_3'] = "Lösche Beiträg älter als 6 Monate";
-$l['option_4'] = "Lösche Beiträg älter als ein Jahr";
-$l['option_5'] = "Lösche Beiträg älter als 18 Monate";
-$l['option_6'] = "Lösche Beiträg älter als 2 Jahre";
+$l['option_1'] = "Älter als ein Monat";
+$l['option_2'] = "Älter als 3 Monate";
+$l['option_3'] = "Älter als 6 Monate";
+$l['option_4'] = "Älter als ein Jahr";
+$l['option_5'] = "Älter als 18 Monate";
+$l['option_6'] = "Älter als 2 Jahre";
 
 $l['error_avatartoobig'] = "Der Avatar konnte leider nicht geändert werden, da der neue Avatar zu groß ist. Die maximale Größe ist {1}x{2} (Breite x Höhe)";
 $l['error_invalidavatarurl'] = "Die eingegebene URL für deinen Avatar scheint ungültig zu sein. Bitte gebe eine gültige URL ein.";
@@ -213,6 +216,39 @@ $l['enable_sig_in_all_posts'] = "Signatur an alle Beiträge anhängen";
 $l['disable_sig_in_all_posts'] = "Signatur an keinen Beitrag anhängen";
 $l['do_nothing'] = "Signatur-Einstellungen nicht ändern";
 $l['signature_preferences'] = "Signatur-Einstellungen";
+$l['suspend_sig'] = "Signatur sperren";
+$l['suspend_sig_box'] = "Die Signatur dieses Benutzer sperren.";
+$l['suspend_sig_perm'] = "<small>Permanent sperren.</small>";
+$l['suspend_sig_info'] = "Wenn eine Signatur gesperrt ist, kann der Benutzer sie nicht bearbeiten und sie wird im Profil und in den Beiträgen nicht angezeigt.";
+$l['suspend_sig_extend'] = "<small>Gebe unten eine neue Zeit ein oder entferne die Option um die Sperre aufzuheben.</small>";
+$l['suspend_expire_info_2'] = "<small>Läuft {1} ab</small>";
+$l['suspend_never_expire'] = "<small>Die Sperre von {1} wird niemals ablaufen (permanent gesperrt).</small>";
+$l['suspend_sig_error'] = "Du hast ein ungültiges Datum für die Signatur-Sperre eingegeben. Bitte gebe ein korrektes Datum ein.";
+
+$l['moderate_posts'] = "Beiträge moderieren";
+$l['moderate_posts_info'] = "Moderiere neue Beiträge von {1}.";
+$l['moderate_for'] = "Moderiere für:";
+$l['moderated_perm'] = "<p><small>Permanent moderiert.<br />Bitte gebe unten ein neues Datum ein oder entferne die Moderation.</small></p>";
+$l['moderate_length'] = "<p><small>Moderiere bis {1}.<br />Bitte gebe unten ein neues Datum ein oder entferne die Moderation.</small></p>";
+
+$l['suspend_posts'] = "Beitragserstellung sperren";
+$l['suspend_posts_info'] = "Sperre neue Beiträge von {1}.";
+$l['suspend_for'] = "Sperre für:";
+$l['suspended_perm'] = "<p><small>Permanent gesperrt.<br />Bitte gebe unten ein neues Datum ein oder entferne die Sperre.</small></p>";
+$l['suspend_length'] = "<p><small>Sperre bis {1}.<br />Bitte gebe unten ein neues Datum ein oder entferne die Sperre.</small></p>";
+
+$l['suspendsignature_error'] = "Du hast eine Sperre der Signatur dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Sperre um abzubrechen.";
+$l['moderateposting_error'] = "Du hast eine Moderation der Beiträge dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Moderation um abzubrechen.";
+$l['suspendposting_error'] = "Du hast eine Sperre der Beitragserstellung dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte gebe ein gültiges Datum ein oder entferne die Sperre um abzubrechen.";
+$l['suspendmoderate_error'] = "Du hast die Moderation der Beiträge und die Sperre der Beitragserstellung ausgewählt. Bitte wähle nur eine dieser Optionen aus.";
+
+$l['expire_length'] = "Länge der Sperre:";
+$l['expire_hours'] = "Stunde(n)";
+$l['expire_days'] = "Tag(e)";
+$l['expire_weeks'] = "Woche(n)";
+$l['expire_months'] = "Monat(e)";
+$l['expire_never'] = "Niemals";
+$l['expire_permanent'] = "Permanent";
 
 $l['avatar'] = "Avatar";
 $l['username'] = "Benutzername";
@@ -334,5 +370,4 @@ $l['table'] = "Tabelle";
 $l['title'] = "Titel";
 
 $l['view_title_1'] = "Alle Benutzer";
-
 ?>

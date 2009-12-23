@@ -32,6 +32,7 @@ $l['inbox'] = "Eingang";
 $l['compose_message'] = "Nachricht:";
 $l['manage_folders'] = "Ordner verwalten";
 $l['pms_in_folder'] = "Private Nachrichten im Ordner <em>{1}</em>";
+$l['pm_search_results'] = "Suchergebnisse in den Privaten Nachrichten";
 $l['message_title'] = "Betreff der privaten Nachricht";
 $l['sender'] = "Absender";
 $l['sentto'] = "Empfänger";
@@ -176,6 +177,14 @@ $l['error_pmsturnedoff'] = "Sie haben zur Zeit PNs in Ihrem Profil ausgeschaltet
 $l['error_recipientignoring'] = "Leider kann Ihre Nachricht nicht an {1} zugestellt werden. Ihnen fehlt die Berechtigung für diese Aktion.";
 $l['error_pm_already_submitted'] = "Sie haben in den letzten 5 Minuten die gleiche Nachricht an den gleichen Empfänger geschickt.";
 
+$l['error_minsearchlength'] = "Ein oder mehrere der Suchbegriffe sind kürzer als das Minimum. Die minimale Länges eines Suchbegegriffes sind {1} Zeichen.<br /><br />Wenn Sie nach einem ganzen Satz suchen, schließen Sie ihn bitte mit Anführungszeichen ein. Zum Beispiel \"Vogel Quax zwickt Johnys Pferd Bim\".";
+$l['error_nosearchresults'] = "Leider könnten keine Ergbnisse für Ihre Suchbegriffe gefunden werden. Bitte versuchen Sie es mit anderen Begriffen erneut.";
+$l['error_no_search_support'] = "Diese Datenbank unterstützt keine Suche.";
+$l['error_nosearchterms'] = "Sie haben keinen Suchbegriff eingegeben. Sie müssen mindestens einen Suchbegriff oder einen Benutzernamen eingeben.";
+$l['error_searchflooding_1'] = "Leider können Sie nur alle {1} Sekunden eine Suche durchführen. Bitte warten Sie eine Sekunde, bevor Sie es erneut versuchen.";
+$l['error_searchflooding'] = "Leider können Sie nur alle {1} Sekunden eine Suche durchführen. Bitte warten Sie {2} Sekunden, bevor Sie es erneut versuchen.";
+$l['error_invalidsearch'] = "Die Eingaben waren ungültig. Bitte gehe zurück und versuche es erneut.";
+
 $l['redirect_pmsaved'] = "Die Nachricht wurde in Ihrem 'Entwürfe'-Ordner gespeichert.";
 $l['redirect_pmstrackingstopped'] = "Die Verfolgung der ausgewählten PNs wurde gestoppt.";
 $l['redirect_pmstrackingcanceled'] = "Die ausgewählten ungelesenen Nachrichten wurden aus dem Posteingang des Empfängers gelöscht.";
@@ -184,4 +193,5 @@ $l['redirect_pmsdeleted'] = "Die ausgewählten Nachrichten wurden gelöscht.<br 
 $l['redirect_pmsent'] = "Vielen Dank! Ihre PN wurde erfolgreich gesendet.<br />Sie werden jetzt zum Posteingang geleitet.";
 $l['redirect_pmfoldersupdated'] = "Vielen Dank! Ihre Ordner wurden erfolgreich aktualisiert.<br />Sie werden jetzt zum Posteingang geleitet.";
 $l['redirect_pmfoldersemptied'] = "Die ausgewählten Ordner wurden erfolgreich geleert.<br />Sie werden jetzt zum Posteingang weitergeleitet.";
+$l['redirect_searchresults'] = "Danke, die Suche wurde durchgeführt und Sie werden zu Ergebnis geleitet.";
 ?>
