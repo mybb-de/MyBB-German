@@ -221,7 +221,7 @@ $l['suspend_sig_box'] = "Die Signatur dieses Benutzer sperren.";
 $l['suspend_sig_perm'] = "<small>Permanent sperren.</small>";
 $l['suspend_sig_info'] = "Wenn eine Signatur gesperrt ist, kann der Benutzer sie nicht bearbeiten und sie wird im Profil und in den Beiträgen nicht angezeigt.";
 $l['suspend_sig_extend'] = "<small>Geben Sie unten eine neue Zeit ein oder entfernen Sie die Option um die Sperre aufzuheben.</small>";
-$l['suspend_expire_info_2'] = "<small>Läuft {1} ab</small>";
+$l['suspend_expire_info'] = "<small>Läuft {1} ab</small>";
 $l['suspend_never_expire'] = "<small>Die Sperre von {1} wird niemals ablaufen (permanent gesperrt).</small>";
 $l['suspend_sig_error'] = "Sie haben ein ungültiges Datum für die Signatur-Sperre eingegeben. Bitte geben Sie ein korrektes Datum ein.";
 
