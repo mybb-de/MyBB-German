@@ -130,6 +130,8 @@ $l['delayed_mod_queue'] = "Warteschlange der verzögerten Moderation";
 $l['days_to_perform_action'] = "Wartezeit für Moderation";
 $l['leave_redirect'] = "Weiterleitung:";
 $l['multiple_threads'] = "Mehrere Themen";
+$l['actions'] = "Aktion";
+$l['cancel'] = "Abbrechen";
 
 $l['error_nomergeposts'] = "Sie müssen einen oder mehrere Beiträge des Themas wählen, um sie zusammenzufügen.";
 $l['error_cantsplitonepost'] = "Sie können ein Thema mit einem Beitrag nicht aufteilen.";
@@ -140,6 +142,9 @@ $l['error_cantsplitall'] = "Sie können nicht alle Beiträge zu diesem Thema auf
 $l['error_nosplitposts'] = "Sie können das Thema nicht trennen, da Sie keine Beiträge zum Trennen ausgewählt haben.";
 $l['error_movetosameforum'] = "Sie können dieses Thema nicht in das Forum verschieben, in dem es sich bereits befindet. Bitte wählen Sie ein anderes Forum.";
 $l['error_mergewithself'] = "Themen können nicht mit sich selbst zusammengefügt werden.<br />Bitte gehen Sie zurück und geben Sie eine gültige URL an.";
+$l['error_delayedmoderation_unsupported_type'] = "Sie haben leider keinen gültigen Typ für die verzögerte Moderation ausgewählt.";
+$l['error_delayedmoderation_unsupported_method'] = "Sie haben leider keine gültige Methode zum Verschieben für die verzögerte Moderation ausgewählt.";
+$l['error_delayedmoderation_invalid_delay'] = "Sie haben leider keine gültige Verzögerungszeit für die verzögerte Moderation ausgewählt.";
 
 $l['redirect_pollnotdeleted'] = "Die Umfrage wurde nicht gelöscht, da Sie in der \"Löschen\"-Box kein Häkchen gesetzt haben.<br />Sie werden zum Thema zurückgeleitet.";
 $l['redirect_polldeleted'] = "Die Umfrage wurde erfolgreich gelöscht.<br />Sie werden zum Thema zurückgeleitet.";
@@ -176,4 +181,5 @@ $l['redirect_customtool_search'] = "{1} Moderations-Tool erfolgreich ausgeführt
 $l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Thema zurückgeleitet.";
 $l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Forum zurückgeleitet.";
 $l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zur Suche zurückgeleitet.";
+$l['redirect_delayed_moderation_cancelled'] = "Die ausgwählte verzögerte Moderations-Option wurde abgebrochen.<br />Sie werden zur Übersicht der verzögerten Moderations-Optionen zurückgeleitet.";
 ?>
