@@ -254,6 +254,9 @@ $l['task_threadviews_ran'] = "Themen wurden erfolgreich als gelesen markiert.";
 $l['task_usercleanup_ran'] = "Die Benutzerdatenbank wurde erfolgreich gesäubert.";
 $l['task_massmail_ran'] = "Massenmails wurden erfolgreich verarbeitet.";
 $l['task_userpruning_ran'] = "Die Benutzerdatenbank wurde erfolgreich aufgeräumt.";
+$l['task_delayedmoderation_ran'] = "Die verzögerte Moderation wurde erfolgreich durchgeführt.";
+$l['task_massmail_ran_errors'] = "Es gab ein oder mehrere Problem(e) beim Senden an \"{1}\":
+{2}";
 
 $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";

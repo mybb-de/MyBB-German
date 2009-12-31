@@ -41,7 +41,7 @@ $l['confirm_thread_prefix_deletion'] = "Wollen Sie das Präfix wirklich entferne
 
 $l['success_thread_prefix_created'] = "Das Präfix wurde erfolgreich erstellt.";
 $l['success_thread_prefix_updated'] = "Das Präfix wurde erfolgreich geändert.";
-$l['success_thread_prefix_deleted'] = "Das Präfix wurde erfolgreich gelöscht.";
+$l['success_thread_prefix_deleted'] = "Das Präfix wurde erfolgreich gelöscht. Bitte aktualisieren Sie alle eigenen Moderationstools, die dieses Präfix benutzt haben.";
 
 $l['error_missing_prefix'] = "Bitte geben Sie ein Präfix ein, das Sie hinzufügen wollen.";
 $l['error_missing_display_style'] = "Bitte geben Sie einen Anzeigen-Stil für dieses Präfix ein.";

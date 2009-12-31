@@ -44,7 +44,7 @@ $l['can_manage_user_mail_log'] = "Kann Logs der Benutzer-E-Mails verwalten?";
 $l['can_manage_system_mail_log'] = "Kann Logs der E-Mail-Fehler verwalten?";
 $l['can_manage_user_warning_log'] = "Kann Benutzer Verwarn Log-Daten verwalten?";
 $l['can_view_php_info'] = "Kann PHP-Info ansehen?";
-$l['can_manage_file_verification'] = "Kann Logs der Datei-Überprüfung verwalten?";
+$l['can_manage_file_verification'] = "Kann Datei-Überprüfung durchführen?";
 $l['can_view_statistics'] = "Kann Statistiken sehen?";
 
 ?>
