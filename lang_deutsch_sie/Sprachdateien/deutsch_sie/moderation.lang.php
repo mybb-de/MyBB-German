@@ -132,6 +132,7 @@ $l['leave_redirect'] = "Weiterleitung:";
 $l['multiple_threads'] = "Mehrere Themen";
 $l['actions'] = "Aktion";
 $l['cancel'] = "Abbrechen";
+$l['leave_redirect_for'] = "Lasse Weiterleitungen für:";
 
 $l['error_nomergeposts'] = "Sie müssen einen oder mehrere Beiträge des Themas wählen, um sie zusammenzufügen.";
 $l['error_cantsplitonepost'] = "Sie können ein Thema mit einem Beitrag nicht aufteilen.";

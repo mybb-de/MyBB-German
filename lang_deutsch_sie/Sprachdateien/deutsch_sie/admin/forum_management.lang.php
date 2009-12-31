@@ -92,7 +92,7 @@ $l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich 
 $l['success_forum_permissions_updated'] = "Die Forenberechtigungen wurden erfolgreich aktualisiert.";
 $l['success_forum_updated'] = "Das Forum wurde erfolgreich aktualisiert.";
 $l['success_moderator_updated'] = "Der Moderator wurde erfolgreich aktualisiert.";
-$l['success_custom_permission_cleared'] = "Die eigenen Foren-Berechtigungen wurden erfolgreich zurückgesetzt.";
+$l['success_custom_permission_cleared'] = "Die Foren-Berechtigungen für dieses Forum wurden erfolgreich zurückgesetzt.";
 
 $l['error_invalid_forum'] = "Bitte geben Sie ein gültiges Forum an.";
 $l['error_invalid_moderator'] = "Bitte geben Sie einen gültigen Moderator zum Löschen an.";

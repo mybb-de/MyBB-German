@@ -142,7 +142,7 @@ $l['req_step_span_fail'] = '<span class="fail"><strong>{1}</strong></span>';
 $l['req_step_span_pass'] = '<span class="pass">{1}</span>';
 
 $l['req_step_error_box'] = '<p><strong>{1}</strong></p>';
-$l['req_step_error_phpversion'] = 'MyBB benötigt PHP 5.0.0 oder höher. Sie haben zur Zeit {1} installiert.';
+$l['req_step_error_phpversion'] = 'MyBB benötigt PHP 5.1.0 oder höher. Sie haben zur Zeit {1} installiert.';
 $l['req_step_error_dboptions'] = 'MyBB benötigt mindestens eine installierte kompatible Datenbankerweiterung. Der Server gab zurück, dass keine zur Verfügung steht.';
 $l['req_step_error_xmlsupport'] = 'MyBB benötigt PHP mit der Unterstützung für die Verarbeitung von XML. Bitte gehen Sie auf <a href="http://www.php.net/xml" target="_blank">PHP.net</a> fü;r weitere Informationen.';
 $l['req_step_error_configdefaultfile'] = 'Die Konfigurationsdatei (inc/config.default.php) konnte nicht umbenannt werden. Bitte benennen Sie die <u>config.default.php</u> manuell um in <u>config.php</u>, damit sie beschrieben werden kann. Bei Problemen kontaktieren Sie bitte den <a href="http://www.mybboard.de/support.html" targert="_blank">MyBB Support</a>.';
