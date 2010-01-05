@@ -234,7 +234,7 @@ $l['group_misc'] = "Verschiedenes";
 $l['viewing_field_canview'] = "Kann Forum sehen";
 $l['viewing_field_canviewthreads'] = "Kann Themen im Forum lesen";
 $l['viewing_field_candlattachments'] = "Kann Attachments herunterladen";
-$l['viewing_field_canonlyviewownthreads'] = "Kann nur eigenen Themen sehen?";
+$l['viewing_field_canonlyviewownthreads'] = "Kann nur eigene Themen sehen?";
 
 $l['posting_rating_field_canpostthreads'] = "Kann Themen eröffnen";
 $l['posting_rating_field_canpostreplys'] = "Kann antworten";
