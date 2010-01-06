@@ -173,7 +173,7 @@ $l['error_invalid_editortheme'] = "Das ausgewählte Editor-Theme existiert nicht
 $l['error_inheriting_stylesheets'] = "Sie können dieses Theme nicht löschen, weil noch andere Themes Stylesheets von ihm benutzen.";
 $l['error_cannot_parse'] = "MyBB kann dieses Stylesheet nicht für den einfachen Editor wandeln. Es kann nur im erweiterten Modus editiert werden.";
 $l['error_communication_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.";
-$l['error_no_results_found'] = "Es wurden keine Ergebnisse für den Suchbegriff gefunden."
+$l['error_no_results_found'] = "Es wurden keine Ergebnisse für den Suchbegriff gefunden.";
 
 $l['success_imported_theme'] = "Das Theme wurde erfolgreich importiert.";
 $l['success_theme_created'] = "Das Theme wurde erfolgreich erstellt.";
