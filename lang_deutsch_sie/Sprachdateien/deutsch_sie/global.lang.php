@@ -396,7 +396,7 @@ $l['dismiss_notice'] = "Diese Notiz löschen";
 
 $l['next'] = "Weiter";
 $l['previous'] = "Zurück";
-$l['delete'] = "Lösche";
+$l['delete'] = "Löschen";
 
 $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";
