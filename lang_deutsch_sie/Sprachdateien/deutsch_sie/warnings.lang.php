@@ -43,7 +43,7 @@ $l['warning_pm_subject'] = "Sie haben eine Warnung erhalten.";
 $l['send_pm_message'] = "Nachricht:";
 $l['warning_pm_message'] = "Lieber {1}
 
-Sie wurden von einem Administrator gewarnt wegen {2}.
+Sie wurden von einem Moderator von {2} gewarnt.
 --
 
 --";
