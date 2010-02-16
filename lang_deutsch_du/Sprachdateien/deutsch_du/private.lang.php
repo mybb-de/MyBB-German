@@ -139,7 +139,7 @@ $l['you_forwarded_on'] = "Du hast diese Nachricht weitergeleitet am {1}";
 $l['you_replied'] = "Du hast auf diese Nachricht geantwortet {1}";
 $l['you_forwarded'] = "Du hast diese Nachricht weitergeleitet {1}";
 $l['select_from_buddies'] = "Wähle aus deinen Freunden";
-$l['no_readmessages'] = "Du hast momentan keine verfolgten gelesen Nachrichten.";
+$l['no_readmessages'] = "Du hast momentan keine verfolgten gelesenen Nachrichten.";
 $l['no_unreadmessages'] = "Du hast momentan keine verfolgten ungelesenen Nachrichten.";
 
 $l['enter_keywords'] = "Suchbegriffe eingeben";

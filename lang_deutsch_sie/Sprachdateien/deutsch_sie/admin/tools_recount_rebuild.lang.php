@@ -32,6 +32,6 @@ $l['success_rebuilt_user_counters'] = "Die Benutzerbeitragszahlen wurden erfolgr
 $l['success_rebuilt_attachment_thumbnails'] = "Alle Thumbnails wurden erfolgreich erneuert.";
 $l['success_rebuilt_forum_stats'] = "Die Statistiken des Forums wurden erfolgreich neu gebildet.";
 
-$l['confirm_proceed_rebuild'] = "Klicken Sie auf \"Ausführen\" um die Neuzählung und Neubildung fortzusetzen.";
+$l['confirm_proceed_rebuild'] = "Klicken Sie auf \"Fortfahren\" um die Neuzählung und Neubildung fortzusetzen.";
 
 ?>
