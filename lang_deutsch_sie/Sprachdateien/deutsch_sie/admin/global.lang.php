@@ -267,19 +267,19 @@ $l['board_url'] = "Foren-URL";
 $l['locked_out_subject'] = "Dein Benutzer-Konto bei {1} wurde ausgeschlossen";
 $l['locked_out_message'] = "{1},
 
-Ihr Benutzer-Konto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen ausgeschlossen.
+Ihr Benutzer-Konto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen gesperrt.
 
-Um Ihr Benutzer-Konto, öffnen Sie bitte folgenden Link in deinem Browser.
+Um Ihr Benutzer-Konto wieder freizuschalten, öffnen Sie bitte folgenden Link in Ihrem Browser.
 
-<a href=\"{4}\" target=\"_blank\">{4}</a>
+{4}/{5}/index.php?action=unlock&token={6}
 
 Wenn dieser Link nicht funktioniert, gehen Sie zu
 
-{4}
+{4}/{5}/index.php?action=unlock
 
 Sie müssen folgende Daten eingeben:
 Benutzername: {1}
-Aktivierungs-Code: {5}
+Aktivierungs-Code: {6}
 
 Vielen Dank,
 {2}-Team";
