@@ -183,7 +183,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Wenn du keine weiteren Benachrichtigungen zu diesem Thema erhalten möchtest, klicke auf den folgenden Link:
-{7}/usercp2.php?action=removesubscription&type=forum&fid={9}
+{7}/usercp2.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
 
 ------------------------------------------";
 
