@@ -183,7 +183,7 @@ $l['misc_options'] = "Verschiedene Optionen";
 $l['allow_html'] = "HTML erlauben";
 $l['allow_mycode'] = "MyCode erlauben";
 $l['allow_smilies'] = "Smilies erlauben";
-$l['allow_img_code'] = "[img]-Tags erlauben";
+$l['allow_img_code'] = "[img]-Tags erlauben (MyCode muss erlaubt sein)";
 $l['allow_post_icons'] = "Beitragsicons erlauben";
 $l['allow_thread_ratings'] = "Themenbewertung erlauben";
 $l['show_forum_jump'] = "Zeige in \"Gehe zu Forum\"-Menü";
@@ -198,6 +198,7 @@ $l['save_permissions'] = "Speichere Forenberechtigungen";
 
 $l['error_missing_title'] = "Du musst einen Titel angeben.";
 $l['error_no_parent'] = "Du musst ein übergeordnetes Forum wählen.";
+$l['error_not_empty'] = "Foren mit Themen können nicht in Kategorien verwandelt werden.";
 
 $l['success_forum_added'] = "Das Forum wurde erfolgreich hinzugefügt.";
 $l['success_moderator_added'] = "Der Moderator wurde dem Forum erfolgreich hinzugefügt.";
