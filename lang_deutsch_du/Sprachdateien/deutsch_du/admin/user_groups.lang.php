@@ -76,7 +76,7 @@ $l['misc'] = "Sonstiges";
 $l['stars'] = "Anzahl der Sterne";
 $l['star_image'] = "Sternenbild";
 $l['user_stars'] = "Benutzer-Sterne";
-$l['user_stars_desc'] = "Wenn du die Anzahl der Sterne und den Ort des Sternenbild eingegeben hast, werden diese Sterne für diese Benutzergruppe verwendet.";
+$l['user_stars_desc'] = "Wenn du die Anzahl der Sterne und den Ort des Sternenbild eingegeben hast, werden diese Sterne für diese Benutzergruppe verwendet. Die Anzahl der Sterne gilt nur, wenn der Benutzertitel nicht leer ist.";
 $l['group_image'] = "Gruppenbild";
 $l['group_image_desc'] = "Hier kannst du ein Gruppenbild einstellen, das in jedem Beitrag jedes Benutzers dieser Gruppe angezeigt wird. Bitte benutze <strong>{lang}</strong> um übersetzte Gruppenbilder in der Sprache des Benutzers anzuzeigen, wenn diese vorhanden sind.";
 $l['general_options'] = "Allgemeine Optionen";
@@ -167,6 +167,7 @@ $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig";
 $l['error_already_leader'] = "Der Benutzer ist bereits ein Leiter dieser Benutzergruppe.";
 $l['error_invalid_group_leader'] = "Du hast einen ungültigen Gruppenleiter ausgewählt.";
 $l['error_missing_namestyle_username'] = "Der Benutzernamen-Stil muss {username} enthalten";
+$l['error_default_group_delete'] = "Standard-Benutzergruppen können nicht gelöscht werden";
 
 $l['success_group_created'] = "Die neue Benutzergruppe wurde erfolgreich erstellt.";
 $l['success_group_updated'] = "Die Benutzergruppe wurde erfolgreich aktualisiert.";

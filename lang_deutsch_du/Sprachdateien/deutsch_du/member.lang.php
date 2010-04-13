@@ -193,7 +193,6 @@ $l['error_badlostpwcode'] = "Du hast einen ungültigen Code eingegeben, um dein 
 $l['error_badactivationcode'] = "Du hast einen ungültigen Aktivierungscode eingegeben. <a href=\"member.php?action=resendactivation\">Klicke hier</a>, um die Aktivierungsmail erneut zu verschicken.";
 $l['error_alreadyactivated'] = "Dein Account ist bereits aktiviert oder benötigt keine Aktivierung per E-Mail.";
 $l['error_nothreadurl'] = "Deine Nachricht enthält nicht die URL des Themas. Bitte benutze die \"Thema einem Freund senden\"-Funktion.";
-$l['error_invalidpworusername'] = "Der eingegebene Benutzername und/oder das Passwort ist falsch!<br /><br />Falls du dein Passwort vergessen hast, fordere bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
 $l['error_bannedusername'] = "Du hast einen Benutzernamen eingegeben, der nicht registriert werden kann. Bitte wähle einen anderen Benutzernamen.";
 $l['error_notloggedout'] = "Deine Benutzer-ID konnte nicht verifiziert werden, um dich abzumelden. Ein Grund könnte sein, dass ein böswilliges JavaScript versucht hat, dich abzumelden. Wenn du dich abmelden willst, benutze bitte den Abmelde-Button im Menü.";
 $l['error_regimageinvalid'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";

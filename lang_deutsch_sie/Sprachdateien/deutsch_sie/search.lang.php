@@ -95,6 +95,12 @@ $l['all_selected'] = "Alle <strong>{1}</strong> Ergebnisse dieser Suche sind aus
 $l['select_all'] = "Wähle alle <strong>{1}</strong> Ergebnisse dieser Suche.";
 $l['clear_selection'] = "Auswahl aufheben.";
 
+$l['results'] = "Ergebnisse";
+$l['mod_options'] = "Moderations-Optionen";
+$l['find_all'] = "Alle suchen";
+$l['find_only_approved'] = "Suche nur zugestimmte";
+$l['find_only_unapproved'] = "Suche nur abgeweisene";
+
 $l['redirect_searchresults'] = "Ihre Suche wurde durchgeführt. Sie werden jetzt zu den Ergebnissen weitergeleitet.";
 
 $l['error_minsearchlength'] = "Ein oder mehrere Suchbegriffe sind kürzer als erlaubt. Die Minimallänge eines Suchbegriffs ist {1} Zeichen.<br /><br />Suchen Sie nach einer Verbindung von Worten, schließen Sie diese in Anführungszeichen ein. Beispiel: \"Der schnelle braune Fuchs springt über den faulen Hund\".";

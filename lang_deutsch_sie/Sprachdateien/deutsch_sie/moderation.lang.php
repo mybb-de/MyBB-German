@@ -27,7 +27,7 @@ $l['nav_multi_mergeposts'] = "Markierte Beiträge zusammenfügen";
 $l['nav_multi_movethreads'] = "Themen verschieben";
 
 $l['no_mod_options'] = "Bisher wurden auf dieses Thema keine Moderations-Optionen angewendet.";
-$l['no_delayed_mods'] = "Bisher wurden auf dieses Thema keine verzögerten Moderations-Optionen angewendet.";
+$l['no_delayed_mods'] = "Es sind bisher keine verzögerten Moderations-Optionen für die ausgewählten Themen geplant.";
 $l['delete_poll'] = "Umfrage löschen";
 $l['delete_posts'] = "Beiträge löschen";
 $l['delete_selected_posts'] = "Markierte Beiträge löschen";
@@ -134,7 +134,7 @@ $l['actions'] = "Aktion";
 $l['cancel'] = "Abbrechen";
 $l['leave_redirect_for'] = "Lasse Weiterleitungen für:";
 
-$l['error_nomergeposts'] = "Sie müssen einen oder mehrere Beiträge des Themas wählen, um sie zusammenzufügen.";
+$l['error_nomergeposts'] = "Sie müssen einen oder mehrere Beiträge wählen, um sie zusammenzufügen.";
 $l['error_cantsplitonepost'] = "Sie können ein Thema mit einem Beitrag nicht aufteilen.";
 $l['error_badmergeurl'] = "Die URL für das zusammenzufügende Thema ist ungültig oder leer. Bitte kopieren Sie die exakte URL in die Textbox.<br />Bitte gehen Sie zurück und korrigieren Sie die Eingabe.";
 $l['error_inline_nothreadsselected'] = "Entschuldigung, aber Sie haben keine Themen zur Inline-Moderation ausgewählt oder Ihre Session ist abgelaufen (automatisch nach einer Stunde Inaktivität). Bitte wählen Sie einige Themen und versuchen Sie es erneut.";

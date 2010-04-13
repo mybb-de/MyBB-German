@@ -16,11 +16,8 @@ $l['nav_smilies'] = "Smilie-Liste";
 $l['nav_syndication'] = "Neueste Themen-Synchronisation (RSS)";
 
 $l['aol_im'] = "AOL IM";
-$l['icq'] = "ICQ";
 $l['msn'] = "MSN Messenger";
 $l['yahoo_im'] = "Yahoo IM";
-$l['icq_message_center'] = "ICQ Nachrichten-Center";
-$l['send_icq_message'] = "{1} eine ICQ Nachricht schicken.";
 $l['msn_messenger_center'] = "MSN Messenger Center";
 $l['msn_address_is'] = "{1}'s MSN-ID ist:";
 $l['yahoo_center'] = "Yahoo!-Center";

@@ -158,6 +158,7 @@ $l['ban_username'] = "Benutzername:";
 $l['ban_reason'] = "Grund:";
 $l['ban_length'] = "Länge";
 $l['ban_remaining'] = "verbleibend";
+$l['ban_ending_imminently'] = "Ende der Sperrung bevorstehend";
 $l['ban_bannedby'] = "Ausgeschlossen von";
 $l['ban_movegroup'] = "Zur ausgeschlossenen Benutzergruppe hinzufügen:";
 $l['ban_liftafter'] = "Ausschluss aufheben nach:";

@@ -116,5 +116,6 @@ $l['save_post_tool'] = "Beitragstool speichern";
 $l['error_missing_title'] = "Bitte gib einen Namen für dieses Tool an.";
 $l['error_missing_description'] = "Bitte gib eine Kurzbeschreibung für dieses Tool an.";
 $l['error_no_forums_selected'] = "Bitte wähle die Foren, in denen das Tool zur Verfügung stehen soll.";
+$l['error_forum_is_category'] = "Du kannst eine Kategorie nicht als Ziel-Forum auswählen.";
 
 ?>
