@@ -279,7 +279,7 @@ Wenn dieser Link nicht funktioniert, gehe zu
 
 Du musst folgende Daten eingeben:
 Benutzername: {1}
-Aktivierungs-Code: {5}
+Aktivierungs-Code: {6}
 
 Vielen Dank,
 {2}-Team";
