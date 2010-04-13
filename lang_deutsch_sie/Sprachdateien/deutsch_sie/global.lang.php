@@ -54,6 +54,7 @@ $l['forumbit_lastpost'] = "Letzter Beitrag";
 $l['forumbit_moderated_by'] = "Moderiert von:";
 $l['new_posts'] = "Forum enthält neue Beiträge";
 $l['no_new_posts'] = "Forum enthält keine neuen Beiträge";
+$l['click_mark_read'] = "Klicken Sie hier, um das Forum als gelesen zu markieren";
 $l['forum_locked'] = "Geschlossenes Forum";
 $l['lastpost_never'] = "Nie";
 $l['viewing_one'] = " (1 Benutzer im Forum)";

@@ -16,6 +16,7 @@ $l['redirect_return_forum'] = "<br /><br />Alternativ dazu, können Sie hier <a 
 $l['redirect_emailsent'] = "Ihre E-Mail wurde erfolgreich versandt.";
 $l['redirect_loggedin'] = "Sie haben sich erfolgreich eingeloggt.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort weitergeleitet.";
 
+$l['error_invalidpworusername'] = "Der eingegebene Benutzername und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
 $l['error_incompletefields'] = "Sie haben mindestens ein erforderliches Feld nicht ausgefüllt. Gehen Sie bitte zurück und geben Sie die benötigten Daten an.";
 $l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte benennen Sie die Datei um und versuchen Sie es erneut. Alternativ können Sie auch \"Attachment aktualisieren\" klicken.";
 $l['error_nomessage'] = "Entschuldigung, Sie haben keine gültige Nachricht eingegeben. Bitte gehen Sie zurück und korrigieren Sie Ihre Eingaben.";
@@ -54,6 +55,7 @@ $l['error_nopermission_guest_1'] = "Sie sind entweder nicht eingeloggt oder Ihne
 $l['error_nopermission_guest_2'] = "Sie sind nicht eingeloggt oder registriert. Bitte benutzen Sie das Formular unten auf dieser Seite, um sich einzuloggen.";
 $l['error_nopermission_guest_3'] = "Ihnen fehlt die Berechtigung, diese Seite zu betreten. Versuchen Sie auf eine Administratoren-Seite zu kommen? Lesen Sie in den Forenregeln, ob Sie diese Aktion durchführen dürfen.";
 $l['error_nopermission_guest_4'] = "Ihr Account könnte durch den Administrator deaktiviert worden sein oder wartet auf Aktivierung.";
+$l['error_nopermission_guest_5'] = "Sie rufen diese Seite direkt auf, anstatt das entsprechende Formular oder den entsprechenden Link zu benutzen.";
 $l['login'] = "Login";
 $l['need_reg'] = "Registrierung?";
 $l['forgot_password'] = "Passwort vergessen?";
@@ -62,8 +64,9 @@ $l['error_nopermission_user_ajax'] = "Sie haben nicht die nötige Berechtigung, 
 $l['error_nopermission_user_2'] = "Ihr Account wurde entweder eingeschränkt oder Sie wurden aus dem Forum ausgeschlossen.";
 $l['error_nopermission_user_3'] = "Ihnen fehlt die Berechtigung, diese Seite zu betreten. Versuchen Sie auf eine Administratoren-Seite zu kommen? Lesen Sie in den Forenregeln, ob Sie diese Aktion durchführen dürfen.";
 $l['error_nopermission_user_4'] = "Ihr Account wartet auf Aktivierung oder Moderation.";
+$l['error_nopermission_user_5'] = "Sie rufen diese Seite direkt auf, anstatt das entsprechende Formular oder den entsprechenden Link zu benutzen.";
 $l['error_nopermission_user_resendactivation'] = "Aktivierungscode erneut zuschicken";
-$l['error_nopermission_user_5'] = "Sie sind zur Zeit unter diesem Benutzernamen angemeldet: '{1}'";
+$l['error_nopermission_user_username'] = "Sie sind zur Zeit unter diesem Benutzernamen angemeldet: '{1}'";
 $l['logged_in_user'] = "Angemeldete Benutzer";
 $l['error_too_many_images'] = "Zu viele Bilder.";
 $l['error_too_many_images2'] = "Entschuldigung, aber Ihr Beitrag kann nicht gespeichert werden, da er zu viele Bilder enthält. Um fortfahren zu können, löschen Sie bitte einige Bilder.";
@@ -183,7 +186,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten, klicken Sie auf den folgenden Link:
-{7}/usercp2.php?action=removesubscription&type=forum&fid={9}
+{7}/usercp2.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
 
 ------------------------------------------";
 
@@ -225,7 +228,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
-{6}/usercp2.php?action=removesubscription&tid={8}&key={9}
+{6}/usercp2.php?action=removesubscription&tid={8}&key={9}&my_post_key={10}
 
 ------------------------------------------";
 

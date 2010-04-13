@@ -27,9 +27,12 @@ $l['edit_warning_level_desc'] = "Warnlevel sind Aktionen, die beim Erreichen ein
 
 $l['percentage'] = "Prozent";
 $l['action_to_take'] = "Auszuführede Aktion";
-$l['move_banned_group'] = "Verschiebe in die Ausschlussgruppe ({1}) für {2} {3}";
+$l['move_banned_group'] = "Verschiebe in die Ausschlussgruppe ({3}) für {1} {2}";
+$l['move_banned_group_permanent'] = "Verschiebe dauerhaft in die Ausschlussgruppe ({1})";
 $l['suspend_posting'] = "Entziehe Berechtigung zur Beitragserstellung für {1} {2}";
+$l['suspend_posting_permanent'] = "Entziehe dauerhaft Berechtigung zur Beitragserstellung";
 $l['moderate_new_posts'] = "Moderiere neue Beiträge für {1} {2}";
+$l['moderate_new_posts_permanent'] = "Moderiere dauerhaft neue Beiträge";
 $l['no_warning_levels'] = "Zur Zeit sind keine Warnlevel definiert.";
 
 $l['warning_type'] = "Warntypen";
