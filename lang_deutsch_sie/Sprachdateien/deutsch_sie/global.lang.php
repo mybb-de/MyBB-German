@@ -211,7 +211,7 @@ $l['postbit_edited'] = "Dieser Beitrag wurde zuletzt bearbeitet: {1} {2} von";
 $l['postbit_ipaddress'] = "IP-Adresse:";
 $l['postbit_ipaddress_logged'] = "Geloggt";
 $l['postbit_post'] = "Beitrag:";
-$l['postbit_reputation'] = "Bewertung:";
+$l['postbit_reputation'] = "Bewertung";
 $l['postbit_website'] = "Webseite des Benutzers besuchen";
 $l['postbit_email'] = "Eine E-Mail an den Benutzer senden";
 $l['postbit_find'] = "Alle Beiträge dieses Benutzers finden";
@@ -353,6 +353,7 @@ $l['timezone_gmt_minus_600'] = "(GMT -6:00) Central Time, Mexiko-Stadt";
 $l['timezone_gmt_minus_500'] = "(GMT -5:00) Eastern Time, Bogota, Lima, Quito";
 $l['timezone_gmt_minus_450'] = "(GMT -4:30) Venezuela (September)";
 $l['timezone_gmt_minus_400'] = "(GMT -4:00) Atlantic Time, Caracas, La Paz";
+
 $l['timezone_gmt_minus_350'] = "(GMT -3:30) Neufundland";
 $l['timezone_gmt_minus_300'] = "(GMT -3:00) Brasilien, Buenos Aires, Georgetown, Falklandinseln";
 $l['timezone_gmt_minus_200'] = "(GMT -2:00) Mid-Atlantic, Ascension Islands, St. Helena";
