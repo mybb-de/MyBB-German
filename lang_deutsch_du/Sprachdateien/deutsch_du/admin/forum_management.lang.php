@@ -211,6 +211,9 @@ $l['inherit_permissions'] = "Benutze Benutzergruppen-Berechtigungen oder die des
 $l['custom_permissions'] = "Benutze die folgenden, eigenen Berechtigungen";
 $l['custom_permissions_for'] = "Eigene Berechtigungen für";
 
+$l['inherited_permission'] = "vererbt";
+$l['custom_permission'] = "eigene";
+
 $l['save_permissions'] = "Speichere Forenberechtigungen";
 
 $l['error_missing_title'] = "Du musst einen Titel angeben.";
