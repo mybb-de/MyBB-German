@@ -225,7 +225,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Klicke auf den folgenden Link, wenn du keine weiteren Benachrichtigungen zu diesem Thema erhalten möchtest:
-{6}/usercp2.php?action=removesubscription&tid={8}&key={9}
+{6}/usercp2.php?action=removesubscription&tid={8}&key={9}&my_post_key={10}
 
 ------------------------------------------";
 
