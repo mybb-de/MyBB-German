@@ -49,6 +49,7 @@ $l['total_votes'] = "{1} Stimmen";
 $l['you_voted'] = "&bull; Sie haben diese Antwort gewählt.";
 $l['poll_closed'] = "Diese Umfrage ist geschlossen.";
 $l['already_voted'] = "Sie haben bei dieser Umfrage schon gewählt.";
+$l['undo_vote'] = "Stimme zurückziehen";
 $l['quick_reply'] = "Schnellantwort";
 $l['message_note'] = "Geben Sie hier Ihre Antwort zum Beitrag ein.";
 $l['signature'] = "Signatur";
