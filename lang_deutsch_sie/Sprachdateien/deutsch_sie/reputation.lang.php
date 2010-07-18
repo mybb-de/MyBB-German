@@ -46,6 +46,7 @@ $l['add_reputation_vote'] = "Eine Bewertung abgeben für {1}";
 $l['add_reputation_to_post'] = "Diese Bewertung ist für {1}'s Beitrag.<br />";
 $l['neg_rep_disabled'] = "<span class=\"smalltext\">* - <em>Negative Bewertungen sind zurzeit deaktiviert</em></span>";
 $l['no_comment_needed'] = "Sie befinden sich momentan in der Beitragsbewertung. Da zum Profil des Autors verlinkt wird, ist kein Kommentar notwendig. Falls Sie trotzdem ein Kommentar schreiben möchten, füllen Sie das untere Feld aus. <br />";
+$l['no_comment'] = "[Kein Kommentar]";
 $l['vote_added'] = "Bewertung hinzugefügt";
 $l['vote_updated'] = "Bewertung aktualisiert";
 $l['vote_deleted'] = "Bewertung gelöscht";

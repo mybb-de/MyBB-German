@@ -39,6 +39,7 @@ $l['delete_buddy'] = "X";
 $l['pm_buddy'] = "Private Nachricht schicken";
 $l['last_active'] = "<strong>Zuletzt online:</strong> {1}";
 $l['close'] = "Schließen";
+$l['no_buddies'] = "<em>Deine Freundeliste ist zur Zeit leer. Bitte benutze das Benutzer-CP oder besuche ein Benutzer-Profil um Benutzer zu deiner Freundeliste hinzuzufügen.</em>";
 
 $l['help_docs'] = "Hilfe-Seiten";
 

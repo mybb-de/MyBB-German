@@ -17,6 +17,8 @@ $l['thread_prefixes_desc'] = "Hier kannst du Präfixe definieren, die Benutzer T
 $l['add_new_thread_prefix'] = "Neues Präfix hinzufügen";
 $l['add_new_thread_prefix_desc'] = "Hier kannst du ein Präfix hinzufügen, aber auch einstellen, wo es benutzt werden kann und welche Benutzergruppen es benutzen können.";
 
+$l['edit_prefix'] = "Präfix bearbeiten";
+$l['edit_prefix_desc'] = "Hier kannst du die Einstellungen des Präfixes bearbeiten.";
 $l['edit_thread_prefix'] = "Präfix bearbeiten";
 $l['delete_thread_prefix'] = "präfix löschen";
 
