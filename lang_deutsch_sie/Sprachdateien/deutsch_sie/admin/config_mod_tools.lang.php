@@ -28,7 +28,9 @@ $l['add_new_post_tool'] = "Neues Beitragstool hinzufügen";
 $l['add_post_tool_desc'] = "Hier können Sie ein neues Beitragstool erstellen. Dieses Tool wird im Forum in der Inlinemoderation neben allen anderen Tools zur Verfügung gestellt.";
 
 $l['edit_post_tool'] = "Beitragstool bearbeiten";
+$l['edit_post_tool_desc'] = "Hier können Sie die Einstellungen und Aktionen des Beitragstools bearbeiten.";
 $l['edit_thread_tool'] = "Thementool bearbeiten";
+$l['edit_thread_tool_desc'] = "Hier können Sie die Einstellungen und Aktionen des Thementools bearbeiten.";
 
 $l['no_thread_tools'] = "Zur Zeit sind keine Thementools definiert.";
 $l['no_post_tools'] = "Zur Zeit sind keine Beitragstools definiert.";

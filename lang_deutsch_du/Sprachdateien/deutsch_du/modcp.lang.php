@@ -192,7 +192,7 @@ $l['redirect_attachmentsmoderated'] = "Die markierten Anhänge wurden moderiert.
 $l['multi_approve_posts'] = "Markiere freigegebene Beiträge";
 $l['multi_approve_threads'] = "Markiere freigegebene Themen";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
-$l['edited_user_info'] = "Benutzer: <a href=\"{2}\">{1}</a>";
+$l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
@@ -213,8 +213,6 @@ $l['revoked'] = "Aufgehoben ";
 $l['signature'] = "Signatur";
 $l['suspend_signature'] = "<strong>Signatur des Benutzers sperren</strong>";
 $l['suspend_length'] = "Dauer der Sperre:";
-$l['suspend_never_expire'] = "Die Sperre von {1} wird niemals enden (permanent gesperrt).";
-$l['suspend_expire_info'] = "Die Sperre von {1} dauert {2} {3} und wird {4} enden.<br />Gebe unten ein neues Datum ein oder entferne die Option um die Sperre zu beenden.";
 $l['mod_notes'] = "Moderator-Notizen";
 $l['moderation'] = "Moderations-Optionen";
 $l['moderate_posts'] = "Beiträge des Benutzers moderieren";

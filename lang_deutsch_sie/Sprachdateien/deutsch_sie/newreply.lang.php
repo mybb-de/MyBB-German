@@ -48,4 +48,6 @@ $l['redirect_newreply_moderation'] = "Der Administrator hat spezifiziert, dass a
 $l['redirect_newreply_post'] = "<br />Sie werden nun zu Ihrem Beitrag geleitet.";
 $l['redirect_newreplyerror'] = "Leider wurde Ihre Antwort zurückgewiesen.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_threadclosed'] = "Auf dieses Thema kann nicht geantwortet werden, da das Thema von einem Moderator geschlossen wurde.";
+
+$l['error_post_noperms'] = "Sie haben nicht die Berechtigung diesen Entwurf zu bearbeiten.";
 ?>

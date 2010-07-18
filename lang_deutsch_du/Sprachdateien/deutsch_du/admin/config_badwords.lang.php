@@ -13,13 +13,16 @@
 
 $l['bad_words'] = "Wortfilter";
 $l['edit_bad_word'] = "Filter bearbeiten";
+$l['edit_bad_word_desc'] = "Hier kannst du die Filter und ihre Ersetzungen bearbeiten.";
 $l['bad_word_filters'] = "Wortfilter";
 $l['bad_word_filters_desc'] = "Diese Funktion erlaubt es dir, einzelne Worte oder Phrasen automatisch ersetzen zu lassen. Dies ist beispielsweise bei Beleidigungen nützlich.";
 
 $l['bad_word'] = "Wort";
 $l['bad_word_desc'] = "Gib das Wort ein, das gefiltert werden soll";
+$l['bad_word_max'] = "Die Eingabe nicht länger als 100 Zeichen lang sein.";
 $l['replacement'] = "Ersetzung";
 $l['replacement_desc'] = "Gib die Zeichenfolge ein, durch die das Wort ersetzt werden soll (falls leer, werden Sternchen gezeigt)";
+$l['replacement_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen lang sein.";
 $l['save_bad_word'] = "Filter speichern";
 $l['no_bad_words'] = "Zur Zeit sind keine Wortfilter definiert.";
 $l['add_bad_word'] = "Filter hinzufügen";
