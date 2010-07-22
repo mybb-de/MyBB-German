@@ -179,7 +179,7 @@ $l['error_invalidban'] = "Sie haben einen ungültigen Ausschluss eingegeben.";
 $l['redirect_banlifted'] = "Der Ausschluss wurde erfolgreich aufgehoben.";
 $l['mark_all_ignored'] = "Alle zum Ignorieren markieren";
 $l['mark_all_deletion'] = "Alle zum Löschen markieren";
-$l['mark_all_approved'] = "Alle als erlaubt markieren";
+$l['mark_all_approved'] = "Alle zum Annehmen markieren";
 $l['meta_forum'] = "Forum:";
 $l['meta_thread'] = "Thema:";
 $l['mod_queue_empty'] = "Alle Moderations-Warteschlangen sind momentan leer.";
@@ -189,8 +189,8 @@ $l['mod_queue_attachments_empty'] = "Die Anhangsmoderations-Warteschlange ist mo
 $l['redirect_threadsmoderated'] = "Die markieren Themen wurden moderiert.";
 $l['redirect_postsmoderated'] = "Die markierten Beiträge wurden moderiert.";
 $l['redirect_attachmentsmoderated'] = "Die markierten Anhänge wurden moderiert.";
-$l['multi_approve_posts'] = "Markiere freigegebene Beiträge";
-$l['multi_approve_threads'] = "Markiere freigegebene Themen";
+$l['multi_approve_posts'] = "Markiere angenommene Beiträge";
+$l['multi_approve_threads'] = "Markiere angenommene Themen";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
 $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
 
