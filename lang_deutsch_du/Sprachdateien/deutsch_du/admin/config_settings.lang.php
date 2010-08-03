@@ -526,6 +526,10 @@ $l['setting_pruneunactived'] = "Nicht aktivierte Benutzer löschen?";
 $l['setting_pruneunactived_desc'] = "Hier kann die Bereinigung von nicht aktivierten Benutzeraccounts aktiviert werden.";
 $l['setting_dayspruneunactivated'] = "Alter der Registrierung";
 $l['setting_dayspruneunactivated_desc'] = "Wie viele Tage nach der Registrierung sollen nicht aktivierte Benutzeraccounts entfernt werden?";
+$l['setting_maxpostvideos'] = "Maximale Anzahl Videos pro Beitrag";
+$l['setting_maxpostvideos_desc'] = "Wie viele Videos darf ein Benutzer pro Beitrag einbinden (0 = deaktiviert)?";
+$l['setting_pmsallowvideocode'] = "[video]-Code erlauben";
+$l['setting_pmsallowvideocode_desc'] = "Falls aktiviert kann [video] in privaten Nachrichten benutzt werden.";
 
 // Optionen
 $l['setting_reportmethod_db'] = "In Datenbank speichern";
