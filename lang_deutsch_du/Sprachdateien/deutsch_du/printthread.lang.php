@@ -13,5 +13,6 @@
  
 $l['forum'] = "Forum:";
 $l['printable_version'] = "Druckversion";
+$l['pages'] = "Seiten:";
 $l['thread'] = "Thema:";
 ?>

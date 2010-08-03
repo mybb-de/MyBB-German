@@ -167,6 +167,7 @@ $l['error_uploadfailed_lost'] = "Die Datei konnte nicht auf dem Server gefunden 
 $l['error_uploadfailed_nocontents'] = "MyBB konnte die Datei mit dem Theme, welches Sie hochgeladen haben, nicht finden. Bitte überprüfen Sie, ob das die korrekte Datei ist und ob sie nicht beschädigt ist.";
 $l['error_invalid_version'] = "Dieses Theme wurde für eine andere Version von MyBB geschrieben. Bitte markieren Sie das \"Ignoriere Versions-Kompatibilität\"-Feld, um diesen Fehler zu ignorieren.";
 $l['error_missing_stylesheet_name'] = "Geben Sie bitte einen Namen für dieses Stylesheet ein.";
+$l['error_missing_stylesheet_extension'] = "Dieses Stylesheet muss mit einer korrekten Datei-Endung enden, zum Beispiel {1}<em>.css</em>";
 $l['error_invalid_parent_theme'] = "Das ausgewählte übergeordnete Theme existiert nicht. Bitte wählen Sie ein gültiges.";
 $l['error_invalid_templateset'] = "Das ausgewählte Template-Set existiert nicht. Bitte wählen Sie ein gültiges Template-Set aus.";
 $l['error_invalid_editortheme'] = "Das ausgewählte Editor-Theme existiert nicht. Bitte wählen Sie ein gültiges Editor-Theme aus.";
