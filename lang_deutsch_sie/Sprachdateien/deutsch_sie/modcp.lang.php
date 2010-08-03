@@ -189,8 +189,9 @@ $l['mod_queue_attachments_empty'] = "Die Anhangsmoderations-Warteschlange ist mo
 $l['redirect_threadsmoderated'] = "Die markieren Themen wurden moderiert.";
 $l['redirect_postsmoderated'] = "Die markierten Beiträge wurden moderiert.";
 $l['redirect_attachmentsmoderated'] = "Die markierten Anhänge wurden moderiert.";
-$l['multi_approve_posts'] = "Markiere angenommene Beiträge";
-$l['multi_approve_threads'] = "Markiere angenommene Themen";
+$l['multi_approve_posts'] = "Markierte Beiträge angenommen";
+$l['multi_approve_threads'] = "Markierte Themen angenommen";
+$l['multi_delete_threads'] = "Markierte Themen gelöscht";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
 $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
 

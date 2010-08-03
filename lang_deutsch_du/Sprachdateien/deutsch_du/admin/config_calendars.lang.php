@@ -44,6 +44,7 @@ $l['moderate_events_desc'] = "Wenn Ja, müssen alle neuen Ereignisse erst moderi
 $l['allow_html'] = "HTML in Ereignissen erlauben?";
 $l['allow_mycode'] = "MyCode in Ereignissen erlauben?";
 $l['allow_img'] = "[IMG]-Code in Ereignissen erlauben?";
+$l['allow_video'] = "[VIDEO]-Code in Ereignissen erlauben?";
 $l['allow_smilies'] = "Smilies in Ereignissen erlauben?";
 $l['save_calendar'] = "Kalender speichern";
 
