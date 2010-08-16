@@ -28,7 +28,7 @@ $l['mod_options'] ="Moderations-Optionen:";
 $l['close_thread'] = "<b>Thema schließen</b>: Weitere Antworten zu diesem Thema verbieten.";
 $l['stick_thread'] = "<b>Wichtiges Thema:</b> Zeigt dieses Thema immer oben an.";
 $l['thread_review'] = "Themenübersicht (Neueste zuerst)";
-$l['thread_review_more'] = "Dieses Thema hat mehr als {1} Antworten. <a href={2}\">Ganzes Thema lesen</a>.";
+$l['thread_review_more'] = "Dieses Thema hat mehr als {1} Antworten. <a href=\"{2}\">Ganzes Thema lesen</a>.";
 $l['posted_by'] = "Geschrieben von";
 $l['draft_saved'] = "Der neue Beitrag wurde erfolgreich als Entwurf gespeichert.<br />Du wirst jetzt zur Entwurfsübersicht geleitet.";
 $l['image_verification'] = "Bestätigung";
