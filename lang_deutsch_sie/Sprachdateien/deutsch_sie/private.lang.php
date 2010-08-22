@@ -5,7 +5,7 @@
 # Datum: xx.xx.xxxx                                     #
 # MyBB-Version x.x.x                                    #
 # Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2009 MyBBoard.de | Alle Rechte vorbehalten!  #
+# (c) 2005-2010 MyBBoard.de | Alle Rechte vorbehalten!  #
 #                                                       #
 # Die Lizenz/Nutzungsbedingungen finden Sie in der      #
 # beiliegenden Readme.                                  #
@@ -178,7 +178,7 @@ $l['error_recipientignoring'] = "Leider kann Ihre Nachricht nicht an {1} zugeste
 $l['error_pm_already_submitted'] = "Sie haben in den letzten 5 Minuten die gleiche Nachricht an den gleichen Empfänger geschickt.";
 
 $l['error_minsearchlength'] = "Ein oder mehrere der Suchbegriffe sind kürzer als das Minimum. Die minimale Länges eines Suchbegegriffes sind {1} Zeichen.<br /><br />Wenn Sie nach einem ganzen Satz suchen, schließen Sie ihn bitte mit Anführungszeichen ein. Zum Beispiel \"Vogel Quax zwickt Johnys Pferd Bim\".";
-$l['error_nosearchresults'] = "Leider könnten keine Ergbnisse für Ihre Suchbegriffe gefunden werden. Bitte versuchen Sie es mit anderen Begriffen erneut.";
+$l['error_nosearchresults'] = "Leider konnten keine Ergebnisse für Ihre Suchbegriffe gefunden werden. Bitte versuchen Sie es mit anderen Begriffen erneut.";
 $l['error_no_search_support'] = "Diese Datenbank unterstützt keine Suche.";
 $l['error_nosearchterms'] = "Sie haben keinen Suchbegriff eingegeben. Sie müssen mindestens einen Suchbegriff oder einen Benutzernamen eingeben.";
 $l['error_searchflooding_1'] = "Leider können Sie nur alle {1} Sekunden eine Suche durchführen. Bitte warten Sie eine Sekunde, bevor Sie es erneut versuchen.";
