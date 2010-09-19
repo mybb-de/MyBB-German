@@ -15,7 +15,7 @@ $l['userdata_missing_username'] = 'Du hast keinen Benutzernamen angegeben. Bitte
 $l['userdata_banned_username'] = 'Der von dir eingegebene Benutzername darf nicht verwendet werden. Bitte gib einen anderen Namen ein.';
 $l['userdata_bad_characters_username'] = 'Der eingegebene Benutzername enthält ungültige Zeichen. Bitte gib einen anderen Namen ein.';
 $l['userdata_invalid_username_length'] =  'Die Länge des eingegebenen Benutzernamens ist ungültig. Bitte gehe zurück und gib einen Benutzernamen mit einer Länge zwischen {1} und {2} Zeichen ein.';
-$l['userdata_invalid_usertitle_length'] = 'Die Länge des eingegebenen Benutzertitels ist ungültig. Bitte gebe einen Benutzertitel länger als {1} Zeichen ein.';
+$l['userdata_invalid_usertitle_length'] = 'Die Länge des eingegebenen Benutzertitels ist ungültig. Bitte gib einen Benutzertitel mit weniger als {1} Zeichen ein.';
 $l['userdata_username_exists'] = 'Der eingegebene Benutzername existiert bereits. Bitte gib einen anderen Namen ein.';
 
 $l['userdata_invalid_password_length'] =  'Die Länge des eingegebenen Passworts ist ungültig. Bitte gib ein Passwort mit einer Länge zwischen {1} und {2} Zeichen ein.';
