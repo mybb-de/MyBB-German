@@ -321,7 +321,7 @@ $l['view_requests'] = "Beitrittsanfragen";
 $l['cannot_leave_group'] = "Du kannst diese Gruppe nicht verlassen, weil es keine öffentlich zugängliche Gruppe ist.";
 $l['details'] = "Details";
 $l['members_referred'] = "Benutzer empfohlen:";
-$l['referral_link'] = "<br />Um einem Benutzer dieses Forum zu empfehlen, gebe ihm diesen Link: {1}/member.php?action=register&amp;uid={2}";
+$l['referral_link'] = "<br />Um einem Benutzer dieses Forum zu empfehlen, gib ihm diesen Link: {1}/member.php?action=register&amp;uid={2}";
 $l['redirect_subscriptionsremoved'] = "Deine Themen-Abonnements wurden bereinigt.<br />Du wirst jetzt zu deinem letzten Aufenthaltsort weitergeleitet.";
 $l['redirect_forumsubscriptionsremoved'] = "Deine Foren-Abonnements wurden bereinigt.<br />Du wirst jetzt zu deinem letzten Aufenthaltsort weitergeleitet.";
 $l['redirect_subscriptionadded'] = "Das ausgewählte Thema wurde in die Abonnement-Liste aufgenommen.<br />Du wirst jetzt zu deinem letzten Aufenthaltsort weitergeleitet.";
