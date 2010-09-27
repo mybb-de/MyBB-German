@@ -22,7 +22,7 @@ $l['notes_not_shared'] = "Diese Notizen können von anderen Administratoren ange
 $l['save_notes_and_prefs'] = "Sichere persönliche Notizen und Einstellungen";
 $l['personal_notes'] = "Persönliche Notizen";
 $l['codepress'] = "Codepress ein-/ausschalten";
-$l['use_codepress_desc'] = "Diese Einstellung erlaubt es dir Codepress (verwendet bei der Template- und Stylesheetbearbeitung zur Syntax-Hervorherbung) zu deaktivieren, falls es Probleme oder lange Ladezeiten verursacht.";
+$l['use_codepress_desc'] = "Diese Einstellung erlaubt es Ihnen Codepress (verwendet bei der Template- und Stylesheetbearbeitung zur Syntax-Hervorherbung) zu deaktivieren, falls es Probleme oder lange Ladezeiten verursacht.";
 
 $l['success_preferences_updated'] = "Die persönlichen Notizen wurden erfolgreich aktualisiert.";
 ?>

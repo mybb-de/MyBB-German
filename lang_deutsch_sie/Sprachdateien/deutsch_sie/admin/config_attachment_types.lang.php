@@ -33,7 +33,7 @@ $l['limit_intro'] = "Bitte stellen Sie sicher, dass die Attachment-Größe den k
 $l['limit_post_max_size'] = "Max Post Size: {1}";
 $l['limit_upload_max_filesize'] = "Upload Max Filesize: {1}";
 $l['attachment_icon'] = "Attachment-Icon";
-$l['attachment_icon_desc'] = "Wenn Sie ein Icon für diesen Attachment-Typ verwenden möchten, geben Sie hier den Pfad zur Grafikdatei an. {theme} wird durch den Ordner der Bilder des benutzen Themes ersetzt, so dass Sie jedem Theme ein eigenes Icon zuordnen können.";
+$l['attachment_icon_desc'] = "Wenn Sie ein Icon für diesen Attachment-Typ verwenden möchten, geben Sie hier den Pfad zur Grafikdatei an. {theme} wird durch den Bilderordner des benutzen Themes ersetzt, so dass Sie jedem Theme ein eigenes Icon zuordnen können.";
 $l['save_attachment_type'] = "Attachment-Typ speichern";
 
 $l['error_invalid_attachment_type'] = "Sie haben einen ungültigen Attachment-Typ gewählt.";
