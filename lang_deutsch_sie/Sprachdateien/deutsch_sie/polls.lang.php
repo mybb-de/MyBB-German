@@ -46,7 +46,7 @@ $l['redirect_pollposted'] = "Ihre Umfrage wurde veröffentlicht.<br />Sie werden
 $l['redirect_pollpostedmoderated'] = "Ihre Umfrage wurde gespeichert, aber Ihr Thema wartet noch auf Moderation.<br />Sie werden jetzt zum Forum zurückgeleitet.";
 $l['redirect_pollupdated'] = "Die Umfrage wurde aktualisiert.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_votethanks'] = "Vielen Dank für Ihre Teilnahme.<br />Sie werden jetzt zum Thema zurückgeleitet.";
-$l['redirect_unvoted'] = "Ihre Stimme(n) in diesem Thema wurden entfernt.<br />Sie werden jetzt zum Thema zurückgeleitet.";
+$l['redirect_unvoted'] = "Ihre Stimme(n) bei dieser Umfrage wurde(n) entfernt.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_polldeleted'] = "Die Umfrage wurde erfolgreich aus dem Thema entfernt.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 
 $l['error_polloptiontoolong'] = "Eine oder mehrere Antwortmöglichkeiten sind zu lang. Gehen Sie bitte zurück und kürzen Sie diese.";
@@ -56,7 +56,7 @@ $l['error_nopolloptions'] = "Die angegebene Umfrage-Möglichkeit ist ungültig o
 $l['error_alreadyvoted'] = "Sie haben an dieser Umfrage bereits teilgenommen.";
 $l['error_notvoted'] = "Sie haben an dieser Umfrage nicht teilgenommen.";
 $l['error_invalidpoll'] = "Die angegebene Umfrage ist ungültig oder existiert nicht.";
-$l['error_pollclosed'] = "Sie haben an keiner Umfrage teilnehmen, die geschlossen wurde.";
+$l['error_pollclosed'] = "Sie können an keiner Umfrage teilnehmen, die geschlossen wurde.";
 
 $l['poll_deleted'] = "Gelöschte Umfrage";
 $l['poll_edited'] = "Bearbeitete Umfrage";

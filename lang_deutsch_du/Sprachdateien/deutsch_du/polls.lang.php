@@ -46,7 +46,7 @@ $l['redirect_pollposted'] = "Deine Umfrage wurde veröffentlicht.<br />Du wirst 
 $l['redirect_pollpostedmoderated'] = "Deine Umfrage wurde gespeichert, aber dein Thema wartet noch auf Moderation.<br />Du wirst jetzt zum Forum zurückgeleitet.";
 $l['redirect_pollupdated'] = "Die Umfrage wurde aktualisiert.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_votethanks'] = "Vielen Dank für deine Teilnahme.<br />Du wirst jetzt zum Thema zurückgeleitet.";
-$l['redirect_unvoted'] = "Deine Stimme(n) in diesem Thema wurden entfernt.<br />Du wirst jetzt zum Thema zurückgeleitet.";
+$l['redirect_unvoted'] = "Deine Stimme(n) bei dieser Umfrage wurde(n) entfernt.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_polldeleted'] = "Die Umfrage wurde erfolgreich aus dem Thema entfernt.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 
 $l['error_polloptiontoolong'] = "Eine oder mehrere Antwortmöglichkeiten sind zu lang. Gehe bitte zurück und kürze diese.";

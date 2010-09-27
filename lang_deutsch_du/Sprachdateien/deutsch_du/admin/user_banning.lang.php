@@ -28,7 +28,7 @@ $l['error_invalid_ban'] = "Die ausgewählte Sperrung existiert nicht.";
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig und existiert nicht.";
 $l['error_no_perm_to_ban'] = "Du hast keine Berechtigung diesen Benutzer zu sperren.";
 $l['error_already_banned'] = "Der Benutzer ist bereits gesperrt und kann nicht nochmals gesperrt werden.";
-$l['error_ban_self'] = "Du kannst du nicht selber sperren.";
+$l['error_ban_self'] = "Du kannst dich nicht selber sperren.";
 $l['error_no_reason'] = "Du hast keinen Grund für die Sperrung eingegeben.";
 
 // Success

@@ -14,7 +14,7 @@
 $l['system_health'] = "Systemstatus";
 $l['system_health_desc'] = "Hier können Sie Informationen zum Systemstatus anschauen.";
 $l['utf8_conversion'] = "UTF-8 Konvertierung";
-$l['utf8_conversion_desc'] = "Sie konvertieren gerade eine Tabelle zu UTF-8. Vorsichtig, denn dieser Prozess kann je nach Größe der Datenbank und der Tabellen bis zu mehreren Stunden dauern. Wenn der Prozess fertig ist, werden Sie zur UTF-8 Konvertierungs-Hauptseite zurückgeleitet.";
+$l['utf8_conversion_desc'] = "Sie konvertieren gerade eine Tabelle zu UTF-8. Seien Sie vorsichtig, denn dieser Prozess kann je nach Größe der Datenbank und der Tabellen bis zu mehreren Stunden dauern. Wenn der Prozess fertig ist, werden Sie zur UTF-8 Konvertierungs-Hauptseite zurückgeleitet.";
 $l['utf8_conversion_desc2'] = "Diese Funktion überprüft, ob alle Tabellen UTF-8-kodiert sind und erlaubt Ihnen sie zu konvertieren, wenn sie es nicht sind.";
 
 $l['convert_all'] = "Konvertiere alle";
@@ -65,7 +65,7 @@ $l['notice_proccess_long_time'] = "Dieser Prozess kann je nach Größe der Daten
 
 $l['error_chmod'] = "Die benötigten Dateien und Verzeichnisse haben nicht die richtigen CHMOD-Einstellungen.";
 $l['error_invalid_table'] = "Die ausgewählte Tabelle existiert nicht.";
-$l['error_db_encoding_not_set'] = "Ihre MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools. Klicken Sie <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung.html\">hier</a> f&uuml;r weitere Informationen.";
+$l['error_db_encoding_not_set'] = "Ihre MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicken Sie <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung.html\">hier</a> f&uuml;r weitere Informationen.";
 $l['error_not_supported'] = "Ihre aktuelle Datenbank-Engine wird nicht von der UTF-8 Konvertierung unterstützt.";
 
 $l['success_all_tables_already_converted'] = "Alle Tabellen wurden bereits konvertiert oder sind bereits im UTF-8 Format.";

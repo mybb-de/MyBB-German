@@ -18,7 +18,7 @@ $l['bad_word_filters_desc'] = "Diese Funktion erlaubt es Ihnen, einzelne Worte o
 
 $l['bad_word'] = "Wort";
 $l['bad_word_desc'] = "Geben Sie das Wort ein, das gefiltert werden soll";
-$l['bad_word_max'] = "Die Eingabe nicht länger als 100 Zeichen lang sein.";
+$l['bad_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen sein.";
 $l['replacement'] = "Ersetzung";
 $l['replacement_desc'] = "Geben Sie die Zeichenfolge ein, durch die das Wort ersetzt werden soll (falls leer, werden Sternchen gezeigt)";
 $l['replacement_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen lang sein.";
