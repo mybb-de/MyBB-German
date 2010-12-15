@@ -13,7 +13,7 @@
 
 $l['statistics'] = "Statistiken";
 $l['overall_statistics'] = "Gesamte Statistiken";
-$l['overall_statistics_desc'] = "Hier kannst du Statistiken zu deinem Forum ansehen.";
+$l['overall_statistics_desc'] = "Hier kannst du Statistiken zu deinem Forum ansehen. Alle Zeiten sind in <a href=\"http://de.wikipedia.org/wiki/Koordinierte_Weltzeit\">UTC</a> angegeben.";
 
 $l['date_range'] = "Datumbereich";
 
