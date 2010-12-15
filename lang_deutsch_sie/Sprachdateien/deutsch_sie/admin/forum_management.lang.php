@@ -105,8 +105,8 @@ $l['confirm_moderator_deletion'] = "Soll dieser Moderator wirklich aus diesem Fo
 $l['confirm_forum_deletion'] = "Soll dieses Forum wirklich gelöscht werden?";
 $l['confirm_clear_custom_permission'] = "Soll die eigene Foren-Berechtigung wirklich zurückgesetzt werden?";
 
-$l['create_a'] = "Typ des Forums";
-$l['create_a_desc'] = "Wählen Sie den Typ des neuen Forums. Foren beinhalten Themen und Beiträge, Kategorien beinhalten andere Foren.";
+$l['forum_type'] = "Typ des Forums";
+$l['forum_type_desc'] = "Wählen Sie den Typ des neuen Forums. Foren beinhalten Themen und Beiträge, Kategorien beinhalten andere Foren.";
 $l['forum'] = "Forum";
 $l['category'] = "Kategorie";
 $l['title'] = "Titel";

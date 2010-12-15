@@ -33,5 +33,6 @@ $l['success_rebuilt_attachment_thumbnails'] = "Alle Thumbnails wurden erfolgreic
 $l['success_rebuilt_forum_stats'] = "Die Statistiken des Forums wurden erfolgreich neu gebildet.";
 
 $l['confirm_proceed_rebuild'] = "Klicke \"Fortfahren\" um die Neuzählung und Neubildung fortzusetzen.";
+$l['automatically_redirecting'] = "Automatische Weiterleitung...";
 
 ?>

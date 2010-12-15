@@ -140,6 +140,7 @@ $l['error_cantsplitonepost'] = "Sie können ein Thema mit einem Beitrag nicht au
 $l['error_badmergeurl'] = "Die URL für das zusammenzufügende Thema ist ungültig oder leer. Bitte kopieren Sie die exakte URL in die Textbox.<br />Bitte gehen Sie zurück und korrigieren Sie die Eingabe.";
 $l['error_inline_nothreadsselected'] = "Entschuldigung, aber Sie haben keine Themen zur Inline-Moderation ausgewählt oder Ihre Session ist abgelaufen (automatisch nach einer Stunde Inaktivität). Bitte wählen Sie einige Themen und versuchen Sie es erneut.";
 $l['error_inline_nopostsselected'] = "Entschuldigung, aber Sie haben keine Beiträge zur Inline-Moderation ausgewählt oder Ihre Session ist abgelaufen (automatisch nach einer Stunde Inaktivität). Bitte wählen Sie einige Beiträge und versuchen Sie es erneut.";
+$l['error_movetocategory'] = "Dieses Tool versucht ein Thema in eine Kategorie zu verschieben. Bitte bearbeite es und wähle ein gültiges Forum aus.";
 $l['error_cantsplitall'] = "Sie können nicht alle Beiträge zu diesem Thema aufteilen! Was soll für dieses Thema übrig bleiben?";
 $l['error_nosplitposts'] = "Sie können das Thema nicht trennen, da Sie keine Beiträge zum Trennen ausgewählt haben.";
 $l['error_movetosameforum'] = "Sie können dieses Thema nicht in das Forum verschieben, in dem es sich bereits befindet. Bitte wählen Sie ein anderes Forum.";
