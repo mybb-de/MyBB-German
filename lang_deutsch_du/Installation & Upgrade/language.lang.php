@@ -13,6 +13,7 @@
 
 $l['none'] = 'Kein';
 $l['not_installed'] = 'Nicht installiert';
+$l['installed'] = 'Installiert';
 $l['not_writable'] = 'Nicht beschreibbar';
 $l['writable'] = 'Beschreibbar';
 $l['done'] = 'Fertig';
@@ -196,6 +197,8 @@ $l['db_step_error_noconnect'] = 'Die Verbindung zum Datenbankserver unter \'{1}\
 $l['db_step_error_nodbname'] = 'Konnte die Datenbank \'{1}\' nicht auswählen. Existiert diese Datenbank und hat der angegebene Benutzer mit dem angegebenen Passwort Zugang zu dieser Datenbank?';
 $l['db_step_error_missingencoding'] = 'Du hast keine Tabellenkodierung ausgewählt. Bitte wähle eine Kodierung (wähle "UTF-8 Unicode", wenn du dir nicht sicher bist).';
 $l['db_step_error_sqlite_invalid_dbname'] = 'Du kannst keine relativen URLs für die SQLite-Datenbank verwenden. Bitte verwende einen kompletten Dateisystempfad (z.B.: /home/user/database.db) für deine SQLite-Datenbank.';
+$l['db_step_error_invalid_tableprefix'] = 'Du kannst nur Unterstriche (_) und alphanumerische Zeichen als Tabellenpräfix verwenden. Bitte gebe ein gültiges Tabellenpräfix ein.';
+$l['db_step_error_tableprefix_too_long'] = 'Du kannst nur ein Tabellenpräfix mit 40 Zeichen oder weniger verwenden. Bitte gebe ein kürzeres Tabellenpräfix ein.';
 
 $l['tablecreate_step_connected'] = '<p>Die Verbindung zur angegebenen Datenbank konnte mit den angegebenen Benutzerdaten erfolgreich hergestellt werden.</p>
 <p>Datenbank-Engine: {1} {2}</p>
