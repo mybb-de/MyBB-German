@@ -499,7 +499,7 @@ $l['setting_loginattemptstimeout_desc'] = "Wie lange soll ein Benutzer nach der 
 $l['setting_failedcaptchalogincount'] = "Anzahl der Anmeldeversuche, nach denen ein Captcha gezeigt wird";
 $l['setting_failedcaptchalogincount_desc'] = "Nach wie vielen fehlgeschlagenen Anmeldeversuchen ist eine Captcha-Überprüfung erforderlich (0 = deaktiviert)?";
 $l['setting_allowbuddyonly'] = "Erlaube Nachrichten nur an Freunde?";
-$l['setting_allowbuddyonly_desc'] = "Sollen Benutzer private Nachrichten nur an Benutzer schicken dürfen, die sich auf ihrer Freundeliste befinden?";
+$l['setting_allowbuddyonly_desc'] = "Sollen Benutzer private Nachrichten nur an Benutzer schicken dürfen, die sich auf ihrer Freundesliste befinden?";
 $l['setting_maxquotedepth'] = "Maximale Anzahl an eingebetteten Zitaten";
 $l['setting_maxquotedepth_desc'] = "Die maximal zulässige Tiefe für Zitate. Wenn ein Beitrag durch Zitieren beantwortet wird, werden alle Zitate, welche das Limit überschreiten, automatisch entfernt. Beachte, dass die Entfernung nur durchgeführt wird, wenn zitierend geantwortet wird, und dass bestehende Beiträge nicht betroffen sind (0 = deaktiviert).";
 $l['setting_pmfloodsecs'] = "Wartezeit für private Nachrichten";

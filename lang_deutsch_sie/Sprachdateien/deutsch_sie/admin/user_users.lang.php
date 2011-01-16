@@ -21,7 +21,7 @@ $l['find_users_desc'] = "Hier können Sie nach Benutzern Ihres Forums suchen. Je
 $l['create_user'] = "Neuen Benutzer erstellen";
 $l['create_user_desc'] = "Hier können Sie neue Benutzer erstellen.";
 $l['merge_users'] = "Benutzer zusammenfügen";
-$l['merge_users_desc'] = "Hier können Sie zwei Accounts zu einem zusammenfügen. Der \"Quell-Account\" wird zum \"Ziel-Account\" hinzugefügt, während <strong>nur</strong> der Ziel-Account bestehen bleibt. Die Beiträge, Themen, Privaten Nachrichten, Termine, Beitragszähler und Freundeliste des Quell-Accounts werden zum Ziel-Account hinzugefügt.<br /><span style=\"font-size: 15px;\">Achtung!, die Aktion kann nicht rückgängig gemacht werden.</span>";
+$l['merge_users_desc'] = "Hier können Sie zwei Accounts zu einem zusammenfügen. Der \"Quell-Account\" wird zum \"Ziel-Account\" hinzugefügt, während <strong>nur</strong> der Ziel-Account bestehen bleibt. Die Beiträge, Themen, Privaten Nachrichten, Termine, Beitragszähler und Freundesliste des Quell-Accounts werden zum Ziel-Account hinzugefügt.<br /><span style=\"font-size: 15px;\">Achtung!, die Aktion kann nicht rückgängig gemacht werden.</span>";
 $l['edit_user'] = "Benutzer bearbeiten";
 $l['edit_user_desc'] = "Hier können Sie das Profil, die Einstellungen und die Signatur dieses Benutzers bearbeiten; die Statistiken sehen; und andere Seiten mit weiteren Informationen zu diesem Benutzer ansehen.";
 $l['show_referrers'] = "Durch Empfehlung registrierte Mitglieder";

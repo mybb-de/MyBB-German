@@ -28,18 +28,18 @@ $l['aim_center'] = "AOL IM-Center";
 $l['download_aim'] = "AOL IM herunterladen";
 $l['aim_remote'] = "AIM Remote";
 $l['send_me_instant'] = "Mir eine Sofortnachricht schicken";
-$l['add_me_buddy_list'] = "Füge mich deiner Freundeliste hinzu";
+$l['add_me_buddy_list'] = "Füge mich deiner Freundesliste hinzu";
 $l['add_remote_to_page'] = "Add Remote to Your Page";
 $l['download_aol_im'] = "AOL Instant Messenger herunterladen";
 
-$l['buddy_list'] = "Freundeliste";
+$l['buddy_list'] = "Freundesliste";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
 $l['delete_buddy'] = "X";
 $l['pm_buddy'] = "Private Nachricht schicken";
 $l['last_active'] = "<strong>Zuletzt online:</strong> {1}";
 $l['close'] = "Schließen";
-$l['no_buddies'] = "<em>Deine Freundeliste ist zur Zeit leer. Bitte benutze das Benutzer-CP oder besuche ein Benutzer-Profil um Benutzer zu deiner Freundeliste hinzuzufügen.</em>";
+$l['no_buddies'] = "<em>Deine Freundesliste ist zur Zeit leer. Bitte benutze das Benutzer-CP oder besuche ein Benutzer-Profil um Benutzer zu deiner Freundesliste hinzuzufügen.</em>";
 
 $l['help_docs'] = "Hilfe-Seiten";
 
