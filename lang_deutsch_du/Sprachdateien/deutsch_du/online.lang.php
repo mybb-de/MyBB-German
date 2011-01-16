@@ -42,7 +42,7 @@ $l['viewing_whoposted'] = "Sieht sich an, wer Beiträge zu einem Thema geschrieb
 $l['viewing_whoposted2'] = "Sieht sich an, wer Beiträge zum Thema <a href=\"{1}\">{2}</a> geschrieben hat";
 $l['marking_read'] = "<a href=\"misc.php?action=markread\">Markiert Forum/Foren als gelesen</a>";
 $l['viewing_helpdocs'] = "Sieht sich die <a href=\"misc.php?action=help\">Hilfe</a> an";
-$l['viewing_buddylist'] = "Sieht sich die <a href=\"misc.php?action=buddypopup\">Freundeliste</a> an";
+$l['viewing_buddylist'] = "Sieht sich die <a href=\"misc.php?action=buddypopup\">Freundesliste</a> an";
 $l['viewing_smilies'] = "Sieht sich die <a href=\"misc.php?action=smilies\">Smilie-Liste</a> an";
 $l['viewing_syndication'] = "Sieht sich die <a href=\"misc.php?action=syndication\">RSS Sychronisationsseite</a> an";
 $l['replying_thread'] = "Antwortet auf ein Thema";
