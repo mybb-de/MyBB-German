@@ -183,7 +183,7 @@ $l['success_stylesheet_properties_updated'] = "Die Stylesheet-Eigenschaften wurd
 $l['success_stylesheet_updated'] = "Das Stylesheet wurde erfolgreich aktualisiert.";
 $l['success_stylesheet_deleted'] = "Das ausgewählte Stylesheet wurde gelöscht.";
 $l['success_theme_set_default'] = "Das ausgewählte Theme wurde als Standard gesetzt.";
-$l['success_theme_forced'] = "Das ausgewählte Theme wurde allen Benutzern als zugewiesen.";
+$l['success_theme_forced'] = "Das ausgewählte Theme wurde allen Benutzern zugewiesen.";
 $l['success_theme_properties_updated'] = "Die Theme-Eigenschaften wurden erfolgreich aktualisiert.";
 $l['success_stylesheet_added'] = "Das Stylesheet wurde erfolgreich hinzugefügt.";
 
