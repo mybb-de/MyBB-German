@@ -142,6 +142,7 @@ $l['confirm_template_set_deletion'] = "Soll das ausgewählte Template-Set wirkli
 $l['confirm_template_deletion'] = "Soll das ausgewählte Template wirklich gelöscht werden?"; 
 $l['confirm_template_revertion'] = "Soll das ausgewählte Template wirklich zurückgesetzt werden?"; 
 
+$l['error_security_problem'] = "Es wurde ein mögliches Sicherheitsproblem im Template gefunden. Bitte prüfen Sie Ihre Eingabe oder wenden Sie sich an den MyBB-Support.";
 $l['error_missing_input'] = "Bitte stellen Sie sicher, dass Sie alle benötigten Daten eingeben haben, um das Template zu bearbeiten (tid und sid).";
 $l['error_already_exists'] = "Der Titel das Templates wird bereits benutzt. Bitte benutzen Sie einen anderen Titel.";
 $l['error_invalid_template'] = "Bitte geben Sie ein korrektes Template ein.";

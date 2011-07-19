@@ -123,7 +123,7 @@ $l['success_view_deleted'] = "Die Verwaltungs-Ansicht wurde erfolgreich gelösch
 
 $l['confirm_view_deletion'] = "Willst du wirklich die ausgewählte Ansicht löschen?";
 
-$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user/users&amp;action=activate_user&amp;uid={1}\">Account aktivieren</a></p>";
+$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user-users&amp;action=activate_user&amp;uid={1}\">Account aktivieren</a></p>";
 
 $l['required_profile_info'] = "Benötigte Profil-Informationen";
 $l['password'] = "Passwort";

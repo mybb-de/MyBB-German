@@ -63,11 +63,22 @@ $l['chmod_files_and_dirs'] = "CHMOD Dateien und Verzeichnisse";
 
 $l['notice_proccess_long_time'] = "Dieser Prozess kann je nach Größe der Datenbank und der Tabellen bis zu mehreren Stunden dauern.";
 
+$l['check_templates'] = "Templates überprüfen";
+$l['check_templates_desc'] = "Prüft alle installierten Template auf bekannte Sicherheitsprobleme.";
+$l['check_templates_title'] = "Überprüfe Template-Sicherheit";
+$l['check_templates_info'] = "Dieser Prozess wird Ihre Template auf Sicherheitsprobleme, die Ihr Forum und den Server betreffen könnten, untersuchen. Dies kann eine Weile dauern, wenn Sie viele Themes installiert haben.
+<br /><br />Um den Prozess zu starten, drücken Sie 'Fortfahren'.";
+$l['check_templates_info_desc'] = "Die folgenden Template könnten Sicherheitsproblemen enthalten. Bitte überprüfen Sie sie.";
+$l['full_edit'] = "Zum Editor";
+
 $l['error_chmod'] = "Die benötigten Dateien und Verzeichnisse haben nicht die richtigen CHMOD-Einstellungen.";
 $l['error_invalid_table'] = "Die ausgewählte Tabelle existiert nicht.";
 $l['error_db_encoding_not_set'] = "Ihre MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicken Sie <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung.html\">hier</a> f&uuml;r weitere Informationen.";
 $l['error_not_supported'] = "Ihre aktuelle Datenbank-Engine wird nicht von der UTF-8 Konvertierung unterstützt.";
+$l['error_invalid_input'] = "Es ist ein Problem beim Überprüfen der Templates aufgetreten. Bitte probieren Sie es erneut oder kontaktieren Sie den MyBB-Support.";
+$l['error_master_templates_altered'] = "Die Master-Templates wurden verändert. Bitte kontaktieren Sie den MyBB-Support um Unterstützung beim Ändern zu erhalten.";
 
+$l['success_templates_checked'] = "Die Templates wurden erfolgreich überprüft - Keine Sicherheitsprobleme gefunden!";
 $l['success_all_tables_already_converted'] = "Alle Tabellen wurden bereits konvertiert oder sind bereits im UTF-8 Format.";
 $l['success_table_converted'] = "Die Tabelle \"{1}\" wurde erfolgreich zu UTF-8 konvertiert.";
 $l['success_chmod'] = "Alle benötigten Dateien und Verzeichnisse haben die richtigen CHMOD-Einstellungen.";

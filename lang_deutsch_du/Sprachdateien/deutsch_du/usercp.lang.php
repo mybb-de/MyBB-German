@@ -52,6 +52,7 @@ $l['birthdayprivacyall'] = "Geburtstag und Alter zeigen";
 $l['birthdayprivacynone'] = "Geburtstag und Alter verstecken";
 $l['birthdayprivacyage'] = "Nur Alter zeigen";
 $l['avatar'] = "Avatar:";
+$l['avatar_mine'] = "Dies ist dein Avatar";
 $l['change_avatar'] = "Avatar ändern";
 $l['avatar_url'] = "Avatar-URL:";
 $l['avatar_url_note'] = "Direkte URL zum Avatar eingeben.";
