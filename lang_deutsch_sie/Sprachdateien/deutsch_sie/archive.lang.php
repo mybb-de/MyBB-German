@@ -17,8 +17,9 @@ $l['archive_reply'] = "Antwort";
 $l['archive_pages'] = "Seiten:";
 $l['archive_note'] = "Sie sehen gerade eine vereinfachte Darstellung unserer Inhalte. <a href=\"{1}\">Normale Ansicht</a> mit richtiger Formatierung.";
 $l['archive_reference_urls'] = "Referenz-URLs";
-$l['archive_nopermission'] = "Entschuldigung, aber Sie haben nicht die Berechtigung, diese Seite zu betreten.";
+$l['archive_nopermission'] = "Entschuldigung. Sie haben nicht die Berechtigung, diese Seite zu betreten.";
 $l['error_nothreads'] = "Es gibt zur Zeit keine Themen in diesem Forum.";
-$l['archive_not_found'] = "<h1>404: Nicht gefunden</h1><p>Das angegebene Dokument konnte nicht gefunden werden.</p>";
+$l['error_unapproved_thread'] = "Dieses Thema ist abgewiesen. Bitte benutzen Sue <a href=\"{1}\">die normale Ansicht</a> um den Inhalt des Themas zu sehen.";
+$l['archive_not_found'] = "Das angegebene Dokument konnte nicht gefunden werden.";
 
 ?>

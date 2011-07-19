@@ -84,6 +84,7 @@ $l['error_cannot_edit_default'] = "Standard-Einstellungen und -Einstellungsgrupp
 $l['error_cannot_edit_php'] = "Dieser spezielle Einstellungs-Typ kann nicht bearbeitet werden.";
 $l['error_ajax_search'] = "Bei der Suche ist ein Fehler aufgetreten:";
 $l['error_ajax_unknown'] = "Bei der Suche ist ein unbekannter Fehler aufgetreten.";
+$l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setze die CHMOD-Rechte auf 777.<br />Weitere Informationen findest du in der <a href=\"http://www.mybboard.de/doku/installationaktualisierung/installation.html\" target=\"_blank\">Doku</a>.";
 
 $l['success_setting_added'] = "Die Einstellung wurde erfolgreich erstellt.";
 $l['success_setting_updated'] = "Die Einstellung wurde erfolgreich aktualisiert.";

@@ -285,6 +285,7 @@ $l['banned_warning'] = "Ihr Account wurde ausgeschlossen.";
 $l['banned_warning2'] = "Ausschlussgrund";
 $l['banned_warning3'] = "Ausschluss wird aufgehoben";
 $l['banned_lifted_never'] = "Nie";
+$l['banned_email_warning'] = "Sie benutzen eine E-Mail-Adresse, die in diesem Forum nicht erlaubt ist. Bitte ändern Sie diese um Fortzufahren.";
 $l['powered_by'] = "Deutsche Übersetzung: <a href=\"http://www.mybboard.de\" target=\"_blank\">MyBBoard.de</a>, Powered by";
 $l['copyright'] = "Copyright";
 $l['attach_quota'] = "Sie benutzen zur Zeit <strong>{1}</strong> des Ihnen insgesamt zur Verfügung stehenden Speicherplatzes von: <strong>{2}</strong> &mdash; ";

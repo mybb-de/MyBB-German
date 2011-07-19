@@ -14,7 +14,7 @@
 $l['user_titles'] = "Benutzertitel";
 $l['user_titles_desc'] = "Dieser Bereich erlaubt Ihnen, die Benutzertitel zu verwalten. Die Benutzertitel werden anhand der Beitragszahl den Benutzern zugewiesen und erlauben bei Benutzern mit einer bestimmten Beitragsanzahl ein eigenes Sternenbild anzuzeigen.";
 $l['add_new_user_title'] = "Neuen Benutzertitel hinzufügen";
-$l['add_new_user_title_desc'] = "Dieser Bereich erlaubt Ihnen, neue Benutzertitel zu erstellen. <i>Hinweis: Dies ist <strong>nicht</strong> das <u><a href=\"index.php?module=user/group_promotions\">Benutzergruppen-Beförderungs-System.</a></u></i>";
+$l['add_new_user_title_desc'] = "Dieser Bereich erlaubt Ihnen, neue Benutzertitel zu erstellen. <i>Hinweis: Dies ist <strong>nicht</strong> das <u><a href=\"index.php?module=user-group_promotions\">Benutzergruppen-Beförderungs-System.</a></u></i>";
 
 $l['error_missing_title'] = "Sie haben keinen Titel für diesen Benutzertitel eingegeben";
 $l['error_missing_posts'] = "Sie haben keine minimale Beitragsanzahl für diesen Benutzertitel eingegeben";

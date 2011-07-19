@@ -162,7 +162,7 @@ $l['moderator_username_desc'] = "Benutzername des hinzuzufügenden Moderators";
 $l['add_user_as_moderator'] = "Benutzer als Moderator hinzufügen";
 $l['usergroup'] = "Benutzergruppe";
 $l['add_usergroup_as_moderator'] = "Benutzerguppe als Moderator hinzufügen";
-$l['moderator_usergroup_desc'] = "Titel der hinzuzufügenden Benutzergruppe";
+$l['moderator_usergroup_desc'] = "Wählen Sie eine Benutzergruppe von der unten stehenden Liste aus um sie als Moderator auszuwählen.";
 $l['add_usergroup_moderator'] = "Gruppe als Moderator hinzufügen";
 $l['add_user_moderator'] = "Benutzer als Moderator hinzufügen";
 
@@ -249,7 +249,7 @@ $l['posting_rating_field_canratethreads'] = "Kann Themen bewerten";
 $l['editing_field_caneditposts'] = "Kann eigene Beiträge bearbeiten";
 $l['editing_field_candeleteposts'] = "Kann eigene Beiträge löschen";
 $l['editing_field_candeletethreads'] = "Kann eigene Themen löschen";
-$l['editing_field_caneditattachments'] = "Kann eigene Attachments bearbeiten";
+$l['editing_field_caneditattachments'] = "Kann eigene Attachments aktualisieren";
 
 $l['polls_field_canpostpolls'] = "Kann Umfragen erstellen";
 $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";

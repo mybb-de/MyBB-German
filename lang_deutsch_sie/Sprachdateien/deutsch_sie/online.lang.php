@@ -40,7 +40,7 @@ $l['rating_user'] = "Bewertet einen Benutzer";
 $l['viewing_memberlist'] = "Sieht sich die <a href=\"memberlist.php\">Mitgliederliste</a> an";
 $l['viewing_whoposted'] = "Sieht sich an wer Beiträge zu einem Thema geschrieben hat";
 $l['viewing_whoposted2'] = "Sieht sich an wer Beiträge zum Thema <a href=\"{1}\">{2}</a> geschrieben hat";
-$l['marking_read'] = "<a href=\"misc.php?action=markread\">Markiert Forum/Foren als gelesen</a>";
+$l['marking_read'] = "<a href=\"misc.php?action=markread&amp;my_post_key={1}\">Markiert Forum/Foren als gelesen</a>";
 $l['viewing_helpdocs'] = "Sieht sich die <a href=\"misc.php?action=help\">Hilfe</a> an";
 $l['viewing_buddylist'] = "Sieht sich die <a href=\"misc.php?action=buddypopup\">Freundesliste</a> an";
 $l['viewing_smilies'] = "Sieht sich die <a href=\"misc.php?action=smilies\">Smilie-Liste</a> an";

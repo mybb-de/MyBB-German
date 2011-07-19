@@ -153,6 +153,8 @@ $l['error_invalid_theme'] = "Du hast ein ungültiges Theme ausgewählt.";
 $l['error_missing_name'] = "Gib bitte einen Namen für dieses Theme ein.";
 $l['error_missing_url'] = "Gib bitte das Theme ein, dass du importieren willst.";
 $l['error_theme_already_exists'] = "Das Theme existiert bereits. Bitte gib einen neuen Namen ein.";
+$l['error_theme_security_problem'] = "Es wurde ein mögliches Sicherheitsproblem im Theme gefunden. Es wurde nicht importiert. Bitte wende dich an den Autor or den MyBB-Support.";
+
 $l['error_local_file'] = "Die lokale Datei könnte nicht geöffnet werden. Existiert sie? Überprüfe das bitte und versuche es noch einmal.";
 $l['error_uploadfailed'] = "Hochladen fehlgeschlagen. Versuche es bitte noch einmal.";
 $l['error_uploadfailed_detail'] = "Fehler-Details: ";

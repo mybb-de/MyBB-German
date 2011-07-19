@@ -27,6 +27,7 @@ $l['add_maxperuser'] = "Du hast bereits die maximale Anzahl an Bewertungen, die 
 $l['add_maxperthread'] = "Du hast bereits die maximale Anzahl an Bewertungen, die du pro Tag an diesen Benutzer in einem Thema abgeben darfst, erreicht.";
 $l['add_no_comment'] = "Du musst einen Kommentar mit mindestens 10 Zeichen eingeben, um diesen Benutzer zu bewerten.";
 $l['add_toolong'] = "Die Länge des Kommentars darf {1} Zeichen nicht überschreiten.";
+$l['add_negative_disabled'] = "Negative Bewertungen sind in diesem Forum nicht erlaubt.";
 $l['reputation_report'] = "Bewertungsbericht für {1}";
 $l['reputation_members'] = "Mitgliedsbewertungen:";
 $l['reputation_posts'] = "Beitragsbewertungen:";
