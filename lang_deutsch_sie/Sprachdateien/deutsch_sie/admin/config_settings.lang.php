@@ -352,7 +352,13 @@ $l['setting_portal_showdiscussionsnum_desc'] = "Geben Sie die Anzahl der zuletzt
 $l['setting_minmessagelength'] = "Minimale Nachrichtenlänge";
 $l['setting_minmessagelength_desc'] = "Die minimal benötigte Anzahl an Zeichen eines Beitrags.";
 $l['setting_maxmessagelength'] = "Maximale Nachrichtenlänge";
-$l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen in einer Nachricht (0 = Keine Beschränkung).";
+$l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen in einer Nachricht (0 = Keine Beschränkung).
+<br />Der mximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
+<ul>
+	<li>TEXT: 65535 (Standard)</li>
+	<li>MEDIUMTEXT: 16777215</li>
+	<li>LONGTEXT: 4294967295</li>
+</ul>";
 $l['setting_maxposts'] = "Maximale Beiträge pro Tag";
 $l['setting_maxposts_desc'] = "Die Anzahl der maximalen Beiträge pro Benutzer pro Tag (0 = Keine Begrenzung).";
 $l['setting_postfloodcheck'] = "Zeit zwischen Beiträgen";
@@ -423,8 +429,6 @@ $l['setting_gzipoutput'] = "Benutze GZip-Kompression?";
 $l['setting_gzipoutput_desc'] = "Wollen Sie, dass die Seiten im GZip-Format komprimiert werden, bevor sie an den Browser geschickt werden? Effekt: schnellerer Seitenaufbau und weniger Traffic. Eine höhere Komprimierung belastet den Server stärker.";
 $l['setting_gziplevel'] = "GZip Komprimierungs-Level";
 $l['setting_gziplevel_desc'] = "Geben Sie den Level der Kompression zwischen 0 und 9 an (0=Keine Kompression, 9=Maximale Kompression). Diese Einstellung gilt nur, wenn die GZip-Kompression aktiviert ist und Sie PHP 4.2 oder höher verwenden. Ist Ihre PHP-Version älter, wird die Standardeinstellung der zlib-Bibliothek verwendet.";
-$l['setting_standardheaders'] = "Sende Standard-Header";
-$l['setting_standardheaders_desc'] = "Manche Webserver haben mit dieser Einstellung Probleme; andere benötigen sie.";
 $l['setting_nocacheheaders'] = "Sende \"No Cache\"-Header";
 $l['setting_nocacheheaders_desc'] = "Mit dieser Option können Sie das Cachen von Seiten durch Browser verhindern.";
 $l['setting_redirects'] = "Weiterleitungsseiten aktivieren";
@@ -583,4 +587,10 @@ $l['setting_mail_logging_1'] = "E-Mails ohne Inhalt loggen";
 $l['setting_mail_logging_2'] = "Alles loggen";
 $l['setting_prunethreads'] = "Beiträge und Themen beim Löschen von Benutzern mitlöschen";
 $l['setting_prunethreads_desc'] = "Beim Löschen von Benutzern auch alle deren Themen und Beiträge löschen?";
+$l['setting_no_plugins'] = "Alle Plugins ausschalten?";
+$l['setting_no_plugins_desc'] = "Aktivieren dieser Option wird alle Plugins ausschalten ohne sie zu deaktivieren oder sie zu deinstallieren. Dies ist das Pendant zum Einfügen von NO_PLUGINS in die inc/init.php.";
+$l['setting_ip_forwarded_check'] = "IP-Adressen untersuchen?";
+$l['setting_ip_forwarded_check_desc'] = "Wollen Sie die IP-Adressen auf HTTP_X_FORWARDED_FOR- oder HTTP_X_REAL_IP-Header überprüfen? Wenn Sie unsicher sind, wählen Sie Nein.";
+$l['setting_showforumpagesbreadcrumb'] = "Zeige Dropdown-Menü mit den Foren-Seitenzahlen?";
+$l['setting_showforumpagesbreadcrumb_desc'] = "Wenn ein Forum mehr als eine Seite hat, soll dann ein Dropdown-Menü mit den Seitenzahlen in der Navigation angezeigt werden?";
 ?>
