@@ -99,7 +99,7 @@ $l['results'] = "Ergebnisse";
 $l['mod_options'] = "Moderations-Optionen";
 $l['find_all'] = "Alle suchen";
 $l['find_only_approved'] = "Suche nur zugestimmte";
-$l['find_only_unapproved'] = "Suche nur abgeweisene";
+$l['find_only_unapproved'] = "Suche nur abgewiesene";
 
 $l['redirect_searchresults'] = "Deine Suche wurde durchgeführt. Du wirst jetzt zu den Ergebnissen weitergeleitet.";
 
