@@ -28,6 +28,9 @@ $l['add_maxperthread'] = "Sie haben bereits die maximale Anzahl an Bewertungen, 
 $l['add_no_comment'] = "Sie müssen einen Kommentar mit mindestens 10 Zeichen eingeben, um diesen Benutzer zu bewerten.";
 $l['add_toolong'] = "Die Länge des Kommentars darf {1} Zeichen nicht überschreiten.";
 $l['add_negative_disabled'] = "Negative Bewertungen sind in diesem Forum nicht erlaubt.";
+$l['add_neutral_disabled'] = "Neutrale Bewertungen sind in diesem Forum nicht erlaubt.";
+$l['add_positive_disabled'] = "Positive Bewertungen sind in diesem Forum nicht erlaubt.";
+$l['add_all_rep_disabled'] = "In diesem Forum sind alle Arten von Bewertungen verboten. Sie können diesen Benutzer nicht bewerten.";
 $l['reputation_report'] = "Bewertungsbericht für {1}";
 $l['reputation_members'] = "Mitgliedsbewertungen:";
 $l['reputation_posts'] = "Beitragsbewertungen:";
@@ -46,6 +49,8 @@ $l['go_back'] = "Zurück";
 $l['add_reputation_vote'] = "Eine Bewertung abgeben für {1}";
 $l['add_reputation_to_post'] = "Diese Bewertung ist für {1}'s Beitrag.<br />";
 $l['neg_rep_disabled'] = "<span class=\"smalltext\">* - <em>Negative Bewertungen sind zurzeit deaktiviert</em></span>";
+$l['pos_rep_disabled'] = "<span class=\"smalltext\">* - <em>Positive Bewertungen sind zurzeit deaktiviert</em></span>";
+$l['neu_rep_disabled'] = "<span class=\"smalltext\">* - <em>Neutrale Bewertungen sind zurzeit deaktiviert</em></span>";
 $l['no_comment_needed'] = "Sie befinden sich momentan in der Beitragsbewertung. Da zum Profil des Autors verlinkt wird, ist kein Kommentar notwendig. Falls Sie trotzdem ein Kommentar schreiben möchten, füllen Sie das untere Feld aus. <br />";
 $l['no_comment'] = "[Kein Kommentar]";
 $l['vote_added'] = "Bewertung hinzugefügt";

@@ -22,7 +22,6 @@ $l['quick_phrases_desc'] = "Schneller Zugriff auf häufig veränderten Sprachvar
 $l['edit_with'] = "Bearbeiten mit {1}";
 $l['edit_language_variables'] = "Sprachvariablen bearbeiten";
 $l['edit_language_variables_desc'] = "Hier kannst du die verschiedenen Sprachvariablen nach deinen Vorlieben anpassen.";
-$l['edit_properties'] = "Eigenschaften bearbeiten";
 $l['edit_properties_desc'] = "Hier kannst du die Einstellungen des Sprachpakets bearbeiten.";
 $l['installed_language_packs'] = "Installierte Sprachpakete";
 $l['front_end'] = "Frontend";

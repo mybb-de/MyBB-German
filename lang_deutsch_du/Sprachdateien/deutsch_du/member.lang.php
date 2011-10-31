@@ -116,6 +116,7 @@ $l['birthdayprivacy'] = "Geburtstagseinstellungen:";
 $l['birthdayprivacyall'] = "Geburtstag und Alter anzeigen";
 $l['birthdayprivacynone'] = "Geburtstag und Alter verstecken";
 $l['birthdayprivacyage'] = "Nur das Alter anzeigen";
+$l['leave_this_field_empty'] = "Bitte nicht ausfüllen:";
 $l['error_need_to_be_thirteen'] = "Du musst 13 Jahre oder älter sein, um dich in diesem Forum zu registrieren.";
 $l['coppa_registration'] = "COPPA Registrierungsformular";
 $l['coppa_form_instructions'] = "Bitte drucke dieses Formular aus, fülle es aus und schicke es an die unten angegebene Faxnummer oder per E-Mail an die angegebene E-Mail-Adresse.";
@@ -197,6 +198,7 @@ $l['error_bannedusername'] = "Du hast einen Benutzernamen eingegeben, der nicht 
 $l['error_notloggedout'] = "Deine Benutzer-ID konnte nicht verifiziert werden, um dich abzumelden. Ein Grund könnte sein, dass ein böswilliges JavaScript versucht hat, dich abzumelden. Wenn du dich abmelden willst, benutze bitte den Abmelde-Button im Menü.";
 $l['error_regimageinvalid'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";
 $l['error_regimagerequired'] = "Bitte gib den Bestätigungscode ein, um mit der Anmeldung fortzufahren. Gib den Code genau so ein, wie er im Bild zu sehen ist.";
+$l['error_spam_deny'] = "Unser System hat erkannt, dass du ein Spammer bist und deshalb die Registrierung verhindert. Wenn du dies für einen Fehler hältst, kontaktiere bitte den Administrator.";
 
 $l['js_validator_no_username'] = "Du musst einen Benutzernamen eingeben";
 $l['js_validator_invalid_email'] = "Du musst eine gültige E-Mail-Adresse eingeben";

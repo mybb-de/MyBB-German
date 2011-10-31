@@ -36,7 +36,6 @@ $l['filter_user_email_log'] = "Logs der Benutzer-E-Mails filtern";
 $l['username_is'] = "Benutzername ist";
 $l['email_contains'] = "E-Mail-Adresse enthält";
 $l['subject_contains'] = "Betreff enthält";
-$l['from'] = "Absender";
 $l['find_emails_to_user'] = "Finde alle E-Mails, die an diesem Benutzer versendet wurden";
 
 $l['error_invalid_user'] = "Der eingegebene Benutzername existiert nicht.";

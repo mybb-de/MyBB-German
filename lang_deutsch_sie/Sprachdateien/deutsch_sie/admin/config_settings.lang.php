@@ -56,7 +56,6 @@ $l['bbsettings'] = "Einstellungen";
 $l['insert_new_setting_group'] = "Neue Einstellungsgruppe speichern";
 $l['setting_group_setting'] = "Einstellungsgruppe / Einstellung";
 $l['order'] = "Sortierung";
-$l['edit_setting_group'] = "Einstellungsgruppe bearbeiten";
 $l['delete_setting_group'] = "Einstellungsgruppe löschen";
 $l['save_display_orders'] = "Sortierung speichern";
 $l['update_setting_group'] = "Einstellungsgruppe aktualisieren";

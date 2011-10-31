@@ -34,7 +34,6 @@ $l['sort_by_referrals'] = "Sortieren nach: Mitglieder empfohlen";
 $l['order_asc'] = "aufsteigend";
 $l['order_desc'] = "absteigend";
 $l['forumteam'] = "Foren-Team anzeigen";
-$L['search'] = "Mitgliederliste durchsuchen";
 $l['advanced_search'] = "Erweiterte Suche";
 $l['search_member_list'] = "Mitgliederliste durchsuchen";
 $l['search_criteria'] = "Suchkriterium";
@@ -48,7 +47,6 @@ $l['search_icq'] = "ICQ Nummer";
 $l['search_options'] = "Suchoptionen";
 $l['per_page'] = "Ergebnisse pro Seite";
 $l['search'] = "Suche";
-$l['advanced_search'] = "Erweiterte Suche";
 
 $l['error_no_members'] = "<p>Es wurden keine Mitglieder mit den eingegebenen Kriterien gefunden.</p><p>Bitte versuche es mit einem anderen Suchwort erneut.</p>";
 

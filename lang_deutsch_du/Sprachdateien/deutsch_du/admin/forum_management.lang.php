@@ -35,11 +35,9 @@ $l['manage_forums'] = "Foren verwalten";
 $l['forum'] = "Forum";
 $l['order'] = "Sortierung";
 
-$l['edit_forum'] = "Forum bearbeiten";
 $l['subforums'] = "Unterforen";
 $l['moderators'] = "Moderatoren";
 $l['permissions'] = "Berechtigungen";
-$l['add_child_forum'] = "Unterforum hinzufügen";
 $l['delete_forum'] = "Forum löschen";
 
 $l['sub_forums'] = "Unterforen";
@@ -107,7 +105,6 @@ $l['confirm_clear_custom_permission'] = "Soll die eigene Foren-Berechtigung wirk
 
 $l['forum_type'] = "Typ des Forums";
 $l['forum_type_desc'] = "Wähle den Typ des neuen Forums. Foren beinhalten Themen und Beiträge, Kategorien beinhalten andere Foren.";
-$l['forum'] = "Forum";
 $l['category'] = "Kategorie";
 $l['title'] = "Titel";
 $l['description'] = "Beschreibung";

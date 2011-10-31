@@ -29,7 +29,7 @@ $l['pms_disabled'] = "Du kannst die private Nachrichten-Funktionalität nicht ve
 
 $l['private_messaging'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
-$l['compose_message'] = "Nachricht:";
+$l['compose_message2'] = "Nachricht:";
 $l['manage_folders'] = "Ordner verwalten";
 $l['pms_in_folder'] = "Private Nachrichten im Ordner <em>{1}</em>";
 $l['pm_search_results'] = "Suchergebnisse in den Privaten Nachrichten";
@@ -97,7 +97,6 @@ $l['compose_bcc_show_title'] = "Zeige die BCC Box, welche es dir erlaubt, verste
 $l['separate_names'] = "Trenne mehrere Benutzernamen mit Kommas.";
 $l['max_recipients'] = "<br />Du kannst diese Nachricht maximal an <strong>{1}</strong> Mitglieder senden.";
 $l['compose_subject'] = "Betreff:";
-$l['compose_message2'] = "Private Nachricht erstellen";
 $l['compose_message'] = "Nachricht:";
 $l['compose_options'] = "Optionen:";
 $l['options_sig'] = "<strong>Signatur:</strong> Deine Signatur an diese Nachricht anhängen.";

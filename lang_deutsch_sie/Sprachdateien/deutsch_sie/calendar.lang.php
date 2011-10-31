@@ -114,7 +114,6 @@ $l['day_or_days'] = "Tage";
 $l['week_or_weeks_on'] = "Wochen am:";
 $l['repeats_monthly'] = "Monatlich";
 $l['repeats_yearly'] = "Jährlich";
-$l['repeats_every'] = "Wiederholt sich alle";
 $l['repeats_on_day'] = "Wiederholt sich am Tag";
 $l['of_every'] = "jedes";
 $l['month_or_months'] = "Monats";

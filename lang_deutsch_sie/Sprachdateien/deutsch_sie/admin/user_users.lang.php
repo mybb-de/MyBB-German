@@ -337,9 +337,12 @@ $l['less_than'] = "Kleiner als";
 $l['post_count_is'] = "Beitragsanzahl ist";
 $l['reg_ip_matches'] = "Registrierungs-IP stimmt überein";
 $l['wildcard'] = "* ist Platzhalter";
-$l['last_known_ip'] = "Letzte bekannte IP-Adresse stimmt überein";
 $l['posted_with_ip'] = "Hat mit der IP-Adresse Beiträge geschrieben";
 $l['custom_profile_fields_match'] = "Bei denen eigene Profilfelder übereinstimmen mit...";
+$l['is_not_blank'] = " ist nicht leer";
+$l['or'] = "oder";
+$l['reg_in_x_days'] = "Registriert in den letzten";
+$l['days'] = "Tagen";
 
 $l['view'] = "Ansicht";
 $l['create_new_view'] = "Neue Ansicht erstellen";
