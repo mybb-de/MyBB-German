@@ -84,9 +84,7 @@ $l['review_text_version_desc'] = "Bitte überprüfe die autmatisch generierte Te
 
 $l['step_one'] = "Schritt 1";
 
-$l['subject'] = "Betreff";
 $l['status'] = "Status";
-$l['delivery_date'] = "Sendedatum";
 $l['recipients'] = "Empfänger";
 $l['delivered'] = "Verschickt";
 $l['canceled'] = "Abgebrochen";

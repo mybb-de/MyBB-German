@@ -27,7 +27,7 @@ $l['fwd_pm'] = "Weitergeleitete Nachricht";
 
 $l['pms_disabled'] = "Sie können die private Nachrichten-Funktionalität nicht verwenden, da sie durch den Administrator deaktiviert wurde.";
 
-$l['private_messaging'] = "Private Nachrichten verschicken";
+$l['private_messaging2'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
 $l['compose_message'] = "Nachricht:";
 $l['manage_folders'] = "Ordner verwalten";
@@ -97,7 +97,6 @@ $l['compose_bcc_show_title'] = "Zeige die BCC Box, welche es Ihnen erlaubt, vers
 $l['separate_names'] = "Trennen Sie mehrere Benutzernamen mit Kommas.";
 $l['max_recipients'] = "<br />Sie können diese Nachricht maximal an <strong>{1}</strong> Mitglieder senden.";
 $l['compose_subject'] = "Betreff:";
-$l['compose_message2'] = "Private Nachricht erstellen";
 $l['compose_message'] = "Nachricht:";
 $l['compose_options'] = "Optionen:";
 $l['options_sig'] = "<strong>Signatur:</strong> Ihre Signatur an diese Nachricht anhängen.";

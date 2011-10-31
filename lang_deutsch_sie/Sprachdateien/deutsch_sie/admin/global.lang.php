@@ -118,7 +118,6 @@ $l['next'] = "Nächste";
 $l['delete'] = "Löschen";
 $l['reset'] = "Zurücksetzen";
 $l['and'] = "und";
-$l['go'] = "Los";
 $l['on'] = "An";
 $l['off'] = "Aus";
 
@@ -226,7 +225,6 @@ $l['editor_enter_email_title'] = "Optional können Sie hier auch einen Namen zur
 $l['editor_enter_image'] = "Geben Sie bitte die URL zum einzufügenden Bild ein.";
 $l['editor_enter_video_url'] = "Geben Sie bitte die URL zum einzufügenden Videos ein.";
 $l['editor_video_dailymotion'] = "Dailymotion";
-$l['editor_video_googlevideo'] = "Google Video";
 $l['editor_video_metacafe'] = "MetaCafe";
 $l['editor_video_myspacetv'] = "MySpace TV";
 $l['editor_video_vimeo'] = "Vimeo";

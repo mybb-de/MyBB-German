@@ -38,7 +38,7 @@ $l['disallow_username'] = "Benutzernamen verbieten";
 $l['add_disallowed_email_address'] = "Verbotene E-Mail-Adresse hinzufügen";
 $l['email_address_desc'] = "Hinweis: Benutze * als Platzhalter für beliebige Zeichen.";
 $l['disallow_email_address'] = "E-Mail-Adresse verbieten";
-$l['ban_ip_address'] = "IP-Adresse ausschließen";
+$l['ban_an_ip_address'] = "Eine IP-Adresse ausschließen";
 $l['ip_address_desc'] = "Hinweis: Benutze * (Bsp.: 127.0.0.*), um eine Reihe von IPs auszuschließen";
 $l['ban_ip_address'] = "IP-Adresse ausschließen";
 

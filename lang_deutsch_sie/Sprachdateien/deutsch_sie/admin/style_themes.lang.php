@@ -51,7 +51,6 @@ $l['delete_theme'] = "Theme löschen";
 $l['set_as_default'] = "Als Standard setzen";
 $l['default_theme'] = "Standard-Theme";
 $l['force_on_users'] = "den Benutzern zuweisen";
-$l['export_theme'] = "Theme exportieren";
 $l['delete_revert'] = "Löschen / Zurücksetzen";
 
 $l['local_file'] = "Lokale Datei";

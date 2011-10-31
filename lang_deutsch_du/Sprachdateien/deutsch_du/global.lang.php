@@ -164,7 +164,6 @@ $l['editor_enter_email_title'] = "Optional kannst du auch einen Namen zur Adress
 $l['editor_enter_image'] = "Gib die URL zum einzufügenden Bild ein.";
 $l['editor_enter_video_url'] = "Gib die URL des Videos ein.";
 $l['editor_video_dailymotion'] = "Dailymotion";
-$l['editor_video_googlevideo'] = "Google Video";
 $l['editor_video_metacafe'] = "MetaCafe";
 $l['editor_video_myspacetv'] = "MySpace TV";
 $l['editor_video_vimeo'] = "Vimeo";
@@ -343,6 +342,9 @@ $l['refresh'] = "Aktualisieren";
 $l['select_language'] = "Einfache Sprachauswahl";
 
 $l['invalid_post_code'] = "Falscher Autorisierungscode! Greifst du auf diese Funktion auf die übliche Weise zu? Bitte gehe zurück und versuche es erneut.";
+$l['invalid_captcha'] = "Bitte übertrage den Verifizierungscode in das Textfeld um fortfahren zu können. Bitte gib ihn genau so ein, wie er im Bild erscheint.";
+$l['invalid_captcha_verify'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";
+$l['invalid_captcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufgetreten. Bitte versuche es erneut.";
 
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Eniwetok, Kwajalein";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midwayinseln, Samoa";

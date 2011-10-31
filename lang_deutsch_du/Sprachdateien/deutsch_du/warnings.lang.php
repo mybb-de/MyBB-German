@@ -72,7 +72,6 @@ $l['current_warning_level'] = "Momentanes Warnungslevel: <strong>{1}%</strong> (
 $l['warning_details'] = "Warnungsdetails";
 $l['revoke_warning'] = "Diese Warnung zurücknehmen";
 $l['revoke_warning_desc'] = "Um diese Warnung zurückzunehmen, gib bitte unten einen Grund an. Dies wird keine Ausschlüsse oder Sperrungen aufheben, die auf Grund dieser Warnung zu Stande gekommen sind.";
-$l['reason'] = "Grund:";
 $l['warning_is_revoked'] = "Diese Warnung wurde zurückgenommen";
 $l['revoked_by'] = "Zurückgenommen von:";
 $l['date_revoked'] = "Zurückgenommen am:";

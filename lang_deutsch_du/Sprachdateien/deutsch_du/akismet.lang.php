@@ -25,6 +25,6 @@ $l['redirect_newthread'] = "Akismet hat festgestellt, dass das eine Spam-Nachric
 $l['redirect_return_forum'] = "Klicke <a href=\"{1}\">hier</a>, um zum Forum zurückzukehren.";
 
 $l['redirect_newreply'] = "Akismet hat festgestellt, dass das eine Spam-Nachricht ist und nicht verarbeitet wird.<br />Wenn du das für einen Fehler hältst, kontaktiere bitte den Forenadministrator.";
-$l['redirect_return_forum']= "Klicke <a href=\"{1}\">hier</a>, um zum Thema zurückzukehren.<br />Alternativ kannst du zum <a href=\"{2}\">Forum</a> zurückkehren.";
+$l['redirect_return_thread']= "Klicke <a href=\"{1}\">hier</a>, um zum Thema zurückzukehren.<br />Alternativ kannst du zum <a href=\"{2}\">Forum</a> zurückkehren.";
 
 ?>

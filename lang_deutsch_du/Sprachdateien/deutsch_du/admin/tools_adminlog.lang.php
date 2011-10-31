@@ -113,7 +113,6 @@ $l['admin_log_config_settings_edit'] = "Eigenschaften für die Einstellung #{1} 
 $l['admin_log_config_settings_delete'] = "Einstellung #{1} ({2}) gelöscht";
 $l['admin_log_config_settings_manage'] = "Einstellungs- und Einstellungsgruppen-Sortierung geändert";
 $l['admin_log_config_settings_change'] = "Foreneinstellungen geändert";
-$l['admin_log_config_settings_delete_duplicates'] = "Alle gefundenen doppelten Einstellungen gelöscht.";
 
 $l['admin_log_config_smilies_add'] = "Smilie #{1} ({2}) hinzugefügt";
 $l['admin_log_config_smilies_edit'] = "Smilie #{1} ({2}) bearbeitet";

@@ -31,15 +31,12 @@ $l['post'] = "Beitrag:";
 $l['user_info'] = "Benutzer:";
 
 $l['filter_moderator_logs'] = "Moderator Log-Daten filtern";
-$l['forum'] = "Forum:";
 $l['forum_moderator'] = "Moderator des Forums:";
 $l['sort_by'] = "Sortieren nach:";
 $l['results_per_page'] = "Ergebnisse pro Seite:";
 $l['all_moderators'] = "Alle Moderatoren";
 $l['older_than'] = "Älter als ";
 
-$l['date'] = "Datum";
-$l['username'] = "Benutzername";
 $l['forum_name'] = "Forenname";
 $l['thread_subject'] = "Themen-Titel";
 

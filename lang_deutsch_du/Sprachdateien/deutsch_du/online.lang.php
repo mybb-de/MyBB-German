@@ -78,7 +78,8 @@ $l['user_cp'] = "<a href=\"usercp.php\">Benutzer Control-Panel</a>";
 $l['viewing_portal'] = "Sieht sich das <a href=\"portal.php\">Portal</a> an";
 $l['viewing_noperms'] = "Sieht sich eine Seite ohne Berechtigung an";
 $l['unknown_location'] = "<a href=\"{1}\">Unbekannter Ort</a>";
-$l['giving_reputation'] = "Gibt eine Bewertung ab";
+$l['giving_reputation'] = "Gibt <a href=\"{1}\">{2}</a> eine Bewertung";
+$l['viewing_reputation_report'] = "Sieht sich die Bewertung von <a href=\"{1}\">{2}</a> an";
 $l['member_resendactivation'] = "Schickt sich eine Aktivierungs-Mail";
 $l['member_lostpw'] = "Fordert ein <a href=\"member.php?action=lostpw\">neues Passwort</a> an";
 $l['sending_thread'] = "Sendet ein Thema an einen Freund";
@@ -108,6 +109,8 @@ $l['search_postip_users'] = "Sucht nach Benutzern, die unter einer IP Beiträge 
 $l['lookup'] = "[auflösen]";
 $l['member_online_today'] = "<strong>1</strong> Mitglied war heute online";
 $l['members_were_online_today'] = "<strong>{1}</strong> Mitglieder waren heute online";
+$l['member_online_hidden'] = " ({1} Mitlied war unsichtbar)";
+$l['members_online_hidden'] = " ({1} Mitlieder waren unsichtbar)";
 $l['rating_thread'] = "Bewertet ein Thema";
 $l['viewing_imcenter'] = "Sieht sich das IM-Center an";
 $l['managing_favorites'] = "Verwaltet seine Favoriten";
