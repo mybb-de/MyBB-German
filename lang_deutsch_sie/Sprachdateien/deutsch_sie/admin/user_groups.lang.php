@@ -121,6 +121,7 @@ $l['can_use_signature'] = "Kann Signatur angeben?";
 $l['can_use_signature_posts'] = "Kann Signatur nach x Beiträgen angeben?";
 $l['required_posts'] = "Benötigte Beitragsanzahl um eine Signatur anzugeben:";
 $l['required_posts_desc'] = "Hier können Sie die minimale Beitragsanzahl angeben, bevor sie eine Signatur angeben können.";
+$l['uses_no_follow'] = "Links in Signaturen werden mit nofollow versehen?";
 $l['reputation_system'] = "Bewertungs-System";
 $l['can_use_pms'] = "Kann das Private Nachrichten-System nutzen";
 $l['can_send_pms'] = "Kann Private Nachrichten versenden";
