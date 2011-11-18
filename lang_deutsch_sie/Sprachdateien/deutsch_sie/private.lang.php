@@ -29,7 +29,7 @@ $l['pms_disabled'] = "Sie können die private Nachrichten-Funktionalität nicht 
 
 $l['private_messaging2'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
-$l['compose_message'] = "Nachricht:";
+$l['compose_message'] = "Nachricht verfassen";
 $l['manage_folders'] = "Ordner verwalten";
 $l['pms_in_folder'] = "Private Nachrichten im Ordner <em>{1}</em>";
 $l['pm_search_results'] = "Suchergebnisse in den Privaten Nachrichten";
