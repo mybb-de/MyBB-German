@@ -322,7 +322,7 @@ $l['folder_inbox'] = "Eingang";
 $l['folder_sent_items'] = "Ausgang";
 $l['folder_drafts'] = "Entwürfe";
 $l['folder_trash'] = "Papierkorb";
-$l['folder_untitled'] = "Unbennanter Ordner";
+$l['folder_untitled'] = "Unbenannter Ordner";
 
 $l['standard_mod_tools'] = "Standard-Tools";
 $l['custom_mod_tools'] = "Eigene Tools";
