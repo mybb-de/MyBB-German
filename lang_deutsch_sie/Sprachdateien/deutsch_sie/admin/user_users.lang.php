@@ -265,10 +265,10 @@ $l['last_known_ip'] = "Letzte bekannte IP";
 $l['registration_date'] = "Registrierungsdatum";
 $l['info_on_ip'] = "Informationen über diese IP-Adresse";
 
-$l['avatar_gallery'] = "Avatar-Gallerie";
+$l['avatar_gallery'] = "Avatar-Galerie";
 $l['current_avatar'] = "Aktuelles Avatar";
 $l['user_current_using_uploaded_avatar'] = "Dieser Benutzer benutzt gerade einen hochgeladenen Avatar.";
-$l['user_current_using_gallery_avatar'] = "Dieser Benutzer benutzt gerade einen Avatar aus der Avatar-Gallerie.";
+$l['user_current_using_gallery_avatar'] = "Dieser Benutzer benutzt gerade einen Avatar aus der Avatar-Galerie.";
 $l['user_currently_using_remote_avatar'] = "Dieser Benutzer benutzt gerade einen verlinkten Avatar.";
 $l['max_dimensions_are'] = "Die maximalen Abmessungen für Avatare sind";
 $l['avatar_max_size'] = "Avatare können eine Maximum haben von";
