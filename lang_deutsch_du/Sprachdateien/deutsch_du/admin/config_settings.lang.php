@@ -438,8 +438,6 @@ $l['setting_tplhtmlcomments'] = "HTML-Kommentare am Anfang/Ende der Ausgabe von 
 $l['setting_tplhtmlcomments_desc'] = "Diese Einstellung aktiviert die Ausgabe von HTML-Kommentaren am Anfang/Ende von Templates.";
 $l['setting_use_xmlhttprequest'] = "XMLHttp-Anfragen aktivieren?";
 $l['setting_use_xmlhttprequest_desc'] = "Hier kannst du alle XMLHttp-Funktionen (AJAX) aktivieren oder deaktivieren.";
-$l['setting_useshutdownfunc'] = "Shutdown-Funktionalität von PHP verwenden?";
-$l['setting_useshutdownfunc_desc'] = "Diese Einstellung sollte nicht geändert werden, da die beste Option bei der Installation bereits ermittelt wurde. Wenn Themen-Indikatoren oder andere Meta-Informationen nicht aktualisiert werden, wähle \"Nein\".";
 $l['setting_extraadmininfo'] = "Erweiterte Statistiken/Debug Infos";
 $l['setting_extraadmininfo_desc'] = "Zeigt Serverlast, Generationszeit, Gzip-Kompression, etc. unten auf jeder Seite des Forums. Beachte, dass diese Informationen nur für Administratoren sichtbar sind.";
 $l['setting_uploadspath'] = "Upload-Pfad";
@@ -473,7 +471,7 @@ $l['setting_multiquote_desc'] = "Multizitier-Buttons erlauben das Zitieren von m
 $l['setting_showsimilarthreads'] = "Zeige \"Ähnliche Themen\"-Tabelle?";
 $l['setting_showsimilarthreads_desc'] = "Die \"Ähnliche Themen\"-Tabelle zeigt Themen, die mit dem Thema, das gerade gelesen wird, Ähnlichkeiten haben. Unten kannst du die Relevanz einstellen.";
 $l['setting_similarityrating'] = "Ähnliche Themen-Relevanz";
-$l['setting_similarityrating_desc'] = "Hier kannst du festlegen, wie relevant bestimmte Themen sind (0 = nicht relevant). Diese Zahl sollte nicht größer sein als 10; für größere Foren aber auch nicht zu klein (<5) gewählt werden.";
+$l['setting_similarityrating_desc'] = "Hier kannst du festlegen, wie relevant bestimmte Themen sind (0 = nicht relevant). Diese Zahl sollte nicht größer sein als 10; für größere Foren aber auch nicht zu klein (<5) gewählt werden. Dies funktioniert nicht mit PgSQL.";
 $l['setting_similarlimit'] = "Ähnliche Themen-Anzahl";
 $l['setting_similarlimit_desc'] = "Die Anzahl der Themen, die in der Tabelle angezeigt werden. Wir empfehlen, höchstens 15 zu wählen.";
 $l['setting_delayedthreadviews'] = "Verzögerte Aktualisierung der Themenansichten";
@@ -558,6 +556,10 @@ $l['setting_posrep'] = "Positive Bewertungen erlauben";
 $l['setting_posrep_desc'] = "Sollen Benutzer andere Benutzer positiv bewerten dürfen?";
 $l['setting_neurep'] = "Neutrale Bewertungen erlauben";
 $l['setting_neurep_desc'] = "Sollen Benutzer andere Benutzer neutral bewerten dürfen?";
+$l['setting_allowthreadratings'] = "Erlaube Themen-Bewertungen?";
+$l['setting_allowthreadratings_desc'] = "Benutzer dürfen Themen bewerten?";
+$l['setting_username_method'] = "Erlaubte Login-Methoden";
+$l['setting_username_method_desc'] = "Die erlaubten Eingaben für das Login-Feld Benutzername. Nur Benutzername, nur E-Mail-Adresse oder beides.";
 
 // Optionen
 $l['setting_reportmethod_db'] = "In Datenbank speichern";
@@ -611,4 +613,7 @@ $l['setting_mail_logging_2'] = "Alles loggen";
 $l['setting_captchaimage_0'] = "Kein Captcha";
 $l['setting_captchaimage_1'] = "MyBB Standard-Captcha";
 $l['setting_captchaimage_2'] = "reCaptcha";
+$l['setting_username_method_0'] = "Nur Benutzername";
+$l['setting_username_method_1'] = "Nur E-Mail-Adresse";
+$l['setting_username_method_2'] = "Benutzername oder E-Mail-Adresse";
 ?>

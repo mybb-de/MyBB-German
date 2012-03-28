@@ -37,6 +37,7 @@ $l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
 $l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
 $l['error_post_already_submitted'] = "Sie haben dieses Thema bereits in diesem Forum gepostet. Bitte besuchen Sie das Forum, um das Thema zu sehen.";
 $l['no_prefix'] = "Kein Präfix";
+$l['forum_rules'] = "{1} - Regeln";
 
 $l['multiquote_external_one'] = "Sie haben 1 Beitrag von einem anderen Thema ausgewählt.";
 $l['multiquote_external'] = "Sie haben {1} Beiträge von einem anderen Thema ausgewählt.";

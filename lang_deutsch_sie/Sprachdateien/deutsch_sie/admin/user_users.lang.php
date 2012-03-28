@@ -162,6 +162,7 @@ $l['icq_number'] = "ICQ Nummer";
 $l['aim_handle'] = "AIM-ID";
 $l['yahoo_messanger_handle'] = "Yahoo! Messenger-ID";
 $l['msn_messanger_handle'] = "MSN Messenger-ID";
+$l['birthday'] = "Geburtsdatum";
 
 $l['hide_from_whos_online'] = "Auf der 'Wer ist online'-Liste verbergen";
 $l['login_cookies_privacy'] = "Login, Cookies &amp; Privatsphäre";
@@ -336,7 +337,7 @@ $l['is_exactly'] = "Ist genau";
 $l['less_than'] = "Kleiner als";
 $l['post_count_is'] = "Beitragsanzahl ist";
 $l['reg_ip_matches'] = "Registrierungs-IP stimmt überein";
-$l['wildcard'] = "* ist Platzhalter";
+$l['wildcard'] = "* ist Platzhalter für einen IP-Bereich: 1.2.*.*";
 $l['posted_with_ip'] = "Hat mit der IP-Adresse Beiträge geschrieben";
 $l['custom_profile_fields_match'] = "Bei denen eigene Profilfelder übereinstimmen mit...";
 $l['is_not_blank'] = " ist nicht leer";

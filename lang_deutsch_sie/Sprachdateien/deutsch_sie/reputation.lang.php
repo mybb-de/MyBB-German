@@ -81,7 +81,7 @@ $l['postrep_post'] = "Beitrag #";
 $l['postrep_given'] = "Abgegebene Bewertung für {1}<br />";
 $l['no_reputation_votes'] = "Dieser Benutzer hat zur Zeit keine Bewertungen, die den Kriterien entsprechen.";
 $l['delete_reputation_confirm'] = "Soll diese Bewertung wirklich gelöscht werden?";
-$l['delete_reputation_log'] = "Bewertung von {1} gelöscht";
+$l['delete_reputation_log'] = "Bewertung von {1} (UID: {2}) gelöscht";
 $l['reputations_disabled_group'] = "Das Bewertungssystem wurde für Benutzer dieser Benutzergruppe deaktiviert.";
 $l['rate_user'] = "Benutzer bewerten";
 ?>
