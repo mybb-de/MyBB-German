@@ -17,6 +17,7 @@ $l['postdata_missing_subject'] = 'Der Betreff fehlt. Bitte geben Sie einen Betre
 $l['postdata_missing_message'] = 'Die Nachricht fehlt. Bitte geben Sie eine Nachricht ein.';
 $l['postdata_message_too_long'] = 'Die Nachricht ist zu lang. Bitte geben Sie eine Nachricht kürzer als {1} Zeichen ein (zur Zeit {2})..';
 $l['postdata_message_too_short'] = 'Die Nachricht ist zu kurz. Bitte geben Sie eine Nachricht länger als {1} Zeichen ein.';
+$l['postdata_subject_too_long'] = 'Der Betreff ist zu lang. Bitte geben Sie einen Betreff kürzer als 85 Zeichen ein (zur Zeit {1}).';
 $l['postdata_post_flooding'] = 'Sie versuchen, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warten Sie noch {1} Sekunden.';
 $l['postdata_post_flooding_one_second'] = 'Sie versuchen, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warten Sie noch 1 Sekunde.';
 $l['postdata_too_many_images'] = 'Die von Ihnen eingegebene Nachricht enthält {1} Grafiken, es sind aber nur {2} Grafiken pro Nachricht erlaubt. Bitte entfernen Sie Grafiken aus Ihrer Nachricht, um das Limit nicht zu überschreiten.';

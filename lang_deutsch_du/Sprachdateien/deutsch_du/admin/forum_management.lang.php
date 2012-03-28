@@ -79,6 +79,7 @@ $l['can_view_ips'] = "Kann IPs sehen";
 $l['can_open_close_threads'] = "Kann Themen öffnen/schließen und als wichtig/unwichtig setzen";
 $l['can_manage_threads'] = "Kann Themen verwalten (trennen, kopieren, verschieben, zusammenfügen)";
 $l['can_move_to_other_forums'] = "Kann Themen in Foren verschieben, denen er nicht zugewiesen ist";
+$l['can_use_custom_tools'] = "Kann eigene Moderationstools benutzen?";
 $l['save_mod'] = "Moderator speichern";
 
 $l['no_forums'] = "Es wurden keine Foren gefunden.";
@@ -149,6 +150,7 @@ $l['forum_specific_style'] = "Forenspezifisches Theme:";
 $l['use_default'] = "Benutze Standard";
 $l['dont_display_rules'] = "Zeige Regeln nicht an";
 $l['display_rules_inline'] = "Zeige Regeln inline an";
+$l['display_rules_inline_new'] = "Zeige Regeln in der Themen-Liste und bei neuen Themen und Beiträgen";
 $l['display_rules_link'] = "Zeige Link zu Regeln an";
 $l['display_method'] = "Anzeigemethode:";
 $l['rules'] = "Regeln";

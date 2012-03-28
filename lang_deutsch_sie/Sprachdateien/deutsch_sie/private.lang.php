@@ -99,6 +99,7 @@ $l['max_recipients'] = "<br />Sie können diese Nachricht maximal an <strong>{1}
 $l['compose_subject'] = "Betreff:";
 $l['compose_message'] = "Nachricht:";
 $l['compose_options'] = "Optionen:";
+$l['message_icon'] = "Beitrags-Icon:";
 $l['options_sig'] = "<strong>Signatur:</strong> Ihre Signatur an diese Nachricht anhängen.";
 $l['options_disable_smilies'] = "<strong>Smilies ausschalten:</strong> Smilies in dieser Nachricht ausschalten.";
 $l['options_save_copy'] = "<strong>Kopie speichern:</strong> Eine Kopie dieser Nachricht wird in Ihrem Ordner \"Ausgang\" gespeichert.";
