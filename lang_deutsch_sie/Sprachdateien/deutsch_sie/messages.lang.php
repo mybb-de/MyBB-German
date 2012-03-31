@@ -17,6 +17,8 @@ $l['redirect_emailsent'] = "Ihre E-Mail wurde erfolgreich versandt.";
 $l['redirect_loggedin'] = "Sie haben sich erfolgreich eingeloggt.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort weitergeleitet.";
 
 $l['error_invalidpworusername'] = "Der eingegebene Benutzername und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
+$l['error_invalidpworusername1'] = "Die eingegebene E-Mail-Adresse und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
+$l['error_invalidpworusername2'] = "Der eingegebene Benutzername bzw. die eingegebene E-Mail-Adresse und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
 $l['error_incompletefields'] = "Sie haben mindestens ein erforderliches Feld nicht ausgefüllt. Gehen Sie bitte zurück und geben Sie die benötigten Daten an.";
 $l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte benennen Sie die Datei um und versuchen Sie es erneut. Alternativ können Sie auch \"Attachment aktualisieren\" klicken.";
 $l['error_alreadyuploaded_perm'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte entfernen Sie den vorhandenen Anhang oder benennen Sie die Datei um und versuchen Sie es erneut.";
@@ -113,6 +115,38 @@ Aktivierungscode: {5}
 
 Vielen Dank,
 {2}-Team";
+$l['email_lostpw1'] = "Hallo {1},
+
+um ein neues Passwort für {2} zu erhalten, müssen Sie die folgende URL in Ihrem Browser öffnen:
+
+{3}/member.php?action=resetpassword&uid={4}&code={5}
+
+Nur wenn der o.a. Link nicht funktioniert, gehen Sie zu:
+
+{3}/member.php?action=resetpassword
+
+Sie müssen dann die folgenen Daten eingeben:
+Ihre E-Mail-Adresse
+Aktivierungscode: {5}
+
+Vielen Dank,
+{2}-Team";
+$l['email_lostpw2'] = "Hallo {1},
+
+um ein neues Passwort für {2} zu erhalten, müssen Sie die folgende URL in Ihrem Browser öffnen:
+
+{3}/member.php?action=resetpassword&uid={4}&code={5}
+
+Nur wenn der o.a. Link nicht funktioniert, gehen Sie zu:
+
+{3}/member.php?action=resetpassword
+
+Sie müssen dann die folgenen Daten eingeben:
+Benutzername: {1} (oder Ihre E-Mail-Adresse)
+Aktivierungscode: {5}
+
+Vielen Dank,
+{2}-Team";
 
 $l['email_reportpost'] = "Hallo,
 
@@ -144,6 +178,28 @@ $l['email_randompassword'] = "Hallo {1},
 vielen Dank für die Registrierung bei {2}. Hier ist Ihr Benutzername und Ihr zufallsgeneriertes Passwort. Um sich bei {2} einzuloggen, benötigen Sie diese Daten:
 
 Benutzername: {3}
+Passwort: {4}
+
+Bitte ändern Sie das Passwort so schnell wie möglich. Sie können das Passwort in Ihrem Benutzer-CP ändern.
+
+Vielen Dank,
+{2}-Team";
+$l['email_randompassword1'] = "Hallo {1},
+
+vielen Dank für die Registrierung bei {2}. Hier ist Ihr Benutzername und Ihr zufallsgeneriertes Passwort. Um sich bei {2} einzuloggen, benötigen Sie diese Daten:
+
+Ihre E-Mail-Adresse
+Passwort: {4}
+
+Bitte ändern Sie das Passwort so schnell wie möglich. Sie können das Passwort in Ihrem Benutzer-CP ändern.
+
+Vielen Dank,
+{2}-Team";
+$l['email_randompassword2'] = "Hallo {1},
+
+vielen Dank für die Registrierung bei {2}. Hier ist Ihr Benutzername und Ihr zufallsgeneriertes Passwort. Um sich bei {2} einzuloggen, benötigen Sie diese Daten:
+
+Benutzername: {3} (oder Ihre E-Mail-Adresse)
 Passwort: {4}
 
 Bitte ändern Sie das Passwort so schnell wie möglich. Sie können das Passwort in Ihrem Benutzer-CP ändern.
@@ -204,6 +260,38 @@ Nur wenn der o.a. Link nicht funktioniert, gehen Sie zu:
 
 Sie müssen dann die folgenden Daten eingeben:
 Benutzername: {1}
+Aktivierungscode: {5}
+
+Vielen Dank,
+{2}-Team";
+$l['email_activateaccount1'] = "Hallo {1},
+
+um die Registrierung bei {2} abzuschließen, müssen Sie die folgende URL in Ihrem Browser öffnen:
+
+{3}/member.php?action=activate&uid={4}&code={5}
+
+Nur wenn der o.a. Link nicht funktioniert, gehen Sie zu:
+
+{3}/member.php?action=activate
+
+Sie müssen dann die folgenden Daten eingeben:
+Ihre E-Mail-Adresse
+Aktivierungscode: {5}
+
+Vielen Dank,
+{2}-Team";
+$l['email_activateaccount2'] = "Hallo {1},
+
+um die Registrierung bei {2} abzuschließen, müssen Sie die folgende URL in Ihrem Browser öffnen:
+
+{3}/member.php?action=activate&uid={4}&code={5}
+
+Nur wenn der o.a. Link nicht funktioniert, gehen Sie zu:
+
+{3}/member.php?action=activate
+
+Sie müssen dann die folgenden Daten eingeben:
+Benutzername: {1} (oder Ihre E-Mail-Adresse)
 Aktivierungscode: {5}
 
 Vielen Dank,

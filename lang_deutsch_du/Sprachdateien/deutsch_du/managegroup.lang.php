@@ -38,6 +38,7 @@ $l['decline'] = "Ablehnen";
 $l['action_requests'] = "Anfrage bearbeiten";
 $l['join_requests_moderated'] = "Die Beitrittsanfragen wurden moderiert.<br />Du wirst jetzt zur Anfrageübersicht weitergeleitet.";
 $l['no_requests'] = "Es gibt zur Zeit keine wartenden Beitrittsanfragen für diese Benutzergruppe.";
+$l['no_users'] = "In dieser Gruppe gibt es keine Benutzer.";
 $l['user_added'] = "Der Benutzer wurde der Gruppe hinzugefügt.";
 $l['users_removed'] = "Die ausgewählten Benutzer wurden aus dieser Gruppe entfernt.";
 $l['group_no_members'] = "Es sind zur Zeit keine Mitglieder in dieser Gruppe.<br /><a href=\"usercp.php?action=usergroups\">Klicke hier</a>, um zur Gruppen-Management-Seite zurückzukehren.";

@@ -190,6 +190,8 @@ $l['multi_approve_threads'] = "Markierte Themen angenommen";
 $l['multi_delete_threads'] = "Markierte Themen gelöscht";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
 $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
+$l['banned_user'] = "Benutzer gesperrt";
+$l['lifted_ban'] = "Benutzer-Sperrung aufgehoben";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
