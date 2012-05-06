@@ -47,13 +47,14 @@ Sie wurden von einem Moderator von {2} verwarnt.
 --
 
 --";
+$l['expiration_never'] = "Permanent";
 $l['expiration_hours'] = "Stunden";
 $l['expiration_days'] = "Tage";
 $l['expiration_weeks'] = "Wochen";
 $l['expiration_months'] = "Monate";
-$l['redirect_warned_banned'] = "Das Mitglied wurde ebenso in die {1} Gruppe verschoben für {2}.";
-$l['redirect_warned_suspended'] = "Die Schreibprivilegien dieses Mitglieds wurden ausgesetzt für {1}.";
-$l['redirect_warned_moderate'] = "Alle Beiträge dieses Mitglieds werden nun moderiert für {1}.";
+$l['redirect_warned_banned'] = "Das Mitglied wurde ebenso in die {1} Gruppe verschoben {2}.";
+$l['redirect_warned_suspended'] = "Die Schreibprivilegien dieses Mitglieds wurden ausgesetzt {1}.";
+$l['redirect_warned_moderate'] = "Alle Beiträge dieses Mitglieds werden nun moderiert {1}.";
 $l['redirect_warned'] = "Das Warnungslevel von {1} wurde erhöht auf {2}%.{3}<br /><br />Sie werden nun zu Ihrem letzten Aufenthaltsort geleitet.";
 $l['error_warning_system_disabled'] = "Sie können das Warnungssystem momentan nicht benutzen, da es vom Forenadministrator ausgeschaltet wurde.";
 $l['reached_max_warnings_day'] = "Sie können niemanden warnen, da Ihr Tageslimit an Warnungen erreicht ist.<br /><br />Die maximale Anzahl an Warnungen, die Sie pro Tag geben können, beträgt {1}.";
@@ -81,7 +82,7 @@ $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich zurückgenommen 
 $l['result_banned'] = "Das Mitglied wird nun in die Verbannungsgruppe ({1}) {2}";
 $l['result_suspended'] = "Schreibprivilegien werden ausgesetzt für {1}";
 $l['result_moderated'] = "Beträge werden moderiert für {1}";
-$l['result_period'] = "{1} {2}";
+$l['result_period'] = "für {1} {2}";
 $l['hour_or_hours'] = "Stunde(n)";
 $l['day_or_days'] = "Tag(e)";
 $l['week_or_weeks'] = "Woche(n)";

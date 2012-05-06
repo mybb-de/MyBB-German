@@ -174,6 +174,7 @@ $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig";
 $l['error_already_leader'] = "Der Benutzer ist bereits ein Leiter dieser Benutzergruppe.";
 $l['error_invalid_group_leader'] = "Du hast einen ungültigen Gruppenleiter ausgewählt.";
 $l['error_missing_namestyle_username'] = "Der Benutzernamen-Stil muss {username} enthalten";
+$l['error_disallowed_namestyle_username'] = "Du kannst die Elemente script, meta und base nicht beim Benutzernamen-Stil verwenden.";
 $l['error_default_group_delete'] = "Standard-Benutzergruppen können nicht gelöscht werden";
 
 $l['success_group_created'] = "Die neue Benutzergruppe wurde erfolgreich erstellt.";

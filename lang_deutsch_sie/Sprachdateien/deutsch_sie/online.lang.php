@@ -14,8 +14,8 @@
 $l['nav_online'] = "Wer ist online?";
 $l['nav_onlinetoday'] = "Wer war in den letzten 24 Stunden online?";
 
-$l['viewing_announcements'] = "Sieht sich Ankündigungen in <a href=\"{1}\">{2}</a> an";
-$l['viewing_announcements2'] = "Sieht sich das Ankündigungsforum an";
+$l['viewing_announcements'] = "Sieht sich die Ankündigung <a href=\"{1}\">{2}</a> an";
+$l['viewing_announcements2'] = "Sieht sich eine Ankündigung an";
 $l['viewing_attachment'] = "Sieht sich ein Attachment an";
 $l['viewing_attachment2'] = "Sieht sich ein <a href=\"attachment.php?aid={1}\" target=\"_blank\">Attachment</a> im Thema <a href=\"{3}\">{2}</a> an";
 $l['viewing_calendar'] = "Sieht sich den <a href=\"calendar.php\">Kalender</a> an";
@@ -80,6 +80,7 @@ $l['viewing_noperms'] = "Sieht sich eine Seite ohne Berechtigung an";
 $l['unknown_location'] = "<a href=\"{1}\">Unbekannter Ort</a>";
 $l['giving_reputation'] = "Gibt <a href=\"{1}\">{2}</a> eine Bewertung";
 $l['viewing_reputation_report'] = "Sieht sich die Bewertung von <a href=\"{1}\">{2}</a> an";
+$l['viewing_reputation_report2'] = "Sieht sich eine Bewertung an";
 $l['member_resendactivation'] = "Schickt sich eine Aktivierungs-Mail";
 $l['member_lostpw'] = "Fordert ein <a href=\"member.php?action=lostpw\">neues Passwort</a> an";
 $l['sending_thread'] = "Sendet ein Thema an einen Freund";
