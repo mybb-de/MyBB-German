@@ -31,6 +31,7 @@ $l['add_bad_word'] = "Filter hinzufügen";
 
 $l['error_missing_bad_word'] = "Du hast kein Wort zur Filterung angegeben.";
 $l['error_invalid_bid'] = "Der angegebene Filter existiert nicht.";
+$l['error_filter_already_banned'] = "Der angegebene Filter ist bereits ausgeschlossen.";
 
 $l['success_added_bad_word'] = "Der Filter wurde erfolgreich hinzugefügt.";
 $l['success_deleted_bad_word'] = "Der Filter wurde erfolgreich gelöscht.";
