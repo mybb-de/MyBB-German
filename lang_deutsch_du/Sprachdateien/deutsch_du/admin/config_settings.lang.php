@@ -352,7 +352,7 @@ $l['setting_minmessagelength'] = "Minimale Nachrichtenlänge";
 $l['setting_minmessagelength_desc'] = "Die minimal benötigte Anzahl an Zeichen eines Beitrags.";
 $l['setting_maxmessagelength'] = "Maximale Nachrichtenlänge";
 $l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen (Bytes) in einer Nachricht (0 = Keine Beschränkung).
-<br />Der mximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
+<br />Der maximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
 <ul>
 	<li>TEXT: 65535 (Standard)</li>
 	<li>MEDIUMTEXT: 16777215</li>
