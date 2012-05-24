@@ -301,7 +301,7 @@ $l['setting_siglength_desc'] = "Die maximal erlaubte Zeichenanzahl in einer Sign
 $l['setting_sigcountmycode'] = "Behandlung von MyCode in Signaturen";
 $l['setting_sigcountmycode_desc'] = "Soll MyCode zur Signaturlänge hinzugezählt werden?";
 $l['setting_maxavatardims'] = "Maximale Avatar-Größe";
-$l['setting_avataruploadpath_desc'] = "Der Pfad für von Benutzern hochgeladene Avatare. Es müssen <b>Schreibrechte</b> (CHMOD 777 auf Unix-Servern) vorhanden sein.";
+$l['setting_maxavatardims_desc'] = "Die maximal zulässige Größe für Avatare im Format Breite <b>x</b> Höhe. Wenn das Feld leer bleibt, wird die Größe nicht beschränkt.";
 $l['setting_avatarsize'] = "Maximale Avatargröße";
 $l['setting_avatarsize_desc'] = "Die maximale Dateigröße (in Kilobyte) für hochgeladene Avatare.";
 $l['setting_avatarresizing'] = "Automatische Avatarverkleinerung";
@@ -352,7 +352,7 @@ $l['setting_minmessagelength'] = "Minimale Nachrichtenlänge";
 $l['setting_minmessagelength_desc'] = "Die minimal benötigte Anzahl an Zeichen eines Beitrags.";
 $l['setting_maxmessagelength'] = "Maximale Nachrichtenlänge";
 $l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen in einer Nachricht (0 = Keine Beschränkung).
-<br />Der mximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
+<br />Der maximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
 <ul>
 	<li>TEXT: 65535 (Standard)</li>
 	<li>MEDIUMTEXT: 16777215</li>
