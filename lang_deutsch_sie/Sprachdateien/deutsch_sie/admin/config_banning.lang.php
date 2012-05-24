@@ -44,6 +44,7 @@ $l['ban_ip_address'] = "IP-Adresse ausschließen";
 
 $l['error_missing_ban_input'] = "Sie haben keinen Wert angegeben, der verboten werden soll.";
 $l['error_invalid_filter'] = "Der angegebene Filter existiert nicht.";
+$l['error_filter_already_banned'] = "Der angegebene Filter ist bereits ausgeschlossen.";
 
 $l['success_ip_banned'] = "Die IP-Adresse wurde erfolgreich ausgeschlossen.";
 $l['success_username_disallowed'] = "Der Benutzername wurde erfolgreich verboten.";
