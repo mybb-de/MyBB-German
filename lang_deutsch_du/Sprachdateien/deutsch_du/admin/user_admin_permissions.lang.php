@@ -15,7 +15,7 @@ $l['admin_permissions'] = "Administrator-Berechtigungen";
 $l['user_permissions'] = "Benutzer-Berechtigungen";
 $l['user_permissions_desc'] = "Hier kannst du die Administrator-Berechtigungen für die einzelnen Benutzer verwalten. Dies erlaubt dir, verschiedenen Administratoren den Zugriff auf bestimmte Bereiche zu verwehren.";
 $l['group_permissions'] = "Benutzergruppen-Berechtigungen";
-$l['group_permissions_desc'] = "Administrator-Berechtigungen können auch Benutzergruppen zugeordnet werden, die Zugriff auf das Admin-CP haben. Genauso kannst du ganzen Gruppen den Zugriff auf bestimmte Bereiche zu verwehren.";
+$l['group_permissions_desc'] = "Administrator-Berechtigungen können auch Benutzergruppen zugeordnet werden, die Zugriff auf das Admin-CP haben. Genauso kannst du ganzen Gruppen den Zugriff auf bestimmte Bereiche verwehren.";
 $l['default_permissions'] = "Standard-Berechtigungen";
 $l['default_permissions_desc'] = "Die Standard-Berechtigungen werden für Benutzer verwendet, für die keine eigenen Administrator-Berechtigungen gesetzt wurden, oder für Benutzer in Gruppen ohne Benutzergruppen-Berechtigungen.";
 
