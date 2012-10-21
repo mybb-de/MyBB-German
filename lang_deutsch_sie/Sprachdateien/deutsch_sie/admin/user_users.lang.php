@@ -107,6 +107,7 @@ $l['error_invalid_view_sortorder'] = "Sie haben eine ungültige Such-Reihenfolge
 $l['error_invalid_view_delete'] = "Sie haben eine ungültige Verwaltungs-Ansicht zum Löschen ausgewählt";
 $l['error_cannot_delete_view'] = "Sie brauchen mindestens eine Verwaltungs-Ansicht.";
 $l['error_inline_no_users_selected'] = "Sie haben keinen einzigen Benutzer ausgewählt. Bitte wählen Sie einige Benutzer und probiere es erneut.";
+$l['error_no_referred_users'] = "Der ausgewählte Benutzer hat keine Benutzer empfohlen.";
 
 $l['user_deletion_confirmation'] = "Wollen Sie diesen Benutzer wirklich löschen?";
 

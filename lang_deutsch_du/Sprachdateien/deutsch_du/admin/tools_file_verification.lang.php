@@ -19,6 +19,7 @@ $l['error_communication'] = "Es gab ein Problem bei der Kommunikation mit dem My
 $l['file'] = "Datei";
 $l['no_corrupt_files_found'] = "Gratulation! Es konnten keine beschädigten Dateien gefunden werden.";
 $l['found_problems'] = "Gefundene Probleme";
+$l['no_problems_found'] = "Keine Probleme gefunden";
 $l['changed'] = "Verändert";
 $l['missing'] = "Fehlend";
 $l['status'] = "Status";
