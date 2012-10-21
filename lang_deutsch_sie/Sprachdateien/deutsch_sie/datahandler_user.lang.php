@@ -19,7 +19,7 @@ $l['userdata_invalid_usertitle_length'] = 'Die Länge des eingegebenen Benutzert
 $l['userdata_username_exists'] = 'Der eingegebene Benutzername existiert bereits. Bitte geben Sie einen anderen Namen ein.';
 
 $l['userdata_invalid_password_length'] =  'Die Länge des eingegebenen Passworts ist ungültig. Bitte geben Sie ein Passwort mit einer Länge zwischen {1} und {2} Zeichen ein.';
-$l['userdata_no_complex_characters'] = 'Das eingegebene Passwort enthält kein komplexes Zeichen. Bitte geben Sie ein Passwort mit mindestens einem komplexen Zeichen ein.';
+$l['userdata_no_complex_characters'] = 'Das eingegeben Passwort ist nicht komplex genug. Bitte geben Sie ein Passwort mit mindestens {1} Zeichen ein, das Groß- und Kleinbuchstaben und Zahlen enthält.';
 $l['userdata_passwords_dont_match'] = 'Das Passwort, das Sie zur Bestätigung eingegeben haben, stimmt nicht mit dem originalen Passwort überein. Bitte korrigieren Sie Ihre Eingabe.';
 
 $l['userdata_missing_email'] = 'Sie haben keine E-Mail-Adresse angegeben. Bitte geben Sie eine E-Mail-Adresse ein.';
@@ -34,6 +34,7 @@ $l['userdata_invalid_msn_address'] = 'Die eingegebene MSN-ID ist ungültig. Bitt
 $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. Bitte geben Sie ein gültiges Geburtsdatum ein oder lassen Sie das Feld leer.';
 $l['userdata_invalid_birthday_coppa'] = 'Bitte geben Sie das Jahr ein, in dem Sie geboren wurden, um Ihr Alter zu verifizieren. Sie können Ihr Alter und Ihr Geburtsdatum in den Einstellungen verstecken.';
 $l['userdata_invalid_birthday_coppa2'] = 'Sie müssen mindestens 13 Jahre alt sein, um ein Mitglied dieses Forums zu sein. Bitte kontaktieren Sie einen Administrator.';
+$l['userdata_invalid_birthday_privacy'] = 'Bitte wählen Sie eine gültige Geburtstags-Privatsphären-Option aus.';
 $l['userdata_invalid_referrer'] = 'Der eingegebene Benutzer, der das Forum empfohlen haben soll, existiert nicht. Bitte geben Sie einen gültigen Benutzer an oder lassen Sie das Feld leer.';
 $l['userdata_invalid_language'] = 'Die gewählte Sprache existiert nicht. Bitte wählen Sie eine existierende Sprache.';
 $l['userdata_missing_returndate'] = 'Das Datum der Rückkehr ist nicht vollständig. Stellen Sie sicher, dass Sie den Tag, den Monat und das Jahr angegeben haben.';

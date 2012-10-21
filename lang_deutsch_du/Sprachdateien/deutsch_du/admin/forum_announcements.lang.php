@@ -38,6 +38,9 @@ $l['error_invalid_announcement'] = "Bitte gib eine gültige Ankündigung an.";
 $l['error_missing_title'] = "Du hast keinen Titel angegeben.";
 $l['error_missing_message'] = "Du hast keine Nachricht angegeben.";
 $l['error_missing_forum'] = "Du hast kein Forum ausgewählt.";
+$l['error_invalid_start_date'] = "Der Startzeitpunkt der Ankündigung ist ungültig.";
+$l['error_invalid_end_date'] = "Der Endzeitpunkt der Ankündigung ist ungültig.";
+$l['error_end_before_start'] = "Der Endzeitpunkt muss nach dem Startzeitpunkt liegen.";
 
 $l['add_an_announcement'] = "Ankündigung hinzufügen";
 $l['update_an_announcement'] = "Ankündigung aktualisieren";
