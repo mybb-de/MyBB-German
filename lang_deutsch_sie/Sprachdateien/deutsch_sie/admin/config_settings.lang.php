@@ -562,6 +562,8 @@ $l['setting_allowthreadratings'] = "Erlaube Themen-Bewertungen?";
 $l['setting_allowthreadratings_desc'] = "Benutzer dürfen Themen bewerten?";
 $l['setting_username_method'] = "Erlaubte Login-Methoden";
 $l['setting_username_method_desc'] = "Die erlaubten Eingaben für das Login-Feld Benutzername. Nur Benutzername, nur E-Mail-Adresse oder beides.";
+$l['setting_seourls_archive'] = "Suchmaschinenfreundliche URLs im Archiv aktivieren?";
+$l['setting_seourls_archive_desc'] = "Suchmaschinenfreundliche URLs können im Archiv verwendet werden. <strong>Bitte prüfen Sie nach dem Aktivieren dieser Option, ob das Archiv noch vollständig funktioniert.</strong>";
 
 // Optionen
 $l['setting_reportmethod_db'] = "In Datenbank speichern";
