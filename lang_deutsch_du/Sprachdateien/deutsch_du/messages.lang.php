@@ -50,7 +50,7 @@ $l['error_uploadfailed_movefailed'] = "Beim Verschieben der Datei ist ein Fehler
 $l['error_uploadfailed_lost'] = "Das Attachment konnte auf dem Server nicht gefunden werden.";
 $l['error_emailmismatch'] = "Die E-Mail-Adressen stimmen nicht überein. Bitte korrigiere deine Eingabe.";
 $l['error_nopassword'] = "Du hast ein ungültiges Passwort eingegeben.";
-$l['error_usernametaken'] = "Der Benutzername, den du gewählt hast, ist bereits vergeben.";
+$l['error_usernametaken'] = "Der Benutzername, den du gewählt hast, ist bereits vergeben. Sofern du dich bereits registriert hast, <a href=\"member.php?action=login\">melde</a> dich bitte an.";
 $l['error_nousername'] = "Du hast keinen Benutzernamen eingegeben.";
 $l['error_invalidusername'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalidpassword'] = "Das eingegebene Passwort ist nicht korrekt. Solltest du dein Passwort vergessen haben, klicke bitte <a href=\"member.php?action=lostpw\">hier</a>. Andernfalls gehe zurück und probiere es noch einmal.";
