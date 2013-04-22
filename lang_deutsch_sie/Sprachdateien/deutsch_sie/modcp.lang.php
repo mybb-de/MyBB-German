@@ -84,7 +84,6 @@ $l['find'] = "Suche";
 $l['modlogs'] = "Moderatoren-Protokoll";
 $l['action'] = "Aktion";
 $l['all_moderators'] = "Alle Moderatoren";
-$l['date'] = "Datum";
 $l['ip'] = "IP-Adresse";
 $l['info_on_ip'] = "Information für diese IP-Adresse";
 $l['information']  = "Information";
@@ -190,6 +189,7 @@ $l['multi_approve_threads'] = "Markierte Themen angenommen";
 $l['multi_delete_threads'] = "Markierte Themen gelöscht";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
 $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
+$l['edited_user_ban'] = "Benutzer-Sperrung bearbeitet";
 $l['banned_user'] = "Benutzer gesperrt";
 $l['lifted_ban'] = "Benutzer-Sperrung aufgehoben";
 

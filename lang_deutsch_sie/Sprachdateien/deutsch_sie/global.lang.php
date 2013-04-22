@@ -113,6 +113,7 @@ $l['yes'] = "Ja";
 $l['no'] = "Nein";
 
 $l['and'] = "und";
+$l['date'] = "Datum";
 
 $l['attachments'] = "Attachments";
 $l['attachments_desc'] = "Sie können ein oder mehrere Attachments zu diesem Beitrag hinzufügen. Wählen Sie die Datei auf der rechten Seite und klicken Sie auf 'Attachment hinzufügen', um die Datei hochzuladen.";
