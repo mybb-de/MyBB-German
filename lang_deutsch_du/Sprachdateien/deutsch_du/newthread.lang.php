@@ -39,7 +39,7 @@ $l['error_post_already_submitted'] = "Du hast dieses Thema bereits in diesem For
 $l['no_prefix'] = "Kein Präfix";
 $l['forum_rules'] = "{1} - Regeln";
 
-$l['multiquote_external_one'] = "Du hast 1 Beiträg von einem anderen Thema ausgewählt.";
+$l['multiquote_external_one'] = "Du hast 1 Beitrag von einem anderen Thema ausgewählt.";
 $l['multiquote_external'] = "Du hast {1} Beiträge von einem anderen Thema ausgewählt.";
 $l['multiquote_external_one_deselect'] = "Wähle diesen Beiträg ab";
 $l['multiquote_external_deselect'] = "Wähle diese Beiträge ab";
