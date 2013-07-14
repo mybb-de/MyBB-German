@@ -265,6 +265,12 @@ $l['email_addr'] = "E-Mail-Adresse";
 $l['board_name'] = "Forenname";
 $l['board_url'] = "Foren-URL";
 
+// Unlock ACP
+$l['lockout_unlock'] = "Admin-CP freischalten";
+$l['enter_username_and_token'] = "Bitte gib deinen Benutzernamen und den Aktivierungscode ein um fortzufahren.";
+$l['unlock_token'] = "Aktivierungscode:";
+$l['unlock_account'] = "Account freischalten";
+
 // Email message for if an admin account has been locked out
 $l['locked_out_subject'] = "Dein Benutzer-Konto bei {1} wurde ausgeschlossen";
 $l['locked_out_message'] = "{1},
