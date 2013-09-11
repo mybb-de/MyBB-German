@@ -53,6 +53,10 @@ $l['error_invalid_ip'] = "Ihre IP-Adresse ist für diese Sitzung nicht gültig";
 $l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen";
 $l['error_mybb_admin_lockedout_message'] = "Ihr Benutzer-Konto wurde nach {1} Anmelde-Versuchen gesperrt. Ihnen wurde eine E-Mail gesendet mit Informationen um Ihr Benutzer-Konto wieder freizuschalten.";
 
+$l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig.";
+$l['error_invalid_uid'] = "Die eingegebene Benutzer-ID ist ungültig.";
+$l['error_invalid_token'] = "Der eingegebene Aktivierungs-Code ist ungültig.";
+
 $l['success_logged_out'] = "Sie haben sich erfolgreich abgemeldet.";
 $l['error_invalid_username_password'] = "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.";
 
@@ -273,7 +277,7 @@ Ihr Benutzer-Konto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen gesperr
 
 Um Ihr Benutzer-Konto wieder freizuschalten, öffnen Sie bitte folgenden Link in Ihrem Browser.
 
-{4}/{5}/index.php?action=unlock&token={6}
+{4}/{5}/index.php?action=unlock&uid={7}&token={6}
 
 Wenn dieser Link nicht funktioniert, gehen Sie zu
 
