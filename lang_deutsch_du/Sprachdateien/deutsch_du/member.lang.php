@@ -133,6 +133,7 @@ $l['coppa_agreement_1'] = "Benutzer, die jünger als 13 Jahre sind, brauchen ein
 $l['coppa_agreement_2'] = "Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken, bevor eine Mitgliedschaft gewährt wird.";
 $l['coppa_agreement_3'] = "Wenn du möchtest, kannst du den Registrierungsvorgang jetzt beginnen. Der Account wird jedoch erst nutzbar, wenn wir das oben genannte Einverständnisformular erhalten haben.";
 
+$l['error_invalid_birthday'] = "Das von dir eingegebene Geburtsdatum ist ungültig. Bitte gib ein gültiges Geburtsdatum ein.";
 $l['error_awaitingcoppa'] = "Du kannst dich nicht mit diesem Account einloggen, weil wir noch immer auf die Altersüberprüfung eines Elternteils oder gesetzlichen Vertreters warten.<br /><br />Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.<br /><br />Sobald wir eine vollständige Kopie erhalten haben, wird der Account aktiviert.";
 
 $l['lang_select'] = "Spracheinstellungen:";
