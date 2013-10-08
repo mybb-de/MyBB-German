@@ -21,6 +21,7 @@ $l['postdata_subject_too_long'] = 'Der Betreff ist zu lang. Bitte gib einen Betr
 $l['postdata_post_flooding'] = 'Du versuchst, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warte noch {1} Sekunden.';
 $l['postdata_post_flooding_one_second'] = 'Du versuchst, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warte noch 1 Sekunde.';
 $l['postdata_too_many_images'] = 'Die von dir eingegebene Nachricht enthält {1} Grafiken, es sind aber nur {2} Grafiken pro Nachricht erlaubt. Bitte entferne Grafiken aus deiner Nachricht, um das Limit nicht zu überschreiten.';
+$l['postdata_too_many_videos'] = 'Die von dir eingegebene Nachricht enthält {1} Videos, es sind aber nur {2} Videos pro Nachricht erlaubt. Bitte entferne Videos aus deiner Nachricht, um das Limit nicht zu überschreiten.';
 
 $l['thread_closed'] = "Thema geschlossen";
 $l['thread_opened'] = "Thema geöffnet";

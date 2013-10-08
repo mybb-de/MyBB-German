@@ -186,15 +186,14 @@ $l['admin_log_style_themes_export'] = "Theme #{1} ({2}) exportiert";
 $l['admin_log_tools_system_health_utf8_conversion'] = "Tabelle {1} zu UTF-8 konvertiert.";
 
 $l['admin_log_tools_adminlog_prune'] = "{4} Administrator Log-Daten älter als {1} Tage gelöscht";
-$l['admin_log_tools_adminlog_prune_user'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer {2} gelöscht";
-$l['admin_log_user_banning_prune'] = "Beiträge und Themen des Benutzers #{1} ({2}) wurden gelöscht";
+$l['admin_log_tools_adminlog_prune_user'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer #{2} gelöscht";
 $l['admin_log_tools_adminlog_prune_module'] = "{4} Administrator Log-Daten älter als {1} Tage von Modul {3} gelöscht";
-$l['admin_log_tools_adminlog_prune_user_module'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer {2} und Modul {3} gelöscht";
+$l['admin_log_tools_adminlog_prune_user_module'] = "{4} Administrator Log-Daten älter als {1} Tage von Benutzer #{2} und Modul {3} gelöscht";
 
 $l['admin_log_tools_modlog_prune'] = "{4} Moderator Log-Daten älter als {1} Tage gelöscht";
-$l['admin_log_tools_modlog_prune_user'] = "{4} Moderator Log-Daten älter als {1} Tage von Benutzer {2} gelöscht";
+$l['admin_log_tools_modlog_prune_user'] = "{4} Moderator Log-Daten älter als {1} Tage von Benutzer #{2} gelöscht";
 $l['admin_log_tools_modlog_prune_forum'] = "{4} Moderator Log-Daten älter als {1} Tage von Modul #{3} ({5}) gelöscht";
-$l['admin_log_tools_modlog_prune_user_forum'] = "{4} Moderator Log-Daten älter als {1} Tage von Benutzer {2} und Forum #{5} ({4}) gelöscht";
+$l['admin_log_tools_modlog_prune_user_forum'] = "{4} Moderator Log-Daten älter als {1} Tage von Benutzer #{2} und Forum #{3} ({5}) gelöscht";
 
 $l['admin_log_tools_backupdb_dlbackup'] = "Download einer vorhandenen Sicherung: {1}";
 $l['admin_log_tools_backupdb_delete'] = "Sicherung gelöscht: {1}";
@@ -232,6 +231,7 @@ $l['admin_log_user_admin_permissions_edit'] = "Standard-Administrator-Berechtigu
 
 $l['admin_log_user_banning_lift'] = "Sperrung für Benutzer #{1} ({2}) aufgehoben";
 $l['admin_log_user_banning_edit'] = "Sperrung für Benutzer #{1} ({2}) bearbeitet";
+$l['admin_log_user_banning_prune'] = "Beiträge und Themen des Benutzers #{1} ({2}) wurden gelöscht";
 $l['admin_log_user_banning_add_permanent'] = "Benutzer #{1} ({2}) permanent gesperrt";
 $l['admin_log_user_banning_add_temporary'] = "Benutzer #{1} ({2}) bis {3} gesperrt";
 
