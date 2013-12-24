@@ -199,6 +199,7 @@ $l['db_step_error_missingencoding'] = 'Du hast keine Tabellenkodierung ausgewäh
 $l['db_step_error_sqlite_invalid_dbname'] = 'Du kannst keine relativen URLs für die SQLite-Datenbank verwenden. Bitte verwende einen kompletten Dateisystempfad (z.B.: /home/user/database.db) für deine SQLite-Datenbank.';
 $l['db_step_error_invalid_tableprefix'] = 'Du kannst nur Unterstriche (_) und alphanumerische Zeichen als Tabellenpräfix verwenden. Bitte gebe ein gültiges Tabellenpräfix ein.';
 $l['db_step_error_tableprefix_too_long'] = 'Du kannst nur ein Tabellenpräfix mit 40 Zeichen oder weniger verwenden. Bitte gebe ein kürzeres Tabellenpräfix ein.';
+$l['db_step_error_utf8mb4_error'] = '\'4-Byte UTF-8 Unicode\' benötigt MySQL 5.5.3 oder höher. Bitte wähle eine Kodierung, die mit der eingesetzten MySQL-Version kompatibel ist.';
 
 $l['tablecreate_step_connected'] = '<p>Die Verbindung zur angegebenen Datenbank konnte mit den angegebenen Benutzerdaten erfolgreich hergestellt werden.</p>
 <p>Datenbank-Engine: {1} {2}</p>
