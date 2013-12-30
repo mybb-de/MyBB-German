@@ -27,7 +27,7 @@ $l['fwd_pm'] = "Weitergeleitete Nachricht";
 
 $l['pms_disabled'] = "Sie können die private Nachrichten-Funktionalität nicht verwenden, da sie durch den Administrator deaktiviert wurde.";
 
-$l['private_messaging2'] = "Private Nachrichten verschicken";
+$l['private_messaging'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
 $l['compose_message2'] = "Nachricht verfassen";
 $l['manage_folders'] = "Ordner verwalten";
