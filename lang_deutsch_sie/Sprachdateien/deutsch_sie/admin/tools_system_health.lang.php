@@ -47,6 +47,7 @@ $l['stats'] = "Statistiken";
 $l['task'] = "Aufgaben";
 $l['run_time'] = "Ausführungszeit";
 $l['next_3_tasks'] = "Nächste 3 Aufgaben";
+$l['no_tasks'] = "Es werden keine Aufgaben ausgeführt.";
 $l['backup_time'] = "Sicherungszeit";
 $l['no_backups'] = "Es wurden bisher keine Sicherungen gemacht.";
 $l['existing_db_backups'] = "Existierende Datenbank-Sicherungen";

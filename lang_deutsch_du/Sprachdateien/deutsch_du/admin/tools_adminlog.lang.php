@@ -63,7 +63,7 @@ $l['admin_log_config_calendars_add'] = "Kalender #{1} ({2}) hinzugefügt";
 $l['admin_log_config_calendars_permissions'] = "Berechtigungen für Kalender #{1} ({2}) hinzugefügt";
 $l['admin_log_config_calendars_edit'] = "Kalender #{1} ({2}) bearbeitet";
 $l['admin_log_config_calendars_delete'] = "Kalender #{1} ({2}) gelöscht";
-$l['admin_log_config_calendars_update_orders'] = "Kalender-Sortierung bearbeitet";
+$l['admin_log_config_calendars_update_order'] = "Kalender-Sortierung bearbeitet";
 
 $l['admin_log_config_help_documents_add_section'] = "Hilfe-Kategorie #{1} ({2}) hinzugefügt";
 $l['admin_log_config_help_documents_add_document'] = "Hilfe-Seite #{1} ({2}) hinzugefügt";
@@ -201,6 +201,7 @@ $l['admin_log_tools_backupdb_backup'] = "Sicherung erstellt: {2}";
 $l['admin_log_tools_backupdb_backup_download'] = "Download der Sicherung der aktuellen Datenbank";
 
 $l['admin_log_tools_cache_rebuild'] = "Cache erneuert ({1})";
+$l['admin_log_tools_cache_reload'] = "Cache neu geladen ({1})";
 
 $l['admin_log_tools_index_utf8_conversion'] = "Tabelle {1} zu UTF-8 konvertiert";
 
@@ -249,8 +250,8 @@ $l['admin_log_user_groups_add'] = "Benutzergruppe #{1} ({2}) hinzugefügt";
 $l['admin_log_user_groups_edit'] = "Benutzergruppe #{1} ({2}) bearbeitet";
 $l['admin_log_user_groups_delete'] = "Benutzergruppe #{1} ({2}) gelöscht";
 $l['admin_log_user_groups_disporder'] = "Anzeigereihenfolge der Benutzergruppen aktualisiert";
-$l['admin_log_user_groups_join_requests_approve'] = "Beitrittsanfrage für Benutzergruppe #{1} ({2}) akzeptiert";
-$l['admin_log_user_groups_join_requests_deny'] = "Beitrittsanfrage für Benutzergruppe #{1} ({2}) abgelehnt";
+$l['admin_log_user_groups_join_requests_approve'] = "Beitrittsanfrage für Benutzergruppe #{3} ({2}) akzeptiert";
+$l['admin_log_user_groups_join_requests_deny'] = "Beitrittsanfrage für Benutzergruppe #{3} ({2}) abgelehnt";
 
 $l['admin_log_user_titles_add'] = "Standard-Benutzertitel #{1} ({2}) für {3} Beiträge hinzugefügt";
 $l['admin_log_user_titles_edit'] = "Standard-Benutzertitel #{1} ({2}) für {3} Beiträge bearbeitet";

@@ -192,6 +192,7 @@ $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "Benutzer-Sperrung bearbeitet";
 $l['banned_user'] = "Benutzer gesperrt";
 $l['lifted_ban'] = "Benutzer-Sperrung aufgehoben";
+$l['no_bans_ending'] = "Es enden in nächster Zeit keine Sperrungen.";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
