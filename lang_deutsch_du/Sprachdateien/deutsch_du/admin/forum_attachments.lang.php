@@ -76,6 +76,7 @@ $l['step2of2'] = "Schritt 2 von 2 - Durchsuche Datenbank";
 $l['step1of2_line1'] = "Bitte warten, das Dateisystem wird gerade nach verwaisten Attachments durchsucht.";
 $l['step2of2_line1'] = "Bitte warten, die Datenbank wird gerade nach verwaisten Attachments durchsucht.";
 $l['step_line2'] = "Du wirst automatisch zum nächsten Schritt weitergeleitet, sobald dieser Prozess abgeschlossen ist.";
+$l['scanning'] = 'Einlesen...';
 
 // = Attachments / Index
 $l['index_find_attachments'] = "Attachments - Suche Attachments";
