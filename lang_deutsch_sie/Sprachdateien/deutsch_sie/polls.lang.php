@@ -40,7 +40,7 @@ $l['post_new_poll'] = "Neue Umfrage erstellen";
 $l['days'] = "Tage";
 $l['poll_results'] = "Ergebnisse der Umfrage";
 $l['poll_total'] = "Gesamt:";
-$l['poll_votes'] = "Stimmen";
+$l['poll_votes'] = "Stimme(n)";
 
 $l['redirect_pollposted'] = "Ihre Umfrage wurde veröffentlicht.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_pollpostedmoderated'] = "Ihre Umfrage wurde gespeichert, aber Ihr Thema wartet noch auf Moderation.<br />Sie werden jetzt zum Forum zurückgeleitet.";

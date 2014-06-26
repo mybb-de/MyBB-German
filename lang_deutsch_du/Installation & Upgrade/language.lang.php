@@ -333,7 +333,7 @@ $l['done_step_cachebuilding'] = '<p>Lese Daten in Cache ein...';
 $l['done_step_success'] = '<p class="success">Deine Kopie des MyBB wurde erfolgreich installiert und konfiguriert.</p>
 <p>Die MyBB Group bedankt sich für die Unterstützung durch die Installation der Software und wir hoffen, dich in der Community begrüßen zu können, wenn du Fragen hast oder einfach Teil der MyBB Community werden möchtest.</p>';
 $l['done_step_locked'] = '<p>Die Installation ist gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um die Installationsroutine erneut ausführen zu können.</p><p>Du kannst nun ins <a href="../index.php">Forum</a> oder ins <a href="../admin/index.php">Admin Control Panel</a> gehen.</p>';
-$l['done_step_dirdelete'] = '<p><strong><span style="colour:red">Bitte entferne das Installationsverzeichnis vom Server, bevor du fortfährst.</span></strong></p>';
+$l['done_step_dirdelete'] = '<p><strong><span style="color:red">Bitte entferne das Installationsverzeichnis vom Server, bevor du fortfährst.</span></strong></p>';
 $l['done_subscribe_mailing'] = '<div class="error"><p><strong>Melde dich für unseren Newsletter an!</strong></p><p>Wir verschicken jedesmal einen Newsletter, wenn eine neue Version (neue Features, Sicherheitsupdate) des MyBB erschienen ist.</p><p>Dadurch wirst du schnell informiert, so dass du immer auf dem neuesten Stand bist!</p><p><a href="http://www.mybboard.de/support/newsletter.html">Jetzt für den Newsletter anmelden!</a></p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
@@ -352,6 +352,13 @@ $l['upgrade_congrats'] = "<p>Herzlichen Glückwunsch! Dein Forum wurde erfolgrei
 $l['upgrade_template_reversion'] = "Warnung: Templates werden zurückgesetzt";
 $l['upgrade_template_reversion_success'] = "<p>Alle erforderlichen Änderungen in der Datenbank wurden erfolgreich abgeschlossen.</p><p>Das Upgrade wird alle vorhandenen Templates zurücksetzen und aktualisieren. Bitte mache eine Sicherung eigener Templates, bevor du fortfährst.";
 $l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"http://wiki.mybboard.net/index.php/Anonymous_Statistics\" style=\"color: #555;\" target=\"_blank\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
+
+$l['please_login'] = "Bitte melde dich an";
+$l['login'] = "Anmeldung";
+$l['login_desc'] = "Bitte gib deinen Benutzername und dein Passwort ein um die Upgraderoutine zu starten. Du musst ein Administrator des Forums sein um das Upgrade zu durchführen zu können.";
+$l['login_username'] = "Benutzername";
+$l['login_password'] = "Passwort";
+$l['login_password_desc'] = "Bitte beachte Groß- und Kleinschreibung.";
 
 /* Error messages */
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';

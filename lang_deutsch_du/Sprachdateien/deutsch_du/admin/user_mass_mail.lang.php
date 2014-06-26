@@ -67,6 +67,7 @@ $l['subject'] = "Betreff";
 $l['message'] = "Nachricht";
 $l['text_based'] = "Textbasiert";
 $l['preview'] = "Vorschau";
+$l['mass_mail_preview'] = "Massenmail-Vorschau";
 $l['html_based'] = "HTML-basiert";
 $l['total_recipients'] = "Empfänger";
 $l['change_recipient_conds'] = "Ändere Empfängerbedingungen";

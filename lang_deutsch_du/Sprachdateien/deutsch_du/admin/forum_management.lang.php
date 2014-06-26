@@ -217,6 +217,8 @@ $l['save_permissions'] = "Speichere Forenberechtigungen";
 
 $l['error_missing_title'] = "Du musst einen Titel angeben.";
 $l['error_no_parent'] = "Du musst ein übergeordnetes Forum wählen.";
+$l['error_not_empty'] = "Foren mit Themen können nicht in Kategorien umgewandelt werden.";
+$l['error_forum_link_not_empty'] = "Foren mit Themen können nicht auf andere Internetseiten weitergeleitet werden.";
 
 $l['success_forum_added'] = "Das Forum wurde erfolgreich hinzugefügt.";
 $l['success_moderator_added'] = "Der Moderator wurde dem Forum erfolgreich hinzugefügt.";
