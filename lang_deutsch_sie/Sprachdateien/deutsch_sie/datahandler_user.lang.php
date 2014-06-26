@@ -42,5 +42,5 @@ $l['userdata_missing_required_profile_field'] = 'Die Angabe im Feld "{1}" fehlt.
 $l['userdata_bad_profile_field_values'] = 'Die Angabe im Feld "{1}" ist ungültig. Bitte korrigieren Sie Ihre Eingabe.';
 $l['userdata_max_limit_reached'] = 'Sie haben eine ungültige Anzahl an Zeichen für das \"{1}\" Feld eingegeben. Bitte füllen Sie das Feld mit nicht mehr als {2} Zeichen aus.';
 $l['userdata_invalid_checkfield'] = "Es wurde festgestellt, dass dieses Formular von einem Spambot verschickt wurde. Wenn dies ein Fehler ist, kontaktieren Sie bitte den Administrator.";
-$l['userdata_invalid_postnum'] = "Die eingegebene Beitragsanzahl ist ungültig. Bitte geben Sie eine gültige Beitragszahl ein oder lassen Sie das Feld leer.";
+$l['userdata_invalid_postnum'] = "Die eingegebene Beitragsanzahl ist ungültig. Bitte geben Sie eine gültige Beitragsanzahl ein oder lassen Sie das Feld leer.";
 ?>
