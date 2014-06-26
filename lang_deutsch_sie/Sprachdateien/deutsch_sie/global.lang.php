@@ -251,8 +251,8 @@ $l['on'] = "aktiviert";
 $l['off'] = "deaktiviert";
 $l['unread_report'] = "Moderatoren-Nachricht: Es gibt einen ungelesenen gemeldeten Beitrag.";
 $l['unread_reports'] = "Moderatoren-Nachricht: Es gibt {1} ungelesene gemeldete Beiträge.";
-$l['pending_joinrequest'] = "Gruppenleiter-Notiz: Sie haben eine austehende Gruppenbeitrittsanfrage.";
-$l['pending_joinrequests'] = "Gruppenleiter-Notiz: Sie haben {1} austehende Gruppenbeitrittsanfragen.";
+$l['pending_joinrequest'] = "Gruppenleiter-Notiz: Sie haben eine ausstehende Gruppenbeitrittsanfrage.";
+$l['pending_joinrequests'] = "Gruppenleiter-Notiz: Sie haben {1} ausstehende Gruppenbeitrittsanfragen.";
 
 $l['year'] = "Jahr";
 $l['year_short'] = "J";
