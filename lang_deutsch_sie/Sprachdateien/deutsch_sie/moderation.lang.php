@@ -175,7 +175,7 @@ $l['redirect_inline_postsmerged'] = "Die ausgewählten Beiträge wurden zusammen
 $l['redirect_inline_postsapproved'] = "Die ausgewählten Beiträge wurden angenommen.<br />Sie werden jetzt zum letzten Ort zurückgeleitet.";
 $l['redirect_inline_postsunapproved'] = "Die ausgewählten Beiträge wurden abgelehnt.<br />Sie werden jetzt zum letzten Ort zurückgeleitet.";
 $l['redirect_postsdeleted'] = "Die ausgewählten Beiträge wurden erfolgreich gelöscht.<br />Sie werden jetzt zum letzten Ort zurückgeleitet.";
-$l['redirect_removedsubscriptions'] = "Alle Abbonnements für dieses Theme wurden erfolgreich gelöscht.<br />Sie werden jetzt zum Thema zurückgeleitet.";
+$l['redirect_removedsubscriptions'] = "Alle Abonnements für dieses Theme wurden erfolgreich gelöscht.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_customtool_thread'] = "\"{1}\" Moderations-Tool erfolgreich ausgeführt.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_customtool_forum'] = "\"{1}\" Moderations-Tool erfolgreich ausgeführt.<br />Sie werden jetzt zum Forum zurückgeleitet.";
 $l['redirect_customtool_search'] = "{1} Moderations-Tool erfolgreich ausgeführt.<br />Sie werden jetzt zur Suche zurückgeleitet.";
@@ -183,5 +183,5 @@ $l['redirect_customtool_search'] = "{1} Moderations-Tool erfolgreich ausgeführt
 $l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Thema zurückgeleitet.";
 $l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Forum zurückgeleitet.";
 $l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zur Suche zurückgeleitet.";
-$l['redirect_delayed_moderation_cancelled'] = "Die ausgwählte verzögerte Moderations-Option wurde abgebrochen.<br />Sie werden zur Übersicht der verzögerten Moderations-Optionen zurückgeleitet.";
+$l['redirect_delayed_moderation_cancelled'] = "Die ausgewählte verzögerte Moderations-Option wurde abgebrochen.<br />Sie werden zur Übersicht der verzögerten Moderations-Optionen zurückgeleitet.";
 ?>
