@@ -415,5 +415,3 @@ $l['board_url'] = "Foren-URL";
 
 $l['comma'] = ", ";
 ?>
-;
-$l[
