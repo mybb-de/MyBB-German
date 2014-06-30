@@ -18,6 +18,7 @@ $l['add_new_user_title_desc'] = "Dieser Bereich erlaubt dir, neue Benutzertitel 
 
 $l['error_missing_title'] = "Du hast keinen Titel für diesen Benutzertitel eingegeben";
 $l['error_missing_posts'] = "Du hast keine minimale Beitragsanzahl für diesen Benutzertitel eingegeben";
+$l['error_cannot_have_same_posts'] = "Der Benutzertitel kann nicht die gleiche minimale Beitragsanzahl wie ein anderer Benutzertitel haben";
 $l['error_invalid_user_title'] = "Du hast einen ungültigen Benutzertitel ausgewählt";
 
 $l['success_user_title_created'] = "Der neue Benutzertitel wurde erfolgreich erstellt.";

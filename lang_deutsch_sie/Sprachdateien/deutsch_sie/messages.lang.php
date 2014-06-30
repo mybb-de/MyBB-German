@@ -78,6 +78,7 @@ $l['error_too_many_images3'] = "<b>Hinweis:</b> Die maximal zulässige Anzahl an
 $l['error_attach_file'] = "Fehler beim Hinzufügen des Attachments";
 $l['please_correct_errors'] = "Bitte korrigieren Sie die folgenden Fehler bevor Sie fortfahren:";
 $l['error_reachedattachquota'] = "Entschuldigung, Sie können dieses Attachment nicht anhängen, weil Ihr Speicherplatz von {1} belegt ist.";
+$l['error_maxattachpost'] = "Entschuldigung, Sie können dieses Attachment nicht anhängen, weil Sie bereits die maximal erlaube Anzahl von Attachments pro Beitrag von {1} erreicht haben.";
 $l['error_invaliduser'] = "Der angegebene Benutzer ist ungültig oder existiert nicht.";
 $l['error_invalidaction'] = "Ungültige Aktion";
 $l['error_messagelength'] = "Entschuldigung, Ihre Nachricht ist zu lang und kann nicht gespeichert werden. Bitte kürzen Sie Ihren Beitrag und versuchen Sie es erneut.";
