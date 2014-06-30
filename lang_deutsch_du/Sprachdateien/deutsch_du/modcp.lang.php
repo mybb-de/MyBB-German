@@ -193,6 +193,7 @@ $l['edited_user_ban'] = "Benutzer-Sperrung bearbeitet";
 $l['banned_user'] = "Benutzer gesperrt";
 $l['lifted_ban'] = "Benutzer-Sperrung aufgehoben";
 $l['no_bans_ending'] = "Es enden in nächster Zeit keine Sperrungen.";
+$l['close_window'] = "Fenster Schließen";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
@@ -285,5 +286,10 @@ $l['error_invalid_start_date'] = "Das Startdatum für die Ankündigung ist ungü
 $l['error_invalid_end_date'] = "Das Enddatum für die Ankündigung ist ungültig.";
 $l['error_end_before_start'] = "Das Enddatum muss nach dem Startdatum liegen.";
 $l['error_invalid_announcement'] = "Die angegebene Ankündigung ist ungültig.";
+$l['announcement_added'] = "Ankündigung hinzugefügt";
+$l['announcement_edited'] = "Ankündigung bearbeitet";
+$l['announcement_deleted'] = "Ankündigung gelöscht";
+
+$l['post'] = 'Beitrag';
 
 ?>
