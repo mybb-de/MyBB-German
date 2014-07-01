@@ -1,21 +1,17 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
  
 $l['nav_stats'] = "Foren-Statistiken";
 
 $l['board_stats'] = "Foren-Statistiken";
 $l['none'] = "Keine";
-$l['nobody'] = "Niemand";
 $l['totals'] = "Gesamt";
 $l['averages'] = "Durchschnitt";
 $l['posts'] = "Beiträge:";
@@ -25,6 +21,7 @@ $l['ppd'] = "Beiträge pro Tag:";
 $l['tpd'] = "Themen pro Tag:";
 $l['mpd'] = "Registrierungen pro Tag:";
 $l['ppm'] = "Beiträge pro Mitglied:";
+$l['tpm'] = "Themen pro Mitglied:";
 $l['rpt'] = "Antworten pro Thema:";
 $l['no_posts'] = "Keine";
 $l['general'] = "Allgemein";
@@ -38,5 +35,5 @@ $l['most_viewed_threads'] = "Themen mit den meisten Ansichten";
 $l['not_enough_info_stats'] = "Entschuldigung, aber es gibt in diesem Forum nicht genug Informationen, um Statistiken zu erstellen. Um Statistiken erstellen zu können, benötigt das Forum mindestens einen Benutzer und ein Thema.";
 $l['replies'] = "Antworten";
 $l['views'] = "Ansichten";
-
+$l['top_referrer'] = "Benutzer mit den meisten Empfehlungen: <strong>{1}</strong> (<strong>{2}</strong> Empfehlungen)";
 ?>

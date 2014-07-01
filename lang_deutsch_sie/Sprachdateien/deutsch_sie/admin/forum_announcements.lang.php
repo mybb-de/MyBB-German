@@ -1,21 +1,19 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['forum_announcements'] = "Forenankündigungen";
 $l['forum_announcements_desc'] = "Hier können Sie die Ankündigungen in deinem Forum verwalten. Globale Ankündigungen werden in allen Foren gezeigt. Ankündigungen, die einem Forum zugewiesen wurden, werden in diesem Forum und dessen Unterforen gezeigt.";
 $l['add_announcement'] = "Ankündigung hinzufügen";
 $l['add_announcement_desc'] = "Hier können Sie eine Ankündigung für ein Forum oder alle Foren erstellen.";
 $l['update_announcement'] = "Ankündigung aktualisieren";
+$l['preview_announcement'] = "Ankündigungs-Vorschau";
 $l['update_announcement_desc'] = "Hier können Sie die Details einer Ankündigung aktualisieren.";
 
 $l['start_date_desc'] = "Zu dieser Zeit (in GMT), wird die Ankündigung in den ausgewählten Foren veröffentlicht.";
@@ -56,4 +54,5 @@ $l['allow_smilies'] = "Smilies erlauben?";
 $l['time'] = "Zeit:";
 $l['set_time'] = "Setze Zeitpunkt";
 
+$l['announcement_preview'] = 'Ankündigungs-Vorschau';
 ?>

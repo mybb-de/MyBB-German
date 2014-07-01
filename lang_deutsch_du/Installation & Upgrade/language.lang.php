@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['none'] = 'Kein';
 $l['not_installed'] = 'Nicht installiert';
@@ -63,7 +60,7 @@ $l['mybb_already_installed'] = "<p>Willkommen bei der Installationsroutine für 
 
 $l['mybb_incorrect_folder'] = "<div class=\"border_wrapper upgrade_note\" style=\"padding: 4px;\">
 	<h3>MyBB hat festgestellt, dass es vom  \"Upload\" Ordner aus ausgeführt wird.</h3>
-	<p><p>Auch wenn kein Fehler vorliegt wird empfohlen, dass die Dateien aus dem Ordner \"Upload\" auf den Server übertragen werden und nicht der Ordner selbst.<br /><br />Für mehr Informationen siehe auch <a href=\"http://www.mybboard.de/doku/installationaktualisierung/installation.html\" target=\"_blank\">Installation</a>.</p>
+	<p><p>Auch wenn kein Fehler vorliegt wird empfohlen, dass die Dateien aus dem Ordner \"Upload\" auf den Server übertragen werden und nicht der Ordner selbst.<br /><br />Für mehr Informationen siehe auch <a href=\"http://www.mybboard.de/doku/installationaktualisierung/installation/\" target=\"_blank\">Installation</a>.</p>
 </div>";
 
 $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Diese Routine installiert und konfiguriert eine Kopie des MyBB auf deinem Server.</p>
@@ -143,16 +140,16 @@ $l['req_step_span_fail'] = '<span class="fail"><strong>{1}</strong></span>';
 $l['req_step_span_pass'] = '<span class="pass">{1}</span>';
 
 $l['req_step_error_box'] = '<p><strong>{1}</strong></p>';
-$l['req_step_error_phpversion'] = 'MyBB benötigt PHP 5.1.0 oder höher. Du hast zur Zeit {1} installiert.';
+$l['req_step_error_phpversion'] = 'MyBB benötigt PHP 5.2.0 oder höher. Du hast zur Zeit {1} installiert.';
 $l['req_step_error_dboptions'] = 'MyBB benötigt mindestens eine installierte kompatible Datenbankerweiterung. Der Server gab zurück, dass keine zur Verfügung steht.';
 $l['req_step_error_xmlsupport'] = 'MyBB benötigt PHP mit der Unterstützung für die Verarbeitung von XML. Bitte gehe auf <a href="http://www.php.net/xml" target="_blank">PHP.net</a> für weitere Informationen.';
-$l['req_step_error_configdefaultfile'] = 'Die Konfigurationsdatei (inc/config.default.php) konnte nicht umbenannt werden. Bitte benenne die <u>config.default.php</u> manuell um in <u>config.php</u>, damit sie beschrieben werden kann. Bei Problemen kontaktiere bitte den <a href="http://www.mybboard.de/support.html" targert="_blank">MyBB Support</a>.';
-$l['req_step_error_configfile'] = 'Die Konfigurationsdatei (inc/config.php) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
-$l['req_step_error_settingsfile'] = 'Die Einstellungsdatei (inc/settings.php) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
-$l['req_step_error_cachedir'] = 'Der Ordner für den Zwischenspeicher (cache/) ist nicht beschreibbar. Bitte korrigiere  die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_uploaddir'] = 'Der Ordner für Uploads (uploads/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_avatardir'] = 'Der Ordner für Avatare (uploads/avatars/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_cssddir'] = 'Der Ordner für CSS (css/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation.html" target="_blank">Dateirechte </a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_configdefaultfile'] = 'Die Konfigurationsdatei (inc/config.default.php) konnte nicht umbenannt werden. Bitte benenne die <u>config.default.php</u> manuell um in <u>config.php</u>, damit sie beschrieben werden kann. Bei Problemen kontaktiere bitte den <a href="http://www.mybboard.de/support/" targert="_blank">MyBB Support</a>.';
+$l['req_step_error_configfile'] = 'Die Konfigurationsdatei (inc/config.php) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
+$l['req_step_error_settingsfile'] = 'Die Einstellungsdatei (inc/settings.php) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
+$l['req_step_error_cachedir'] = 'Der Ordner für den Zwischenspeicher (cache/) ist nicht beschreibbar. Bitte korrigiere  die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_uploaddir'] = 'Der Ordner für Uploads (uploads/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_avatardir'] = 'Der Ordner für Avatare (uploads/avatars/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_cssddir'] = 'Der Ordner für CSS (css/) ist nicht beschreibbar. Bitte korrigiere die Berechtigungen (<a href="http://www.mybboard.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte </a>), so dass der Ordner beschrieben werden kann.';
 $l['req_step_error_tablelist'] = '<div class="error">
 <h3>Fehler</h3>
 <p>Bei der Überprüfung der Voraussetzungen des MyBB wurden die unten aufgeführten Probleme festgestellt. Die Installation kann nicht fortgesetzt werden, da die minimalen Voraussetzungen nicht erfüllt werden. Bitte behebe folgende Probleme und versuche es erneut:</p>
@@ -243,7 +240,7 @@ $l['config_step_table'] = '<p>Du musst nun die Basiseinstellungen deines Forums 
 					<td class="last alt_col"><input type="text" class="text_input" name="websiteurl" id="websiteurl" value="{4}" /></td>
 				</tr>
 				<tr>
-					<th colspan="2" class="first last">Cookie-Einstellungen <a title="Was ist das?" target="_blank" href="http://www.mybboard.de/doku/haeufig-gestellte-fragen/warum-kann-ich-mich-nicht-im-forum-anmelden.html">(?)</a></th>
+					<th colspan="2" class="first last">Cookie-Einstellungen <a title="Was ist das?" target="_blank" href="http://www.mybboard.de/doku/haeufig-gestellte-fragen/warum-kann-ich-mich-nicht-im-forum-anmelden/">(?)</a></th>
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Cookie-Domain:</label></td>
@@ -254,7 +251,7 @@ $l['config_step_table'] = '<p>Du musst nun die Basiseinstellungen deines Forums 
 					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" /></td>
 				</tr>
 				<tr>
-					<th colspan="2" class="first last">Kontakt-Details (werden im Footer gezeigt)</th>
+					<th colspan="2" class="first last">Kontakt-Details</th>
 				</tr>
 				<tr class="last">
 					<td class="first"><label for="contactemail">Kontakt-E-Mail:</label></td>
@@ -334,7 +331,7 @@ $l['done_step_success'] = '<p class="success">Deine Kopie des MyBB wurde erfolgr
 <p>Die MyBB Group bedankt sich für die Unterstützung durch die Installation der Software und wir hoffen, dich in der Community begrüßen zu können, wenn du Fragen hast oder einfach Teil der MyBB Community werden möchtest.</p>';
 $l['done_step_locked'] = '<p>Die Installation ist gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um die Installationsroutine erneut ausführen zu können.</p><p>Du kannst nun ins <a href="../index.php">Forum</a> oder ins <a href="../admin/index.php">Admin Control Panel</a> gehen.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="color:red">Bitte entferne das Installationsverzeichnis vom Server, bevor du fortfährst.</span></strong></p>';
-$l['done_subscribe_mailing'] = '<div class="error"><p><strong>Melde dich für unseren Newsletter an!</strong></p><p>Wir verschicken jedesmal einen Newsletter, wenn eine neue Version (neue Features, Sicherheitsupdate) des MyBB erschienen ist.</p><p>Dadurch wirst du schnell informiert, so dass du immer auf dem neuesten Stand bist!</p><p><a href="http://www.mybboard.de/support/newsletter.html">Jetzt für den Newsletter anmelden!</a></p>';
+$l['done_subscribe_mailing'] = '<div class="error"><p><strong>Melde dich für unseren Newsletter an!</strong></p><p>Wir verschicken jedesmal einen Newsletter, wenn eine neue Version (neue Features, Sicherheitsupdate) des MyBB erschienen ist.</p><p>Dadurch wirst du schnell informiert, so dass du immer auf dem neuesten Stand bist!</p><p><a href="http://www.mybboard.de/support/newsletter/">Jetzt für den Newsletter anmelden!</a></p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Upgraderoutine";
@@ -361,5 +358,8 @@ $l['login_password'] = "Passwort";
 $l['login_password_desc'] = "Bitte beachte Groß- und Kleinschreibung.";
 
 /* Error messages */
+$l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Warnung</h2><p>Diese MyBB-Version ist eine Entwicklerversion und ist nur für Tests gedacht.</p><p>Es gibt für diese Version keinen offiziellen Support außer für die Plugin- und Themeentwicklung. Eine Installation bzw. ein Upgrade geschieht auf eigene Gefahr.</p></div>";
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';
+
+$l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
 ?>

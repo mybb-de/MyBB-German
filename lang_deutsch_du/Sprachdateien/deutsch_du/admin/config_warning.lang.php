@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['warning_system'] = "Warnsystem";
 $l['warning_types'] = "Warntypen";
 $l['warning_types_desc'] = "Hier kannst du die Arten von Warnungen verwalten, die Mitglieder des Forenteams vergeben können.";
@@ -71,7 +68,7 @@ $l['error_invalid_warning_level'] = "Der ausgewählte Warnlevel existiert nicht.
 $l['error_invalid_warning_percentage'] = "Du hast keine gültige Prozentangabe gemacht. Wähle einen Wert zwischen 1 und 100.";
 $l['error_invalid_warning_type'] = "Der ausgewählte Warntyp existiert nicht.";
 $l['error_missing_type_title'] = "Du hast keinen Titel für diesen Warntyp angegeben.";
-$l['error_missing_type_points'] = "Du hast eine ungültige Anzahl der zu vergebenden Punkte angegeben. Die Anzahl muss größer sein als 0 und kleiner als {1}.";
+$l['error_missing_type_points'] = "Du hast eine ungültige Anzahl der zu vergebenden Punkte angegeben. Die Anzahl muss größer sein als 0, aber nicht größer als {1}.";
 
 $l['success_warning_level_created'] = "Der Warnlevel wurde erfolgreich erstellt.";
 $l['success_warning_level_updated'] = "Der Warnlevel wurde erfolgreich aktualisiert.";
@@ -82,5 +79,4 @@ $l['success_warning_type_deleted'] = "Der ausgewählte Warntyp wurde erfolgreich
 
 $l['confirm_warning_level_deletion'] = "Soll dieser Warnlevel wirklich gelöscht werden?";
 $l['confirm_warning_type_deletion'] = "Soll dieser Warntyp wirklich gelöscht werden?";
-
 ?>

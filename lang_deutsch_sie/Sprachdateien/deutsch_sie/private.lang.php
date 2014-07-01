@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_pms'] = "Private Nachrichten";
 $l['nav_send'] = "Nachricht erstellen";
@@ -31,12 +28,13 @@ $l['private_messaging'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
 $l['compose_message2'] = "Nachricht verfassen";
 $l['manage_folders'] = "Ordner verwalten";
-$l['pms_in_folder'] = "Private Nachrichten im Ordner <em>{1}</em>";
 $l['pm_search_results'] = "Suchergebnisse in den Privaten Nachrichten";
 $l['message_title'] = "Betreff der privaten Nachricht";
 $l['sender'] = "Absender";
 $l['sentto'] = "Empfänger";
 $l['date_sent'] = "Gesendet (Datum/Zeit)";
+$l['desc'] = "ab";
+$l['asc'] = "auf";
 $l['delete_pm'] = "Löschen";
 $l['move_to'] = "Verschiebe in";
 $l['or'] = "oder";
@@ -56,7 +54,7 @@ $l['date_limit_days'] = "Tage";
 $l['export_unread'] = "Ungelesene Nachrichten exportieren?";
 $l['delete_archived'] = "Exportierte Nachrichten löschen?";
 $l['delete_archived_note'] = "Möchten Sie die in Ihren Ordnern gespeicherten Nachrichten löschen, sobald sie exportiert wurden?";
-$l['export_format'] = "Export-Datei-Format";
+$l['export_format'] = "Export-Datei-Format:";
 $l['export_format_note'] = "Bitte wählen Sie das Datei-Format, in dem die Nachrichten heruntergeladen werden sollen.";
 $l['export_html'] = "HTML Format (.html)";
 $l['export_txt'] = "Text Format (.txt)";
@@ -71,9 +69,8 @@ $l['export_messages2'] = "Download Nachrichten";
 $l['empty_folders'] = "Private Nachrichten-Ordner leeren";
 $l['empty_folders2'] = "Ordner leeren";
 $l['empty_note'] = "Hier können Sie private Nachrichten aus verschiedenen Ordnern gleichzeitig löschen. Wählen Sie die Ordner aus, aus denen Sie Nachrichten löschen möchten und klicken Sie auf \"Lösche\". Dieser Vorgang kann nicht rückgängig gemacht werden. <br /><strong>Hinweis: Wurden diese Nachrichten einmal gelöscht, besteht keine Möglichkeit mehr, sie wiederherzustellen.</strong>";
-$l['num_messages'] = "Anzahl der Nachrichten:";
-$l['nobody'] = "Niemand";
-$l['empty_q'] = "Leeren?";
+$l['num_messages'] = "Anzahl der Nachrichten";
+$l['empty_q'] = "Ordner leeren?";
 $l['keep_unread'] = "Alle ungelesenen Nachrichten aufbewahren";
 $l['pm_folders'] = "Ordner Private Nachrichten";
 $l['existing_folders'] = "Bestehende Ordner";
@@ -165,6 +162,7 @@ $l['ascending_order'] = "Aufsteigend";
 $l['descending_order'] = "Absteigend";
 $l['search_private_messages'] = "Suche Private Nachrichten";
 $l['check_all'] = "Alle auswählen";
+$l['search_user'] = "Benutzer suchen";
 
 $l['error_nopmsarchive'] = "Entschuldigung, aber es gibt keine Nachrichten, die Ihren Kriterien entsprechen.";
 $l['error_invalidpmfoldername'] = "Entschuldigung, der Ordnername, den Sie angegeben haben, enthält ungültige Zeichen.";
@@ -176,6 +174,7 @@ $l['error_recipientpmturnedoff'] = "{1} möchte keine PNs erhalten oder er darf 
 $l['error_pmsturnedoff'] = "Sie haben zur Zeit PNs in Ihrem Profil ausgeschaltet.<br />Um das Private Nachrichten-System benutzen zu können, müssen Sie es aktivieren.";
 $l['error_recipientignoring'] = "Leider kann Ihre Nachricht nicht an {1} zugestellt werden. Ihnen fehlt die Berechtigung für diese Aktion.";
 $l['error_pm_already_submitted'] = "Sie haben in den letzten 5 Minuten die gleiche Nachricht an den gleichen Empfänger geschickt.";
+$l['error_nopms'] = "Zur Benutzung dieser Funktion müssen Sie mindestens eine Private Nachricht auswählen.";
 
 $l['error_minsearchlength'] = "Ein oder mehrere der Suchbegriffe sind kürzer als das Minimum. Die minimale Länges eines Suchbegegriffes sind {1} Zeichen.<br /><br />Wenn Sie nach einem ganzen Satz suchen, schließen Sie ihn bitte mit Anführungszeichen ein. Zum Beispiel \"Vogel Quax zwickt Johnys Pferd Bim\".";
 $l['error_nosearchresults'] = "Leider konnten keine Ergebnisse für Ihre Suchbegriffe gefunden werden. Bitte versuchen Sie es mit anderen Begriffen erneut.";
@@ -194,4 +193,12 @@ $l['redirect_pmsent'] = "Vielen Dank! Ihre PN wurde erfolgreich gesendet.<br />S
 $l['redirect_pmfoldersupdated'] = "Vielen Dank! Ihre Ordner wurden erfolgreich aktualisiert.<br />Sie werden jetzt zum Posteingang geleitet.";
 $l['redirect_pmfoldersemptied'] = "Die ausgewählten Ordner wurden erfolgreich geleert.<br />Sie werden jetzt zum Posteingang weitergeleitet.";
 $l['redirect_searchresults'] = "Danke, die Suche wurde durchgeführt und Sie werden zu Ergebnis geleitet.";
+
+$l['quick_reply'] = "Schnellantwort";
+$l['message_note'] = "Gib hier deine Antwort zur Nachricht ein.";
+$l['send_reply'] = "Antwort absenden";
+$l['quickreply_signature'] = "Signatur";
+$l['quickreply_disable_smilies'] = "Smilies ausschalten";
+$l['quickreply_save_copy'] = "Kopie speichern";
+$l['quickreply_read_receipt'] = "<strong>Empfangsbestätigung</strong>";
 ?>

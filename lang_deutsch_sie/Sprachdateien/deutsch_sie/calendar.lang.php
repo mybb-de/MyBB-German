@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_calendar'] = "Kalender";
 $l['nav_viewevent'] = "Ereignisse ansehen";
@@ -145,5 +142,5 @@ $l['redirect_eventadded'] = "Das Ereignis wurde erfolgreich hinzugefügt.<br />S
 $l['redirect_eventadded_moderation'] = "Das Ereignis wurde erfolgreich hinzugefügt, muss aber von einem Moderator überprüft werden, bevor es sichtbar wird.<br />Sie werden nun zum Kalender weitergeleitet.";
 $l['redirect_eventunapproved'] = "Das Ereignis wurde erfolgreich abgewiesen.<br />Sie werden nun dorthin weitergeleitet.";
 $l['redirect_eventapproved'] = "Das Ereignis wurde erfolgreich zugelasen.<br />Sie werden nun dorthin weitergeleitet.";
-
+$l['redirect_eventmoved'] = "Das Ereignis wurde erfolgreich verschoben.<br />Sie werden nun dorthin weitergeleitet.";
 ?>

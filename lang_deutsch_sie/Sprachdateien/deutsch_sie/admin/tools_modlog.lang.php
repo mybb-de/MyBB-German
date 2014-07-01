@@ -1,16 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
-
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['mod_logs'] = "Moderator Log-Daten";
 $l['mod_logs_desc'] = "Hier können Sie die Moderator Log-Daten anschauen, säubern und durchsuchen. Diese Log-Daten enthalten die Aktionen jedes Benutzers (Löschung von eigenen Beiträge/Themen) und alle Aktionen von Moderatoren.";
@@ -50,8 +46,7 @@ $l['days'] = "Tage";
 
 $l['prune_moderator_logs'] = "Moderator Log-Daten säubern";
 $l['date_range'] = "Datum zwischen:";
-$l['all_forums'] = "Alle Foren";
 
 $l['success_pruned_mod_logs'] = "Die Moderator Log-Daten wurden erfolgreich gesäubert.";
-
+$l['note_logs_locked'] = "Aus Sicherheitsgründen können die Einträge der letzten 24 Stunden nicht entfernt werden.";
 ?>

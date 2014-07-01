@@ -1,15 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_profile'] = "Profil von {1}";
 $l['nav_warning_log'] = "Warnungslog";
 $l['nav_add_warning'] = "Warne Mitglied";
@@ -17,6 +15,7 @@ $l['nav_view_warning'] = "Warnungsdetails";
 
 $l['warning_for_post'] = "Für Beitrag:";
 $l['already_expired'] = "Ausgelaufen";
+$l['details_username'] = "Benutzername";
 $l['warning_active'] = "Aktiv";
 $l['warning_revoked'] = "Zurückgenommen";
 $l['warning_log'] = "Warnungslog";
@@ -31,10 +30,12 @@ $l['no_warnings'] = "Dieses Mitglied hat bis jetzt keine Warnungen erhalten oder
 $l['warn_user'] = "Warne Mitglied";
 $l['post'] = "Beitrag:";
 $l['warning_note'] = "Administrative Notizen:";
+$l['details_warning_note'] = "Administrative Notizen";
 $l['warning_type'] = "Warnungstyp:";
 $l['custom'] = "Benutzerdefinierter Grund";
 $l['reason'] = "Grund:";
 $l['points'] = "Punkte:";
+$l['details_reason'] = "Grund";
 $l['warn_user_desc'] = "Hier können Sie das Warnungslevel des Mitglieds erhöhen, sollte er oder sie eine oder mehrere Regeln verletzt haben.";
 $l['send_pm'] = "Benachrichtige Mitglied:";
 $l['send_user_warning_pm'] = "Senden Sie dem Mitglied eine Private Nachricht, um ihn oder sie von der Warnung in Kenntnis zu setzen.";
@@ -66,7 +67,7 @@ $l['error_invalid_user'] = "Der ausgewählte Benutzer existiert nicht.";
 $l['error_invalid_post'] = "Der ausgewählte Beitrag existiert nicht.";
 $l['error_cant_custom_warn'] = "Sie haben nicht die Berechtigung, benutzerdefinierte Warnungen zu geben.";
 $l['error_no_custom_reason'] = "Sie haben keinen Grund für Ihre benutzerdefinierte Warnung eingegeben.";
-$l['error_invalid_custom_points'] = "Sie haben keine gültige Punktezahl eingegeben, die zum Warnungslevel dieses Mitglieds hinzugefügt werden soll. Sie müssen eine Zahl eingeben, die größer als 0, aber kleiner oder gleich {1} ist.";
+$l['error_invalid_custom_points'] = "Sie haben keine gültige Punktezahl eingegeben, die zum Warnungslevel dieses Mitglieds hinzugefügt werden soll. Sie müssen eine Zahl eingeben, die größer als 0, aber nicht größer als {1} ist.";
 $l['details'] = "Details";
 $l['view'] = "Anschauen";
 $l['current_warning_level'] = "Momentanes Warnungslevel: <strong>{1}%</strong> ({2}/{3})";
@@ -74,8 +75,8 @@ $l['warning_details'] = "Warnungsdetails";
 $l['revoke_warning'] = "Diese Warnung zurücknehmen";
 $l['revoke_warning_desc'] = "Um diese Warnung zurückzunehmen, geben Sie bitte unten einen Grund an. Dies wird keine Ausschlüsse oder Sperrungen aufheben, die auf Grund dieser Warnung zu Stande gekommen sind.";
 $l['warning_is_revoked'] = "Diese Warnung wurde zurückgenommen";
-$l['revoked_by'] = "Zurückgenommen von:";
-$l['date_revoked'] = "Zurückgenommen am:";
+$l['revoked_by'] = "Zurückgenommen von";
+$l['date_revoked'] = "Zurückgenommen am";
 $l['warning_already_revoked'] = "Diese Warnung wurde bereits zurückgenommen.";
 $l['no_revoke_reason'] = "Sie haben keinen Grund angegeben, warum Sie diese Warnung zurücknehmen möchten.";
 $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich zurückgenommen und die Warnungspunkte des Mitglieds heruntergesetzt.<br /><br />Sie werden nun zur Warnung zurückgeleitet.";

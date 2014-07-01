@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_register'] = "Registrieren";
 $l['nav_activate'] = "Aktivieren";
@@ -24,7 +21,7 @@ $l['tpp_option'] = "{1} Themen pro Seite anzeigen";
 $l['ppp_option'] = "{1} Nachrichten pro Seite anzeigen";
 $l['account_activation'] = "Konto-Aktivierung";
 $l['activate_account'] = "Konto aktivieren";
-$l['activation_code'] = "Aktivierungscode";
+$l['activation_code'] = "Aktivierungscode:";
 
 $l['email_user'] = "Schicken Sie {1} eine E-Mail";
 $l['email_subject'] = "E-Mail-Betreff";
@@ -53,6 +50,8 @@ $l['joined'] = "Registriert seit:";
 $l['lastvisit'] = "Letzter Besuch:";
 $l['total_posts'] = "Beiträge (gesamt):";
 $l['ppd_percent_total'] = "{1} Beiträge pro Tag | {2} Prozent aller Beiträge";
+$l['total_threads'] = "Themen (gesamt):";
+$l['tpd_percent_total'] = "{1} Themen pro Tag | {2} Prozent aller Themen";
 $l['find_posts'] = "Alle Beiträge finden";
 $l['find_threads'] = "Alle Themen finden";
 $l['members_referred'] = "Empfohlene Benutzer:";
@@ -64,7 +63,8 @@ $l['send_pm'] = "{1} eine private Nachricht senden.";
 $l['icq_number'] = "ICQ-Nummer:";
 $l['aim_screenname'] = "AIM-ID:";
 $l['yahoo_id'] = "Yahoo-ID:";
-$l['msn'] = "MSN-ID:";
+$l['skype_id'] = "Skype ID:";
+$l['google_id'] = "Google Talk ID:";
 $l['avatar'] = "Avatar:";
 $l['warning_level'] = "Verwarnungslevel:";
 $l['warn'] = "Warnen";
@@ -91,6 +91,7 @@ $l['optional_fields'] = "Optionale Felder";
 $l['website_url'] = "Ihre Hompageadresse:";
 $l['birthdate'] = "Geburtstag:";
 $l['additional_info'] = "Zusätzliche Informationen";
+$l['required_info'] = "Erforderliche Informationen";
 $l['i_agree'] = "Ich stimme zu";
 $l['account_details'] = "Accountdetails";
 $l['account_prefs'] = "Accounteinstellungen:";
@@ -111,6 +112,7 @@ $l['redirect_registered_coppa_activate'] = "Vielen Dank für Ihre Registrierung 
 $l['coppa_compliance'] = "COPPA Zustimmung";
 $l['coppa_desc'] = "Um sich in diesem Forum zu registrieren, müssen Sie ihr Alter mit <a href=\"http://coppa.org\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a> verifizieren. Bitte geben Sie unten Ihr Geburtsdatum ein.<br /><br />Wenn Sie jünger als 13 Jahre sind, müssen Sie zuvor die Zustimmung der Eltern einholen. Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.";
 $l['hide_dob'] = "Sie können ihr Geburtsdatum nach der Registrierung verstecken, indem Sie Ihr Profil ändern.";
+$l['signature'] = "Signatur:";
 $l['continue_registration'] = "Mit der Registrierung fortfahren";
 $l['birthdayprivacy'] = "Geburtstagseinstellungen:";
 $l['birthdayprivacyall'] = "Geburtstag und Alter anzeigen";
@@ -143,6 +145,7 @@ $l['submit_registration'] = "Registrierung bestätigen!";
 $l['confirm_password'] = "Passwort bestätigen:";
 $l['referrer'] = "Empfohlen von:";
 $l['referrer_desc'] = "Wurde Ihnen das Forum von einem unserer Benutzer empfohlen, geben Sie hier seinen Namen ein.";
+$l['search_user'] = "Einen Benutzer suchen";
 $l['resend_activation'] = "Konto-Aktivierung erneut schicken";
 $l['request_activation'] = "Aktivierungscode anfordern";
 $l['ppp'] = "Nachrichten pro Seite:";
@@ -156,6 +159,7 @@ $l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist
 $l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
 $l['registration_errors'] = "Folgende Fehler sind bei der Registrierung aufgetreten:";
 $l['timeonline'] = "Gesamte Onlinezeit:";
+$l['timeonline_hidden'] = "(Versteckt)";
 $l['registrations_disabled'] = "Entschuldigung, Sie können sich zur Zeit nicht registrieren, da der Administrator diese Funktion deaktiviert hat.";
 $l['error_username_length'] = "Ihr Benutzername ist ungültig. Benutzernamen müssen aus {1} bis {2} Zeichen bestehen.";
 $l['none_registered'] = "Nicht vorhanden";
@@ -164,8 +168,11 @@ $l['membdayage'] = "({1} Jahre alt)";
 $l['mod_options'] = "Moderator-Optionen";
 $l['edit_in_mcp'] = "Diesen Benutzer im Mod-CP bearbeiten";
 $l['ban_in_mcp'] = "Diesen Benutzer im Mod-CP ausschließen";
+$l['purgespammer'] = "Spammer löschen";
 $l['edit_usernotes'] = "Benutzernotizen im Mod-CP bearbeiten";
 $l['no_usernotes'] = "Es gibt keine Benutzernotizen für diesen Benutzer";
+$l['view_all_notes'] = "Alle Notizen ansehen";
+$l['view_notes_for'] = "Notizen für {1} ansehen";
 $l['reputation'] = "Bewertung:";
 $l['reputation_vote'] = "Bewerten";
 $l['reputation_details'] = "Details";
@@ -177,6 +184,7 @@ $l['admin_options'] = "Administrator-Optionen";
 $l['redirect_registered_activation'] = "Vielen Dank für Ihre Registrierung bei {1}, {2}.<p>Um Ihre Registrierung abzuschließen, müssen Sie den Anweisungen in der E-Mail folgen, die Ihnen gerade geschickt wurde. Erst danach können Sie Beiträge schreiben.";
 $l['redirect_emailupdated'] = "Ihre E-Mail-Adresse wurde erfolgreich geändert.<br />Sie werden jetzt zur Startseite weitergeleitet.";
 $l['redirect_accountactivated'] = "Ihr Account wurde erfolgreich aktiviert.<br />Sie werden jetzt zur Startseite weitergeleitet.";
+$l['redirect_accountactivated_admin'] = "Ihre E-Mail-Adresse wurde erfolgreich überprüft.<br />Ihr Account muss nun durch einen Administrator freigegeben werden. Bis dahin kann es sein, dass Sie in diesem Forum keine Beiträge schreiben können.<br />Sie werden jetzt zur Startseite weitergeleitet.";
 $l['redirect_registered'] = "Vielen Dank für Ihre Registrierung bei {1}, {2}.<br />Sie werden jetzt zur Startseite weitergeleitet.";
 $l['redirect_registered_admin_activate'] = "Vielen Dank für Ihre Registrierung bei {1}, {2}.<br />Ihr Account muss durch einen Administrator freigegeben werden. Bis dahin kann es sein, dass Sie in diesem Forum keine Beiträge schreiben können.";
 $l['redirect_loggedout'] = "Sie haben sich erfolgreich ausgeloggt. Sie werden jetzt zur Startseite weitergeleitet.";
@@ -194,12 +202,14 @@ $l['error_alreadyregisteredtime'] = "Die Registrierung kann nicht fortgesetzt we
 $l['error_badlostpwcode'] = "Sie haben einen ungültigen Code eingegeben, um Ihr Passwort zurückzusetzen. Bitte kontrollieren Sie Ihre Eingabe oder wenden Sie sich an einen Administrator für Hilfe.";
 $l['error_badactivationcode'] = "Sie haben einen ungültigen Aktivierungscode eingegeben. <a href=\"member.php?action=resendactivation\">Klicken Sie hier</a>, um die Aktivierungsmail erneut zu verschicken.";
 $l['error_alreadyactivated'] = "Ihr Account ist bereits aktiviert oder benötigt keine Aktivierung per E-Mail.";
+$l['error_alreadyvalidated'] = "Deine E-Mail-Adresse wurde bereits überprüft.";
 $l['error_nothreadurl'] = "Ihre Nachricht enthält nicht die URL des Themas. Bitte benutzen Sie die \"Thema einem Freund senden\"-Funktion.";
 $l['error_bannedusername'] = "Sie haben einen Benutzernamen eingegeben, der nicht registriert werden kann. Bitte wählen Sie einen anderen Benutzernamen.";
 $l['error_notloggedout'] = "Ihre Benutzer-ID konnte nicht verifiziert werden, um Sie abzumelden. Ein Grund könnte sein, dass ein böswilliges JavaScript versucht hat, Sie abzumelden. Wenn Sie sich abmelden wollen, benutzen Sie bitte den Abmelde-Button im Menü.";
 $l['error_regimageinvalid'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
 $l['error_regimagerequired'] = "Bitte geben Sie den Bestätigungscode ein, um mit der Anmeldung fortzufahren. Geben Sie den Code genau so ein, wie er im Bild zu sehen ist.";
-$l['error_spam_deny'] = "Unser System hat erkannt, dass Sie ein Spammer sind und deshalb die Registrierung verhindert. Wenn Sie dies für einen Fehler halten, kontaktieren Sie bitte den Administrator.";
+$l['error_spam_deny'] = "Unser System hat erkannt, dass Sie ein Spammer sein könntest und deshalb die Registrierung verhindert. Wenn Sie dies für einen Fehler halten, kontaktieren Sie bitte den Administrator.";
+$l['error_spam_deny_time'] = "Unser System hat erkannt, dass Sie ein Spammer sein könntest und deshalb die Registrierung verhindert. Registrierungen müssen mindestens {1} Sekunden dauern um automatisierte Anmeldungen zu verhindern, Ihre Registrierungen hat {2} Sekunden gedauert. Wenn Sie dies für einen Fehler halten, kontaktieren Sie bitte den Administrator.";
 
 $l['js_validator_no_username'] = "Sie müssen einen Benutzernamen eingeben";
 $l['js_validator_invalid_email'] = "Sie müssen eine gültige E-Mail-Adresse eingeben";
@@ -214,13 +224,19 @@ $l['js_validator_username_length'] = "Benutzernamen müssen zwischen {1} und {2}
 $l['js_validator_checking_referrer'] = "Der Referrer wird geprüft.";
 $l['js_validator_captcha_valid'] = "Prüfe, ob Sie den richtigen Verifizierungscode eingegeben haben.";
 
+$l['security_question'] = "Sicherheitsfrage";
+$l['question_note'] = "Bitte beantworten Sie die angezeigt Frage. Dies ist nötig, um automatisierte Prozesse zu unterbinden.";
+$l['error_question_wrong'] = "Ihre Antwort auf die Sicherheitsfrage war falsch. Bitte versuchen Sie es erneut.";
+
 $l['subscription_method'] = "Standard Themenabonnement-Modus:";
 $l['no_auto_subscribe'] = "Nicht abonnieren";
-$l['no_email_subscribe'] = "Keine E-Mail Benachrichtigung";
+$l['no_subscribe'] = "Keine Benachrichtigung";
 $l['instant_email_subscribe'] = "Sofortige E-Mail Benachrichtigung";
+$l['instant_pm_subscribe'] = "Sofortige PN Benachrichtigung";
 
 $l['remove_from_buddy_list'] = "Von Freundesliste entfernen";
 $l['add_to_buddy_list'] = "Zur Freundesliste hinzufügen";
 $l['remove_from_ignore_list'] = "Von Ignorierliste entfernen";
 $l['add_to_ignore_list'] = "Zur Ignorierliste hinzufügen";
+$l['report_user'] = "Benutzer melden";
 ?>

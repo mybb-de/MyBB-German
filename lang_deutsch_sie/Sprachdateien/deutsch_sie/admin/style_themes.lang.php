@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['themes'] = "Themes";
 $l['themes_desc'] = "Hier können Sie Ihre Themes verwalten.";
@@ -33,6 +30,17 @@ $l['browse_all_themes'] = "Alle Themes durchsuchen";
 
 $l['export_theme'] = "Theme exportieren";
 $l['export_theme_desc'] = "Hier können Sie dieses Theme exportieren.";
+
+$l['colors_manage'] = "Farben verwalten";
+$l['colors_attached_to'] = "Farbeinstellung {1}";
+$l['colors_setting'] = "Grundfarbe";
+$l['colors_setting_desc'] = "Wählen Sie die Farbe aus, die das Theme als Grundfarbe benutzt. Es werden die Stylesheets benutzt, die an diese Farbe angeheftet sind.";
+$l['colors_no_color_setting'] = "Es stehen keine Farben zur Auswahl. Bitte erstellen Sie unterhalb eine Liste mit Farben um diese Funktion nutzen zu können.";
+$l['colors_add'] = "Farben verwalten";
+$l['colors_add_desc'] = "Eine Liste mit in diesem Theme verfügbaren Farben. Dies sollte eine Liste mit Schlüssel-Farbe-Paaren (Schlüssel=Farbe) der Farben sein, z.B. <em>blue=Blau</em>. Dabei muss jeder Eintrag in einer neue Zeile stehen.";
+$l['colors_please_select'] = "Keine";
+$l['colors_add_edit_desc'] = "Wählen Sie eine Farbe, an die das Stylesheet angeheftet werden soll. Sie können mehr als eine Farbe auswählen.";
+$l['colors_specific_color'] = "spezifische Farbe";
 
 $l['include_custom_only'] = "Nur eigene Einstellungen hinzufügen?";
 $l['include_custom_only_desc'] = "Wenn Sie nur die eigenen (bearbeiteten) Einstellungen herunterladen wollen, wählen Sie \"Ja\". Andernfalls werden alle Einstellungen inklusive der Standardeinstellungen exportiert.";
@@ -70,9 +78,16 @@ $l['import_templates'] = "Templates importieren";
 $l['import_templates_desc'] = "Wenn diese Datei eigene Templates enthält, möchten Sie diese importieren?";
 $l['import_theme'] = "Theme importieren";
 
+$l['new_name_duplicate_desc'] = "Ein neuer Name für das duplizierte Theme.";
+$l['duplicate_stylesheets'] = "Stylesheets duplizieren";
+$l['duplicate_stylesheets_desc'] = "Falls das Theme angepasste Stylesheets enthält, sollen diese dupliziert werden?";
+$l['duplicate_templates'] = "Templates duplizieren";
+$l['duplicate_templates_desc'] = "Falls das Theme angepasste Templates enthält, sollen diese dupliziert werden?";
+
 $l['create_a_theme'] = "Themes erstellen";
 $l['name'] = "Name";
 $l['name_desc'] = "Legen Sie einen Namen für das neue Theme fest.";
+$l['display_order'] = "Sortierung";
 
 $l['edit_theme_properties'] = "Theme-Eigenschaften bearbeiten";
 $l['name_desc_edit'] = "Bestimmen Sie einen Namen für das Theme.";
@@ -92,6 +107,7 @@ $l['table_spacing_desc'] = "Wählen Sie den Innenabstandes der Tabellenzellen in
 $l['inner_border'] = "Breite des Randes der Inhaltstabelle";
 $l['inner_border_desc'] = "Wählen Sie die Breite des Randes der Tabellen in Pixeln. Dies entspricht dem <em>cellspacing</em>-Attribut des <em>table</em>-Tags.";
 $l['save_theme_properties'] = "Theme-Einstellungen speichern";
+$l['save_stylesheet_order'] = "Stylesheet-Sortierung speichern";
 
 $l['background'] = "Hintergrund";
 $l['extra_css_atribs'] = "Extra-CSS-Attribute";
@@ -106,6 +122,7 @@ $l['font_weight'] = "Schriftstärke";
 $l['stylesheets'] = "Stylesheets";
 $l['inherited_from'] = "Geerbt von";
 $l['attached_to'] = "Angeheftet an";
+$l['attached_to_nothing'] = "Angeheftet an nichts";
 $l['attached_to_desc'] = "Sie können den Stylesheet entweder allen Seiten oder einer spezifischen Datei zuweisen. Wenn Sie sie spezifischen Dateien zuweien, könne Sie sie bestimmen Aktionen zuweisen.";
 $l['actions'] = "Aktionen";
 $l['of'] = "von";
@@ -176,7 +193,10 @@ $l['error_inheriting_stylesheets'] = "Sie können dieses Theme nicht löschen, w
 $l['error_cannot_parse'] = "MyBB kann dieses Stylesheet nicht für den einfachen Editor wandeln. Es kann nur im erweiterten Modus editiert werden.";
 $l['error_communication_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.";
 $l['error_no_results_found'] = "Es wurden keine Ergebnisse für den Suchbegriff gefunden.";
+$l['error_no_color_picked'] = "Sie haben keine Farbe ausgewählt, an die das Stylesheet angeheftet werden soll.";
+$l['error_no_display_order'] = "Beim Feststellen der Styhlesheet-Sortierung ist ein Fehler aufgetreten. Bitte aktualisieren Sie die Seite und probieren Sie es erneut.";
 
+$l['success_duplicated_theme'] = "Das Theme wurde erfolgreich dupliziert.";
 $l['success_imported_theme'] = "Das Theme wurde erfolgreich importiert.";
 $l['success_theme_created'] = "Das Theme wurde erfolgreich erstellt.";
 $l['success_theme_deleted'] = "Das ausgewählte Theme wurde erfolgreich gelöscht.";
@@ -187,9 +207,14 @@ $l['success_theme_set_default'] = "Das ausgewählte Theme wurde als Standard ges
 $l['success_theme_forced'] = "Das ausgewählte Theme wurde allen Benutzern zugewiesen.";
 $l['success_theme_properties_updated'] = "Die Theme-Eigenschaften wurden erfolgreich aktualisiert.";
 $l['success_stylesheet_added'] = "Das Stylesheet wurde erfolgreich hinzugefügt.";
+$l['success_stylesheet_order_updated'] = "Die Anzeigereihenfolge der Stylesheets wurde erfolgreich aktualisiert.";
 
 $l['confirm_theme_deletion'] = "Wollen Sie dieses Theme wirklich löschen?";
 $l['confirm_stylesheet_deletion'] = "Sind Sie sicher, dass Sie dieses Stylesheet löschen wollen?";
 $l['confirm_theme_forced'] = "Möchten Sie dieses Theme wirklich allen Benutzern zuweisen setzen?";
 
+$l['theme_info_fetch_error'] = "Beim Laden des Themes ist ein Problem aufgetreten.";
+$l['theme_info_save_error'] = "Beim Speichern des Themes ist ein Problem aufgetreten.";
+
+$l['saving'] = "Speichern...";
 ?>
