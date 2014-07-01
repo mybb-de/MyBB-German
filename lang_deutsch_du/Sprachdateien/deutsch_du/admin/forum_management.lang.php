@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['forum_management'] = "Forenverwaltung";
 $l['forum_management_desc'] = "In diesem Bereich kannst du deine Foren und Kategorien verwalten. Außerdem hast du die Möglichkeit, den Foren Berechtigungen und forenspezifische Moderatoren zuzuweisen. Bitte denke daran, das Formular über den Button am Ende der Seite abzuschicken, wenn du die Sortierung ändern willst.";
@@ -74,12 +71,31 @@ $l['moderator_permissions'] = "Moderatorenberechtigungen";
 $l['forum_desc'] = "Zugewiesenes Forum";
 $l['edit_mod_for'] = "Bearbeite Moderatorberechtigungen für \"{1}\"";
 $l['can_edit_posts'] = "Kann Beiträge bearbeiten";
-$l['can_delete_posts'] = "Kann Beiträge löschen";
+$l['can_soft_delete_posts'] = "Kann Beiträge als gelöscht markieren?";
+$l['can_restore_posts'] = "Kann als gelöscht markierte Beiträge wiederherstellen?";
+$l['can_delete_posts'] = "Kann Beiträge dauerhaft löschen?";
+$l['can_soft_delete_threads'] = "Kann Themen als gelöscht markieren?";
+$l['can_restore_threads'] = "Kann als gelöscht markierte Themen wiederherstellen?";
+$l['can_delete_threads'] = "Kann Themen dauerhaft löschen?";
 $l['can_view_ips'] = "Kann IPs sehen";
-$l['can_open_close_threads'] = "Kann Themen öffnen/schließen und als wichtig/unwichtig setzen";
+$l['can_view_unapprove'] = "Kann abgewiesene Beiträge und Themen sehen?";
+$l['can_view_deleted'] = "Kann als gelöscht markierte Beiträge und Themen sehen?";
+$l['can_open_close_threads'] = "Kann Themen öffnen/schließen?";
+$l['can_stick_unstick_threads'] = "Kann Themen als wichtig/unwichtig markieren?";
+$l['can_approve_unapprove_threads'] = "Kann Themen annehmen/abweisen?";
+$l['can_approve_unapprove_posts'] = "Kann Beiträge annehmen/abweisen?";
+$l['can_approve_unapprove_attachments'] = "Kann Attachments annehmen/abweisen?";
 $l['can_manage_threads'] = "Kann Themen verwalten (trennen, kopieren, verschieben, zusammenfügen)";
+$l['can_manage_polls'] = "Kann Umfragen verwalten?";
+$l['can_post_closed_threads'] = "Kann in geschlossenen Themen antworten?";
 $l['can_move_to_other_forums'] = "Kann Themen in Foren verschieben, denen er nicht zugewiesen ist";
 $l['can_use_custom_tools'] = "Kann eigene Moderationstools benutzen?";
+$l['can_manage_announcements'] = "Kann Ankündigungen in diesem Forum verwalten?";
+$l['can_manage_reported_posts'] = "Kann Meldungen in diesem Forum verwalten?";
+$l['can_view_mod_log'] = "Kann Moderatoren-Protokoll dieses Forum ansehen?";
+$l['moderator_cp_permissions'] = "Moderator-CP-Berechtigungen";
+$l['moderator_cp_permissions_desc'] = "Dieser Benutzer muss die Berechtigung haben das Moderator-CP betreten zu können, damit diese Berechtigung eine Auswirkung hat.";
+
 $l['save_mod'] = "Moderator speichern";
 
 $l['no_forums'] = "Es wurden keine Foren gefunden.";
@@ -203,6 +219,7 @@ $l['allow_post_icons'] = "Beitragsicons erlauben";
 $l['allow_thread_ratings'] = "Themenbewertung erlauben";
 $l['show_forum_jump'] = "Zeige in \"Gehe zu Forum\"-Menü";
 $l['use_postcounts'] = "Beiträge in diesem Forum werden zu den Benutzerbeiträgen hinzugezählt";
+$l['use_threadcounts'] = "Themen in diesem Forum werden zu den Benutzerthemen hinzugezählt";
 
 $l['use_permissions'] = "Benutze Berechtigungen";
 $l['use_permissions_desc'] = "Wähle die Berechtigungen, die du für diese Benutzergruppe verwenden möchtest - übergeordnete Berechtigungen (eigene Berechtigungen werden überschrieben) oder eigene Berechtigungen.";
@@ -244,6 +261,7 @@ $l['viewing_field_canonlyviewownthreads'] = "Kann nur eigene Themen sehen?";
 
 $l['posting_rating_field_canpostthreads'] = "Kann Themen eröffnen";
 $l['posting_rating_field_canpostreplys'] = "Kann antworten";
+$l['posting_rating_field_canonlyreplyownthreads'] = "Kann nur in seinem eigenen Themen antworten?";
 $l['posting_rating_field_canpostattachments'] = "Kann Attachments hochladen";
 $l['posting_rating_field_canratethreads'] = "Kann Themen bewerten";
 
@@ -256,5 +274,4 @@ $l['polls_field_canpostpolls'] = "Kann Umfragen erstellen";
 $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";
 
 $l['misc_field_cansearch'] = "Kann Forum durchsuchen";
-
 ?>

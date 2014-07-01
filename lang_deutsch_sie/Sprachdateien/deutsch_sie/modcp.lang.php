@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_width'] = "180";
 $l['nav_modcp'] = "Moderator-CP";
@@ -19,8 +16,8 @@ $l['mcp_nav_home'] = "Moderator-CP Startseite";
 $l['mcp_nav_forums'] = "Foren &amp; Beiträge";
 $l['mcp_nav_announcements'] = "Ankündigungen";
 $l['mcp_nav_modqueue'] = "Moderations-Warteschlange";
-$l['mcp_nav_reported_posts'] = "Gemeldete Beiträge";
-$l['mcp_nav_all_reported_posts'] = "Alle gemeldeten Beiträge";
+$l['mcp_nav_report_center'] = "Meldungs-Zentrum";
+$l['mcp_nav_all_reports'] = "Alle Meldungen";
 $l['mcp_nav_modlogs'] = "Moderatoren-Protokoll";
 $l['mcp_nav_users'] = "Benutzer";
 $l['mcp_nav_editprofile'] = "Profileditor";
@@ -35,11 +32,9 @@ $l['mcp_nav_modqueue_attachments'] = "Moderations-Warteschlange für Anhänge";
 
 $l['modcp'] = "Moderatoren-CP";
 
-$l['view_all_reported_posts'] = "Alle gemeldeten Beiträge anzeigen";
-$l['all_reported_posts'] = "Alle gemeldeten Beiträge";
-$l['all_reported_posts_note'] = "Alle gemeldeten Beiträge (ungelesene Beiträge sind hervorgehoben)";
-$l['reported_posts'] = "Gemeldete Beiträge";
-$l['reported_posts_note'] = "Gemeldete Beiträge (Beiträge aus Ihrem Forum sind hervorgehoben)";
+$l['view_all_reports'] = "Alle Meldungen ansehen";
+$l['all_reports'] = "Alle Meldungen";
+$l['report_center'] = "Meldungs-Zentrum";
 $l['post_id'] = "Beitrags-ID";
 $l['poster'] = "Autor";
 $l['thread'] = "Thema";
@@ -47,12 +42,28 @@ $l['reporter'] = "Gemeldet von";
 $l['report_reason'] = "Grund";
 $l['report_time'] = "Gemeldet am";
 $l['mark_read'] = "Ausgewählte als gelesen markieren";
-$l['no_reports'] = "Im Moment gibt es keine ungelesenen, gemeldeten Beiträge.";
+$l['no_reports'] = "Im Moment gibt es keine ungelesenen Meldungen.";
+$l['no_logs'] = "Bisher wurden keine Moderations-Aktivitäten geloggt.";
 $l['error_noselected_reports'] = "Sie haben keinen gemeldeten Beitrag markiert, um ihn als gelesen zu markieren. Entweder das, oder dieser Beitrag wurde bereits von einem anderen Benutzer als gelesen markiert.";
 $l['error_missing_ipaddress'] = "Sie haben keine IP-Adresse zum Suchen eingegeben.";
 $l['error_no_results'] = "Es gab leider keine Ergebnisse mit den angegebenen Kriterien.";
 $l['redirect_reportsmarked'] = "Die ausgewählten, gemeldeten Beiträge wurden als gelesen markiert.";
 $l['redirect_modnotes'] = "Die Moderatoren-Notiz wurde aktualisiert.";
+
+$l['for'] = "Für";
+$l['report_info'] = "Gemeldeter Inhalt";
+$l['report_type'] = "Meldungs-Grund";
+$l['report_count'] = "# Meldungen";
+$l['report_lastpost'] = "Letzte Meldung";
+
+$l['report_reason_other'] = "Anderer Grund";
+
+$l['report_info_post'] = "Ein <a href=\"{1}\">Beitrag</a> von {2}";
+$l['report_info_post_thread'] = "<br /><span class=\"smalltext\">In <a href=\"{1}\">{2}</a></span>";
+$l['report_info_profile'] = "Profil von {1}";
+$l['report_info_reputation'] = "<a href=\"{1}\">Bewertung</a> von {2}";
+$l['report_info_rep_profile'] = "<br /><span class=\"smalltext\">Im Profil von {1}</span>";
+$l['report_info_lastreporter'] = "{1}<br />von {2}";
 
 $l['moderator_notes'] = "Moderator-Notizen";
 $l['notes_public_all'] = "Diese Notizen sind für alle Moderatoren sichtbar.";
@@ -106,7 +117,7 @@ $l['users'] = "Benutzer";
 $l['regdate'] = "Datum der Anmeldung";
 $l['lastvisit'] = "Letzter Besuch";
 $l['postnum'] = "Anzahl der Beiträge";
-$l['username_contains'] = "Benutzername beinhaltet";
+$l['username_contains'] = "Benutzername beinhaltet:";
 $l['no_user_results'] = "Es wurden keine Benutzer mit den angegebenen Kriterien gefunden.";
 $l['edit_profile'] = "Profil von {1} bearbeiten";
 $l['birthday'] = "Geburtsdatum:";
@@ -116,10 +127,12 @@ $l['remove_avatar'] = "Avatar des Benutzers entfernen?";
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['icq_number'] = "ICQ Nummer:";
-$l['aim_screenname'] = "AIM Name:";
-$l['yahoo_id'] = "Yahoo ID:";
-$l['msn'] = "MSN ID:";
+$l['icq_number'] = "ICQ-Nummer:";
+$l['aim_screenname'] = "AIM-Name:";
+$l['yahoo_id'] = "Yahoo-ID:";
+$l['skype_id'] = "Skype-ID:";
+$l['google_id'] = "Google-Talk-ID:";
+$l['away_notice'] = "Diese Option erlaubt Ihnen anzugeben, ob Sie abwesend sind oder nicht.";
 $l['additional_information'] = "Zusätzliche Informationen";
 $l['update_profile'] = "Profil aktualisieren";
 $l['custom_usertitle'] = "Eigener Benutzertitel";
@@ -130,6 +143,16 @@ $l['current_custom_usertitle'] = "Momentaner eigener Benutzertitel:";
 $l['revert_usertitle'] = "Auf den Gruppenstandard zurücksetzen";
 $l['additional_contact_details'] = "Zusätzliche Kontaktinformationen";
 $l['current_username'] = "Benutzername:";
+$l['away_information'] = "Abwesenheitsinformation";
+$l['away_status'] = "Abwesenheitseinstellungen:";
+$l['away_status_desc'] = "Hier kann eine Abwesenheitsmeldung eingetragen werden, damit die anderen Benutzer sehen, dass man nicht erreichbar ist.";
+$l['im_away'] = "abwesend";
+$l['im_here'] = "anwesend";
+$l['away_reason'] = "Grund für die Abwesenheit (optional):";
+$l['away_reason_desc'] = "Hier kann ein Grund eingegeben werden, warum man abwesend ist (max. 200 Zeichen).";
+$l['return_date'] = "Datum der Rückkehr:";
+$l['return_date_desc'] = "Hier das Datum eingeben, wann man wieder im Forum erreichbar ist.";
+$l['error_modcp_return_date_past'] = "Sie können nicht in der Vergangenheit zurückkehren!";
 $l['usergroup'] = "Primäre Gruppe";
 $l['redirect_user_updated'] = "Das Profil des Benutzers wurde erfolgreich aktualisiert.";
 $l['posts_awaiting_moderation'] = "Beiträge, die Moderation erwarten";
@@ -181,19 +204,21 @@ $l['mod_queue_empty'] = "Alle Moderations-Warteschlangen sind momentan leer.";
 $l['mod_queue_threads_empty'] = "Die Themenmoderations-Warteschlange ist momentan leer.";
 $l['mod_queue_posts_empty'] = "Die Beitragsmoderations-Warteschlange ist momentan leer.";
 $l['mod_queue_attachments_empty'] = "Die Anhangsmoderations-Warteschlange ist momentan leer.";
-$l['redirect_threadsmoderated'] = "Die markieren Themen wurden moderiert.";
-$l['redirect_postsmoderated'] = "Die markierten Beiträge wurden moderiert.";
-$l['redirect_attachmentsmoderated'] = "Die markierten Anhänge wurden moderiert.";
-$l['multi_approve_posts'] = "Markierte Beiträge angenommen";
-$l['multi_approve_threads'] = "Markierte Themen angenommen";
-$l['multi_delete_threads'] = "Markierte Themen gelöscht";
+$l['redirect_threadsmoderated'] = "Die ausgewählten Themen wurden moderiert.";
+$l['redirect_postsmoderated'] = "Die ausgewählten Beiträge wurden moderiert.";
+$l['redirect_attachmentsmoderated'] = "Die ausgewählten Attachments wurden moderiert.";
+$l['multi_approve_posts'] = "Ausgewählte Beiträge angenommen";
+$l['multi_delete_posts'] = "Ausgewählte Beiträge dauerhaft gelöscht";
+$l['multi_soft_delete_posts'] = "Ausgewählte Beiträge als gelöscht markiert";
+$l['multi_approve_threads'] = "Ausgewählte Themen angenommen";
+$l['multi_delete_threads'] = "Ausgewählte Themen dauerhaft gelöscht";
+$l['multi_soft_delete_threads'] = "Ausgewählte Themen als gelöscht markiert";
 $l['edited_user'] = "Profil des Benutzers bearbeiten";
 $l['edited_user_info'] = "<strong>Benutzer:</strong> <a href=\"{2}\">{1}</a>";
 $l['edited_user_ban'] = "Benutzer-Sperrung bearbeitet";
 $l['banned_user'] = "Benutzer gesperrt";
 $l['lifted_ban'] = "Benutzer-Sperrung aufgehoben";
 $l['no_bans_ending'] = "Es enden in nächster Zeit keine Sperrungen.";
-$l['close_window'] = "Fenster Schließen";
 
 $l['warning_logs'] = "Warnungs-Protokoll";
 $l['warned_user'] = "Benutzer";
@@ -290,6 +315,16 @@ $l['announcement_added'] = "Ankündigung hinzugefügt";
 $l['announcement_edited'] = "Ankündigung bearbeitet";
 $l['announcement_deleted'] = "Ankündigung gelöscht";
 
-$l['post'] = 'Beitrag';
+$l['preview'] = "Vorschau";
 
+$l['you_cannot_view_mod_logs'] = "Du hast keine Berechtigung das Moderatoren-Protokoll anzusehen.";
+$l['you_cannot_view_reported_posts'] = "Du hast keine Berechtigung das Meldungs-Zentrum anzusehen.";
+$l['you_cannot_manage_announcements'] = "Du hast keine Berechtigung die Ankündigungen zu verwalten.";
+$l['you_cannot_moderate_threads'] = "Du hast keine Berechtigung Themen zu moderieren.";
+$l['you_cannot_moderate_posts'] = "Du hast keine Berechtigung Beiträge zu moderieren.";
+$l['you_cannot_moderate_attachments'] = "Du hast keine Berechtigung Attachments zu moderieren.";
+$l['you_cannot_use_mod_queue'] = "Du hast keine Berechtigung das Warnungs-Protokoll anzusehen.";
+
+$l['post'] = "Beitrag";
+$l['search_user'] = "Benutzer suchen";
 ?>

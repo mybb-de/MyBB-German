@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_editpost'] = "Beitrag bearbeiten";
 $l['edit_post'] = "Diesen Beitrag bearbeiten";
@@ -20,6 +17,7 @@ $l['delete_2'] = "<b>Anmerkung:</b> Wenn dieser Beitrag der erste des Themas ist
 $l['subject'] = "Betreff";
 $l['your_message'] = "Ihr Beitrag";
 $l['post_options'] = "Beitragsoptionen:";
+$l['editreason'] = "Bearbeitungsgrund:";
 $l['options_sig'] = "<b>Signatur:</b> Signatur einfügen (nur registrierte Benutzer)";
 $l['options_emailnotify'] = "<b>E-Mail-Benachrichtigung:</b> Eine E-Mail erhalten, wenn auf dieses Thema geantwortet wird (nur registrierte Benutzer)";
 $l['options_disablesmilies'] = "<b>Smilies ausschalten:</b> Deaktiviert die Anzeige von Smilies in diesem Beitrag";
@@ -35,17 +33,26 @@ $l['edit_time_limit'] = "Entschuldigung, aber Sie können Ihren Beitrag nicht be
 $l['no_prefix'] = "Kein Präfix";
 
 $l['redirect_nodelete'] = "Der Beitrag wurde nicht entfernt, weil Sie die \"Löschen\"-Checkbox nicht aktiviert haben.";
+$l['redirect_norestore'] = "Der Beitrag wurde nicht wiederhergestellt, weil Sie die \"Wiederherstellen\"-Checkbox nicht aktiviert haben.";
 $l['redirect_postedited'] = "Vielen Dank, der Beitrag wurde bearbeitet.<br />";
 $l['redirect_postedited_redirect'] = "Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_postedited_poll'] = "Vielen Dank, dieser Beitrag wurde bearbeitet. <br />Sie haben ausgewählt, eine Umfrage zu erstellen. Sie werden jetzt zur Umfragen-Seite weitergeleitet.";
 $l['error_invalidpost'] = "Entschuldigung, aber Sie scheinen einer ungültigen Adresse gefolgt zu sein. Versichern Sie sich, dass der Beitrag existiert und versuchen Sie es erneut.";
 $l['redirect_threaddeleted'] = "Vielen Dank! Das Thema wurde gelöscht.<br />Sie werden jetzt zum Forum zurückgeleitet.";
 $l['redirect_postdeleted'] = "Vielen Dank! Die Beiträge wurden gelöscht.<br />Sie werden jetzt zum Thema zurückgeleitet.";
+$l['redirect_threadrestored'] = "Vielen Dank! Das Thema wurde wiederhergestellt.<br />Sie werden jetzt zum Forum zurückgeleitet.";
+$l['redirect_postrestored'] = "Vielen Dank! Die Beiträge wurden wiederhergestellt.<br />Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_threadclosed'] = "Bestehende Beiträge können nicht mehr bearbeitet werden, da das Thema von einem Moderator geschlossen wurde.";
 $l['redirect_post_moderation'] = "Der Administrator hat eingestellt, dass das Editieren von Beiträgen moderiert werden muss. Sie werden jetzt zum Thema zurückgeleitet.";
 $l['redirect_thread_moderation'] = "Der Administrator hat eingestellt, dass das Editieren von Themen moderiert werden muss. Sie werden jetzt zum Forenindex zurückgeleitet.";
+$l['error_already_delete'] = "Entschuldigung, aber der Beitrag wurde bereits gelöscht.";
 
-$l['thread_deleted'] = "Gelöschtes Thema";
-$l['post_deleted'] = "Gelöschter Beitrag";
+$l['thread_deleted'] = "Thema dauerhaft gelöscht";
+$l['post_deleted'] = "Beitrag dauerhaft gelöscht";
+$l['thread_soft_deleted'] = "Als gelöscht markiertes Thema";
+$l['post_soft_deleted'] = "Als gelöscht markierter Beitrag";
+$l['thread_restored'] = "Thema wiederhergestellt";
+$l['post_restored'] = "Beitrag wiederhergestellt";
 
+$l['error_already_deleted'] = "Der ausgewählte Beitrag wurde bereits gelöscht.";
 ?>

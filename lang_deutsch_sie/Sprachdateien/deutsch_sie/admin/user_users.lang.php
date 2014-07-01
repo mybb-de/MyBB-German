@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['users'] = "Benutzer";
 
@@ -48,6 +45,8 @@ $l['ban_users'] = "Benutzer sperren";
 $l['users_banned'] = "{1} Benutzer wurden gesperrt.";
 $l['confirm_multilift'] = "Sollen die Sperrungen der Benutzer wirklich aufgehoben werden?";
 $l['success_ban_lifted'] = "Die Sperrungen für {1} ausgewählte Benutzer wurden aufgehoben.";
+$l['edit_ban'] = "Sperrung bearbeiten";
+$l['lift_ban'] = "Sperrung aufheben";
 $l['lift_bans'] = "Sperrungen aufheben";
 $l['confirm_multidelete'] = "Sollen die {1} Benutzer wirklich gelöscht werden? Dies kann nicht mehr rückgängig gemacht werden!";
 $l['users_deleted'] = "{1} Benutzer wurden gelöscht.";
@@ -57,13 +56,13 @@ $l['manual_date'] = "Geben Sie ein manuelles Datum ein";
 $l['relative_date'] = "Oder wählen Sie eine Option aus";
 $l['multi_selected_dates'] = "Sie haben ein manuelles Datum und eine Option ausgewählt. Bitte wählen Sie ein Datum oder eine Option.";
 $l['incorrect_date'] = "Das eingegebene Datum ist ungültig. Bitte geben Sie ein gültiges Datum ein oder lassen Sie das Feld frei und wähle eine Option.";
-$l['prune_complete'] = "Löscung erfolgreich!";
+$l['prune_complete'] = "Löschung erfolgreich!";
 $l['prune_fail'] = "Es wurden keine Beiträge bei den ausgewählten Benutzern gefunden. Keine Beiträge wurden gelöscht.";
 $l['no_prune_option'] = "Bitte wählen Sie ein Datum oder eine Option um fortzufahren.";
 $l['prune_posts'] = "Beiträge löschen";
 $l['delete_posts'] = "Beiträge löschen";
 $l['usergroup_info'] = "Die folgende Option betrifft {1} Benutzer. Durch das Auswählen der folgenden Optionen wird die primäre / sekundäre / Anzeige-Benutzergruppe geändert.";
-$l['mass_usergroups'] = "Benutergruppen ändern";
+$l['mass_usergroups'] = "Benutzergruppen ändern";
 $l['success_mass_usergroups'] = "Benutzer erfolgreich geändert!";
 $l['alter_usergroups'] = "Änderungen speichern";
 $l['no_usergroup_changed'] = "Bei keinem der ausgewählten Benutzer konnte die Gruppe geändert werden.";
@@ -95,7 +94,7 @@ $l['error_invalidavatarurl'] = "Die eingegebene URL für Ihren Avatar scheint un
 $l['error_invalid_user'] = "Sie haben einen ungültigen Benutzer ausgewählt.";
 $l['error_no_perms_super_admin'] = "Sie haben keine Berechtigung diesen Benutzer zu bearbeiten, weil Sie kein Super-Administrator sind.";
 $l['error_invalid_user_source'] = "Der Quell-Account existiert nicht";
-$l['error_invalid_user_destination'] = "Der Ziel-Account exisiert nicht";
+$l['error_invalid_user_destination'] = "Der Ziel-Account existiert nicht";
 $l['error_cannot_merge_same_account'] = "Der Quell- und der Ziel-Account müssen unterschiedlich sein";
 $l['error_no_users_found'] = "Es wurde kein Benutzer mit diesen Kritieren gefunden. Bitte ändern Sie Ihre Such-Kriterien und versuchen Sie es erneut.";
 $l['error_invalid_admin_view'] = "Sie haben eine ungültige Verwaltungs-Ansicht ausgewählt.";
@@ -107,6 +106,7 @@ $l['error_invalid_view_sortorder'] = "Sie haben eine ungültige Such-Reihenfolge
 $l['error_invalid_view_delete'] = "Sie haben eine ungültige Verwaltungs-Ansicht zum Löschen ausgewählt";
 $l['error_cannot_delete_view'] = "Sie brauchen mindestens eine Verwaltungs-Ansicht.";
 $l['error_inline_no_users_selected'] = "Sie haben keinen einzigen Benutzer ausgewählt. Bitte wählen Sie einige Benutzer und probiere es erneut.";
+$l['error_cannot_delete_user'] = "Dieser Benutzer kann nicht gelöscht werden.";
 $l['error_no_referred_users'] = "Der ausgewählte Benutzer hat keine Benutzer empfohlen.";
 
 $l['user_deletion_confirmation'] = "Wollen Sie diesen Benutzer wirklich löschen?";
@@ -145,6 +145,7 @@ $l['avatar'] = "Avatar";
 $l['mod_options'] = "Moderations-Optionen";
 $l['general_account_stats'] = "Generelle Account-Statistiken";
 $l['local_time'] = "Lokale Zeit";
+$l['local_time_format'] = "{1} um {2}";
 $l['posts'] = "Beiträge";
 $l['age'] = "Alter";
 $l['posts_per_day'] = "Beiträge pro Tag";
@@ -159,11 +160,23 @@ $l['optional_profile_info'] = "Optionale Profil-Informationen";
 $l['custom_user_title'] = "Eigener Benutzertitel";
 $l['custom_user_title_desc'] = "Wenn leer, wird der Titel der Benutzergruppe verwendet";
 $l['website'] = "Website";
-$l['icq_number'] = "ICQ Nummer";
+$l['icq_number'] = "ICQ-Nummer";
 $l['aim_handle'] = "AIM-ID";
 $l['yahoo_messanger_handle'] = "Yahoo! Messenger-ID";
-$l['msn_messanger_handle'] = "MSN Messenger-ID";
+$l['skype_handle'] = "Skype-ID";
+$l['google_handle'] = "Google-Talk-ID";
 $l['birthday'] = "Geburtsdatum";
+
+$l['away_information'] = "Abwesenheitsinformation";
+$l['away_status'] = "Abwesenheitseinstellungen:";
+$l['away_status_desc'] = "Hier kann eine Abwesenheitsmeldung eingetragen werden, damit die anderen Benutzer sehen, dass man nicht erreichbar ist.";
+$l['im_away'] = "abwesend";
+$l['im_here'] = "anwesend";
+$l['away_reason'] = "Grund für die Abwesenheit (optional):";
+$l['away_reason_desc'] = "Hier kann ein Grund eingegeben werden, warum man abwesend ist (max. 200 Zeichen).";
+$l['return_date'] = "Datum der Rückkehr:";
+$l['return_date_desc'] = "Hier das Datum eingeben, wann man wieder im Forum erreichbar ist.";
+$l['error_acp_return_date_past'] = "Du kannst nicht in der Vergangenheit zurückkehren!";
 
 $l['hide_from_whos_online'] = "Auf der 'Wer ist online'-Liste verbergen";
 $l['login_cookies_privacy'] = "Login, Cookies &amp; Privatsphäre";
@@ -199,6 +212,9 @@ $l['show_all_threads'] = "Zeige alle Themen";
 $l['threads_per_page'] = "Themen pro Seite";
 $l['default_thread_age_view'] = "Standard Themen-Alter benutzen";
 $l['forum_display_options'] = "Forenansicht-Optionen";
+$l['show_classic_postbit'] = "Beiträge im klassischen Modus anzeigen";
+$l['display_images'] = "Bilder in Beiträgen anzeigen";
+$l['display_videos'] = "Videos in Beiträgen anzeigen";
 $l['display_users_sigs'] = "Signatur aller Benutzer in den Beiträgen anzeigen";
 $l['display_users_avatars'] = "Avatare aller Benutzer in den Beiträgen anzeigen";
 $l['show_quick_reply'] = "Schnellantwort unten in den Themen anzeigen";
@@ -209,6 +225,7 @@ $l['threaded_mode'] = "Baumstruktur";
 $l['thread_view_options'] = "Themenansichts-Optionen";
 $l['show_redirect'] = "Zeige Weiterleitungsseiten";
 $l['show_code_buttons'] = "Zeige die MyBBCode-Formatierungsoptionen bei der Beitragserstellung an";
+$l['source_editor'] = "Starte den MyCode-Editor im Quelltext-Modus";
 $l['theme'] = "Forenstyle";
 $l['board_language'] = "Forensprache";
 $l['other_options'] = "Andere Optionen";
@@ -260,6 +277,7 @@ $l['additional_groups'] = "Sekundäre Gruppen";
 $l['registered'] = "Registriert";
 $l['last_active'] = "Letzte Aktivität";
 $l['post_count'] = "Beitragsanzahl";
+$l['thread_count'] = "Themenanzahl";
 $l['reputation'] = "Bewertung";
 $l['warning_level'] = "Verwarnlevel";
 $l['registration_ip'] = "Registrierungs-IP";
@@ -267,10 +285,8 @@ $l['last_known_ip'] = "Letzte bekannte IP";
 $l['registration_date'] = "Registrierungsdatum";
 $l['info_on_ip'] = "Informationen über diese IP-Adresse";
 
-$l['avatar_gallery'] = "Avatar-Galerie";
 $l['current_avatar'] = "Aktuelles Avatar";
 $l['user_current_using_uploaded_avatar'] = "Dieser Benutzer benutzt gerade einen hochgeladenen Avatar.";
-$l['user_current_using_gallery_avatar'] = "Dieser Benutzer benutzt gerade einen Avatar aus der Avatar-Galerie.";
 $l['user_currently_using_remote_avatar'] = "Dieser Benutzer benutzt gerade einen verlinkten Avatar.";
 $l['max_dimensions_are'] = "Die maximalen Abmessungen für Avatare sind";
 $l['avatar_max_size'] = "Avatare können eine Maximum haben von";
@@ -280,8 +296,7 @@ $l['avatar_auto_resize'] = "Wenn der Avatar zu groß ist, wird er automatisch an
 $l['attempt_to_auto_resize'] = "Versuche den Avatar anzupassen, wenn er zu groß ist?";
 $l['specify_custom_avatar'] = "Eigenen Avatar angeben";
 $l['upload_avatar'] = "Avatar hochladen";
-$l['or_specify_avatar_url'] = "oder Avatar-URL angeben";
-$l['or_select_avatar_gallery'] = "oder aus der Avatar-Gallerie auswählen";
+$l['or_specify_avatar_url'] = "oder Avatar-/Gravatar-URL angeben";
 
 $l['user_notes'] = "Notizen des Benutzers";
 
@@ -312,6 +327,7 @@ $l['manage_views'] = "Ansichten verwalten";
 $l['none'] = "Keine";
 $l['search'] = "Suche";
 
+$l['view_profile'] = "Profil ansehen";
 $l['edit_profile_and_settings'] = "Profil und Einstellungen bearbeiten";
 $l['ban_user'] = "Benutzer sperren";
 $l['approve_coppa_user'] = "COPPA-Benutzer aktivieren";
@@ -330,15 +346,17 @@ $l['website_contains'] = "Website enthält";
 $l['icq_number_contains'] = "ICQ-Nummer enthält";
 $l['aim_handle_contains'] = "AIM-ID enthält";
 $l['yahoo_contains'] = "Yahoo! Messenger-ID enthält";
-$l['msn_contains'] = "MSN Messenger-ID enthält";
+$l['skype_contains'] = "Skype-ID enthält";
+$l['google_contains'] = "Google-Talk-ID enthält";
 $l['signature_contains'] = "Signatur enthält";
 $l['user_title_contains'] = "Eigener Benutzertitel enthält";
 $l['greater_than'] = "Größer als";
 $l['is_exactly'] = "Ist genau";
 $l['less_than'] = "Kleiner als";
 $l['post_count_is'] = "Beitragsanzahl ist";
+$l['thread_count_is'] = "Themenanzahl ist";
 $l['reg_ip_matches'] = "Registrierungs-IP stimmt überein";
-$l['wildcard'] = "* ist Platzhalter für einen IP-Bereich: 1.2.*.*";
+$l['wildcard'] = "Um IP-Bereiche zu suchen, benutzen Sie * (z.B.: 127.0.0.*) oder CIDR-Notation (z.B.: 127.0.0.0/8)";
 $l['posted_with_ip'] = "Hat mit der IP-Adresse Beiträge geschrieben";
 $l['custom_profile_fields_match'] = "Bei denen eigene Profilfelder übereinstimmen mit...";
 $l['is_not_blank'] = " ist nicht leer";
@@ -375,4 +393,22 @@ $l['table'] = "Tabelle";
 $l['title'] = "Titel";
 
 $l['view_title_1'] = "Alle Benutzer";
+
+$l['emailsubject_activateaccount'] = "Account-Aktivierung bei {1}";
+$l['email_adminactivateaccount'] = "Hallo {1},
+
+der Administrator hat Ihren Foren-Account bei {2} aktiviert.
+
+Um fortzufahren, gehen Sie zu
+
+{3}
+
+Sie können sich mit den bei Registrierung angegebenen Anmeldedaten anmelden. 
+
+Vielen Dank,
+{2}-Team";
+
+$l['ipaddress_misc_info'] = "Weitere Informationen für '{1}'";
+$l['ipaddress_host_name'] = "Host";
+$l['ipaddress_location'] = "GeoIP Standort";
 ?>

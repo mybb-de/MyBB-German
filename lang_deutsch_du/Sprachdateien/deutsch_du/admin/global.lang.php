@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['today'] = "Heute";
 $l['yesterday'] = "Gestern";
@@ -33,10 +30,13 @@ $l['view_board'] = "Forum ansehen";
 $l['logout'] = "Abmelden";
 
 // Footer language strings
-$l['generated_in'] = "Generiert in {1} Sekunden mit {2} Datenbankabfragen. Speicherbenutzung: {3}";
+$l['generated_in'] = "Generiert mit <a href=\"{2}\" target=\"_blank\">{3} Datenbankabfragen</a>. Speicherbenutzung: {4}";
 
 // Login page
-$l['enter_username_and_password'] = "Bitte gib deinen Benutzernamen und dein Passwort ein.";
+$l['enter_username_and_password'] = "Bitte gib {1} und dein Passwort ein.";
+$l['login_username'] = "deinen Benutzernamen";
+$l['login_email'] = "deine E-Mail-Adresse";
+$l['login_username_and_password'] = "deinen Benutzernamen oder deine E-Mail-Adresse";
 $l['mybb_admin_login'] = "MyBB Administration - Login";
 $l['return_to_forum'] = "Zurück zum Forum";
 $l['please_login'] = "Bitte melde dich an";
@@ -47,18 +47,19 @@ $l['password'] = "Passwort:";
 $l['login'] = "Anmelden";
 $l['lost_password'] = "Passwort vergessen?";
 
-$l['error_invalid_admin_session'] = "Ungültige Administrations-Sitzung";
-$l['error_admin_session_expired'] = "Deine Administrations-Sitzung ist abgelaufen";
-$l['error_invalid_ip'] = "Deine IP-Adresse ist für diese Sitzung nicht gültig";
-$l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen";
+$l['error_invalid_admin_session'] = "Ungültige Administrations-Sitzung.";
+$l['error_admin_session_expired'] = "Deine Administrations-Sitzung ist abgelaufen.";
+$l['error_invalid_ip'] = "Deine IP-Adresse ist für diese Sitzung nicht gülti.g";
+$l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen.";
 $l['error_mybb_admin_lockedout_message'] = "Dein Benutzer-Konto wurde nach {1} Anmelde-Versuchen gesperrt. Dir wurde eine E-Mail gesendet mit Informationen um dein Benutzer-Konto wieder freizuschalten.";
+$l['error_invalid_secret_pin'] = "Du hast einen ungültigen geheimen PIN eingegeben.";
 
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalid_uid'] = "Die eingegebene Benutzer-ID ist ungültig.";
 $l['error_invalid_token'] = "Der eingegebene Aktivierungs-Code ist ungültig.";
 
 $l['success_logged_out'] = "Du hast dich erfolgreich abgemeldet.";
-$l['error_invalid_username_password'] = "Die eingegebene Kombination aus Benutzername und Passwort ist ungültig.";
+$l['error_invalid_username_password'] = "Die eingegebene Kombination aus {1} und Passwort ist ungültig.";
 
 // Action Confirmation
 $l['confirm_action'] = "Soll diese Aktion wirklich ausgeführt werden?";
@@ -116,6 +117,12 @@ $l['seconds'] = "Sekunden";
 $l['seconds_short'] = "s";
 $l['permanent'] = "Permanent";
 $l['all_forums'] = "Alle Foren";
+$l['all_groups'] = "Alle Gruppen";
+$l['select_forums'] = "Wähle Foren";
+$l['select_groups'] = "Wähle Gruppen";
+$l['forums_colon'] = "Foren:";
+$l['groups_colon'] = "Gruppen:";
+$l['none'] = "Keine";
 $l['mybb_acp'] = "MyBB-ACP";
 $l['pages'] = "Seiten";
 $l['previous'] = "Vorherige";
@@ -126,6 +133,18 @@ $l['reset'] = "Zurücksetzen";
 $l['and'] = "und";
 $l['on'] = "An";
 $l['off'] = "Aus";
+$l['alt_enabled'] = "Aktiviert";
+$l['alt_disabled'] = "Deaktiviert";
+$l['saved'] = "Gespeichert";
+
+$l['rel_in'] = "In ";
+$l['rel_ago'] = "Vor ";
+$l['rel_less_than'] = "weniger als ";
+$l['rel_time'] = "{4}{1}{2} {3}";
+$l['rel_minutes_single'] = "Minute";
+$l['rel_minutes_plural'] = "Minuten";
+$l['rel_hours_single'] = "Stunde";
+$l['rel_hours_plural'] = "Stunden";
 
 // Parser bits
 $l['quote'] = "Zitat:";
@@ -159,37 +178,45 @@ $l['cannot_perform_action_super_admin_general'] = "Entschuldigung, aber du kanns
 $l['loading_text'] = "Lade<br />Bitte warten ...";
 
 // Time zone selection boxes
-$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Eniwetok, Kwajalein";
-$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midwayinseln, Samoa";
-$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii";
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Marshallinseln";
+$l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midwayinseln";
+$l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii, Papeete";
+$l['timezone_gmt_minus_950'] = "(GMT -9:30) Marquesas-Inseln";
 $l['timezone_gmt_minus_900'] = "(GMT -9:00) Alaska";
 $l['timezone_gmt_minus_800'] = "(GMT -8:00) Pacific Time";
 $l['timezone_gmt_minus_700'] = "(GMT -7:00) Mountain Time";
 $l['timezone_gmt_minus_600'] = "(GMT -6:00) Central Time, Mexiko-Stadt";
 $l['timezone_gmt_minus_500'] = "(GMT -5:00) Eastern Time, Bogota, Lima, Quito";
-$l['timezone_gmt_minus_450'] = "(GMT -4:30) Venezuela (September)";
-$l['timezone_gmt_minus_400'] = "(GMT -4:00) Atlantic Time, Caracas, La Paz";
+$l['timezone_gmt_minus_450'] = "(GMT -4:30) Caracas";
+$l['timezone_gmt_minus_400'] = "(GMT -4:00) Atlantic Time, La Paz, Halifx";
 $l['timezone_gmt_minus_350'] = "(GMT -3:30) Neufundland";
 $l['timezone_gmt_minus_300'] = "(GMT -3:00) Brasilien, Buenos Aires, Georgetown, Falklandinseln";
-$l['timezone_gmt_minus_200'] = "(GMT -2:00) Mid-Atlantic, Ascension Is., St Helena";
+$l['timezone_gmt_minus_200'] = "(GMT -2:00) Mid-Atlantic, Südgeorgien und die Südlichen Sandwichinseln";
 $l['timezone_gmt_minus_100'] = "(GMT -1:00) Azoren, Kapverdische Inseln";
 $l['timezone_gmt'] = "(GMT) Casablanca, Dublin, Edinburgh, London, Lissabon, Monrovia";
-$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Brüssel, Kopenhagen, Madrid, Paris, Rom";
-$l['timezone_gmt_200'] = "(GMT +2:00) Kaliningrad, Südafrika, Warschau";
-$l['timezone_gmt_300'] = "(GMT +3:00) Baghdad, Riyadh, Moskau, Nairobi";
+$l['timezone_gmt_100'] = "(GMT +1:00) Berlin, Brüssel, Kopenhagen, Madrid, Paris, Rom, Warschau";
+$l['timezone_gmt_200'] = "(GMT +2:00) Athen, Istanbul, Kairo, Jerusalem, Südafrika";
+$l['timezone_gmt_300'] = "(GMT +3:00) Kaliningrad, Minsk, Baghdad, Riyadh, Nairobi";
 $l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
-$l['timezone_gmt_400'] = "(GMT +4:00) Abu Dhabi, Baku, Maskat, Tbilisi";
+$l['timezone_gmt_400'] = "(GMT +4:00) Moskau, Abu Dhabi, Baku, Maskat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Madras, New Delhi";
-$l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Colomba, Dhakra";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Madras, Neu-Delhi";
+$l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
+$l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Jekaterinburg";
+$l['timezone_gmt_650'] = "(GMT +6:30) Rangun";
 $l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Jakarta";
-$l['timezone_gmt_800'] = "(GMT +8:00) Beijing, Hong Kong, Perth, Singapur, Taipei";
-$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Yakutsk";
+$l['timezone_gmt_800'] = "(GMT +8:00) Peking, Hong Kong, Perth, Singapur, Taipei, Manila";
+$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Irkutsk";
 $l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
-$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua Neuguinea, Sydney, Vladivostok";
-$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Neukaledonien, Solomoninseln";
-$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fiji, Marshallinsel";
+$l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua-Neuguinea, Sydney, Yakutsk";
+$l['timezone_gmt_1050'] = "(GMT +10:30) Lord-Howe-Insel";
+$l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, Neukaledonien, Salomonen, Wladiwostok";
+$l['timezone_gmt_1150'] = "(GMT +11:30) Norfolkinsel";
+$l['timezone_gmt_1200'] = "(GMT +12:00) Auckland, Wellington, Fiji, Marshallinseln";
+$l['timezone_gmt_1275'] = "(GMT +12:45) Chatham-Inseln";
+$l['timezone_gmt_1300'] = "(GMT +13:00) Samoa, Tonga, Tokelau";
+$l['timezone_gmt_1400'] = "(GMT +14:00) Line Islands";
 $l['timezone_gmt_short'] = "GMT {1}({2})";
 
 // Global language strings used for log deletion pages
@@ -204,7 +231,7 @@ $l['delete_all'] = "Alle entfernen";
 $l['encountered_errors'] = "Folgende Fehler sind aufgetreten:";
 $l['invalid_post_verify_key'] = "Der Autorisierungscode konnte nicht bestätigt werden. Bitte bestätige, dass du diese Aktion ausführen möchtest.";
 $l['invalid_post_verify_key2'] = "Der Autorisierungscode konnte nicht bestätigt werden. Bitte stelle sicher, dass du diese Seite korrekt aufrufst.";
-$l['forums_colon'] = "Foren:";
+$l['unknown_error'] = "Ein unbekannter Fehler ist aufgetreten.";
 
 // Code buttons editor language strings
 $l['editor_title_bold'] = "Fetten Text eingeben";
@@ -263,6 +290,9 @@ $l['task_userpruning_ran'] = "Die Benutzerdatenbank wurde erfolgreich aufgeräum
 $l['task_delayedmoderation_ran'] = "Die verzögerte Moderation wurde erfolgreich durchgeführt.";
 $l['task_massmail_ran_errors'] = "Es gab ein oder mehrere Problem(e) beim Senden an \"{1}\":
 {2}";
+$l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
+$l['task_versioncheck_ran_errors'] = "Es konnte keine Verbindung zum Versions-Check aufgebaut werden.";
+$l['task_recachestylesheets_ran'] = "Cache von {1} Stylesheets erneut.";
 
 $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";
@@ -301,5 +331,4 @@ $l['comma'] = ", ";
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 $l['login_field_width'] = "15";
-
 ?>

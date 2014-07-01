@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['ucp_nav_width'] = "195";
 $l['ucp_nav_menu'] = "Menü";
@@ -31,6 +28,7 @@ $l['ucp_nav_favorite_threads'] = "Favoriten";
 $l['ucp_nav_subscribed_threads'] = "Abonnierte Themen";
 $l['ucp_nav_forum_subscriptions'] = "Abonnierte Foren";
 $l['ucp_nav_drafts'] = "Entwürfe";
+$l['ucp_nav_drafts_active'] = "<strong>Entwürfe ({1})</strong>";
 $l['ucp_nav_notepad'] = "Notizbuch";
 $l['ucp_nav_view_profile'] = "Profil ansehen";
 $l['ucp_nav_home'] = "Benutzer-CP Home";

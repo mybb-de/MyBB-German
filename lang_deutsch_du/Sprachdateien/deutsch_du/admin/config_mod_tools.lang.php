@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['mod_tools'] = "Moderationstools";
 
 $l['thread_tools'] = "Thementools";
@@ -47,8 +44,8 @@ $l['error_invalid_thread_tool'] = "Das angegebene Thementool existiert nicht.";
 $l['general_options'] = "Allgemeine Optionen";
 $l['short_description'] = "Kurzbeschreibung";
 $l['available_in_forums'] = "Verfügbar in folgenden Foren";
-$l['all_forums'] = "Alle Foren";
-$l['select_forums'] = "Wähle Foren";
+$l['available_to_groups'] = "Verfügbar für alle Gruppen";
+$l['show_confirmation'] = "Zeige Bestätigungs-Seite";
 $l['save_thread_tool'] = "Speichere Thementool";
 
 $l['title'] = "Titel";
@@ -63,9 +60,13 @@ $l['stick'] = "Als wichtig markieren";
 $l['unstick'] = "Als unwichtig markieren";
 $l['open'] = "Öffnen";
 $l['close'] = "Schließen";
+$l['stick'] = "Als wichtig markieren";
+$l['unstick'] = "Als unwichtig markieren";
 $l['toggle'] = "Status umkehren";
 $l['days'] = "Tagen";
 $l['no_prefix'] = "Kein Präfix";
+$l['restore'] = "Wiederherstellen";
+$l['softdelete'] = "Als gelöscht markieren";
 
 $l['forum_to_move_to'] = "Verschiebe Thema in Forum:";
 $l['leave_redirect'] = "Weiterleitung hinterlassen?";
@@ -77,11 +78,15 @@ $l['move_thread_desc'] = "Wenn Themen verschoben werden sollen, ist die Angabe \
 $l['forum_to_copy_to'] = "Kopiere Thema in Forum:";
 $l['copy_thread'] = "Thema kopieren?";
 $l['open_close_thread'] = "Thema öffnen/schließen?";
-$l['delete_thread'] = "Thema löschen?";
+$l['stick_unstick_thread'] = "Als wichtig/unwichtig markieren?";
+$l['softdelete_restore_thread'] = "Als gelöscht markieren?";
+$l['delete_thread'] = "Thema dauerhaft löschen?";
 $l['merge_thread'] = "Thema zusammenfügen?";
 $l['merge_thread_desc'] = "Nur bei Benutzung der Inlinemoderation.";
 $l['delete_poll'] = "Umfrage löschen?";
 $l['delete_redirects'] = "Weiterleitungen löschen?";
+$l['remove_subscriptions'] = "Alle Abonnements entfernen?";
+$l['recount_rebuild'] = "Neu zählen &amp; aktualisieren?";
 $l['apply_thread_prefix'] = "Präfix hinzufügen?";
 $l['new_subject'] = "Neuer Betreff?";
 $l['new_subject_desc'] = "{subject} repräsentiert den Originalbetreff. {username} repräsentiert den Benutzernamen des Moderators.";
@@ -95,10 +100,11 @@ $l['success_mod_tool_created'] = "Moderationstool erfolgreich erstellt.";
 $l['success_mod_tool_updated'] = "Moderationstool erfolgreich aktualisiert.";
 
 $l['inline_post_moderation'] = "Inline-Beitragsmoderation";
-$l['delete_posts'] = "Beiträge löschen?";
+$l['delete_posts'] = "Beiträge dauerhaft löschen?";
 $l['merge_posts'] = "Beiträge zusammenfügen?";
 $l['merge_posts_desc'] = "Nur bei Benutzung der Inlinemoderation.";
 $l['approve_unapprove_posts'] = "Beiträge annehmen/ablehnen?";
+$l['softdelete_restore_posts'] = "Beiträge als gelöscht markieren/wiederherstellen?";
 
 $l['split_posts'] = "Beiträge teilen";
 $l['split_posts2'] = "Beiträge teilen?";
@@ -115,9 +121,16 @@ $l['split_reply_subject'] = "Betreff der Antwort";
 $l['split_reply_subject_desc'] = "Wird nur benötigt, wenn geantwortet werden soll.";
 $l['save_post_tool'] = "Beitragstool speichern";
 
+$l['send_private_message'] = "Private Nachricht senden";
+$l['private_message_message'] = "Nachricht";
+$l['private_message_message_desc'] = "Nachricht, die an den Ersteller des Themas gesendet wird. Lasse das Feld leer um diese Funktion zu deaktivieren.";
+$l['private_message_subject'] = "Betreff";
+$l['private_message_subject_desc'] = "Gib den Betreff der Privaten Nachricht ein.";
+
+
 $l['error_missing_title'] = "Bitte gib einen Namen für dieses Tool an.";
 $l['error_missing_description'] = "Bitte gib eine Kurzbeschreibung für dieses Tool an.";
 $l['error_no_forums_selected'] = "Bitte wähle die Foren, in denen das Tool zur Verfügung stehen soll.";
+$l['error_no_groups_selected'] = "Bitte wähle die Gruppen, denen das Tool zur Verfügung stehen soll.";
 $l['error_forum_is_category'] = "Du kannst eine Kategorie nicht als Ziel-Forum auswählen.";
-
 ?>

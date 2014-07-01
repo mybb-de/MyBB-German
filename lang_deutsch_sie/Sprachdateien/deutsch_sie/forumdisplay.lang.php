@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['post_thread'] = "Thema erstellen";
 $l['moderated_by'] = "Moderiert von:";
@@ -61,7 +58,9 @@ $l['close_threads'] = "Themen schließen";
 $l['open_threads'] = "Themen öffnen";
 $l['stick_threads'] = "Themen als wichtig markieren";
 $l['unstick_threads'] = "Themen als unwichtig markieren";
-$l['delete_threads'] = "Themen löschen";
+$l['soft_delete_threads'] = "Themen als gelöscht markieren";
+$l['restore_threads'] = "Themen wiederherstellen";
+$l['delete_threads'] = "Themen dauerhaft löschen";
 $l['move_threads'] = "Themen verschieben";
 $l['approve_threads'] = "Themen zustimmen";
 $l['unapprove_threads'] = "Themen ablehnen";
@@ -96,4 +95,5 @@ $l['clear_selection'] = "Auswahl löschen.";
 
 $l['error_containsnoforums'] = "Entschuldigung, aber das Forum, welches Sie gerade ansehen, enthält keine Unterforen.";
 
+$l['inline_edit_description'] = "(Maus gedrückt halten zum Bearbeiten)";
 ?>

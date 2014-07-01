@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['mass_mail'] = "Massenmail";
 
@@ -55,8 +52,17 @@ $l['email_addr_contains'] = "E-Mail-Adresse enthält...";
 $l['members_of'] = "Mitglied der folgenden Gruppe(n)...";
 $l['greater_than'] = "höher als";
 $l['is_exactly'] = "genau";
-$l['less_than'] = "kleiner als";
+$l['less_than'] = "weniger als";
+$l['more_than'] = "mehr als";
 $l['post_count_is'] = "Anzahl der Beiträge ist";
+$l['hours'] = "Stunden";
+$l['days'] = "Tagen";
+$l['weeks'] = "Wochen";
+$l['months'] = "Monaten";
+$l['years'] = "Jahren";
+$l['ago'] = "";
+$l['user_last_active'] = "Benutzer zuletzt online vor";
+$l['user_registered'] = "Benutzer registriert vor";
 $l['save_mass_mail'] = "Speichere Massenmail";
 
 $l['step_four'] = "Schritt 4";
@@ -114,5 +120,4 @@ $l['success_mass_mail_resent'] = "Die Massenmail wurde erfolgreich kopiert.";
 $l['success_mass_mail_canceled'] = "Das Senden der Massenmail wurde erfolgreich abgebrochen.";
 
 $l['mass_mail_deletion_confirmation'] = "Bist du sicher, dass du diese Massenmail löschen möchtest?";
-
 ?>

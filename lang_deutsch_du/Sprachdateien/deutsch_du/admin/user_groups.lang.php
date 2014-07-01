@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['user_groups'] = "Benutzergruppen";
 $l['manage_user_groups'] = "Benutzergruppen verwalten";
@@ -48,11 +45,14 @@ $l['deny_selected_requests'] = "Ausgewählte Anfragen ablehnen";
 $l['group_leaders_for'] = "Gruppenleiter für";
 $l['can_manage_members'] = "Kann Mitglieder verwalten?";
 $l['can_manage_join_requests'] = "Kann Beitrittsanfragen verwalten?";
+$l['can_invite_members'] = "Kann Mitglieder einladen?";
 $l['user'] = "Benutzer";
 $l['can_manage_group_members'] = "Kann Gruppenmitglieder verwalten?";
 $l['can_manage_group_members_desc'] = "Soll der Benutzer die Mitglieder der Gruppen verwalten dürfen?";
 $l['can_manage_group_join_requests'] = "Kann Beitrittsanfragen verwalten?";
 $l['can_manage_group_join_requests_desc'] = "Soll dieser Benutzer die Beitrittsanfragen für diese Gruppe akzeptieren oder ablehnen können?";
+$l['can_invite_group_members'] = "Kann Gruppenmitglieder einladen?";
+$l['can_invite_group_members_desc'] = "Soll der Benutzer neue Mitglieder in diese Gruppe einladen dürfen?";
 $l['add_group_leader'] = "Gruppenleiter hinzufügen zu";
 $l['save_group_leader'] = "Gruppenleiter speichern";
 $l['edit_leader'] = "Leiter bearbeiten:";
@@ -72,6 +72,7 @@ $l['general'] = "Allgemein";
 $l['forums_posts'] = "Foren und Beiträge";
 $l['users_permissions'] = "Benutzer und Berechtigungen";
 $l['misc'] = "Sonstiges";
+$l['mod_cp'] = "Moderator-CP";
 $l['stars'] = "Anzahl der Sterne";
 $l['star_image'] = "Sternenbild";
 $l['user_stars'] = "Benutzer-Sterne";
@@ -79,11 +80,13 @@ $l['user_stars_desc'] = "Wenn du die Anzahl der Sterne und den Ort des Sternenbi
 $l['group_image'] = "Gruppenbild";
 $l['group_image_desc'] = "Hier kannst du ein Gruppenbild einstellen, das in jedem Beitrag jedes Benutzers dieser Gruppe angezeigt wird. Bitte benutze <strong>{lang}</strong> um übersetzte Gruppenbilder in der Sprache des Benutzers anzuzeigen, wenn diese vorhanden sind.";
 $l['general_options'] = "Allgemeine Optionen";
+$l['member_list'] = "Wird auf der Mitglieder-Liste angezeigt";
 $l['forum_team'] = "Zeige auf der Foren-Team-Seite";
 $l['is_banned_group'] = "Zur Ausschlussgruppe zugehörig?<br /><small>Wenn ja, ist es möglich, Benutzer dieser Gruppe aus dem Forum auszuschließen.</small>";
 $l['publicly_joinable_options'] = "Einstellungen für den öffentlichen Zugang";
 $l['user_joinable'] = "Benutzer können dieser Gruppe beitreten";
 $l['moderate_join_requests'] = "Neue Beitritte müssen moderiert werden<br /><small>Für diese Option müssen Benutzer dieser Gruppe beitreten können.</small>";
+$l['invite_only'] = "Benutzer müssen eingeladen werden um dieser Gruppe beitreten zu können<br /><small>Für diese Option müssen Benutzer dieser Gruppe beitreten können.</small>";
 $l['can_set_as_display_group'] = "Benutzer können diese Gruppe als Anzeigegruppe auswählen<br /><small>Wenn ja, können die Benutzer diese Gruppe als Anzeigegruppe für Benutzertitel, Sterne, Benutzernamen-Stil und Gruppenbilder auswählen.</small>";
 $l['moderation_administration_options'] = "Berechtigungen: Administration / Moderation";
 $l['is_super_mod'] = "Ist Super Moderator";
@@ -95,11 +98,14 @@ $l['can_view_threads'] = "Kann Themen sehen";
 $l['can_search_forums'] = "Kann Foren durchsuchen";
 $l['can_view_profiles'] = "Kann Profile sehen";
 $l['can_download_attachments'] = "Kann Attachments herunterladen";
+$l['can_view_board_closed'] = "Kann das Forum auch betrachten, wenn es geschlossen ist?";
 $l['posting_rating_options'] = "Berechtigungen: Beiträge erstellen / Themen bewerten";
 $l['can_post_threads'] = "Kann Themen eröffnen";
 $l['can_post_replies'] = "Kann Antworten erstellen";
 $l['can_rate_threads'] = "Kann Themen bewerten";
 $l['poll_options'] = "Berechtigungen: Umfragen";
+$l['max_posts_per_day'] = "Maximale Beiträge pro Tag";
+$l['max_posts_per_day_desc'] = "Gib hier die Anzahl der Beiträge an, die ein Benutzer dieser Gruppe pro Tag höchstens schreiben darf (0 = unendlich).";
 $l['can_post_polls'] = "Kann Umfragen erstellen";
 $l['can_vote_polls'] = "Kann an Umfragen teilnehmen";
 $l['can_undo_votes'] = "Kann Stimme bei einer Abstimmung zurücknehmen?";
@@ -113,6 +119,9 @@ $l['can_delete_posts'] = "Kann eigene Beiträge löschen";
 $l['can_delete_threads'] = "Kann eigene Themen löschen";
 $l['can_edit_attachments'] = "Kann eigene Attachments aktualisieren";
 $l['account_management'] = "Berechtigungen: Accounts verwalten";
+$l['edit_time_limit'] = "Bearbeitungs-Limit";
+$l['edit_time_limit_desc'] = "Der Zeitraum im Minuten, bevor Benutzer ihre Beiträge nicht mehr bearbeiten können, falls sie die nötigen Rechte haben (0 = unendlich).";
+$l['can_be_reported'] = "Kann gemeldet werden?";
 $l['can_access_usercp'] = "Kann Benutzer-CP betreten";
 $l['can_change_username'] = "Kann Benutzernamen wechseln";
 $l['can_use_usertitles'] = "Kann eigene Benutzertitel verwenden";
@@ -120,7 +129,7 @@ $l['can_upload_avatars'] = "Kann Avatare hochladen";
 $l['can_use_signature'] = "Kann Signatur angeben?";
 $l['can_use_signature_posts'] = "Kann Signatur nach x Beiträgen angeben?";
 $l['required_posts'] = "Benötigte Beitragsanzahl um eine Signatur anzugeben:";
-$l['required_posts_desc'] = "Hier kannst du die minimale Beitragsanzahl angeben, bevor sie eine Signatur angeben können.";
+$l['required_posts_desc'] = "Hier kannst du die minimale Beitragsanzahl angeben, bevor sie eine Signatur angeben können (0 = keine Beschränkung).";
 $l['uses_no_follow'] = "Links in Signaturen werden mit nofollow versehen?";
 $l['reputation_system'] = "Bewertungs-System";
 $l['can_use_pms'] = "Kann das Private Nachrichten-System nutzen";
@@ -162,6 +171,16 @@ $l['can_email_users'] = "Kann Themen an Freunde senden und E-Mails an Benutzer s
 $l['can_email_users_override'] = "Kann E-Mails an Benutzer senden, selbst wenn sie auf deren Ignorier-Liste stehen?";
 $l['max_emails_per_day'] = "Maximale E-Mails pro Tag:";
 $l['max_emails_per_day_desc'] = "Die maximale Anzahl, die Benutzer über die 'Thema einem Freund senden'- und die 'E-Mail an Benutzer schicken'-Funktion senden können.";
+$l['forum_post_options'] = "Foren &amp; Beiträge";
+$l['user_options'] = "Benutzer";
+$l['can_manage_announce'] = "Können Ankündigungen verwalten?<br /><small>Bitte beachte, dass Moderatoren mindestens einem Forum hinzugefügt worden sein müssen um Ankündigungen bearbeiten zu können.</small>";
+$l['can_manage_mod_queue'] = "Können Moderations-Warteschlange verwalten?<br /><small>Bitte beachte, dass Moderatoren mindestens einem Forum hinzugefügt worden sein müssen um die Moderations-Warteschlange verwalten zu können.</small>";
+$l['can_manage_reported_content'] = "Können Meldungen verwalten?<br /><small>Bitte beachte, dass Moderatoren mindestens einem Forum hinzugefügt worden sein müssen um die Meldungen verwalten zu können.</small>";
+$l['can_view_mod_logs'] = "Können Moderatoren-Protokoll ansehen?<br /><small>Bitte beachte, dass Moderatoren mindestens einem Forum hinzugefügt worden sein müssen um das Moderatoren-Protokoll ansehen zu können.</small>";
+$l['can_edit_profiles'] = "Können Profile bearbeiten?<br /><small>Bitte beachte, dass Moderatoren die Profile von Super-Moderatoren und Administratoren nicht bearbeiten können.</small>";
+$l['can_ban_users'] = "Kann Benutzer sperren?<br /><small>Bitte beachte, dass Moderatoren Super-Moderatoren und Administratoren nicht sperren können.</small>";
+$l['can_view_warnlogs'] = "Kann Warnungs-Protokoll ansehen?";
+$l['can_use_ipsearch'] = "Kann IP-Adressen suchen?";
 $l['outstanding_join_request'] = "ausstehenden Beitrittsanfragen";
 
 $l['no_join_requests'] = "Es gibt zur Zeit keine ausstehenden Beitrittsanfragen.";
@@ -176,6 +195,7 @@ $l['error_invalid_group_leader'] = "Du hast einen ungültigen Gruppenleiter ausg
 $l['error_missing_namestyle_username'] = "Der Benutzernamen-Stil muss {username} enthalten";
 $l['error_disallowed_namestyle_username'] = "Du kannst die Elemente script, meta und base nicht beim Benutzernamen-Stil verwenden.";
 $l['error_default_group_delete'] = "Standard-Benutzergruppen können nicht gelöscht werden";
+$l['error_cannot_have_both_types'] = "Die Beitritte in eine Gruppe können nicht gleichzeitig Einladungen benötigen und moderiert werden. Bitte wähle entweder die eine Option oder die andere.";
 
 $l['success_group_created'] = "Die neue Benutzergruppe wurde erfolgreich erstellt.";
 $l['success_group_updated'] = "Die Benutzergruppe wurde erfolgreich aktualisiert.";
@@ -191,5 +211,4 @@ $l['success_group_leader_deleted'] = "Der Benutzer wurde erfolgreich aus der Lis
 
 $l['confirm_group_deletion'] = "Willst du diese Gruppe wirklich löschen?";
 $l['confirm_group_leader_deletion'] = "Willst du wirklich diesen Gruppenleiter löschen?";
-
 ?>

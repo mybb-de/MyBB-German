@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_postpoll'] = "Eine Umfrage erstellen";
 $l['nav_editpoll'] = "Bearbeite die Umfrage";
 $l['nav_pollresults'] = "Ergebnisse der Umfrage";
@@ -57,6 +54,7 @@ $l['error_alreadyvoted'] = "Du hast an dieser Umfrage bereits teilgenommen.";
 $l['error_notvoted'] = "Du hast an dieser Umfrage nicht teilgenommen.";
 $l['error_invalidpoll'] = "Die angegebene Umfrage ist ungültig oder existiert nicht.";
 $l['error_pollclosed'] = "Du kannst an keiner Umfrage teilnehmen, die geschlossen wurde.";
+$l['poll_time_limit'] = "Entschuldigung, du kannst keine Umfrage erstellen. Der Administrator hat eingestellt, dass Umfrage nur {1} Stunden nach dem Erstellen des Themas hinzugefügt werden können.";
 
 $l['poll_deleted'] = "Gelöschte Umfrage";
 $l['poll_edited'] = "Bearbeitete Umfrage";

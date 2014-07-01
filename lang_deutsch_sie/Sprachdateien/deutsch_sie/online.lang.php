@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_online'] = "Wer ist online?";
 $l['nav_onlinetoday'] = "Wer war in den letzten 24 Stunden online?";
@@ -23,6 +20,7 @@ $l['viewing_event'] = "Sieht sich Details zu einem Ereignis an";
 $l['viewing_event2'] = "Sieht sich Details zum Ereignis <a href=\"{1}\">{2}</a> an";
 $l['adding_event'] = "<a href=\"calendar.php?action=addevent\">Erstellt ein Ereignis</a>";
 $l['editing_event'] = "Bearbeitet ein Ereignis";
+$l['viewing_contact_us'] = "Sieht sich die <a href=\"contact.php\">Kontakt-Seite</a> an";
 $l['editing_post'] = "Bearbeitet einen Beitrag";
 $l['viewing_forum'] = "Sieht sich ein Forum an";
 $l['viewing_forum2'] = "Sieht sich das Forum <a href=\"{1}\">{2}</a> an";
@@ -104,10 +102,10 @@ $l['online_count'] = "{1} {2} aktiv in den letzten {3} Minuten ({4} {5}, {6} dav
 $l['ip'] = "IP:";
 $l['resolves_to'] = "Hostname:";
 $l['if_resolvable'] = "(wenn auflösbar)";
-$l['admin_options'] = "Administrationsoptionen:";
+$l['admin_options'] = "Administrationsoptionen";
 $l['search_regip_users'] = "Sucht nach Benutzern, die sich unter einer IP registriert haben";
 $l['search_postip_users'] = "Sucht nach Benutzern, die unter einer IP Beiträge verfasst haben";
-$l['lookup'] = "[auflösen]";
+$l['lookup'] = "[Auflösen]";
 $l['member_online_today'] = "<strong>1</strong> Mitglied war heute online";
 $l['members_were_online_today'] = "<strong>{1}</strong> Mitglieder waren heute online";
 $l['member_online_hidden'] = " ({1} Mitglied war unsichtbar)";

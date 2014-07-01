@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_group_management'] = "{1} Gruppen-Management";
 $l['nav_join_requests'] = "Beitrittsanfragen";
@@ -26,8 +23,10 @@ $l['contact'] = "Kontakt";
 $l['reg_date'] = "Registriert";
 $l['post_count'] = "Beiträge";
 $l['remove_selected'] = "Ausgewählte Benutzer aus dieser Gruppe entfernen";
-$l['add_member'] = "Mitglied hinzufügen zu \"{1}\"";
-$l['add_member_submit'] = "Mitglied hinzufügen zur Gruppe";
+$l['add_member'] = "Mitglied zu \"{1}\" hinzufügen";
+$l['add_member_submit'] = "Mitglied zur Gruppe hinzufügen";
+$l['invite_member'] = "Mitglied zu \"{1}\" einladen";
+$l['invite_member_submit'] = "Mitglied zur Gruppe einladen";
 $l['join_requests'] = "Beitrittsanfragen";
 $l['join_requests_title'] = "Beitrittsanfragen für \"{1}\"";
 $l['leader'] = "(Leiter)";
@@ -44,11 +43,23 @@ $l['users_removed'] = "Die ausgewählten Benutzer wurden aus dieser Gruppe entfe
 $l['group_no_members'] = "Es sind zur Zeit keine Mitglieder in dieser Gruppe.<br /><a href=\"usercp.php?action=usergroups\">Klicken Sie hier</a>, um zur Gruppen-Management-Seite zurückzukehren.";
 $l['group_public_moderated'] = "Diese Benutzergruppe ist eine öffentliche Benutzergruppe, der jeder beitreten kann. Alle Beitrittsanfragen müssen von einem Gruppenleiter moderiert werden.";
 $l['group_public_not_moderated'] = "Diese Benutzergruppe ist eine öffentliche Benutzergruppe, der jeder beitreten kann.";
+$l['group_public_invite'] = "TDiese Benutzergruppe ist eine öffentliche Benutzergruppe, es wird eine Einladung von einem Gruppenleiter zum Beitritt benötigt.";
 $l['group_private'] = "Diese Benutzergruppe ist eine private Benutzergruppe. Mitglieder können dieser Gruppe nur durch den Gruppenleiter hinzugefügt werden.";
 $l['group_default'] = "Diese Benutzergruppe ist eine Standardbenutzergruppe.";
 $l['group_leaders'] = "Gruppenleiter";
+$l['search_user'] = "Ein Mitglied suchen";
 $l['no_users_selected'] = "Es wurden keine Benutzer zum Entfernen ausgewählt.<br />Bitte gehen Sie zurück und wählen Sie die Benutzer aus, die Sie aus der Gruppe entfernen wollen.";
 
 $l['error_alreadyingroup'] = "Der angegebene Benutzer ist bereits Mitglied in dieser Gruppe.";
+$l['error_alreadyinvited'] = "Der ausgewählte Benutzer wurde bereits in die Gruppe eingeladen.";
 
+$l['user_invited'] = "Der Benutzer wurde eingeladen der Gruppe beizutreten.";
+$l['invite_expires'] = "Die Einladung wird in {1} Tagen ablaufen.";
+$l['does_not_expire'] = "Die Einladung wird nicht ablaufen.";
+$l['invite_pm_subject'] = "Sie wurden eingeladen \"{1}\" beizutreten";
+$l['invite_pm_message'] = "Sie haben eine Einladung erhalten der Gruppe \"{1}\" beizutreten.
+
+Um beizutreten öffnen Sie bitte die Seite [url={2}/usercp.php?action=usergroups]Gruppenmitgliedschaften[/url] und klicken Sie auf 'Einladung annehmen'.
+
+{3}";
 ?>

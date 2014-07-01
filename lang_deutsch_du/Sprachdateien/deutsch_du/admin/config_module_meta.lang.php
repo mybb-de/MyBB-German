@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['configuration'] = "Konfiguration";
 
 $l['bbsettings'] = "Einstellungen";
@@ -29,6 +26,7 @@ $l['spiders_bots'] = "Spider/Bots";
 $l['calendars'] = "Kalender";
 $l['warning_system'] = "Warnsystem";
 $l['thread_prefixes'] = "Präfixe";
+$l['security_questions'] = "Sicherheitsfragen";
 
 $l['can_manage_settings'] = "Kann Einstellungen verwalten?";
 $l['can_manage_banned_accounts'] = "Kann Ausschlüsse verwalten?";
@@ -46,5 +44,5 @@ $l['can_manage_calendars'] = "Kann Kalender verwalten?";
 $l['can_manage_warning_system'] = "Kann Warnsystem verwalten?";
 $l['can_manage_mod_tools'] = "Kann Moderationstools verwalten?";
 $l['can_manage_thread_prefixes'] = "Kann Präfixe verwalten?";
-
+$l['can_manage_security_questions'] = "Kann Sicherheitsfragen verwalten?";
 ?>

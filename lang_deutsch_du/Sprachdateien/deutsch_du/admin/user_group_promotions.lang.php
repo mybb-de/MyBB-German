@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['user_group_promotions'] = "Benutzergruppen-Beförderung";
 $l['user_group_promotions_desc'] = "Hier kannst du Benutzergruppen-Beförderung verwalten.";
@@ -35,6 +32,8 @@ $l['reputation_count'] = "Bewertungen";
 $l['reputation_count_desc'] = "Gib die Zahl der benötigten Bewertungen ein. Bewertungen müssen dafür als Bedingung ausgewählt sein. Wähle den Vergleichs-Wert für Bewertungen aus.";
 $l['referral_count'] = "Anzahl der Empfehlungen";
 $l['referral_count_desc'] = "Gib die Zahl der benötigten Empfehlungen ein. Empfehlungen müssen dafür als Bedingung ausgewählt sein. Wähle den Vergleichs-Wert für Empfehlungen aus.";
+$l['warning_points'] = "Warnungspunkte";
+$l['warning_points_desc'] = "Gib die Zahl der benötigten Warnungspunkte ein. Warnungspunkte müssen dafür als Bedingung ausgewählt sein. Wähle den Vergleichs-Wert für Warnungspunkte aus.";
 $l['post_count_desc'] = "Gib die Zahl der benötigten Beiträge ein. Beitragsanzahl müssen dafür als Bedingung ausgewählt sein. Wähle den Vergleichs-Wert für Beiträge aus.";
 $l['hours'] = "Stunden";
 $l['days'] = "Tage";
@@ -80,13 +79,12 @@ $l['error_no_orig_usergroup'] = "Du hast nicht einmal eine Original-Benutzergrup
 $l['error_no_new_usergroup'] = "Du hast nicht einmal eine neue Benutzergruppe für diese Beförderung eingegeben";
 $l['error_no_usergroup_change_type'] = "Du hast keinen Typ der Benutzergruppen-Änderung für diese Beförderung eingegeben";
 
-$l['success_promo_disabled'] = 'Die Beförderung wurde erfolgreich deaktiviert.';
-$l['success_promo_deleted'] = 'Die Beförderung wurde erfolgreich gelöscht.';
-$l['success_promo_enabled'] = 'Die Beförderung wurde erfolgreich aktiviert.';
-$l['success_promo_updated'] = 'Die Beförderung wurde erfolgreich aktualisiert.';
-$l['success_promo_added'] = 'Die Beförderung wurde erfolgreich hinzugefügt.';
+$l['success_promo_disabled'] = "Die Beförderung wurde erfolgreich deaktiviert.";
+$l['success_promo_deleted'] = "Die Beförderung wurde erfolgreich gelöscht.";
+$l['success_promo_enabled'] = "Die Beförderung wurde erfolgreich aktiviert.";
+$l['success_promo_updated'] = "Die Beförderung wurde erfolgreich aktualisiert.";
+$l['success_promo_added'] = "Die Beförderung wurde erfolgreich hinzugefügt.";
 
 $l['confirm_promo_disable'] = "Willst du diese Beförderung wirklich deaktivieren?";
 $l['confirm_promo_deletion'] = "Willst du diese Beförderung wirklich löschen?";
-
 ?>
