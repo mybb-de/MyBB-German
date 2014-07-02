@@ -601,6 +601,8 @@ $l['setting_maxpmquotedepth_desc'] = "Die maximal zulässige Tiefe für Zitate. 
 $l['setting_maxquotedepth'] = "Maximale Anzahl an eingebetteten Zitaten";
 $l['setting_wolcutoffmins'] = "Zeit bis zum Offline-Status";
 $l['setting_wolcutoffmins_desc'] = "Die Anzahl der Minuten, nach denen ein Benutzer als offline angezeigt wird. Empfohlen: 15.";
+$l['setting_enablecalendar'] = "Kalender aktivieren";
+$l['setting_enablecalendar_desc'] = "Wähle \"Nein\", wenn du den Kalender komplett deaktivieren willst.";
 $l['setting_refreshwol'] = "Aktualisierung der \"Wer ist online\"-Seite";
 $l['setting_refreshwol_desc'] = "Die Anzahl der Minuten, nach denen sich die Seite automatisch neu lädt. Wähle 0, um diese Funktion zu deaktivieren.";
 $l['setting_wolorder'] = "\"Wer ist online\" Sortierung";
@@ -723,16 +725,16 @@ $l['setting_contact_minmessagelength'] = "Minimale Länge der Nachricht im Konta
 $l['setting_contact_minmessagelength_desc'] = "Die minimale Anzahl an Zeichen, die zum Absenden einer Nachricht benötigt werden (0 = kein Minimum).";
 $l['setting_contact_maxmessagelength'] = "Maximale Länge der Nachricht im Kontakt-Formular";
 $l['setting_contact_maxmessagelength_desc'] = "Die maximale Anzahl an Zeichen, die beim Absenden einer Nachricht erlaubt sind (0 = keine Begrenzung).";
-$l['setting_contact_purgespammergroups'] = "Für welche Benutzergruppen verfügbar";
-$l['setting_contact_purgespammergroups_desc'] = "Wähle die Benutzergruppen, die Spammer löschen können.";
-$l['setting_contact_purgespammerpostlimit'] = "Beitrags-Limit";
-$l['setting_contact_purgespammerpostlimit_desc'] = "Diese Einstellung erlaubt dir einzustellen, ab welcher Beitragsanzahl ein Benutzer nicht gelöscht werden kann. Damit soll verhindert werden, dass aktive Benutzer gelöscht werden. Wähle 0 um die Beitragsanzahl nicht zu prüfen; dies wird allerdings nicht empfohlen.";
-$l['setting_contact_purgespammerbandelete'] = "Spammer sperren oder löschen";
-$l['setting_contact_purgespammerbandelete_desc'] = "Soll diese Funktion standardmäßig Benutzer sperren oder löschen. Es wird trotzdem wird eine Option dafür angezeigt.";
-$l['setting_contact_purgespammerbandelete_ban'] = "Dauerhaft sperren";
-$l['setting_contact_purgespammerbandelete_delete'] = "Löschen";
-$l['setting_contact_purgespammerbangroup'] = "Sperrgruppe";
-$l['setting_contact_purgespammerbangroup_desc'] = "Gebe die ID der Gruppe (nicht den Namen) ein, in die gesperrte Benutzer verschoben werden. Standard ist 7, die Standard-Gruppe des MyBBs. In der Einstellung oberhalb muss \"Dauerhaft sperren\" ausgewählt sein.";
-$l['setting_contact_purgespammerapikey'] = "Stop Forum Spam API Key";
-$l['setting_contact_purgespammerapikey_desc'] = "Um die Daten von Spammern an Stop Forum Spam übermitteln zu können, benötigst du einen API-Key. Um einen zu erhalten, melde dich <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">hier</a> an. Nach Erhalt des Keys, trage diesen hier ein.";
+$l['setting_purgespammergroups'] = "Für welche Benutzergruppen verfügbar";
+$l['setting_purgespammergroups_desc'] = "Wähle die Benutzergruppen, die Spammer löschen können.";
+$l['setting_purgespammerpostlimit'] = "Beitrags-Limit";
+$l['setting_purgespammerpostlimit_desc'] = "Diese Einstellung erlaubt dir einzustellen, ab welcher Beitragsanzahl ein Benutzer nicht gelöscht werden kann. Damit soll verhindert werden, dass aktive Benutzer gelöscht werden. Wähle 0 um die Beitragsanzahl nicht zu prüfen; dies wird allerdings nicht empfohlen.";
+$l['setting_purgespammerbandelete'] = "Spammer sperren oder löschen";
+$l['setting_purgespammerbandelete_desc'] = "Soll diese Funktion standardmäßig Benutzer sperren oder löschen. Es wird trotzdem wird eine Option dafür angezeigt.";
+$l['setting_purgespammerbandelete_ban'] = "Dauerhaft sperren";
+$l['setting_purgespammerbandelete_delete'] = "Löschen";
+$l['setting_purgespammerbangroup'] = "Sperrgruppe";
+$l['setting_purgespammerbangroup_desc'] = "Gebe die ID der Gruppe (nicht den Namen) ein, in die gesperrte Benutzer verschoben werden. Standard ist 7, die Standard-Gruppe des MyBBs. In der Einstellung oberhalb muss \"Dauerhaft sperren\" ausgewählt sein.";
+$l['setting_purgespammerapikey'] = "Stop Forum Spam API Key";
+$l['setting_purgespammerapikey_desc'] = "Um die Daten von Spammern an Stop Forum Spam übermitteln zu können, benötigst du einen API-Key. Um einen zu erhalten, melde dich <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">hier</a> an. Nach Erhalt des Keys, trage diesen hier ein.";
 ?>
