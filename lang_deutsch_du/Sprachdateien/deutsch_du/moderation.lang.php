@@ -149,7 +149,7 @@ $l['leave_redirect_for'] = "Lasse Weiterleitungen für:";
 $l['redirect_forever'] = "immer";
 
 $l['purgespammer'] = "Spammer löschen";
-$l['purgespammer_desc'] = "Dies ist eine Liste mit möglichen Aktionen. Die Zahl in Klammern zeigt an, wie viele Elemente gelöscht werden."
+$l['purgespammer_desc'] = "Dies ist eine Liste mit möglichen Aktionen. Die Zahl in Klammern zeigt an, wie viele Elemente gelöscht werden.";
 $l['purgespammer_actionstotake'] = "Aktionen auf {1} ausführen";
 $l['purgespammer_deletethreads'] = "Themen löschen";
 $l['purgespammer_deletethreads_desc'] = "Löscht alle Themen, die der Benutzer eröffnet hat.";
