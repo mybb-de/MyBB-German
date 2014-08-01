@@ -15,4 +15,4 @@
  * $l['s{sid}_name'] = "Section name";
  * $l['s{sid}_desc'] = "Section description";
  */
- ?>
+ 

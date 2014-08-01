@@ -60,4 +60,3 @@ $l['success_document_deleted'] = "Die Hilfe-Seite wurde erfolgreich gelöscht.";
 
 $l['confirm_section_deletion'] = "Soll diese Kategorie wirklich gelöscht werden?";
 $l['confirm_document_deletion'] = "Soll diese Seite wirklich gelöscht werden?";
-?>

@@ -48,4 +48,3 @@ $l['redirect_newthread_poll'] = "<br />Sie werden nun zu der Umfrageoptions- und
 $l['redirect_newthread_moderation'] = "<br />Der Administrator hat spezifiziert, dass alle neuen Themen überprüft werden müssen. Sie werden zur Themenübersicht weitergeleitet.";
 $l['redirect_newthread_thread'] = "<br />Sie werden nun zum neuen Thema geleitet.";
 $l['invalidthread'] = "Der ausgewählte Entwurf exisitiert nicht oder Sie haben nicht die Berechtigung ihn zu sehen.";
-?>

@@ -111,4 +111,3 @@ $l['quick_delete_success'] = 'Der Beitrag wurde erfolgreich gelöscht.';
 $l['quick_delete_thread_success'] = 'Das Thema wurde erfolgreich gelöscht.';
 $l['quick_restore_error'] = 'Beim Wiederherstellen des Beitrags ist es zu einem Fehler gekommen:';
 $l['quick_restore_success'] = 'Das Beitrag wurde erfolgreich wiederhergestellt.';
-?>

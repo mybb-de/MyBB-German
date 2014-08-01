@@ -47,4 +47,3 @@ $l['success_post_icon_updated'] = "Das Beitragsicon wurde erfolgreich aktualisie
 $l['success_post_icon_deleted'] = "Das Beitragsicon wurde erfolgreich gelöscht.";
 
 $l['confirm_post_icon_deletion'] = "Soll dieses Beitragsicon wirklich gelöscht werden?";
-?>

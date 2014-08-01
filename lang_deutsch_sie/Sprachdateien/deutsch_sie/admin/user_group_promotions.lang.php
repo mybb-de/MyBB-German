@@ -87,4 +87,3 @@ $l['success_promo_added'] = "Die Beförderung wurde erfolgreich hinzugefügt.";
 
 $l['confirm_promo_disable'] = "Wollen Sie diese Beförderung wirklich deaktivieren?";
 $l['confirm_promo_deletion'] = "Wollen Sie diese Beförderung wirklich löschen?";
-?>

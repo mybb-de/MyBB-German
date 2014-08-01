@@ -111,4 +111,3 @@ $l['error_nosearchterms'] = "Sie haben keine Suchbegriffe eingegeben. Sie müsse
 $l['error_searchflooding_1'] =  "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch 1 Sekunde und versuchen Sie es dann erneut.";
 $l['error_searchflooding'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch {2} Sekunden und versuchen Sie es dann erneut.";
 $l['error_invalidsearch'] = "Der Suchbegriff ist ungültig. Bitte gehen Sie zurück und versuchen Sie es erneut.";
-?>

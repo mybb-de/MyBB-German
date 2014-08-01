@@ -239,4 +239,3 @@ $l['add_to_buddy_list'] = "Zur Freundesliste hinzufügen";
 $l['remove_from_ignore_list'] = "Von Ignorierliste entfernen";
 $l['add_to_ignore_list'] = "Zur Ignorierliste hinzufügen";
 $l['report_user'] = "Benutzer melden";
-?>

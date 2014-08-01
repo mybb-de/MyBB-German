@@ -76,4 +76,3 @@ $l['success_task_run'] = "Die ausgewählte Aufgabe wurde ausgeführt.";
 $l['confirm_task_deletion'] = "Wollen Sie die geplante Aufgabe wirklich löschen?";
 $l['confirm_task_enable'] = "<strong>WARNUNG:</strong> Sie sind gerade dabei, eine Aufgabe zu aktivieren, die nur von einem Cron-Job ausgeführt werden sollte (Bitte schauen Sie in die <a href=\"http://www.mybboard.de/doku/\" target=\"_blank\">MyBB Doku</a> für weitere Informationen). Fortsetzen?";
 $l['no_tasks'] = "Es wurden bisher keine Aufgaben angelegt.";
-?>

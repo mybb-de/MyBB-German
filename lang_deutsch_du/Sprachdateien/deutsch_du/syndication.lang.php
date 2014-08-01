@@ -12,4 +12,3 @@ $l['all_forums'] = "Alle Foren";
 $l['forum'] = "Forum:";
 $l['posted_by'] = "Geschrieben von:";
 $l['on'] = "am";
-?>

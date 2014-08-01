@@ -28,4 +28,3 @@ $l['decrease'] = "Fallend";
 
 $l['error_no_results_found_for_criteria'] = "Es konnten leider keine Ergebnisse für den Datumsbreich gefunden werden. Bitte wähle einen anderen Bereich.";
 $l['error_no_statistics_available_yet'] = "Es tut uns Leid, aber es gibt keine Daten für die Statistiken in deinem Forum.";
-?>

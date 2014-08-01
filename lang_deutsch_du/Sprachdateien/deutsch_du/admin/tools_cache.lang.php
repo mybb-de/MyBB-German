@@ -22,4 +22,3 @@ $l['error_no_cache_specified'] = "Du hast keinen Cache zum Anschauen ausgesucht.
 
 $l['success_cache_rebuilt'] = "Der Cache wurde erfolgreich erneuert.";
 $l['success_cache_reloaded'] = "Der Cache wurde erfolgreich erneut geladen.";
-?>

@@ -45,4 +45,3 @@ $l['online'] = "Online";
 $l['offline'] = "Offline";
 $l['edited_post'] = "Bearbeiteter Beitrag";
 $l['usergroup'] = "Benutzergruppe";
-?>

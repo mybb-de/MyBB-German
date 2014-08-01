@@ -17,4 +17,3 @@ $l['subject'] = "Betreff:";
 $l['message'] = "Nachricht:";
 $l['error_nosubject'] = "Du musst einen Betreff eingeben, um das Thema an einen Freund zu senden.";
 $l['error_nomessage'] = "Du musst eine Nachricht eingeben, um das Thema an einen Freund zu senden.";
-?>

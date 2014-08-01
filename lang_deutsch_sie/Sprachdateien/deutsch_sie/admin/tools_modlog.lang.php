@@ -49,4 +49,3 @@ $l['date_range'] = "Datum zwischen:";
 
 $l['success_pruned_mod_logs'] = "Die Moderator Log-Daten wurden erfolgreich gesäubert.";
 $l['note_logs_locked'] = "Aus Sicherheitsgründen können die Einträge der letzten 24 Stunden nicht entfernt werden.";
-?>

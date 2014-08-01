@@ -22,4 +22,3 @@ $l['pmdata_recipient_reached_quota'] = '{1} hat das Speicherplatzlimit für priv
 
 $l['pmdata_pm_flooding'] = 'Du versuchst eine Nachricht in zu kurzem Abstand zur vorigen Nachricht zu verschicken. Bitte warte noch {1} Sekunden.';
 $l['pmdata_pm_flooding_one_second'] = 'Du versuchst eine Nachricht in zu kurzem Abstand zur vorigen Nachricht zu verschicken. Bitte warte noch 1 Sekunde.';
-?>

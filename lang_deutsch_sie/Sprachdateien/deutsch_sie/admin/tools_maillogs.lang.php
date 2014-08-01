@@ -36,4 +36,3 @@ $l['subject_contains'] = "Betreff enthält";
 $l['find_emails_to_user'] = "Finde alle E-Mails, die an diesem Benutzer versendet wurden";
 
 $l['error_invalid_user'] = "Der eingegebene Benutzername existiert nicht.";
-?>

@@ -132,4 +132,3 @@ $l['error_missing_description'] = "Bitte geben Sie eine Kurzbeschreibung für di
 $l['error_no_forums_selected'] = "Bitte wählen Sie die Foren, in denen das Tool zur Verfügung stehen soll.";
 $l['error_no_groups_selected'] = "Bitte wählen Sie die Gruppen, denen das Tool zur Verfügung stehen soll.";
 $l['error_forum_is_category'] = "Du kannst eine Kategorie nicht als Ziel-Forum auswählen.";
-?>

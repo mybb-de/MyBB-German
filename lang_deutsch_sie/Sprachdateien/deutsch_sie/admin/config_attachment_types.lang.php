@@ -44,4 +44,3 @@ $l['success_attachment_type_updated'] = "Der Attachment-Typ wurde erfolgreich ak
 $l['success_attachment_type_deleted'] = "Der Attachment-Typ wurde erfolgreich gelöscht.";
 
 $l['confirm_attachment_type_deletion'] = "Soll dieser Attachment-Typ wirklich gelöscht werden?";
-?>

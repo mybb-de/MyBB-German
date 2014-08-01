@@ -62,4 +62,3 @@ $l['invite_pm_message'] = "Sie haben eine Einladung erhalten der Gruppe \"{1}\" 
 Um beizutreten öffnen Sie bitte die Seite [url={2}/usercp.php?action=usergroups]Gruppenmitgliedschaften[/url] und klicken Sie auf 'Einladung annehmen'.
 
 {3}";
-?>

@@ -50,4 +50,3 @@ $l['online_users'] = "Momentan sind <b>{1}</b> Benutzer online";
 $l['online_counts'] = "<b>{1}</b> Mitglieder <br /><b>&raquo; {2}</b> Gäste";
 $l['print_this_item'] = "Drucke diesen Beitrag";
 $l['send_to_friend'] = "Sende diesen Beitrag zu einem Freund";
-?>

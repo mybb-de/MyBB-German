@@ -107,4 +107,3 @@ $l['in'] = "in";
 $l['button_delete_orphans'] = "Lösche ausgewählte Waisen";
 $l['button_delete_attachments'] = "Lösche ausgewählte Attachments";
 $l['button_find_attachments'] = "Suche Attachments";
-?>

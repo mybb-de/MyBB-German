@@ -69,4 +69,3 @@ $l['d7_document'] = "Du kannst in deinen Beiträgen MyCode benutzen, eine verein
 <p>[align=right]Dieser Text ist rechtsbündig[/align]<div align=\"right\">Dieser Text ist rechtsbündig</div>
 <p><br />[list]<br />[*]Listeneintrag #1<br />[*]Listeneintrag #2<br />[*]Listeneintrag #3<br />[/list]<br /><ul><li>Listeneintrag #1</li><li>Listeneintrag #2</li><li>Listeneintrag #3</li></ul>
 <p>Du kannst eine geordnete Liste erstellen, indem du [list=1] für nummerierte und [list=a] für alphabetisch sortierte Listen verwendest.";
-?>

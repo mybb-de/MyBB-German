@@ -25,4 +25,3 @@ $l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib
 $l['subject_too_long'] = "Der Betreff ist zu lang. Bitte gib einen Betreff mit weniger als {1} Zeichen ein (derzeit {2}).";
 $l['message_too_short'] = "Die Nachricht ist zu kurz. Bitte gib eine Nachricht mit mehr als {1} Zeichen ein (derzeit {2}).";
 $l['message_too_long'] = "Die Nachricht ist zu lang. Bitte gib eine Nachricht mit weniger als {1} Zeichen ein (derzeit {2}).";
-?>

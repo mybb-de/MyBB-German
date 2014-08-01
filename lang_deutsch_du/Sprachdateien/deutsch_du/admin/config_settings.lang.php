@@ -737,4 +737,3 @@ $l['setting_purgespammerbangroup'] = "Sperrgruppe";
 $l['setting_purgespammerbangroup_desc'] = "Gebe die ID der Gruppe (nicht den Namen) ein, in die gesperrte Benutzer verschoben werden. Standard ist 7, die Standard-Gruppe des MyBBs. In der Einstellung oberhalb muss \"Dauerhaft sperren\" ausgewählt sein.";
 $l['setting_purgespammerapikey'] = "Stop Forum Spam API Key";
 $l['setting_purgespammerapikey_desc'] = "Um die Daten von Spammern an Stop Forum Spam übermitteln zu können, benötigst du einen API-Key. Um einen zu erhalten, melde dich <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">hier</a> an. Nach Erhalt des Keys, trage diesen hier ein.";
-?>

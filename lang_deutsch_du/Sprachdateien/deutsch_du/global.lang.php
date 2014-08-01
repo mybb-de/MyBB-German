@@ -474,4 +474,3 @@ $l['debug_sql_queries'] = "SQL Abfragen: {1}";
 $l['debug_server_load'] = "Serverauslastung: {1}";
 $l['debug_memory_usage'] = "Speichernutzung: {1}";
 $l['debug_advanced_details'] = "Weitere Details";
-?>

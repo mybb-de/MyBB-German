@@ -327,4 +327,3 @@ $l['you_cannot_use_mod_queue'] = "Du hast keine Berechtigung das Warnungs-Protok
 
 $l['post'] = "Beitrag";
 $l['search_user'] = "Benutzer suchen";
-?>

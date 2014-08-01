@@ -45,4 +45,3 @@ $l['online_guest_plural'] = "Gäste";
 $l['online_guest_singular'] = "Gast";
 $l['online_note'] = "{1} {2} aktiv in den letzten {3} Minuten: {4} {5}, {6} davon unsichtbar und {8} {9}";
 $l['subforums'] = "<strong>Unterforen:</strong>";
-?>

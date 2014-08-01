@@ -20,4 +20,3 @@ $l['no_problems_found'] = "Keine Probleme gefunden";
 $l['changed'] = "Verändert";
 $l['missing'] = "Fehlend";
 $l['status'] = "Status";
-?>

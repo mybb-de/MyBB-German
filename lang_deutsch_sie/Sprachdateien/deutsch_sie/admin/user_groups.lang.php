@@ -211,4 +211,3 @@ $l['success_group_leader_deleted'] = "Der Benutzer wurde erfolgreich aus der Lis
 
 $l['confirm_group_deletion'] = "Wollen Sie diese Gruppe wirklich löschen?";
 $l['confirm_group_leader_deletion'] = "Wollen Sie wirklich diesen Gruppenleiter löschen?";
-?>

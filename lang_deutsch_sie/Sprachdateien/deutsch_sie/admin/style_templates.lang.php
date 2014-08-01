@@ -177,4 +177,3 @@ $l['success_template_set_saved'] = "Das Template-Set wurde erfolgreich gespeiche
 $l['success_template_set_deleted'] = "Das Template-Set wurde erfolgreich gelöscht.";
 $l['success_template_group_saved'] = "Die Template-Gruppe wurde erfolgreich gespeichert.";
 $l['success_template_group_deleted'] = "Die Template-Gruppe wurde erfolgreich gelöscht.";
-?>

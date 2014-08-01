@@ -94,4 +94,3 @@ $l['new_warning_level'] = "Neues Warnungslevel:";
 $l['cannot_warn_self'] = "Du kannst dein eigenes Warnungslevel nicht ändern.";
 $l['error_cant_warn_user'] = "Du hast nicht die Berechtigung, dieses Mitglied zu warnen.";
 $l['existing_post_warnings'] = "Existierende Warnungen für diesen Post";
-?>

@@ -49,4 +49,3 @@ $l['mark_as_ignored'] = "Markiere als ignoriert";
 $l['mark_as_deleted'] = "Markiere für Löschung";
 $l['mark_as_approved'] = "Markiere alle als angenommen";
 $l['perform_action'] = "Aktion(en) ausführen";
-?>

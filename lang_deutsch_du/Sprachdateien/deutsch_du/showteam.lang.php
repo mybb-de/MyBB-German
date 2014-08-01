@@ -25,4 +25,3 @@ $l['group_members'] = "Mitglied(er)";
 $l['no_members'] = "Keine Mitglieder in dieser Gruppe";
 
 $l['error_noteamstoshow'] = "Es gibt kein anzuzeigendes Foren-Team.";
-?>

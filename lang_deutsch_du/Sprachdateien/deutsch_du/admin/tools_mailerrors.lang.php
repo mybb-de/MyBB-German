@@ -30,4 +30,3 @@ $l['error_message_contains'] = "Fehlernachricht enthält";
 $l['to_address_contains'] = "Empfänger enthält";
 $l['from_address_contains'] = "Absender enthält";
 $l['find_emails_to_addr'] = "Suche alle E-Mails, die zu dieser Adresse gesendet wurden.";
-?>

@@ -58,4 +58,3 @@ $l['success_activated_mycode'] = "Der MyCode wurde erfolgreich aktiviert.";
 $l['confirm_mycode_deletion'] = "Soll dieser MyCode wirklich gelöscht werden?";
 
 $l['mycode_sandbox_test_error'] = "Beim Laden des Testergebnisses ist ein Fehler aufgetreten.";
-?>

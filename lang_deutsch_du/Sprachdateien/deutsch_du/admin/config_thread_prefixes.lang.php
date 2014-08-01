@@ -42,4 +42,3 @@ $l['error_missing_display_style'] = "Bitte gebe einen Anzeigen-Stil für dieses 
 $l['error_no_forums_selected'] = "Bitte wähle Foren aus, in denen das Präfix verfügbar ist.";
 $l['error_no_groups_selected'] = "Bitte wähle Gruppen aus, die das Präfix benutzen benutzen können.";
 $l['error_invalid_prefix'] = "Das ausgewählte Präfix existiert nicht.";
-?>

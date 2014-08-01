@@ -471,4 +471,3 @@ Klicken SIe auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen z
 [url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
 
 ------------------------------------------";
-?>

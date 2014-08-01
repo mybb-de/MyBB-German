@@ -137,4 +137,3 @@ $l['changing_dst'] = "Passt Sommerzeitkorrektur an";
 $l['printing_thread'] = "Druckt ein Thema";
 $l['printing_thread2'] = "Druckt das Thema <a href=\"{1}\">{2}</a>";
 $l['managing_buddyignorelist'] = "Freunde-/Ignorierliste verwalten";
-?>
