@@ -34,4 +34,3 @@ $l['success_deleted_bad_word'] = "Der Filter wurde erfolgreich gelöscht.";
 $l['success_updated_bad_word'] = "Der Filter wurde erfolgreich aktualisiert.";
 
 $l['confirm_bad_word_deletion'] = "Soll dieser Filter wirklich gelöscht werden?";
-?>

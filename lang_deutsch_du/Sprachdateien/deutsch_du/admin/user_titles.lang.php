@@ -37,4 +37,3 @@ $l['user_title_deletion_confirmation'] = "Willst du diesen Benutzertitel wirklic
 $l['manage_user_titles'] = "Benutzertitel verwalten";
 $l['user_title'] = "Benutzertitel";
 $l['no_user_titles'] = "Es wurden bisher keine Benutzertitel definiert";
-?>

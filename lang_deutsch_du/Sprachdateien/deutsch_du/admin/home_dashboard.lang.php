@@ -53,4 +53,3 @@ $l['admin_notes'] = "Administratoren-Notizen";
 $l['save_notes'] = "Notizen speichern";
 
 $l['success_notes_updated'] = "Die Administratoren-Notizen wurden erfolgreich aktualisiert.";
-?>

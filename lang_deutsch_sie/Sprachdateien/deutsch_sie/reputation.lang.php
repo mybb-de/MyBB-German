@@ -82,4 +82,3 @@ $l['delete_reputation_confirm'] = "Soll diese Bewertung wirklich gelöscht werde
 $l['delete_reputation_log'] = "Bewertung von {1} (UID: {2}) gelöscht";
 $l['reputations_disabled_group'] = "Das Bewertungssystem wurde für Benutzer dieser Benutzergruppe deaktiviert.";
 $l['rate_user'] = "Benutzer bewerten";
-?>

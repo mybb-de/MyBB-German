@@ -43,4 +43,3 @@ $l['can_manage_user_warning_log'] = "Kann Benutzer Verwarn Log-Daten verwalten?"
 $l['can_view_php_info'] = "Kann PHP-Info ansehen?";
 $l['can_manage_file_verification'] = "Kann Datei-Überprüfung durchführen?";
 $l['can_view_statistics'] = "Kann Statistiken sehen?";
-?>

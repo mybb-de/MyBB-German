@@ -36,4 +36,3 @@ $l['not_enough_info_stats'] = "Entschuldigung, aber es gibt in diesem Forum nich
 $l['replies'] = "Antworten";
 $l['views'] = "Ansichten";
 $l['top_referrer'] = "Benutzer mit den meisten Empfehlungen: <strong>{1}</strong> (<strong>{2}</strong> Empfehlungen)";
-?>

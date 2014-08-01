@@ -52,4 +52,3 @@ $l['success_plugin_activated'] = "Das Plugin wurde erfolgreich aktiviert.";
 $l['success_plugin_deactivated'] = "Das Plugin wurde erfolgreich deaktiviert.";
 $l['success_plugin_installed'] = "Das Plugin wurde erfolgreich installiert und aktiviert.";
 $l['success_plugin_uninstalled'] = "Das Plugin wurde erfolgreich deinstalliert.";
-?>

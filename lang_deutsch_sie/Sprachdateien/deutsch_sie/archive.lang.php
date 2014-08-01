@@ -17,4 +17,3 @@ $l['archive_nopermission'] = "Entschuldigung. Sie haben nicht die Berechtigung, 
 $l['error_nothreads'] = "Es gibt zur Zeit keine Themen in diesem Forum.";
 $l['error_unapproved_thread'] = "Dieses Thema ist abgewiesen. Bitte benutzen Sue <a href=\"{1}\">die normale Ansicht</a> um den Inhalt des Themas zu sehen.";
 $l['archive_not_found'] = "Das angegebene Dokument konnte nicht gefunden werden.";
-?>

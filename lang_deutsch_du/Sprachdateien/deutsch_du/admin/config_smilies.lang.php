@@ -62,4 +62,3 @@ $l['success_smilie_deleted'] = "Der angegebene Smilie wurde erfolgreich gelösch
 $l['success_mass_edit_updated'] = "Die Smilies wurden erfolgreich aktualisiert.";
 
 $l['confirm_smilie_deletion'] = "Soll dieser Smilie wirklich gelöscht werden?";
-?>

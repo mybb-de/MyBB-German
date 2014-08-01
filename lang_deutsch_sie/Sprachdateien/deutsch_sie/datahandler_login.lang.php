@@ -14,4 +14,3 @@ $l['logindata_invalidpwordusernamecombo'] = "Der eingegebene Benutzername bzw. d
 
 $l['logindata_regimageinvalid'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
 $l['logindata_regimagerequired'] = "Bitte geben Sie den Bestätigungscode ein, um mit der Anmeldung fortzufahren. Geben Sie den Code genau so ein, wie er im Bild zu sehen ist.";
-?>

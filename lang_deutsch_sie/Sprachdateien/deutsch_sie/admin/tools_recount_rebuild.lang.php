@@ -52,4 +52,3 @@ $l['success_rebuilt_thread_ratings'] = "Die Themenbewertungen wurden erfolgreich
 
 $l['confirm_proceed_rebuild'] = "Klicken Sie auf \"Fortfahren\" um die Neuzählung und Neubildung fortzusetzen.";
 $l['automatically_redirecting'] = "Automatische Weiterleitung...";
-?>

@@ -49,4 +49,3 @@ $l['success_email_disallowed'] = "Die E-Mail-Adresse wurde erfolgreich verboten.
 $l['success_ban_deleted'] = "Der ausgewählte Ausschluss wurde erfolgreich gelöscht.";
 
 $l['confirm_ban_deletion'] = "Soll dieser Ausschluss wirklich gelöscht werden?";
-?>

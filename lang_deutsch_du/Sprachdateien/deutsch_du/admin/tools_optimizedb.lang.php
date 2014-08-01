@@ -20,4 +20,3 @@ $l['optimize_selected_tables'] = "Ausgewählte Tabellen optimieren";
 $l['error_no_tables_selected'] = "Du hast keine Datenbank-Tabelle(n) zum Optimieren ausgewählt.";
 
 $l['success_tables_optimized'] = "Die ausgewählten Tabellen wurden erfolgreich optimiert.";
-?>

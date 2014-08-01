@@ -57,4 +57,3 @@ $l['alert_note_cannot_write'] = "Bevor du eine Sprachdatei bearbeiten kannst, mu
 $l['success_langfile_updated'] = "Sprachdatei erfolgreich aktualisiert.";
 $l['success_langprops_updated'] = "Eigenschaften des Sprachpakets erfolgreich aktualisiert.";
 $l['success_quickphrases_updated'] = "Die Schnelleinstellungen wurden erfolgreich aktualisiert.";
-?>

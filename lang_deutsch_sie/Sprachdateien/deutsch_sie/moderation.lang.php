@@ -245,4 +245,3 @@ $l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option 
 $l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Forum zurückgeleitet.";
 $l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zur Suche zurückgeleitet.";
 $l['redirect_delayed_moderation_cancelled'] = "Die auswählte verzögerte Moderations-Option wurde abgebrochen.<br />Sie werden zur Übersicht der verzögerten Moderations-Optionen zurückgeleitet.";
-?>

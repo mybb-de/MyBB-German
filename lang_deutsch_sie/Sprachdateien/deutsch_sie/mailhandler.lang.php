@@ -17,4 +17,3 @@ $l['error_status_missmatch'] = "Der Status des Servers widerspricht dem erwartet
 $l['error_data_not_sent'] = "Diese Daten konnten nicht an den Server gesendet werden: ";
 
 $l['error_occurred'] = "Ein oder mehrere Fehler sind aufgetreten. Bitte korrigieren Sie die folgenden Fehler, bevor Sie fortfahren:<br />";
-?>

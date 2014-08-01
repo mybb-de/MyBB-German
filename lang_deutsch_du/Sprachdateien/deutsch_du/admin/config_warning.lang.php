@@ -79,4 +79,3 @@ $l['success_warning_type_deleted'] = "Der ausgewählte Warntyp wurde erfolgreich
 
 $l['confirm_warning_level_deletion'] = "Soll dieser Warnlevel wirklich gelöscht werden?";
 $l['confirm_warning_type_deletion'] = "Soll dieser Warntyp wirklich gelöscht werden?";
-?>

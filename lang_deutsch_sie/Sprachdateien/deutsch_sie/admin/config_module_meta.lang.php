@@ -45,4 +45,3 @@ $l['can_manage_warning_system'] = "Kann Warnsystem verwalten?";
 $l['can_manage_mod_tools'] = "Kann Moderationstools verwalten?";
 $l['can_manage_thread_prefixes'] = "Kann Präfixe verwalten?";
 $l['can_manage_security_questions'] = "Kann Sicherheitsfragen verwalten?";
-?>

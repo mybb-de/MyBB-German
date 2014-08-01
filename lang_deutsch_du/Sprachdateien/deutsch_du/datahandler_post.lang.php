@@ -28,4 +28,3 @@ $l['thread_closed'] = "Thema geschlossen";
 $l['thread_opened'] = "Thema geöffnet";
 $l['thread_stuck'] = "Thema als wichtig markiert";
 $l['thread_unstuck'] = "Thema als unwichtig markiert";
-?>

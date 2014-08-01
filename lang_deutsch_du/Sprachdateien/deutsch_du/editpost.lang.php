@@ -55,4 +55,3 @@ $l['thread_restored'] = "Thema wiederhergestellt";
 $l['post_restored'] = "Beitrag wiederhergestellt";
 
 $l['error_already_deleted'] = "Der ausgewählte Beitrag wurde bereits gelöscht.";
-?>

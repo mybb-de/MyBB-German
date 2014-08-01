@@ -24,4 +24,3 @@ $l['codemirror'] = "Code Mirror ein-/ausschalten";
 $l['use_codemirror_desc'] = "Diese Einstellung erlaubt es dir Code Mirror (verwendet bei der Template- und Stylesheetbearbeitung zur Syntax-Hervorherbung) zu deaktivieren, falls es Probleme oder lange Ladezeiten verursacht.";
 
 $l['success_preferences_updated'] = "Die persönlichen Notizen wurden erfolgreich aktualisiert.";
-?>

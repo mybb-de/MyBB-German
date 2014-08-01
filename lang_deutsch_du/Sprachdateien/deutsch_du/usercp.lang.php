@@ -428,4 +428,3 @@ $l['buddyrequest_accepted'] = "Die ausgewählte Freundesanfrage wurde angenommen
 $l['buddyrequest_declined'] = "Die ausgewählte Freundesanfrage wurde abgelehnt.";
 $l['user_doesnt_exist'] = "Der Benutzer existiert nicht mehr.";
 $l['buddyrequests_sent_success'] = "Die Freundesanfrage wurde erfolgreich versendet.";
-?>

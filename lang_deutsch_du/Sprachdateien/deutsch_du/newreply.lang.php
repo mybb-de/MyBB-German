@@ -47,4 +47,3 @@ $l['redirect_newreply_post'] = "<br />Du wirst nun zu deinem Beitrag geleitet.";
 $l['redirect_newreplyerror'] = "Leider wurde deine Antwort zurückgewiesen.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_threadclosed'] = "Auf dieses Thema kann nicht geantwortet werden, da das Thema von einem Moderator geschlossen wurde.";
 $l['error_post_noperms'] = "Du hast nicht die Berechtigung diesen Entwurf zu bearbeiten.";
-?>

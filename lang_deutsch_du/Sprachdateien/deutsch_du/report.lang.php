@@ -29,4 +29,3 @@ $l['error_report_length'] = "Bitte gib einen ausführlichen Grund für die Meldu
 $l['error_invalid_report'] = "Der Inhalt existiert nicht oder kann nicht gemeldet werden.";
 $l['error_report_duplicate'] = "Dieser Inhalt wurde bereits von einem anderen Mitglied gemeldet.<br />Du kannst ihn trotzdem unten melden.";
 $l['report_reason_other_description'] = "Bitte gibt einen ausführlichen Grund bei der Auswahl von 'Sonstiges' an.";
-?>

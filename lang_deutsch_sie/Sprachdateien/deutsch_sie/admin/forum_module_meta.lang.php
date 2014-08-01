@@ -19,4 +19,3 @@ $l['can_manage_forums'] = "Kann Foren verwalten?";
 $l['can_manage_forum_announcements'] = "Kann Ankündigungen verwalten?";
 $l['can_moderate'] = "Kann Beiträge, Themen und Attachments moderieren?";
 $l['can_manage_attachments'] = "Kann Attachments verwalten?";
-?>

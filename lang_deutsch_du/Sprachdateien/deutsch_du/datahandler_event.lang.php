@@ -35,4 +35,3 @@ $l['eventdata_invalid_repeat_year_interval'] = "Du hast ein ungültiges Jahresin
 $l['eventdata_event_wont_occur'] = "Du kannst nicht gleichzeitig Start- und Enddatum mit den Wiederholungseinstellungen für einen Termin nutzen.";
 
 $l['eventdata_no_permission_private_event'] = "Du hast nicht die erforderliche Berechtigung, um private Termine einzutragen.";
-?>

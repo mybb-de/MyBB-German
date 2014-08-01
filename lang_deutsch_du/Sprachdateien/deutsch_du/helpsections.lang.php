@@ -15,4 +15,3 @@ $l['s1_desc'] = "Grundlegende Informationen zur Accountverwaltung.";
 // Help Section 2
 $l['s2_name'] = "Beitragserstellung";
 $l['s2_desc'] = "Beiträge schreiben, beantworten und grundlegende Hinweise zur Benutzung des Forums.";
-?>

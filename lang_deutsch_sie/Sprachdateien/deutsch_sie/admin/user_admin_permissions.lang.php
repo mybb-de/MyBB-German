@@ -46,4 +46,3 @@ $l['success_perms_deleted'] = 'Die Administrator-Berechtigung wurde erfolgreich 
 
 $l['confirm_perms_deletion'] = "Wollen Sie die Administrator-Berechtigung wirklich zurücknehmen?";
 $l['confirm_perms_deletion2'] = "Wollen Sie die Benutzer-Berechtigung wirklich zurücknehmen?";
-?>

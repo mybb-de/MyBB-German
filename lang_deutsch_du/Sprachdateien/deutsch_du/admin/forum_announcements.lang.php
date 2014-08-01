@@ -55,4 +55,3 @@ $l['time'] = "Zeit:";
 $l['set_time'] = "Setze Zeitpunkt";
 
 $l['announcement_preview'] = 'Ankündigungs-Vorschau';
-?>

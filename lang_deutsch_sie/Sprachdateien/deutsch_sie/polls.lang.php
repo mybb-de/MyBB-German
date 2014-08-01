@@ -58,4 +58,3 @@ $l['poll_time_limit'] = "Entschuldigung, Sie können keine Umfrage erstellen. De
 
 $l['poll_deleted'] = "Gelöschte Umfrage";
 $l['poll_edited'] = "Bearbeitete Umfrage";
-?>

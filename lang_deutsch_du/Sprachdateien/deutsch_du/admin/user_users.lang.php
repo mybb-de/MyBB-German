@@ -412,4 +412,3 @@ Vielen Dank,
 $l['ipaddress_misc_info'] = "Weitere Informationen für '{1}'";
 $l['ipaddress_host_name'] = "Host";
 $l['ipaddress_location'] = "GeoIP Standort";
-?>

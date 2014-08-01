@@ -274,4 +274,3 @@ $l['polls_field_canpostpolls'] = "Kann Umfragen erstellen";
 $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";
 
 $l['misc_field_cansearch'] = "Kann Forum durchsuchen";
-?>

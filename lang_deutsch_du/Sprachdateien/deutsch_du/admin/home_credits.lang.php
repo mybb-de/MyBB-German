@@ -14,4 +14,3 @@ $l['about_the_team'] = "Über das Team";
 $l['check_for_updates'] = "Nach Updates suchen";
 $l['error_communication'] = "Beim Laden der Credits ist ein Fehler aufgetreten. Bitte versuche es in einigen Minuten noch einmal.";
 $l['no_credits'] = "Keine MyBB Credits gespeichert. <a href=\"index.php?module=home-credits&amp;fetch_new=1\">Nach Updates suchen</a>.";
-?>

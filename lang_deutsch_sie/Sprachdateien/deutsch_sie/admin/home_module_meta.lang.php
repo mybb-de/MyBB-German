@@ -24,4 +24,3 @@ $l['quick_access'] = "Schnellzugriff";
 $l['online_admins'] = "Administratoren online";
 $l['ipaddress'] = "IP-Adresse:";
 $l['mybb_documentation'] = "MyBB Dokumentation";
-?>

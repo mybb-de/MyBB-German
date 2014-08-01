@@ -42,4 +42,3 @@ $l['userdata_max_limit_reached'] = 'Sie haben eine ungültige Anzahl an Zeichen 
 $l['userdata_invalid_checkfield'] = "Es wurde festgestellt, dass dieses Formular von einem Spambot verschickt wurde. Wenn dies ein Fehler ist, kontaktieren Sie bitte den Administrator.";
 $l['userdata_invalid_postnum'] = "Die eingegebene Beitragsanzahl ist ungültig. Bitte geben Sie eine gültige Beitragsanzahl ein oder lassen Sie das Feld leer.";
 $l['userdata_invalid_threadnum'] = "Die eingegebene Themenanzahl ist ungültig. Bitte geben Sie eine gültige Themenanzahl ein oder lassen Sie das Feld leer.";
-?>

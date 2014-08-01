@@ -10,4 +10,3 @@
 
 $l['php_info'] = "PHP-Info";
 $l['browser_no_iframe_support'] = "Dein Browser unterstützt keine iframes";
-?>

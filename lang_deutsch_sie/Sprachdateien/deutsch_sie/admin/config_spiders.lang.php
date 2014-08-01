@@ -42,4 +42,3 @@ $l['success_bot_updated'] = "Der Bot wurde erfolgreich aktualisiert.";
 $l['success_bot_deleted'] = "Der ausgewählte Bot wurde erfolgreich gelöscht.";
 
 $l['confirm_bot_deletion'] = "Soll dieser Bot wirklich gelöscht werden?";
-?>

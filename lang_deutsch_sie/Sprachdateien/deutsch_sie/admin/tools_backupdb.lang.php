@@ -57,4 +57,3 @@ $l['confirm_backup_deletion'] = "Wollen Sie diese Sicherung wirklich löschen?";
 
 $l['success_backup_deleted'] = "Die Sicherung wurde erfolgreich gelöscht.";
 $l['success_backup_created'] = "Die Sicherung wurde erfolgreich erstellt.";
-?>

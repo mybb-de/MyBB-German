@@ -68,4 +68,3 @@ $l['success_calendar_deleted'] = "Der ausgewählte Kalender wurde erfolgreich ge
 $l['success_calendar_orders_updated'] = "Die Sortierung der Kalender wurde aktualisiert.";
 
 $l['confirm_calendar_deletion'] = "Soll dieser Kalender wirklich gelöscht werden?";
-?>

@@ -362,4 +362,3 @@ $l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Warnung</h2
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entfernen Sie die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';
 
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
-?>

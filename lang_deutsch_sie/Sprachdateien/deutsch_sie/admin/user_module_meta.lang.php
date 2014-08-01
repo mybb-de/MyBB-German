@@ -25,4 +25,3 @@ $l['can_manage_user_bans'] = "Kann Benutzer-Sperrungen verwalten?";
 $l['can_manage_admin_permissions'] = "Kann Administrator-Berechtigungen verwalten?";
 $l['can_send_mass_mail'] = "Kann Massen-Mails versenden?";
 $l['can_manage_group_promotions'] = "Kann Gruppen-Beförderung verwalten?";
-?>

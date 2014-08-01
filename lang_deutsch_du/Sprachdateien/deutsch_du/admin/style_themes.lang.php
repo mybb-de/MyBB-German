@@ -220,4 +220,3 @@ $l['theme_info_fetch_error'] = "Beim Laden des Themes ist ein Problem aufgetrete
 $l['theme_info_save_error'] = "Beim Speichern des Themes ist ein Problem aufgetreten.";
 
 $l['saving'] = "Speichern...";
-?>

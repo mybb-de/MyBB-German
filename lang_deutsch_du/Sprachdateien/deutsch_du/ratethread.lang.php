@@ -21,4 +21,3 @@ $l['three_stars'] = "3 Stern von 5";
 $l['four_stars'] = "4 Stern von 5";
 $l['five_stars'] = "5 Stern von 5";
 $l['rating_added'] = "Deine Bewertung wurde hinzugefügt!";
-?>

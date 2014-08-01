@@ -77,4 +77,3 @@ $l['success_profile_field_saved'] = "Das Profilfeld wurde erfolgreich gespeicher
 $l['success_profile_field_deleted'] = "Das Profilfeld wurde erfolgreich gelöscht.";
 
 $l['confirm_profile_field_deletion'] = "Soll dieses Profilfeld wirklich gelöscht werden?";
-?>

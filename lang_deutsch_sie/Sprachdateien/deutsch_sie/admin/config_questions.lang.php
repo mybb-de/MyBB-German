@@ -39,4 +39,3 @@ $l['success_question_enabled'] = "Die Frage wurde erfolgreich aktiviert.";
 $l['success_question_deleted'] = "Die Frage wurde erfolgreich gelöscht.";
 
 $l['confirm_question_deletion'] = "Sind Sie sicher, dass Sie diese Frage löschen wollen?";
-?>

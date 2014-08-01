@@ -9,4 +9,3 @@
  */
 
 $l['warnings_reached_max_warnings_day'] = 'Sie können niemanden mehr verwarnen, da Sie Ihr Limit an Warnungen pro Tag erreicht haben.<br /><br />Sie können pro Tag maximal {1} Warnungen vergeben."';
-?>

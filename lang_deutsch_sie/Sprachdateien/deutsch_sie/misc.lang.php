@@ -97,4 +97,3 @@ $l['error_invalidhelpdoc'] = "Die angegebene Hilfe-Seite scheint nicht zu existi
 $l['error_invalidkey'] = "Das Löschen der Cookies konnte nicht bestätigt werden. Es könnte sein, dass ein schädliches Javascript versucht hat, die Cookies automatisch zu löschen. Sollten Sie wirklich die Cookies entfernen wollen, lesen Sie sich bitte das Hilfedokument \"Verwendung von Cookies\" durch.";
 
 $l['dst_settings_updated'] = "Ihre Sommerzeiteinstellungen wurden automatisch geändert.<br /><br />Sie werden jetzt zum Forenindex weitergeleitet.";
-?>

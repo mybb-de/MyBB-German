@@ -120,4 +120,3 @@ $l['success_mass_mail_resent'] = "Die Massenmail wurde erfolgreich kopiert.";
 $l['success_mass_mail_canceled'] = "Das Senden der Massenmail wurde erfolgreich abgebrochen.";
 
 $l['mass_mail_deletion_confirmation'] = "Sind Sie sicher, dass Sie diese Massenmail löschen möchten?";
-?>

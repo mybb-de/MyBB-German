@@ -143,4 +143,3 @@ $l['redirect_eventadded_moderation'] = "Das Ereignis wurde erfolgreich hinzugef√
 $l['redirect_eventunapproved'] = "Das Ereignis wurde erfolgreich abgewiesen.<br />Du wirst nun dorthin weitergeleitet.";
 $l['redirect_eventapproved'] = "Das Ereignis wurde erfolgreich zugelassen.<br />Du wirst nun dorthin weitergeleitet.";
 $l['redirect_eventmoved'] = "Das Ereignis wurde erfolgreich verschoben.<br />Du wirst nun dorthin weitergeleitet.";
-?>

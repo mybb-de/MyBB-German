@@ -96,4 +96,3 @@ $l['clear_selection'] = "Auswahl löschen.";
 $l['error_containsnoforums'] = "Entschuldigung, aber das Forum, welches du gerade ansiehst, enthält keine Unterforen.";
 
 $l['inline_edit_description'] = "(Maus gedrückt halten zum Bearbeiten)";
-?>
