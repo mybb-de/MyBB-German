@@ -51,6 +51,7 @@ $l['error_missing_path'] = "Sie haben keinen Pfad zum Smilie angegeben.";
 $l['error_missing_path_multiple'] = "Sie haben keinen Pfad angegeben.";
 $l['error_missing_order'] = "Sie haben keine Sortierung angegeben.";
 $l['error_missing_clickable'] = "Sie müssen bei der Option \"Zeige in Smilieliste?\" zwischen Ja und Nein wählen.";
+$l['error_duplicate_order'] = "Sie haben keine gültige Anzeige-Reihenfolge für diesen Smilie eingegeben.";
 $l['error_no_smilies'] = "Im angegebenen Ordner befinden sich keine Smilies oder alle Smilies wurden bereits ins Forum integriert.";
 $l['error_no_images'] = "Im angegebenen Ordner gibt es keine Bilddateien.";
 $l['error_none_included'] = "Sie haben keine Smilies zum Hinzufügen ausgewählt.";
