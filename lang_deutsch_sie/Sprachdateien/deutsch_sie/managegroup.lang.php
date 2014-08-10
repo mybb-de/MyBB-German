@@ -54,11 +54,14 @@ $l['error_alreadyingroup'] = "Der angegebene Benutzer ist bereits Mitglied in di
 $l['error_alreadyinvited'] = "Der ausgewählte Benutzer wurde bereits in die Gruppe eingeladen.";
 
 $l['user_invited'] = "Der Benutzer wurde eingeladen der Gruppe beizutreten.";
-$l['invite_expires'] = "Die Einladung wird in {1} Tagen ablaufen.";
-$l['does_not_expire'] = "Die Einladung wird nicht ablaufen.";
 $l['invite_pm_subject'] = "Sie wurden eingeladen \"{1}\" beizutreten";
 $l['invite_pm_message'] = "Sie haben eine Einladung erhalten der Gruppe \"{1}\" beizutreten.
-
+ 
 Um beizutreten öffnen Sie bitte die Seite [url={2}/usercp.php?action=usergroups]Gruppenmitgliedschaften[/url] und klicken Sie auf 'Einladung annehmen'.
-
-{3}";
+ 
+Diese Einladung wird nicht ablaufen.";
+$l['invite_pm_message_expires'] = "Sie haben eine Einladung erhalten der Gruppe \"{1}\" beizutreten.
+ 
+Um beizutreten öffnen Sie bitte die Seite [url={2}/usercp.php?action=usergroups]Gruppenmitgliedschaften[/url] und klicken Sie auf 'Einladung annehmen'.
+ 
+Die Einladung wird in {3} Tagen ablaufen.";

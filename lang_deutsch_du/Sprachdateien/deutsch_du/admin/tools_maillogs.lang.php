@@ -28,6 +28,7 @@ $l['find_emails_by_user'] = "Finde alle E-Mails, die von diesem Benutzer versend
 $l['find'] = "Finden";
 $l['deleted_user'] = "Gelöschte Benutzer";
 $l['email_sent_to_user'] = "E-Mails, die an diesen Benutzer gesendet wurden";
+$l['email_sent_using_contact_form'] = "E-Mail mit dem Kontakt-Formular versendet";
 $l['no_logs'] = "Es wurden leider keine Ergebnisse entsprechend den Kriterien gefunden.";
 $l['filter_user_email_log'] = "Logs der Benutzer-E-Mails filtern";
 $l['username_is'] = "Benutzername ist";

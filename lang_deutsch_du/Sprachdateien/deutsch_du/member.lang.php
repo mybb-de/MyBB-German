@@ -162,6 +162,9 @@ $l['timeonline'] = "Gesamte Onlinezeit:";
 $l['timeonline_hidden'] = "(Versteckt)";
 $l['registrations_disabled'] = "Entschuldigung, du kannst dich zur Zeit nicht registrieren, da der Administrator diese Funktion deaktiviert hat.";
 $l['error_username_length'] = "Dein Benutzername ist ungültig. Benutzernamen müssen aus {1} bis {2} Zeichen bestehen.";
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, dein Benutzername oder deine E-Mail-Adresse stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Accounts mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
+
 $l['none_registered'] = "Nicht vorhanden";
 $l['not_specified'] = "Nicht angegeben";
 $l['membdayage'] = "({1} Jahre alt)";
@@ -215,6 +218,7 @@ $l['js_validator_no_username'] = "Du musst einen Benutzernamen eingeben";
 $l['js_validator_invalid_email'] = "Du musst eine gültige E-Mail-Adresse eingeben";
 $l['js_validator_email_match'] = "Du musst dieselbe E-Mail-Adresse zwei mal eingeben";
 $l['js_validator_no_image_text'] = "Du musst den Text in obenstehendes Feld eingeben";
+$l['js_validator_no_security_question'] = "Du musst die obenstehende Frage beantworten";
 $l['js_validator_password_matches'] = "Du musst zwei Mal dieselben Passwörter eingeben";
 $l['js_validator_password_complexity'] = "Komplexität des Passworts prüfen";
 $l['js_validator_password_length'] = "Dein Passwort muss {1} oder mehr Zeichen haben";
@@ -239,3 +243,13 @@ $l['add_to_buddy_list'] = "Zur Freundesliste hinzufügen";
 $l['remove_from_ignore_list'] = "Von Ignorierliste entfernen";
 $l['add_to_ignore_list'] = "Zur Ignorierliste hinzufügen";
 $l['report_user'] = "Benutzer melden";
+
+$l['newregistration_subject'] = "Neue Registrierung bei {1}";
+$l['newregistration_message'] = "Hallo {1},
+
+bei {2} hat sich ein neuer Benutzer angemeldet, der von einem Administrator freigeschaltet werden muss.
+
+Benutzername: {3}
+
+Vielen Dank,
+{4}-Team";

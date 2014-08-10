@@ -113,6 +113,7 @@ $l['split_to_same_forum'] = "Ins gleiche Forum teilen";
 $l['close_split_thread'] = "Schließe abgetrenntes Thema?";
 $l['stick_split_thread'] = "Setze abgetrenntes Thema als wichtig?";
 $l['unapprove_split_thread'] = "Lehne abgetrenntes Thema ab?";
+$l['split_thread_prefix'] = "Präfix abtrennen";
 $l['split_thread_subject'] = "Betreff des abgetrennten Themas";
 $l['split_thread_subject_desc'] = "{subject} repräsentiert den Originalbetreff. Wird nur beim Teilen von Beiträgen benötigt.";
 $l['add_new_split_reply'] = "Füge dem abgetrennten Thema eine Antwort hinzu";

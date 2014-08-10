@@ -20,7 +20,7 @@ $l['manage_post_icons_desc'] = "In diesem Bereich können Sie Beitragsicons verw
 
 $l['name_desc'] = "Dies ist der Name für das Beitragsicon.";
 $l['image_path'] = "Pfad";
-$l['image_path_desc'] = "Dies ist der Pfad zur Grafikdatei.";
+$l['image_path_desc'] = "Dies ist der Pfad zur Grafikdatei. Falls Sie verschiedene Beitragsicons für verschiedene Themes benutzen möchten, verwenden Sie bitte <strong>{theme}</strong> als Platzhalter für das Verzeichnis der Themes.";
 $l['save_post_icon'] = "Beitragsicon speichern";
 $l['reset'] = "Zurücksetzen";
 

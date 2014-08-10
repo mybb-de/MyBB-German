@@ -28,6 +28,8 @@ $l['awaiting_activation'] = "Nicht aktivierte Benutzer";
 $l['server_load'] = "Server-Auslastung:";
 $l['attachments'] = "Attachments";
 $l['used'] = "Benutzt";
+$l['reported_posts'] = "Gemeldete Beiträge";
+$l['unread_reports'] = "Ungelesene Meldungen";
 
 $l['version_check'] = "Nach Updates suchen";
 $l['last_update_check_two_weeks'] = "Der letzte <a href=\"{1}\">MyBB Versions-Check</a> ist mehr als zwei Wochen her.";

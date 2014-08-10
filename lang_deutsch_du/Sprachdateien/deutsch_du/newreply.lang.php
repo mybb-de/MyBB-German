@@ -47,3 +47,12 @@ $l['redirect_newreply_post'] = "<br />Du wirst nun zu deinem Beitrag geleitet.";
 $l['redirect_newreplyerror'] = "Leider wurde deine Antwort zurückgewiesen.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_threadclosed'] = "Auf dieses Thema kann nicht geantwortet werden, da das Thema von einem Moderator geschlossen wurde.";
 $l['error_post_noperms'] = "Du hast nicht die Berechtigung diesen Entwurf zu bearbeiten.";
+
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, dein Benutzername oder deine IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Beitrags mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
+
+$l['error_suspendedposting'] = "Dein Rechte Beiträge zu verfassen wurden dir {1} entzogen.<br /><br />
+
+Datum der Suspendierung: {2}";
+$l['error_suspendedposting_temporal'] = "bis {1}";
+$l['error_suspendedposting_permanent'] = "dauerhaft";

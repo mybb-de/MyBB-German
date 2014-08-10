@@ -16,6 +16,8 @@ $l['edit_question'] = "Frage bearbeiten";
 $l['edit_question_desc'] = "Hier kannst du eine Sicherheitsfrage bearbeiten.";
 
 $l['options'] = "Optionen";
+$l['correct'] = "Richtig";
+$l['incorrect'] = "Falsch";
 $l['disable_question'] = "Frage deaktivieren";
 $l['enable_question'] = "Frage aktivieren";
 $l['delete_question'] = "Frage löschen";
@@ -24,7 +26,7 @@ $l['no_security_questions'] = "Bisher wurden keine Sicherheitsfragen eingerichte
 $l['question'] = "Frage";
 $l['question_desc'] = "Gib die Frage ein, die während der Registrierung angezeigt werden soll.";
 $l['answers'] = "Antwort(en)";
-$l['answers_desc'] = "Gib die Antwort(en) zu der der Frage ein. Trenne mehrere Antworten mit einem Trennstrich (|).";
+$l['answers_desc'] = "Gib die Antwort(en) zu der der Frage ein. Trage jede mögliche Antwort in eine neue Zeile ein.";
 $l['active'] = "Aktiv";
 $l['save_question'] = "Frage speichern";
 

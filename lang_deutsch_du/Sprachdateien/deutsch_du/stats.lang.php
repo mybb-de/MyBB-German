@@ -9,6 +9,7 @@
  */
  
 $l['nav_stats'] = "Foren-Statistiken";
+$l['stats_disabled'] = "Die Foren-Statistik wird nicht angezeigt, da sie von einem Administrator deaktiviert wurde.";
 
 $l['board_stats'] = "Foren-Statistiken";
 $l['none'] = "Keine";

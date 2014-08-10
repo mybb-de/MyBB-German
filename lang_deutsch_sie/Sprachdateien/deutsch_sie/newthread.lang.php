@@ -48,3 +48,12 @@ $l['redirect_newthread_poll'] = "<br />Sie werden nun zu der Umfrageoptions- und
 $l['redirect_newthread_moderation'] = "<br />Der Administrator hat spezifiziert, dass alle neuen Themen überprüft werden müssen. Sie werden zur Themenübersicht weitergeleitet.";
 $l['redirect_newthread_thread'] = "<br />Sie werden nun zum neuen Thema geleitet.";
 $l['invalidthread'] = "Der ausgewählte Entwurf exisitiert nicht oder Sie haben nicht die Berechtigung ihn zu sehen.";
+
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, Ihr Benutzername oder Ihre IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich Ihres Themas mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuchen Sie es später erneut.";
+
+$l['error_suspendedposting'] = "Ihre Rechte Beiträge zu verfassen wurden Ihnen {1} entzogen.<br /><br />
+
+Datum der Suspendierung: {2}";
+$l['error_suspendedposting_temporal'] = "bis {1}";
+$l['error_suspendedposting_permanent'] = "dauerhaft";

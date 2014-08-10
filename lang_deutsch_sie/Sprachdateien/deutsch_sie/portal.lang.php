@@ -10,6 +10,7 @@
 
 $l['nav_portal'] = "Portal";
 $l['posted_by'] = "Geschrieben von:";
+$l['forum'] = "Forum:";
 $l['replies'] = "Antworten";
 $l['no_replies'] = "Keine Antworten";
 $l['latest_threads'] = "Aktive Themen";
@@ -50,3 +51,4 @@ $l['online_users'] = "Momentan sind <b>{1}</b> Benutzer online";
 $l['online_counts'] = "<b>{1}</b> Mitglieder <br /><b>&raquo; {2}</b> Gäste";
 $l['print_this_item'] = "Drucke diesen Beitrag";
 $l['send_to_friend'] = "Sende diesen Beitrag zu einem Freund";
+$l['portal_disabled'] = "Sie können das Portal nicht benutzen, da es von einem Administrator deaktiviert wurde.";
