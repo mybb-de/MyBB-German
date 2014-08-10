@@ -23,6 +23,7 @@ $l['postdata_post_flooding_one_second'] = 'Du versuchst, eine Nachricht zu kurz 
 $l['postdata_too_many_images'] = 'Die von dir eingegebene Nachricht enthält {1} Grafiken, es sind aber nur {2} Grafiken pro Nachricht erlaubt. Bitte entferne Grafiken aus deiner Nachricht, um das Limit nicht zu überschreiten.';
 $l['postdata_too_many_videos'] = 'Die von dir eingegebene Nachricht enthält {1} Videos, es sind aber nur {2} Videos pro Nachricht erlaubt. Bitte entferne Videos aus deiner Nachricht, um das Limit nicht zu überschreiten.';
 $l['postdata_invalid_prefix'] = 'Das ausgewählte Präfix ist ungültig. Bitte wähle ein gültiges Präfix aus.';
+$l['postdata_require_prefix'] = 'In diesem Forum muss ein Präfix ausgewählt werden. Bitte wähle ein gültiges Präfix aus.';
 
 $l['thread_closed'] = "Thema geschlossen";
 $l['thread_opened'] = "Thema geöffnet";

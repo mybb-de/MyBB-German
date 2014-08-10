@@ -210,11 +210,11 @@ $l['change_email_notice'] = "Zum Ändern der E-Mail-Adresse bitte <a href=\"user
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['icq_number'] = "ICQ-Nummer:";
-$l['aim_screenname'] = "AIM-ID:";
-$l['yahoo_id'] = "Yahoo-ID:";
-$l['skype_id'] = "Skype-ID:";
-$l['google_id'] = "Google-Talk-ID:";
+$l['contact_field_icq'] = "ICQ-Nummer:";
+$l['contact_field_aim'] = "AIM-ID:";
+$l['contact_field_yahoo'] = "Yahoo-ID:";
+$l['contact_field_skype'] = "Skype-ID:";
+$l['contact_field_google'] = "Google-Talk-ID:";
 $l['additional_information'] = "Zusätzliche Information";
 $l['update_profile'] = "Profil ändern";
 $l['away_information'] = "Abwesenheitsinformation";

@@ -138,6 +138,7 @@ $l['you_forwarded'] = "Sie haben diese Nachricht weitergeleitet {1}";
 $l['select_from_buddies'] = "Wählen Sie aus Ihren Freunden";
 $l['no_readmessages'] = "Sie haben momentan keine verfolgten gelesenen Nachrichten.";
 $l['no_unreadmessages'] = "Sie haben momentan keine verfolgten ungelesenen Nachrichten.";
+$l['stop_tracking_all'] = "Verfolgung alle Nachrichten beenden";
 
 $l['enter_keywords'] = "Suchbegriffe eingeben";
 $l['advanced_search'] = "Erweiterte Suche";
@@ -187,6 +188,7 @@ $l['error_invalidsearch'] = "Die Eingaben waren ungültig. Bitte gehe zurück un
 $l['redirect_pmsaved'] = "Die Nachricht wurde in Ihrem 'Entwürfe'-Ordner gespeichert.";
 $l['redirect_pmstrackingstopped'] = "Die Verfolgung der ausgewählten PNs wurde gestoppt.";
 $l['redirect_pmstrackingcanceled'] = "Die ausgewählten ungelesenen Nachrichten wurden aus dem Posteingang des Empfängers gelöscht.";
+$l['redirect_allpmstrackingstopped'] = "Die Verfolgung alle gelesenen Nachrichten wurde gestoppt.";
 $l['redirect_pmsmoved'] = "Die ausgewählten Nachrichten wurden verschoben.";
 $l['redirect_pmsdeleted'] = "Die ausgewählten Nachrichten wurden gelöscht.";
 $l['redirect_pmsent'] = "Vielen Dank! Ihre PN wurde erfolgreich gesendet.<br />Sie werden jetzt zum Posteingang geleitet.";

@@ -226,7 +226,7 @@ $l['config_step_table'] = '<p>Du musst nun die Basiseinstellungen deines Forums 
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="bburl">URL zum Forum (ohne abschließenden Slash):</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="bburl" id="bburl" value="{2}" onkeyup="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnten die Links innerhalb deines Forums defekt sein.\')" onchange="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnten die Links innerhalb deines Forums defekt sein.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Details zur Webseite</th>
@@ -244,11 +244,11 @@ $l['config_step_table'] = '<p>Du musst nun die Basiseinstellungen deines Forums 
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Cookie-Domain:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiedomain" id="cookiedomain" value="{5}" onkeyup="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnte es beim An- und Abmelden in deinem Forum zu Probleme führen.\')" onchange="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnte es beim An- und Abmelden in deinem Forum zu Probleme führen.\')" /></td>
 				</tr>
 				<tr class="alt_row last">
 					<td class="first"><label for="cookiepath">Cookie-Pfad:</label></td>
-					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" /></td>
+					<td class="last alt_col"><input type="text" class="text_input" name="cookiepath" id="cookiepath" value="{6}" onkeyup="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnte es beim An- und Abmelden in deinem Forum zu Probleme führen.\')" onchange="warnUser(this, \'Diese Einstellung wurde automatisch erkannt. Ändere sie nicht, wenn du dir unsicher bist, ansonsten könnte es beim An- und Abmelden in deinem Forum zu Probleme führen.\')" /></td>
 				</tr>
 				<tr>
 					<th colspan="2" class="first last">Kontakt-Details</th>
@@ -271,7 +271,7 @@ $l['config_step_error_config'] = '<div class="error">
 </div>';
 $l['config_step_error_url'] = 'Du hast die URL zum Forum nicht angegeben.';
 $l['config_step_error_name'] = 'Du hast keinen Namen für dein Forum angegeben.';
-
+$l['config_step_revert'] = 'Klicke hier um diese Einstellung auf ihren ursprünglichen Wert zurückzusetzen.';
 
 $l['admin_step_setupsettings'] = '<p>Einfügen der Basiseinstellungen...</p>';
 $l['admin_step_insertesettings'] = '<p>{1} Einstellungen in {2} Gruppen eingefügt.</p>
@@ -294,11 +294,11 @@ $l['admin_step_admintable'] = '<div class="border_wrapper">
 		</tr>
 		<tr class="alt_row">
 			<td class="first"><label for="adminpass">Passwort:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass" id="adminpass" value="" autocomplete="off" onchange="comparePass()" /></td>
 		</tr>
 		<tr class="last">
 			<td class="first"><label for="adminpass2">Passwort erneut eingeben:</label></td>
-			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off"  /></td>
+			<td class="alt_col last"><input type="password" class="text_input" name="adminpass2" id="adminpass2" value="" autocomplete="off" onchange="comparePass()" /></td>
 		</tr>
 		<tr>
 			<th colspan="2" class="first last">Kontakt-Details</th>
@@ -322,6 +322,7 @@ $l['admin_step_error_nouser'] = 'Du hast keinen Benutzernamen für den Administr
 $l['admin_step_error_nopassword'] = 'Du hast kein Passwort für den Administrator-Account angegeben.';
 $l['admin_step_error_nomatch'] = 'Die eingegebenen Passwörter stimmen nicht überein.';
 $l['admin_step_error_noemail'] = 'Du hast keine E-Mail-Adresse für den Administrator-Account angegeben.';
+$l['admin_step_nomatch'] = 'Das erneut eingegebene Passwort stimmt nicht mit dem Passwort überein. Bitte überprüfe dieses, bevor du fortfährst.';
 
 $l['done_step_usergroupsinserted'] = "<p>Benutzergruppen importieren...";
 $l['done_step_admincreated'] = '<p>Erstelle Administrator-Account...';

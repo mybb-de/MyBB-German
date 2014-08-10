@@ -103,7 +103,7 @@ $l['no_moderators'] = "Es wurden keine Moderatoren gefunden.";
 
 $l['success_forum_disporder_updated'] = "Die Sortierung wurde erfolgreich aktualisiert.";
 $l['success_forum_deleted'] = "Das angegebene Forum wurde erfolgreich gelöscht.";
-$l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich gelöscht.";
+$l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich gelöscht.<br />Bitte beachten Sie, dass dies die Benutzergruppen-Rechte nicht verändert hat, sodass der Moderator noch Moderations-Rechte haben könnte.";
 $l['success_forum_permissions_updated'] = "Die Forenberechtigungen wurden erfolgreich aktualisiert.";
 $l['success_forum_updated'] = "Das Forum wurde erfolgreich aktualisiert.";
 $l['success_moderator_updated'] = "Der Moderator wurde erfolgreich aktualisiert.";
@@ -155,11 +155,6 @@ $l['copy_settings_and_properties_desc'] = "Nur gültig, wenn das Zielforum exist
 $l['copy_user_group_permissions'] = "Kopiere Benutzergruppen-Berechtigungen";
 $l['copy_user_group_permissions_desc'] = "Benutzen Sie die STRG-Taste, um mehrere Gruppen zu wählen.";
 
-$l['moderation_options'] = "Moderationsoptionen";
-$l['mod_new_posts'] = "Neue Beiträge moderieren";
-$l['mod_new_threads'] = "Neue Themen moderieren";
-$l['mod_new_attachments'] = "Neue Attachments moderieren";
-$l['mod_after_edit'] = "Nach Bearbeitung moderieren";
 $l['override_user_style'] = "Überschreibe das vom Benutzer gewählte Theme";
 $l['style_options'] = "Themeoptionen";
 $l['forum_specific_style'] = "Forenspezifisches Theme:";
@@ -220,6 +215,7 @@ $l['allow_thread_ratings'] = "Themenbewertung erlauben";
 $l['show_forum_jump'] = "Zeige in \"Gehe zu Forum\"-Menü";
 $l['use_postcounts'] = "Beiträge in diesem Forum werden zu den Benutzerbeiträgen hinzugezählt";
 $l['use_threadcounts'] = "Themen in diesem Forum werden zu den Benutzerthemen hinzugezählt";
+$l['require_thread_prefix'] = "Präfix für alle Themen erforderlich";
 
 $l['use_permissions'] = "Benutze Berechtigungen";
 $l['use_permissions_desc'] = "Wählen Sie die Berechtigungen, die Sie für diese Benutzergruppe verwenden möchten - übergeordnete Berechtigungen (eigene Berechtigungen werden überschrieben) oder eigene Berechtigungen.";
@@ -251,6 +247,7 @@ $l['error_invalid_destination_forum'] = "Ungültiges Zielforum.";
 $l['group_viewing'] = "Sehen";
 $l['group_posting_rating'] = "Erstellung / Bewerten";
 $l['group_editing'] = "Bearbeiten";
+$l['group_moderate'] = "Moderation";
 $l['group_polls'] = "Umfragen";
 $l['group_misc'] = "Verschiedenes";
 
@@ -269,6 +266,11 @@ $l['editing_field_caneditposts'] = "Kann eigene Beiträge bearbeiten";
 $l['editing_field_candeleteposts'] = "Kann eigene Beiträge löschen";
 $l['editing_field_candeletethreads'] = "Kann eigene Themen löschen";
 $l['editing_field_caneditattachments'] = "Kann eigene Attachments aktualisieren";
+
+$l['moderate_field_modposts'] = "Neue Beiträge moderieren?";
+$l['moderate_field_modthreads'] = "Neue Themen moderieren?";
+$l['moderate_field_modattachments'] = "Neue Attachments moderieren?";
+$l['moderate_field_mod_edit_posts'] = "Beitrag nach Bearbeitung moderieren?";
 
 $l['polls_field_canpostpolls'] = "Kann Umfragen erstellen";
 $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";

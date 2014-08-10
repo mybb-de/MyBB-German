@@ -289,3 +289,5 @@ $l['admin_log_user_users_inline_activated'] = "{1} Benutzer aktiviert";
 $l['admin_log_user_users_inline_lift'] = "{1} Benutzer-Sperrungen(en) aufgehoben";
 
 $l['admin_log_user_mass_mail_delete'] = "Massenmail #{1} gelöscht ({2})";
+
+$l['admin_log_admin_locked_out'] = "Login-Versuch ins Admin-CP von ausgesperrtem Benutzer #{1} ({2}).";

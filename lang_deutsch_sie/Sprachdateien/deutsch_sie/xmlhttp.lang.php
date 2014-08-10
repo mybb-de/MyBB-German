@@ -19,14 +19,14 @@ $l['no_permission_edit_post'] = "Ihnen fehlt die Berechtigung, den Beitrag zu be
 $l['edit_time_limit'] = "Sie können Beiträge nur bis zu {1} Minuten nach der Erstellung bearbeiten.";
 $l['postbit_edited'] = "Dieser Beitrag wurde zuletzt bearbeitet: {1} von";
 $l['postbit_editreason'] = "Bearbeitungsgrund";
-
 $l['save_changes'] = "Änderungen speichern";
 $l['cancel_edit'] = "Bearbeitung abbrechen";
-
+$l['answer_valid_not_exists'] = "Die Frage, die Sie beantworten wollen, existiert nicht.";
 $l['captcha_not_exists'] = "Das Captcha Bild, welches Sie versuchen neuzuladen, existiert nicht.";
 $l['captcha_valid_not_exists'] = "Das Captcha Bild, welches Sie versuchen zu kontrollieren, scheint nicht zu existieren.";
 $l['captcha_does_not_match'] = "Der von Ihnen eingegebene Captcha-Code war falsch. Bitte geben Sie den Code genau wie im Bild zu sehen ein.";
 $l['captcha_matches'] = "Der von Ihnen eingegebene Captcha-Code war richtig.";
+$l['answer_does_not_match'] = "Die von Ihnen eingegebene Antwort war falsch.";
 $l['banned_username'] = "Der von Ihnen eingegebene Mitgliedsname wurde von einem Administrator gesperrt";
 $l['banned_characters_username'] = "Ihr Mitgliedsname enthält ein oder mehrere ungültige Zeichen";
 $l['complex_password_fails'] = "Das Passwort muss Groß- und Kleinbuchstaben und mindestens eine Zahl enthalten";

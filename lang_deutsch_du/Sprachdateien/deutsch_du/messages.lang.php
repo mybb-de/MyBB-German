@@ -383,8 +383,8 @@ E-Mail-Adresse: {2}
 Bitte wende dich an einen Administrator, falls du diese Änderung nicht initiiert hast.
 
 Vielen Dank,
-{2}-Team
-{5}";
+{3}-Team
+{4}";
 
 $l['email_newpm'] = "Hallo {1},
 
