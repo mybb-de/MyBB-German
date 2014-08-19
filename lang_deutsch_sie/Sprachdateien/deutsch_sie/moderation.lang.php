@@ -243,7 +243,7 @@ $l['redirect_customtool_thread'] = "\"{1}\" Moderations-Tool erfolgreich ausgef�
 $l['redirect_customtool_forum'] = "\"{1}\" Moderations-Tool erfolgreich ausgeführt.<br />Sie werden jetzt zum Forum zurückgeleitet.";
 $l['redirect_customtool_search'] = "{1} Moderations-Tool erfolgreich ausgeführt.<br />Sie werden jetzt zur Suche zurückgeleitet.";
 
-$l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Thema zurückgeleitet.";
-$l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zum Forum zurückgeleitet.";
-$l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und für {1} Tag(e) verzögert.<br />Sie werden zur Suche zurückgeleitet.";
+$l['redirect_delayed_moderation_thread'] = "Die ausgewählte Moderations-Option wurde gespeichert und bis {1} verzögert.<br />Sie werden zum Thema zurückgeleitet.";
+$l['redirect_delayed_moderation_forum'] = "Die ausgewählte Moderations-Option wurde gespeichert und bis {1} verzögert.<br />Sie werden zum Forum zurückgeleitet.";
+$l['redirect_delayed_moderation_search'] = "Die ausgewählte Moderations-Option wurde gespeichert und bis {1} verzögert.<br />Sie werden zur Suche zurückgeleitet.";
 $l['redirect_delayed_moderation_cancelled'] = "Die auswählte verzögerte Moderations-Option wurde abgebrochen.<br />Sie werden zur Übersicht der verzögerten Moderations-Optionen zurückgeleitet.";
