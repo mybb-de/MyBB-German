@@ -18,3 +18,4 @@ $l['warnings_error_invalid_type'] = "Du hast einen ungültigen Warnungstyp ausge
 $l['warnings_error_cant_custom_warn'] = "Du hast nicht die Berechtigung benutzerdefinierte Warnungen zu geben.";
 $l['warnings_error_no_custom_reason'] = "Du hast keinen Grund für deine benutzerdefinierte Warnung eingegeben.";
 $l['warnings_error_invalid_custom_points'] = "Du hast keine gültige Punktezahl eingegeben, die zum Warnungslevel dieses Mitglieds hinzugefügt werden soll. Du musst eine Zahl eingeben, die größer als 0, aber nicht größer als {1} ist.";
+$l['warnings_error_invalid_expires_period'] = "Du hast ein ungültiges Auslaufsdatum eingegeben.";

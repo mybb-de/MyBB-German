@@ -31,6 +31,9 @@ $l['browse_all_themes'] = "Alle Themes durchsuchen";
 $l['export_theme'] = "Theme exportieren";
 $l['export_theme_desc'] = "Hier kannst du dieses Theme exportieren.";
 
+$l['duplicate_theme'] = "Theme duplizieren";
+$l['duplicate_theme_desc'] = "Hier kannst du ein Theme duplizieren. Dies hilft dir, wenn du eine andere Variante des Themes entwickeln willst.";
+
 $l['colors_manage'] = "Farben verwalten";
 $l['colors_attached_to'] = "Farbeinstellung {1}";
 $l['colors_setting'] = "Grundfarbe";
@@ -41,9 +44,6 @@ $l['colors_add_desc'] = "Eine Liste mit in diesem Theme verfügbaren Farben. Die
 $l['colors_please_select'] = "Keine";
 $l['colors_add_edit_desc'] = "Wähle eine Farbe, an die das Stylesheet angeheftet werden soll. Du kannst mehr als eine Farbe auswählen.";
 $l['colors_specific_color'] = "spezifische Farbe";
-
-$l['duplicate_theme'] = "Duplicate Theme";
-$l['duplicate_theme_desc'] = "Here you can duplicate your themes. This helps you if you want to develop another version of it.";
 
 $l['include_custom_only'] = "Nur eigene Einstellungen hinzufügen?";
 $l['include_custom_only_desc'] = "Wenn du nur die eigenen (bearbeiteten) Einstellungen herunterladen willst, wähle \"Ja\". Andernfalls werden alle Einstellungen inklusive der Standardeinstellungen exportiert.";
@@ -170,8 +170,8 @@ $l['created_by'] = "Erstellt von";
 $l['error_invalid_stylesheet'] = "Du hast ein ungültiges Stylesheet ausgewählt.";
 $l['error_invalid_theme'] = "Du hast ein ungültiges Theme ausgewählt.";
 $l['error_missing_name'] = "Gib bitte einen Namen für dieses Theme ein.";
-$l['error_missing_url'] = "Gib bitte das Theme ein, dass du importieren willst.";
-$l['error_theme_already_exists'] = "Das Theme existiert bereits. Bitte gib einen neuen Namen ein.";
+$l['error_missing_url'] = "Gib bitte eine gültige URL ein, von der du ein Theme importieren möchtest.";
+$l['error_theme_already_exists'] = "Ein Theme mit diesem Namen existiert bereits. Bitte wähle einen anderen Namen.";
 $l['error_theme_security_problem'] = "Es wurde ein mögliches Sicherheitsproblem im Theme gefunden. Es wurde nicht importiert. Bitte wende dich an den Autor oder den MyBB-Support.";
 
 $l['error_local_file'] = "Die lokale Datei könnte nicht geöffnet werden. Existiert sie? Überprüfe das bitte und versuche es noch einmal.";

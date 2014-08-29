@@ -31,6 +31,9 @@ $l['browse_all_themes'] = "Alle Themes durchsuchen";
 $l['export_theme'] = "Theme exportieren";
 $l['export_theme_desc'] = "Hier können Sie dieses Theme exportieren.";
 
+$l['duplicate_theme'] = "Theme duplizieren";
+$l['duplicate_theme_desc'] = "Hier können Sie ein Theme duplizieren. Dies hilft Ihnen, wenn Sie eine andere Variante des Themes entwickeln wollen.";
+
 $l['colors_manage'] = "Farben verwalten";
 $l['colors_attached_to'] = "Farbeinstellung {1}";
 $l['colors_setting'] = "Grundfarbe";
@@ -167,8 +170,8 @@ $l['created_by'] = "Erstellt von";
 $l['error_invalid_stylesheet'] = "Sie haben ein ungültiges Stylesheet ausgewählt.";
 $l['error_invalid_theme'] = "Sie haben ein ungültiges Theme ausgewählt.";
 $l['error_missing_name'] = "Geben Sie bitte einen Namen für dieses Theme ein.";
-$l['error_missing_url'] = "Geben Sie bitte ein Theme ein, dass Sie importieren wollen.";
-$l['error_theme_already_exists'] = "Das Theme existiert bereits. Bitte geben Sie einen neuen Namen ein.";
+$l['error_missing_url'] = "Geben Sie bitte eine gültige URL ein, von der Sie ein Theme importieren möchten.";
+$l['error_theme_already_exists'] = "Ein Theme mit diesem Namen existiert bereits. Bitte wählen Sie einen anderen Namen.";
 $l['error_theme_security_problem'] = "Es wurde ein mögliches Sicherheitsproblem im Theme gefunden. Es wurde nicht importiert. Bitte wenden Sie sich an den Autor oder den MyBB-Support.";
 
 $l['error_local_file'] = "Die lokale Datei könnte nicht geöffnet werden. Existiert sie? Überprüfen Sie das bitte und versuchen Sie es noch einmal.";
