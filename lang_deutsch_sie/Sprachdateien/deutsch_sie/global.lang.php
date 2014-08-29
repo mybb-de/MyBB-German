@@ -537,3 +537,15 @@ $l['moderation_forum_edits'] = "Bitte beachten Sie, dass bearbeitete Beiträge i
 $l['moderation_forum_edits_quick'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['awaiting_message_single'] = "Es gibt 1 nicht aktivierten Account. Um den Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
 $l['awaiting_message_plural'] = "Es gibt {1} nicht aktivierte Accounts. Um die Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
+
+$l['select2_match'] = "Ein Ergebnis wurde gefunden, drücken Sie die Eingabetaste um es auszuwählen.";
+$l['select2_matches'] = "{1} Ergebnisse wurden gefunden, benutzen Sie die Pfeiltasten zum Navigieren.";
+$l['select2_nomatches'] = "Keine Ergebnisse gefunden";
+$l['select2_inputtooshort_single'] = "Bitte geben Sie ein oder mehrere Zeichen ein";
+$l['select2_inputtooshort_plural'] = "Bitte geben Sie {1} oder mehr Zeichen ein";
+$l['select2_inputtoolong_single'] = "Bitte löschen Sie ein Zeichen";
+$l['select2_inputtoolong_plural'] = "Bitte löschen Sie {1} Zeichen";
+$l['select2_selectiontoobig_single'] = "Sie können nur einen Eintrag auswählen";
+$l['select2_selectiontoobig_plural'] = "Sie können nur {1} Einträge auswählen";
+$l['select2_loadmore'] = "Lade weitere Ergebnisse...";
+$l['select2_searching'] = "Suche...";
