@@ -290,7 +290,7 @@ $l['admin_step_admintable'] = '<div class="border_wrapper">
 		</thead>
 		<tr class="first">
 			<td class="first"><label for="adminuser">Benutzername:</label></td>
-			<td class="alt_col last"><input type="text" class="text_input" name="adminuser" id="adminuser" value="{1}" autocomplete="off" /></td>
+			<td class="alt_col last"><input type="text" class="text_input" name="adminuser" id="adminuser" value="{1}" /></td>
 		</tr>
 		<tr class="alt_row">
 			<td class="first"><label for="adminpass">Passwort:</label></td>
