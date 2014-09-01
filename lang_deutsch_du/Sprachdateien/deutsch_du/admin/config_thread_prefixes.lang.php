@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['thread_prefixes'] = "Präfixe";
 $l['thread_prefixes_desc'] = "Hier kannst du Präfixe definieren, die Benutzer Themen zuweisen können. Man kann im Forum Themen nach ihrem Präfix suchen.";
 
@@ -31,11 +28,6 @@ $l['display_style'] = "Anzeigen-Stil";
 $l['display_style_desc'] = "So wird das Präfix im Thema angezeigt. Du kannst HTML benutzen oder das Gleiche wie bei der Text-Version eingeben.";
 $l['available_in_forums'] = "Verfügbar in Foren";
 $l['available_to_groups'] = "Verfügbar für Gruppen";
-$l['all_forums'] = "Alle Foren";
-$l['all_groups'] = "Alle Gruppen";
-$l['select_forums'] = "Foren auswählen";
-$l['select_groups'] = "Gruppen auswählen";
-$l['groups_colon'] = "Gruppen:";
 
 $l['no_thread_prefixes'] = "Es wurden in deinem Forum keine Präfixe erstellt.";
 
@@ -50,4 +42,3 @@ $l['error_missing_display_style'] = "Bitte gebe einen Anzeigen-Stil für dieses 
 $l['error_no_forums_selected'] = "Bitte wähle Foren aus, in denen das Präfix verfügbar ist.";
 $l['error_no_groups_selected'] = "Bitte wähle Gruppen aus, die das Präfix benutzen benutzen können.";
 $l['error_invalid_prefix'] = "Das ausgewählte Präfix existiert nicht.";
-?>

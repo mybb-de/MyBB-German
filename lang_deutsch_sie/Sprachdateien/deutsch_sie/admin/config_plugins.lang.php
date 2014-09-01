@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['plugins'] = "Plugins";
 $l['plugins_desc'] = "In diesem Bereich können Sie die Plugins aktivieren, deaktivieren und verwalten, die Sie in den Ordner <strong>inc/plugins</strong> des Forums hochgeladen haben. Klicken Sie auf \"Deaktivieren\", um ein Plugin auszuschalten, ohne gespeicherte Daten der Erweiterung zu verlieren.";
@@ -20,6 +17,8 @@ $l['browse_plugins_desc'] = "Hier können Sie die offizelle Mod-Seite nach Plugi
 $l['browse_all_plugins'] = "Alle Plugins durchsuchen";
 
 $l['plugin'] = "Plugin";
+$l['active_plugin'] = "Aktive Plugins";
+$l['inactive_plugin'] = "Inaktive Plugins";
 $l['your_version'] = "Ihre Version";
 $l['latest_version'] = "Neueste Version";
 $l['download'] = "Herunterladen";
@@ -29,6 +28,8 @@ $l['install_and_activate'] = "Installieren &amp; aktivieren";
 $l['uninstall'] = "Deinstallieren";
 $l['created_by'] = "Erstellt von";
 $l['no_plugins'] = "Zur Zeit gibt es keine Plugins in diesem Forum.";
+$l['no_active_plugins'] = "Zur Zeit gibt es keine aktiven Plugins in diesem Forum.";
+$l['no_inactive_plugins'] = "Zur Zeit gibt es keine inaktiven Plugins in diesem Forum.";
 
 $l['plugin_incompatible'] = "Dieses Plugin ist nicht kompatibel mit MyBB {1}";
 
@@ -39,6 +40,7 @@ $l['search'] = "Suchen";
 
 $l['error_vcheck_no_supported_plugins'] = "Keines der installierten Plugins unterstützt die Versionsüberprüfung.";
 $l['error_vcheck_communications_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.";
+$l['error_vcheck_vulnerable_notes'] = "Dieses Plugin wurde vom MyBB-Team als unsicher eingestuft. Wir empfehlen die vollständige Entfernung dieser Modifikation. Bitte beachten Sie folgenden die Hinweise: ";
 $l['error_no_input'] = "Fehler (code 1): Keine Daten übergeben.";
 $l['error_no_pids'] = "Fehler (Code 2): Keine Plugin-IDs angegeben.";
 $l['error_communication_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.";
@@ -50,5 +52,3 @@ $l['success_plugin_activated'] = "Das Plugin wurde erfolgreich aktiviert.";
 $l['success_plugin_deactivated'] = "Das Plugin wurde erfolgreich deaktiviert.";
 $l['success_plugin_installed'] = "Das Plugin wurde erfolgreich installiert und aktiviert.";
 $l['success_plugin_uninstalled'] = "Das Plugin wurde erfolgreich deinstalliert.";
-
-?>

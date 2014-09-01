@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['admin_permissions'] = "Administrator-Berechtigungen";
 $l['user_permissions'] = "Benutzer-Berechtigungen";
@@ -41,13 +38,11 @@ $l['edit_group'] = "Gruppe bearbeiten";
 $l['default'] = "Standard";
 $l['group'] = "Gruppe";
 
-$l['error_delete_super_admin'] = 'Der ausgewählte Benutzer ist ein Super-Administrator. Daher können Sie diese Funktion nicht verwenden.<br /><br />Um dies trotzdem zu ermöglichen muss Ihre Benutzer-ID in die Liste der Super-Administratoren in der inc/config.php eingefügt werden.';
-$l['error_delete_no_uid'] = 'Sie haben keine Benutzer-/Gruppen-Berechtigungs-ID eingegeben';
-$l['error_delete_invalid_uid'] = 'Die eingegebene Benutzer-/Gruppen-Berechtigungs-ID ist ungültig';
+$l['error_super_admin'] = "Der ausgewählte Benutzer ist ein Super-Administrator. Daher können Sie diese Funktion nicht verwenden.<br /><br />Um dies trotzdem zu ermöglichen muss Ihre Benutzer-ID in die Liste der Super-Administratoren in der inc/config.php eingefügt werden.";
+$l['error_delete_no_uid'] = "Sie haben keine Benutzer-/Gruppen-Berechtigungs-ID eingegeben";
+$l['error_delete_invalid_uid'] = "Die eingegebene Benutzer-/Gruppen-Berechtigungs-ID ist ungültig";
 
-$l['success_perms_deleted'] = 'Die Administrator-Berechtigung wurde erfolgreich zurückgenommen.';
+$l['success_perms_deleted'] = "Die Administrator-Berechtigung wurde erfolgreich zurückgenommen.";
 
 $l['confirm_perms_deletion'] = "Wollen Sie die Administrator-Berechtigung wirklich zurücknehmen?";
 $l['confirm_perms_deletion2'] = "Wollen Sie die Benutzer-Berechtigung wirklich zurücknehmen?";
-
-?>

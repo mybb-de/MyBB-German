@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['smilies'] = "Smilies";
 $l['manage_smilies'] = "Smilies verwalten";
@@ -28,8 +25,9 @@ $l['no_smilies'] = "Zur Zeit gibt es keine Smilies in diesem Forum.";
 $l['image'] = "Bild";
 $l['name'] = "Name";
 $l['text_replace'] = "Zu ersetzende Zeichen";
+$l['text_replace_desc'] = "Dies ist der Text, der durch das Smilie ersetzt wird (gib einen pro Zeile ein).";
 $l['image_path'] = "Pfad zur Grafik";
-$l['image_path_desc'] = "Dies ist der Pfad zur Bilddatei des Smilies.";
+$l['image_path_desc'] = "Dies ist der Pfad zur Bilddatei des Smilies. Falls du verschiedene Smilies für verschiedene Themes benutzen möchtest, verwende bitte <strong>{theme}</strong> als Platzhalter für das Verzeichnis der Themes.";
 $l['order'] = "Sortierung";
 $l['display_order'] = "Sortierung";
 $l['display_order_desc'] = "Die Sortierung gibt an, in welcher Reihenfolge die Smilies zur Auswahl erscheinen. Diese Zahl sollte für jeden Smilie unterschiedlich sein.";
@@ -50,6 +48,7 @@ $l['error_missing_text_replacement'] = "Du hast keine zu ersetzende Zeichenkette
 $l['error_missing_path'] = "Du hast keinen Pfad zum Smilie angegeben.";
 $l['error_missing_path_multiple'] = "Du hast keinen Pfad angegeben.";
 $l['error_missing_order'] = "Du hast keine Sortierung angegeben.";
+$l['error_duplicate_order'] = "Du hast keine gültige Sortierung angegeben.";
 $l['error_missing_clickable'] = "Du musst bei der Option \"Zeige in Smilieliste?\" zwischen Ja und Nein wählen.";
 $l['error_duplicate_order'] = "Du hast keine gültige Anzeige-Reihenfolge für diesen Smilie eingegeben.";
 $l['error_no_smilies'] = "Im angegebenen Ordner befinden sich keine Smilies oder alle Smilies wurden bereits ins Forum integriert.";
@@ -66,5 +65,3 @@ $l['success_smilie_deleted'] = "Der angegebene Smilie wurde erfolgreich gelösch
 $l['success_mass_edit_updated'] = "Die Smilies wurden erfolgreich aktualisiert.";
 
 $l['confirm_smilie_deletion'] = "Soll dieser Smilie wirklich gelöscht werden?";
-
-?>

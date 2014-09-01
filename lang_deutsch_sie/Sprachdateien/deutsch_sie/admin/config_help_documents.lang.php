@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['help_documents'] = "Hilfeseiten";
 $l['add_new_section'] = "Hilfe-Kategorie hinzufügen";
@@ -52,9 +49,7 @@ $l['error_document_missing_enabled'] = "Sie müssen bei \"Aktiviert?\" zwischen 
 $l['error_document_missing_translation'] = "Sie müssen bei \"Benutze Übersetzung?\" zwischen Ja und Nein wählen.";
 $l['error_invalid_sid'] = "Ungültige Seiten-ID angegeben.";
 $l['error_missing_section_id'] = "Die angegebene Kategorie existiert nicht.";
-$l['error_cannot_delete_section'] = "Das Löschen einer Standardkategorie ist nicht möglich.";
 $l['error_missing_hid'] = "Die angegebene Seite existiert nicht.";
-$l['error_cannot_delete_document'] = "Das Löschen einer Standardseite ist nicht möglich.";
 
 $l['success_help_section_added'] = "Die Hilfe-Kategorie wurde erfolgreich gespeichert.";
 $l['success_help_document_added'] = "Die Hilfe-Seite wurde erfolgreich gespeichert.";
@@ -65,5 +60,3 @@ $l['success_document_deleted'] = "Die Hilfe-Seite wurde erfolgreich gelöscht.";
 
 $l['confirm_section_deletion'] = "Soll diese Kategorie wirklich gelöscht werden?";
 $l['confirm_document_deletion'] = "Soll diese Seite wirklich gelöscht werden?";
-
-?>

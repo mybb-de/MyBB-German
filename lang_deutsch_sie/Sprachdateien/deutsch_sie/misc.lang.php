@@ -1,25 +1,24 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_helpdocs'] = "Hilfe-Seiten";
 $l['nav_smilies'] = "Smilie-Liste";
 $l['nav_syndication'] = "Neueste Themen-Synchronisation (RSS)";
 
 $l['aol_im'] = "AOL IM";
-$l['msn'] = "MSN Messenger";
+$l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo IM";
-$l['msn_messenger_center'] = "MSN Messenger Center";
-$l['msn_address_is'] = "{1}'s MSN-ID ist:";
+$l['skype_center'] = "Skype Center";
+$l['skype_status'] = "Skype Status";
+$l['chat_on_skype'] = "Mit {1} über Skype chatten";
+$l['call_on_skype'] = "{1} über Skype anrufen";
 $l['yahoo_center'] = "Yahoo!-Center";
 $l['send_y_message'] = "{1} eine Yahoo!-Message senden.";
 $l['view_y_profile'] = "{1}'s Yahoo!-Profil ansehen.";
@@ -34,7 +33,9 @@ $l['download_aol_im'] = "AOL Instant Messenger herunterladen";
 
 $l['buddy_list'] = "Freundesliste";
 $l['online'] = "Online";
+$l['online_none'] = "<em>Keiner Ihrer Freunde ist online</em>";
 $l['offline'] = "Offline";
+$l['offline_none'] = "<em>Keiner Ihrer Freunde ist offline</em>";
 $l['delete_buddy'] = "X";
 $l['pm_buddy'] = "Private Nachricht schicken";
 $l['last_active'] = "<strong>Zuletzt online:</strong> {1}";
@@ -42,6 +43,19 @@ $l['close'] = "Schließen";
 $l['no_buddies'] = "<em>Ihre Freundesliste ist zur Zeit leer. Bitte benutzen Sie das Benutzer-CP oder besuchen Sie ein Benutzer-Profil um Benutzer zu Ihrer Freundesliste hinzuzufügen.</em>";
 
 $l['help_docs'] = "Hilfe-Seiten";
+
+$l['search_help_documents'] = "Hilfe-Seiten durchsuchen";
+$l['search_by_name'] = "Namen durchsuchen";
+$l['search_by_document'] = "Hilfe-Seiten durchsuchen";
+$l['enter_keywords'] = "Suchbegriffe eingeben";
+$l['search'] = "Suchen";
+$l['redirect_searchresults'] = "Ihre Suche wurde durchgeführt. Sie werden jetzt zu den Ergebnissen weitergeleitet.";
+$l['search_results'] = "Suchergebnisse";
+$l['help_doc_results'] = "Suchergebnisse Hilfe-Seiten";
+$l['document'] = "Hilfe-Seiten";
+$l['error_nosearchresults'] = "Entschuldigung, aber nach Ihren Angaben wurden keine Ergebnisse gefunden. Bitte ändern Sie Ihre Suchbegriffe und versuchen Sie es erneut.";
+$l['no_help_results'] = "Entschuldigung, aber nach Ihren Angaben wurden keine Ergebnisse gefunden.";
+$l['error_helpsearchdisabled'] = "Die Möglichkeit die Hilfe-Seiten zu durchsuchen wurde vom Administrator deaktiviert.";
 
 $l['smilies_listing'] = "Smilie-Liste";
 $l['name'] = "Name";
@@ -60,7 +74,7 @@ $l['error_invalid_limit'] = "Das angegebene Limit ist ungültig. Bitte geben Sie
 
 $l['syndication'] = "Synchronisation der letzten Themen";
 $l['syndication_generated_url'] = "Ihre erstellte Synchronisations-URL:";
-$l['syndication_note'] = "Unten können Links für eine RSS-Synchronisation generiert werden. Es können Links zu allen Foren, zu einem Forum oder für eine bestimmte Anzahl von Foren generiert werden. Sie können diesen Link dann in einen RSS-Reader wie z.B. <a href=\"http://www.sharpreader.net\" target=\"_blank\">SharpReader</a> kopieren. <i><a href=\"http://de.wikipedia.org/wiki/RSS\" target=\"_blank\">Was ist RSS?</a></i>";
+$l['syndication_note'] = "Unten können Links für eine RSS-Synchronisation generiert werden. Es können Links zu allen Foren, zu einem Forum oder für eine bestimmte Anzahl von Foren generiert werden. Sie können diesen Link dann in einen RSS-Reader kopieren. <i><a href=\"http://de.wikipedia.org/wiki/RSS\" target=\"_blank\">Was ist RSS?</a></i>";
 $l['syndication_forum'] = "Foren, die synchronisiert werden sollen:";
 $l['syndication_forum_desc'] = "Bitte rechts ein Forum auswählen. Die STRG-Taste benutzen, um mehrere Foren zu wählen.";
 $l['syndication_version'] = "Feed-Version:";
@@ -83,4 +97,3 @@ $l['error_invalidhelpdoc'] = "Die angegebene Hilfe-Seite scheint nicht zu existi
 $l['error_invalidkey'] = "Das Löschen der Cookies konnte nicht bestätigt werden. Es könnte sein, dass ein schädliches Javascript versucht hat, die Cookies automatisch zu löschen. Sollten Sie wirklich die Cookies entfernen wollen, lesen Sie sich bitte das Hilfedokument \"Verwendung von Cookies\" durch.";
 
 $l['dst_settings_updated'] = "Ihre Sommerzeiteinstellungen wurden automatisch geändert.<br /><br />Sie werden jetzt zum Forenindex weitergeleitet.";
-?>

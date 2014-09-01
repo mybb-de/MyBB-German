@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_search'] = "Suche";
 $l['nav_results'] = "Ergebnisse";
 
@@ -74,7 +71,9 @@ $l['delete_threads'] = "Themen löschen";
 $l['move_threads'] = "Themen verschieben";
 $l['approve_threads'] = "Themen annehmen";
 $l['unapprove_threads'] = "Themen abweisen";
-$l['inline_delete_posts'] = "Beiträge löschen";
+$l['inline_soft_delete_posts'] = "Beiträge als gelöscht markieren";
+$l['inline_restore_posts'] = "Beiträge wiederherstellen";
+$l['inline_delete_posts'] = "Beiträge dauerhaft löschen";
 $l['inline_merge_posts'] = "Beiträge zusammenfügen";
 $l['inline_split_posts'] = "Beiträge teilen";
 $l['inline_approve_posts'] = "Beiträge annehmen";
@@ -94,12 +93,14 @@ $l['page_selected'] = "Alle <strong>{1}</strong> Ergebnisse auf dieser Seite sin
 $l['all_selected'] = "Alle <strong>{1}</strong> Ergebnisse dieser Suche sind ausgewählt.";
 $l['select_all'] = "Wähle alle <strong>{1}</strong> Ergebnisse dieser Suche.";
 $l['clear_selection'] = "Auswahl aufheben.";
+$l['search_user'] = "Benutzer suchen";
 
 $l['results'] = "Ergebnisse";
 $l['mod_options'] = "Moderations-Optionen";
 $l['find_all'] = "Alle suchen";
 $l['find_only_approved'] = "Suche nur zugestimmte";
 $l['find_only_unapproved'] = "Suche nur abgewiesene";
+$l['find_only_softdeleted'] = "Suche nur ales gelöscht markierte";
 
 $l['redirect_searchresults'] = "Ihre Suche wurde durchgeführt. Sie werden jetzt zu den Ergebnissen weitergeleitet.";
 
@@ -110,4 +111,3 @@ $l['error_nosearchterms'] = "Sie haben keine Suchbegriffe eingegeben. Sie müsse
 $l['error_searchflooding_1'] =  "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch 1 Sekunde und versuchen Sie es dann erneut.";
 $l['error_searchflooding'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch {2} Sekunden und versuchen Sie es dann erneut.";
 $l['error_invalidsearch'] = "Der Suchbegriff ist ungültig. Bitte gehen Sie zurück und versuchen Sie es erneut.";
-?>

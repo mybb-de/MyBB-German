@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_newthread'] = "Neues Thema";
 $l['newthread_in'] = "Neues Thema in {1}";
 $l['post_new_thread'] = "Neues Thema erstellen";
@@ -51,4 +48,12 @@ $l['redirect_newthread_poll'] = "<br />Sie werden nun zu der Umfrageoptions- und
 $l['redirect_newthread_moderation'] = "<br />Der Administrator hat spezifiziert, dass alle neuen Themen überprüft werden müssen. Sie werden zur Themenübersicht weitergeleitet.";
 $l['redirect_newthread_thread'] = "<br />Sie werden nun zum neuen Thema geleitet.";
 $l['invalidthread'] = "Der ausgewählte Entwurf exisitiert nicht oder Sie haben nicht die Berechtigung ihn zu sehen.";
-?>
+
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, Ihr Benutzername oder Ihre IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich Ihres Themas mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuchen Sie es später erneut.";
+
+$l['error_suspendedposting'] = "Ihre Rechte Beiträge zu verfassen wurden Ihnen {1} entzogen.<br /><br />
+
+Datum der Suspendierung: {2}";
+$l['error_suspendedposting_temporal'] = "bis {1}";
+$l['error_suspendedposting_permanent'] = "dauerhaft";

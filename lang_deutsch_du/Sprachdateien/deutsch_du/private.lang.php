@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_pms'] = "Private Nachrichten";
 $l['nav_send'] = "Nachricht erstellen";
 $l['nav_tracking'] = "Nachricht verfolgen";
@@ -31,12 +28,13 @@ $l['private_messaging'] = "Private Nachrichten verschicken";
 $l['inbox'] = "Eingang";
 $l['compose_message2'] = "Nachricht verfassen";
 $l['manage_folders'] = "Ordner verwalten";
-$l['pms_in_folder'] = "Private Nachrichten im Ordner <em>{1}</em>";
 $l['pm_search_results'] = "Suchergebnisse in den Privaten Nachrichten";
 $l['message_title'] = "Betreff der privaten Nachricht";
 $l['sender'] = "Absender";
 $l['sentto'] = "Empfänger";
 $l['date_sent'] = "Gesendet (Datum/Zeit)";
+$l['desc'] = "ab";
+$l['asc'] = "auf";
 $l['delete_pm'] = "Löschen";
 $l['move_to'] = "Verschiebe in";
 $l['or'] = "oder";
@@ -56,7 +54,7 @@ $l['date_limit_days'] = "Tage";
 $l['export_unread'] = "Ungelesene Nachrichten exportieren?";
 $l['delete_archived'] = "Exportierte Nachrichten löschen?";
 $l['delete_archived_note'] = "Möchtest du die in deinen Ordnern gespeicherten Nachrichten löschen, sobald sie exportiert wurden?";
-$l['export_format'] = "Export-Datei-Format";
+$l['export_format'] = "Export-Datei-Format:";
 $l['export_format_note'] = "Bitte wähle das Datei-Format, in dem die Nachrichten heruntergeladen werden sollen.";
 $l['export_html'] = "HTML Format (.html)";
 $l['export_txt'] = "Text Format (.txt)";
@@ -71,9 +69,8 @@ $l['export_messages2'] = "Download Nachrichten";
 $l['empty_folders'] = "Private Nachrichten-Ordner leeren";
 $l['empty_folders2'] = "Ordner leeren";
 $l['empty_note'] = "Hier kannst du private Nachrichten aus verschiedenen Ordnern gleichzeitig löschen. Wähle die Ordner aus, aus denen du Nachrichten löschen möchtest und klicke auf \"Lösche\". Dieser Vorgang kann nicht rückgängig gemacht werden. <br /><strong>Hinweis: Wurden diese Nachrichten einmal gelöscht, besteht keine Möglichkeit mehr, sie wiederherzustellen.</strong>";
-$l['num_messages'] = "Anzahl der Nachrichten:";
-$l['nobody'] = "Niemand";
-$l['empty_q'] = "Leeren?";
+$l['num_messages'] = "Anzahl der Nachrichten";
+$l['empty_q'] = "Ordner leeren?";
 $l['keep_unread'] = "Alle ungelesenen Nachrichten aufbewahren";
 $l['pm_folders'] = "Ordner Private Nachrichten";
 $l['existing_folders'] = "Bestehende Ordner";
@@ -141,6 +138,7 @@ $l['you_forwarded'] = "Du hast diese Nachricht weitergeleitet {1}";
 $l['select_from_buddies'] = "Wähle aus deinen Freunden";
 $l['no_readmessages'] = "Du hast momentan keine verfolgten gelesenen Nachrichten.";
 $l['no_unreadmessages'] = "Du hast momentan keine verfolgten ungelesenen Nachrichten.";
+$l['stop_tracking_all'] = "Verfolgung alle Nachrichten beenden";
 
 $l['enter_keywords'] = "Suchbegriffe eingeben";
 $l['advanced_search'] = "Erweiterte Suche";
@@ -165,6 +163,7 @@ $l['ascending_order'] = "Aufsteigend";
 $l['descending_order'] = "Absteigend";
 $l['search_private_messages'] = "Suche Private Nachrichten";
 $l['check_all'] = "Alle auswählen";
+$l['search_user'] = "Benutzer suchen";
 
 $l['error_nopmsarchive'] = "Entschuldigung, aber es gibt keine Nachrichten, die deinen Kriterien entsprechen.";
 $l['error_invalidpmfoldername'] = "Entschuldigung, der Ordnername, den du angegeben hast, enthält ungültige Zeichen.";
@@ -176,6 +175,7 @@ $l['error_recipientpmturnedoff'] = "{1} möchte keine PNs erhalten oder er darf 
 $l['error_pmsturnedoff'] = "Du hast zur Zeit PNs in deinem Profil ausgeschaltet.<br />Um das Private Nachrichten-System benutzen zu können, musst du es aktivieren.";
 $l['error_recipientignoring'] = "Leider kann deine Nachricht nicht an {1} zugestellt werden. Dir fehlt die Berechtigung für diese Aktion.";
 $l['error_pm_already_submitted'] = "Du hast in den letzten 5 Minuten die gleiche Nachricht an den gleichen Empfänger geschickt.";
+$l['error_nopms'] = "Zur Benutzung dieser Funktion musst du mindestens eine Private Nachricht auswählen.";
 
 $l['error_minsearchlength'] = "Ein oder mehrere der Suchbegriffe sind kürzer als das Minimum. Die minimale Länges eines Suchbegegriffes sind {1} Zeichen.<br /><br />Wenn du nach einem ganzen Satz suchst, schließe ihn bitte mit Anführungszeichen ein. Zum Beispiel \"Vogel Quax zwickt Johnys Pferd Bim\".";
 $l['error_nosearchresults'] = "Leider konnten keine Ergebnisse für deine Suchbegriffe gefunden werden. Bitte versuche es mit anderen Begriffen erneut.";
@@ -188,10 +188,18 @@ $l['error_invalidsearch'] = "Die Eingaben waren ungültig. Bitte gehe zurück un
 $l['redirect_pmsaved'] = "Die Nachricht wurde in deinem 'Entwürfe'-Ordner gespeichert.";
 $l['redirect_pmstrackingstopped'] = "Die Verfolgung der ausgewählten PNs wurde gestoppt.";
 $$l['redirect_pmstrackingcanceled'] = "Die ausgewählten ungelesenen Nachrichten wurden aus dem Posteingang des Empfängers gelöscht.";
+$l['redirect_allpmstrackingstopped'] = "Die Verfolgung alle gelesenen Nachrichten wurde gestoppt.";
 $l['redirect_pmsmoved'] = "Die ausgewählten Nachrichten wurden verschoben.";
 $l['redirect_pmsdeleted'] = "Die ausgewählten Nachrichten wurden gelöscht.";
 $l['redirect_pmsent'] = "Vielen Dank! Deine PN wurde erfolgreich gesendet.<br />Du wirst jetzt zum Posteingang geleitet.";
 $l['redirect_pmfoldersupdated'] = "Vielen Dank! Deine Ordner wurden erfolgreich aktualisiert.<br />Du wirst jetzt zum Posteingang geleitet.";
 $l['redirect_pmfoldersemptied'] = "Die ausgewählten Ordner wurden erfolgreich geleert.<br />Du wirst jetzt zum Posteingang weitergeleitet.";
 $l['redirect_searchresults'] = "Danke, die Suche wurde durchgeführt und du wirst zu Ergebnis geleitet.";
-?>
+
+$l['quick_reply'] = "Schnellantwort";
+$l['message_note'] = "Gib hier deine Antwort zur Nachricht ein.";
+$l['send_reply'] = "Antwort absenden";
+$l['quickreply_signature'] = "Signatur";
+$l['quickreply_disable_smilies'] = "Smilies ausschalten";
+$l['quickreply_save_copy'] = "Kopie speichern";
+$l['quickreply_read_receipt'] = "<strong>Empfangsbestätigung</strong>";

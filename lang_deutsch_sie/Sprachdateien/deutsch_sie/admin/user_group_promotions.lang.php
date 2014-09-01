@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['user_group_promotions'] = "Benutzergruppen-Beförderung";
 $l['user_group_promotions_desc'] = "Hier können Sie Benutzergruppen-Beförderung verwalten.";
@@ -21,9 +18,11 @@ $l['add_new_promotion_desc'] = "Hier können Sie neue Beförderungen hinzufügen
 $l['title'] = "Titel";
 $l['short_desc'] = "Kurze Beschreibung";
 $l['post_count'] = "Beitragsanzahl";
+$l['thread_count'] = "Themenanzahl";
 $l['reputation'] = "Bewertung";
 $l['referrals'] = "Empfehlungen";
 $l['time_registered'] = "Registriert seit";
+$l['time_online'] = "Online-Zeit";
 $l['promo_requirements'] = "Beförderungs-Bedingungen";
 $l['promo_requirements_desc'] = "Wählen Sie aus, was für eine Beförderung zutreffen muss. Halten Sie STRG gedrückt, um mehrere Bedingungen auszuwählen.";
 $l['greater_than_or_equal_to'] = "Größer oder gleich";
@@ -35,13 +34,17 @@ $l['reputation_count'] = "Bewertungen";
 $l['reputation_count_desc'] = "Geben Sie die Zahl der benötigten Bewertungen ein. Bewertungen müssen dafür als Bedingung ausgewählt sein. Wählen Sie den Vergleichs-Wert für Bewertungen aus.";
 $l['referral_count'] = "Anzahl der Empfehlungen";
 $l['referral_count_desc'] = "Geben Sie die Zahl der benötigten Empfehlungen ein. Empfehlungen müssen dafür als Bedingung ausgewählt sein. Wählen Sie den Vergleichs-Wert für Empfehlungen aus.";
-$l['post_count_desc'] = "Geben Sie die Zahl der benötigten Beiträge ein. Beitragsanzahl müssen dafür als Bedingung ausgewählt sein. Wählen Sie den Vergleichs-Wert für Beiträge aus.";
+$l['warning_points'] = "Warnungspunkte";
+$l['warning_points_desc'] = "Geben Sie die Zahl der benötigten Warnungspunkte ein. Warnungspunkte müssen dafür als Bedingung ausgewählt sein. Wählen Sie Vergleichs-Wert für Warnungspunkte aus.";
+$l['post_count_desc'] = "Geben Sie die Zahl der benötigten Beiträge ein. Beitragsanzahl muss dafür als Bedingung ausgewählt sein. Wählen Sie den Vergleichs-Wert für Beiträge aus.";
+$l['thread_count_desc'] = "Geben Sie die Zahl der benötigten Themen ein. Themenanzahl muss dafür als Bedingung ausgewählt sein. Wählen Sie den Vergleichs-Wert für Themen aus.";
 $l['hours'] = "Stunden";
 $l['days'] = "Tage";
 $l['weeks'] = "Wochen";
 $l['months'] = "Monate";
 $l['years'] = "Jahre";
 $l['time_registered_desc'] = "Geben Sie die Zahl der Stunden, Tage, Wochen, Monate oder Jahre ein, die der Benutzer registriert sein muss. \"Registriert seit\" muss als Bedingung dafür ausgewählt sein. Wählen Sie, ob die Zeit in Stunden, Tagen, Wochen, Monaten oder Jahren gezählt werden soll.";
+$l['time_online_desc'] = "Geben Sie die Zahl der Stunden, Tage, Wochen, Monate oder Jahre ein, die der Benutzer online gewesen sein muss. \"Online-Zeit\" muss als Bedingung dafür ausgewählt sein. Wählen Sie, ob die Zeit in Stunden, Tagen, Wochen, Monaten oder Jahren gezählt werden soll.";
 $l['all_user_groups'] = 'Alle Benutzergruppen';
 $l['orig_user_group'] = 'Original-Benutzergruppe';
 $l['orig_user_group_desc'] = "Wählen Sie die Benutzergruppe(n) aus, in denen die Benutzer befördert werden sollen. Halten Sie STRG gedrückt, um mehrere Gruppen auszuwählen.";
@@ -80,13 +83,11 @@ $l['error_no_orig_usergroup'] = "Sie haben nicht einmal eine Original-Benutzergr
 $l['error_no_new_usergroup'] = "Sie haben nicht einmal eine neue Benutzergruppe für diese Beförderung eingegeben";
 $l['error_no_usergroup_change_type'] = "Sie haben keinen Typ der Benutzergruppen-Änderung für diese Beförderung eingegeben";
 
-$l['success_promo_disabled'] = 'Die Beförderung wurde erfolgreich deaktiviert.';
-$l['success_promo_deleted'] = 'Die Beförderung wurde erfolgreich gelöscht.';
-$l['success_promo_enabled'] = 'Die Beförderung wurde erfolgreich aktiviert.';
-$l['success_promo_updated'] = 'Die Beförderung wurde erfolgreich aktualisiert.';
-$l['success_promo_added'] = 'Die Beförderung wurde erfolgreich hinzugefügt.';
+$l['success_promo_disabled'] = "Die Beförderung wurde erfolgreich deaktiviert.";
+$l['success_promo_deleted'] = "Die Beförderung wurde erfolgreich gelöscht.";
+$l['success_promo_enabled'] = "Die Beförderung wurde erfolgreich aktiviert.";
+$l['success_promo_updated'] = "Die Beförderung wurde erfolgreich aktualisiert.";
+$l['success_promo_added'] = "Die Beförderung wurde erfolgreich hinzugefügt.";
 
 $l['confirm_promo_disable'] = "Wollen Sie diese Beförderung wirklich deaktivieren?";
 $l['confirm_promo_deletion'] = "Wollen Sie diese Beförderung wirklich löschen?";
-
-?>

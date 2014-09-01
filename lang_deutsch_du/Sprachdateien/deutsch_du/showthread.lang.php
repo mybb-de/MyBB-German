@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['delete_poll'] = "Umfrage löschen";
 $l['close_thread'] = "Thema schließen";
 $l['stick_thread'] = "Thema wichtig setzen";
@@ -18,25 +15,28 @@ $l['author'] = "Verfasser";
 $l['message'] = "Nachricht";
 $l['threaded'] = "Baumstrukturmodus";
 $l['linear'] = "Linearer Modus";
+$l['thread_modes'] = "Ansichts-Optionen";
 $l['next_oldest'] = "Ein Thema zurück";
 $l['next_newest'] = "Ein Thema vor";
 $l['view_printable'] = "Druckversion anzeigen";
 $l['send_thread'] = "Thema einem Freund senden";
 $l['subscribe_thread'] = "Thema abonnieren";
 $l['unsubscribe_thread'] = "Abonnement für dieses Thema entfernen";
+$l['add_poll_to_thread'] = "Umfrage zu Thema hinzufügen";
 $l['moderation_options'] = "Moderationsoptionen";
 $l['delayed_moderation'] = "Verzögerte Moderation";
 $l['thread_notes'] = "Themen-Notizen editieren/anzeigen";
 $l['open_close_thread'] = "Thema öffnen/schließen";
 $l['approve_thread'] = "Thema annehmen";
 $l['unapprove_thread'] = "Thema abweisen";
-$l['delete_thread'] = "Thema löschen";
+$l['soft_delete_thread'] = "Thema als gelöscht markieren";
+$l['restore_thread'] = "Thema wiederherstellen";
+$l['delete_thread'] = "Thema dauerhaft löschen";
 $l['delete_posts'] = "Ausgewählte Beiträge löschen";
 $l['move_thread'] = "Thema kopieren/verschieben";
 $l['stick_unstick_thread'] = "Thema wichtig/unwichtig";
 $l['split_thread'] = "Thema teilen";
 $l['merge_threads'] = "Themen zusammenfügen";
-$l['merge_posts'] = "Ausgewählte Beiträge zusammenfügen";
 $l['remove_redirects'] = "Verweise entfernen";
 $l['remove_subscriptions'] = "Entferne alle Abonnements";
 $l['poll'] = "Umfrage:";
@@ -48,6 +48,7 @@ $l['vote'] = "Abstimmen";
 $l['total_votes'] = "{1} Stimme(n)";
 $l['you_voted'] = "&lowast; Du hast diese Antwort gewählt.";
 $l['poll_closed'] = "Diese Umfrage ist geschlossen.";
+$l['poll_closes'] = "Diese Umfrage schließt am: {1}";
 $l['already_voted'] = "Du hast bei dieser Umfrage schon gewählt.";
 $l['undo_vote'] = "Stimme zurückziehen";
 $l['quick_reply'] = "Schnellantwort";
@@ -57,24 +58,29 @@ $l['email_notify'] = "E-Mail-Benachrichtigung";
 $l['disable_smilies'] = "Smilies ausschalten";
 $l['post_reply'] = "Antwort absenden";
 $l['post_reply_img'] = "Antwort schreiben";
+$l['new_reply'] = "Antworten";
+$l['search_button'] = "Suchen";
 $l['post_thread'] = "Thema schreiben";
 $l['preview_post'] = "Beitragsvorschau";
 $l['rate_thread'] = "Dieses Thema bewerten:";
 $l['rating_average'] = "{1} Bewertung(en) - {2} im Durchschnitt";
 $l['thread_rating'] = "Themabewertung:";
 $l['similar_threads'] = "Möglicherweise verwandte Themen...";
-$l['thread'] = "Thema:";
-$l['replies'] = "Antworten:";
-$l['views'] = "Ansichten:";
+$l['thread'] = "Thema";
+$l['replies'] = "Antworten";
+$l['views'] = "Ansichten";
 $l['lastpost'] = "Letzter Beitrag";
 $l['messages_in_thread'] = "Nachrichten in diesem Thema";
 $l['users_browsing_thread'] = "Benutzer, die gerade dieses Thema anschauen:";
 $l['users_browsing_thread_guests'] = "{1} Gast/Gäste";
 $l['users_browsing_thread_invis'] = "{1} unsichtbare(r) Benutzer";
 $l['users_browsing_thread_reading'] = "Lesen...";
-$l['inline_delete_posts'] = "Beiträge löschen";
+$l['inline_soft_delete_posts'] = "Beiträge als gelöscht markieren";
+$l['inline_restore_posts'] = "Beiträge wiederherstellen";
+$l['inline_delete_posts'] = "Beiträge dauerhaft löschen";
 $l['inline_merge_posts'] = "Beiträge zusammenfügen";
 $l['inline_split_posts'] = "Beiträge teilen";
+$l['inline_move_posts'] = "Beiträge verschieben";
 $l['inline_approve_posts'] = "Beiträge annehmen";
 $l['inline_unapprove_posts'] = "Beiträge abweisen";
 $l['inline_post_moderation'] = "Inline-Beitragsmoderation:";
@@ -94,4 +100,15 @@ $l['enter_keywords'] = "Suchbegriff(e)";
 $l['image_verification'] = "Bestätigung";
 $l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisiert erstellte Beiträge zu vermeiden.";
 $l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
-?>
+$l['view_thread_notes'] = "Themennotizen";
+$l['view_all_notes'] = "Alle Notizen anzeigen";
+
+$l['save_changes'] = 'Änderungen speichern';
+$l['cancel_edit'] = 'Bearbeitung abbrechen';
+$l['quick_edit_update_error'] = 'Beim Bearbeiten des Beitrags ist es zu einem Fehler gekommen:';
+$l['quick_reply_post_error'] = 'Beim Absenden des Beitrags ist es zu einem Fehler gekommen:';
+$l['quick_delete_error'] = 'Beim Löschen des Beitrags ist es zu einem Fehler gekommen:';
+$l['quick_delete_success'] = 'Der Beitrag wurde erfolgreich gelöscht.';
+$l['quick_delete_thread_success'] = 'Das Thema wurde erfolgreich gelöscht.';
+$l['quick_restore_error'] = 'Beim Wiederherstellen des Beitrags ist es zu einem Fehler gekommen:';
+$l['quick_restore_success'] = 'Das Beitrag wurde erfolgreich wiederhergestellt.';
