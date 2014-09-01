@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['pmdata_too_long_subject'] = 'Der Betreff deiner privaten Nachricht ist zu lang. Bitte kürze den Betreff.';
 $l['pmdata_code_no_subject'] = '[Kein Betreff]';
@@ -25,4 +22,3 @@ $l['pmdata_recipient_reached_quota'] = '{1} hat das Speicherplatzlimit für priv
 
 $l['pmdata_pm_flooding'] = 'Du versuchst eine Nachricht in zu kurzem Abstand zur vorigen Nachricht zu verschicken. Bitte warte noch {1} Sekunden.';
 $l['pmdata_pm_flooding_one_second'] = 'Du versuchst eine Nachricht in zu kurzem Abstand zur vorigen Nachricht zu verschicken. Bitte warte noch 1 Sekunde.';
-?>

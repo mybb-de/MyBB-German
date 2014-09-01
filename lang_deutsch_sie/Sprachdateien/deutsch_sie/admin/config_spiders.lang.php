@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['spiders_bots'] = "Spider / Bots";
 $l['spiders_bots_desc'] = "In diesem Bereich können Sie die Spider &amp; Bots verwalten, die vom Forum automatisch erkannt werden. Außerdem können Sie sehen, welcher Bot wann zum letzten Mal das Forum besucht hat.";
 $l['add_new_bot'] = "Neuen Bot hinzufügen";
@@ -45,5 +42,3 @@ $l['success_bot_updated'] = "Der Bot wurde erfolgreich aktualisiert.";
 $l['success_bot_deleted'] = "Der ausgewählte Bot wurde erfolgreich gelöscht.";
 
 $l['confirm_bot_deletion'] = "Soll dieser Bot wirklich gelöscht werden?";
-
-?>

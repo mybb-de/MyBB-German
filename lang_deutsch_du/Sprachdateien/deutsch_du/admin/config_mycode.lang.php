@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['custom_mycode'] = "Eigener MyCode";
 $l['mycode'] = "MyCode";
@@ -36,7 +33,6 @@ $l['no_mycode'] = "Zur Zeit sind keine eigenen MyCodes definiert.";
 $l['save_mycode'] = "MyCode speichern";
 $l['add_mycode'] = "MyCode hinzufügen";
 $l['changes_not_saved'] = "Deine Änderungen wurden noch nicht gespeichert.";
-$l['deactivated'] = "Deaktiviert";
 
 $l['sandbox'] = "Testbox";
 $l['sandbox_desc'] = "Hier kannst du den regulären Ausdruck und die Ersetzung testen, bevor du deine Änderungen speicherst.";
@@ -61,4 +57,4 @@ $l['success_activated_mycode'] = "Der MyCode wurde erfolgreich aktiviert.";
 
 $l['confirm_mycode_deletion'] = "Soll dieser MyCode wirklich gelöscht werden?";
 
-?>
+$l['mycode_sandbox_test_error'] = "Beim Laden des Testergebnisses ist ein Fehler aufgetreten.";

@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['banning'] = "Ausschluss";
 $l['banned_ips'] = "Ausgeschlossene IPs";
 $l['banned_ips_desc'] = "Hier können Sie IP-Adressen verwalten, denen der Zugriff auf das Forum verboten ist.";
@@ -39,7 +36,7 @@ $l['add_disallowed_email_address'] = "Verbotene E-Mail-Adresse hinzufügen";
 $l['email_address_desc'] = "Hinweis: Benutzen Sie * als Platzhalter für beliebige Zeichen.";
 $l['disallow_email_address'] = "E-Mail-Adresse verbieten";
 $l['ban_an_ip_address'] = "Eine IP-Adresse ausschließen";
-$l['ip_address_desc'] = "Hinweis: Benutzen Sie * (Bsp.: 127.0.0.*), um eine Reihe von IPs auszuschließen";
+$l['ip_address_desc'] = "Hinweis: Benutzen Sie * (Bsp.: 127.0.0.*) oder CIDR-Notation (Bsp.: 127.0.0.0/8), um eine Reihe von IPs auszuschließen";
 $l['ban_ip_address'] = "IP-Adresse ausschließen";
 
 $l['error_missing_ban_input'] = "Sie haben keinen Wert angegeben, der verboten werden soll.";
@@ -52,5 +49,3 @@ $l['success_email_disallowed'] = "Die E-Mail-Adresse wurde erfolgreich verboten.
 $l['success_ban_deleted'] = "Der ausgewählte Ausschluss wurde erfolgreich gelöscht.";
 
 $l['confirm_ban_deletion'] = "Soll dieser Ausschluss wirklich gelöscht werden?";
-
-?>

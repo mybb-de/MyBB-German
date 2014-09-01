@@ -1,24 +1,16 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['mybb_credits'] = "MyBB Credits";
 $l['mybb_credits_description'] = "Die folgenden Personen haben Zeit und Anstrengung investiert, um MyBB zu entwickeln:";
 $l['about_the_team'] = "Über das Team";
-
-$l['product_managers'] = "Produktmanager";
-$l['developers'] = "Entwickler";
-$l['graphics_and_style'] = "Grafiken und Style";
-$l['software_quality_assurance'] = "Qualitätssicherung";
-$l['support_representative'] = "Support";
-$l['pr_liaison'] = "PR Kontakt";
-?>
+$l['check_for_updates'] = "Nach Updates suchen";
+$l['error_communication'] = "Beim Laden der Credits ist ein Fehler aufgetreten. Bitte versuche es in einigen Minuten noch einmal.";
+$l['no_credits'] = "Keine MyBB Credits gespeichert. <a href=\"index.php?module=home-credits&amp;fetch_new=1\">Nach Updates suchen</a>.";

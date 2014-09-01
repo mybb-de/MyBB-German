@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['system_health'] = "Systemstatus";
 $l['system_health_desc'] = "Hier kannst du Informationen zum Systemstatus anschauen.";
@@ -80,7 +77,7 @@ $l['full_edit'] = "Zum Editor";
 
 $l['error_chmod'] = "der benötigten Dateien und Verzeichnisse haben nicht die richtigen CHMOD-Einstellungen.";
 $l['error_invalid_table'] = "Die ausgewählte Tabelle existiert nicht.";
-$l['error_db_encoding_not_set'] = "Deine MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicke <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung.html\">hier</a> f&uuml;r weitere Informationen.";
+$l['error_db_encoding_not_set'] = "Deine MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicke <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung/\">hier</a> f&uuml;r weitere Informationen.";
 $l['error_not_supported'] = "Dein aktueller Datenbank-Engine wird nicht von der UTF-8 Konvertierung unterstützt.";
 $l['error_invalid_input'] = "Es ist ein Problem beim Überprüfen der Templates aufgetreten. Bitte probiere es erneut oder kontaktiere den MyBB-Support.";
 $l['error_master_templates_altered'] = "Die Master-Templates wurden verändert. Bitte kontaktiere den MyBB-Support um Unterstützung beim Ändern zu erhalten.";
@@ -93,5 +90,3 @@ $l['success_templates_checked'] = "Die Templates wurden erfolgreich überprüft 
 $l['success_all_tables_already_converted'] = "Alle Tabellen wurden bereits konvertiert oder sind bereits im UTF-8 Format.";
 $l['success_table_converted'] = "Die Tabelle \"{1}\" wurde erfolgreich zu UTF-8 konvertiert.";
 $l['success_chmod'] = "Alle benötigten Dateien und Verzeichnisse haben die richtigen CHMOD-Einstellungen.";
-
-?>

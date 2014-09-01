@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['no_new_subject'] = "Du hast keinen neuen Betreff eingegeben.";
 $l['post_moderation'] = "Dein Beitrag wartet nun auf Moderation.";
@@ -20,15 +17,16 @@ $l['no_permission_edit_subject'] = "Dir fehlt die Berechtigung, den Betreff zu b
 $l['thread_closed_edit_message'] = "Dieses Thema ist geschlossen und du kannst Beiträge nicht bearbeiten";
 $l['no_permission_edit_post'] = "Dir fehlt die Berechtigung, den Beitrag zu bearbeiten";
 $l['edit_time_limit'] = "Du kannst Beiträge nur bis zu {1} Minuten nach der Erstellung bearbeiten.";
-$l['postbit_edited'] = "Dieser Beitrag wurde zuletzt bearbeitet: {1} {2} von";
-
+$l['postbit_edited'] = "Dieser Beitrag wurde zuletzt bearbeitet: {1} von";
+$l['postbit_editreason'] = "Bearbeitungsgrund";
 $l['save_changes'] = "Änderungen speichern";
 $l['cancel_edit'] = "Bearbeitung abbrechen";
-
+$l['answer_valid_not_exists'] = "Die Frage, die du beantworten willst, existiert nicht.";
 $l['captcha_not_exists'] = "Das Captcha Bild, welches du versuchst neuzuladen, existiert nicht.";
 $l['captcha_valid_not_exists'] = "Das Captcha Bild, welches du versucht zu kontrollieren, scheint nicht zu existieren.";
 $l['captcha_does_not_match'] = "Der von dir eingegebene Captcha-Code war falsch. Bitte gib den Code genau wie im Bild zu sehen ein.";
 $l['captcha_matches'] = "Der von dir eingegebene Captcha-Code war richtig.";
+$l['answer_does_not_match'] = "Die von dir eingegebene Antwort war falsch.";
 $l['banned_username'] = "Der von dir eingegebene Mitgliedsname wurde von einem Administrator gesperrt";
 $l['banned_characters_username'] = "Dein Mitgliedsname enthält ein oder mehrere ungültige Zeichen";
 $l['complex_password_fails'] = "Das Passwort muss Groß- und Kleinbuchstaben und mindestens eine Zahl enthalten";
@@ -47,4 +45,3 @@ $l['online'] = "Online";
 $l['offline'] = "Offline";
 $l['edited_post'] = "Bearbeiteter Beitrag";
 $l['usergroup'] = "Benutzergruppe";
-?>

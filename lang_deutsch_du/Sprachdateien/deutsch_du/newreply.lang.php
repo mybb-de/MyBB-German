@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_newreply'] = "Antwort schreiben";
 
 $l['post_reply_to'] = "Antwort schreiben an {1}";
@@ -50,4 +47,12 @@ $l['redirect_newreply_post'] = "<br />Du wirst nun zu deinem Beitrag geleitet.";
 $l['redirect_newreplyerror'] = "Leider wurde deine Antwort zurückgewiesen.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 $l['redirect_threadclosed'] = "Auf dieses Thema kann nicht geantwortet werden, da das Thema von einem Moderator geschlossen wurde.";
 $l['error_post_noperms'] = "Du hast nicht die Berechtigung diesen Entwurf zu bearbeiten.";
-?>
+
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, dein Benutzername oder deine IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Beitrags mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
+
+$l['error_suspendedposting'] = "Dein Rechte Beiträge zu verfassen wurden dir {1} entzogen.<br /><br />
+
+Datum der Suspendierung: {2}";
+$l['error_suspendedposting_temporal'] = "bis {1}";
+$l['error_suspendedposting_permanent'] = "dauerhaft";

@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['admin_logs'] = "Administrator Log-Daten";
 $l['admin_logs_desc'] = "Hier kannst du die Aktionen der Administratoren, die im Admin-CP ausgeführt wurden, ansehen, entfernen und durchsuchen.";
@@ -43,6 +40,7 @@ $l['in'] = "in";
 $l['order'] = "sortieren";
 
 $l['success_pruned_admin_logs'] = "Administrator Log-Daten erfolgreich entfernt.";
+$l['note_logs_locked'] = "Aus Sicherheitsgründen können die Einträge der letzten 24 Stunden nicht entfernt werden.";
 
 $l['admin_log_config_attachment_types_add'] = "Attachment-Typ #{1} ({2}) hinzugefügt";
 $l['admin_log_config_attachment_types_edit'] = "Attachment-Typ #{1} ({2}) bearbeitet";
@@ -103,6 +101,12 @@ $l['admin_log_config_post_icons_delete'] = "Beitragsicon #{1} ({2}) gelöscht";
 $l['admin_log_config_profile_fields_add'] = "Eigenes Profilfeld #{1} ({2}) hinzugefügt";
 $l['admin_log_config_profile_fields_edit'] = "Eigenes Profilfeld #{1} ({2}) bearbeitet";
 $l['admin_log_config_profile_fields_delete'] = "Eigenes Profilfeld #{1} ({2}) gelöscht";
+
+$l['admin_log_config_questions_add'] = "Frage #{1} ({2}) hinzugefügt";
+$l['admin_log_config_questions_edit'] = "Frage #{1} ({2}) bearbeitet";
+$l['admin_log_config_questions_delete'] = "Frage #{1} ({2}) gelöscht";
+$l['admin_log_config_questions_enable'] = "Frage #{1} ({2}) aktiviert";
+$l['admin_log_config_questions_disable'] = "Frage #{1} ({2}) deaktiviert";
 
 $l['admin_log_config_settings_delete_duplicates'] = "Doppelte Einstellungen und Einstellungsgruppen gelöscht";
 $l['admin_log_config_settings_addgroup'] = "Eigenschaften für die Einstellungsgruppe #{1} ({2}) hinzugefügt";
@@ -170,8 +174,12 @@ $l['admin_log_style_templates_edit_template'] = "Template #{1} ({2}) aus Templat
 $l['admin_log_style_templates_edit_template_global'] = "Template #{1} ({2}) aus dem globalen Template-Set bearbeitet";
 $l['admin_log_style_templates_search_replace'] = "In den Templates nach '{1}' gesucht und durch '{2}' ersetzt";
 $l['admin_log_style_templates_revert'] = "Template #{1} ({2}) aus Template-Set #{3} ({4}) zurückgesetzt";
+$l['admin_log_style_templates_add_template_group'] = "Template-Gruppe #{1} ({2}) hinzugefügt";
+$l['admin_log_style_templates_edit_template_group'] = "Template-Gruppe #{1} ({2}) bearbeitet";
+$l['admin_log_style_templates_delete_template_group'] = "Template-Gruppe #{1} ({2}) gelöscht";
 
 $l['admin_log_style_themes_import'] = "Theme #{1} importiert";
+$l['admin_log_style_themes_duplicate'] = "Theme #{2} nach #{1} dupliziert";
 $l['admin_log_style_themes_add'] = "Theme #{2} ({1}) erstellt";
 $l['admin_log_style_themes_edit_stylesheet'] = "Stylesheet {2} in {1} bearbeitet";
 $l['admin_log_style_themes_delete_stylesheet'] = "Stylesheet #{1} ({2}) in Theme #{3} ({4}) zurückgesetzt / bearbeitet";
@@ -202,6 +210,7 @@ $l['admin_log_tools_backupdb_backup_download'] = "Download der Sicherung der akt
 
 $l['admin_log_tools_cache_rebuild'] = "Cache erneuert ({1})";
 $l['admin_log_tools_cache_reload'] = "Cache neu geladen ({1})";
+$l['admin_log_tools_cache_rebuild_all'] = "Alle Caches erneuert &amp; neu geladen";
 
 $l['admin_log_tools_index_utf8_conversion'] = "Tabelle {1} zu UTF-8 konvertiert";
 
@@ -215,8 +224,15 @@ $l['admin_log_tools_recount_rebuild_'] = "Neu gezählt und aktualisiert ({1})";
 $l['admin_log_tools_recount_rebuild_stats'] = "Statistiken aktualisiert";
 $l['admin_log_tools_recount_rebuild_forum'] = "Forenzähler aktualisiert";
 $l['admin_log_tools_recount_rebuild_thread'] = "Themenzähler aktualisiert";
+$l['admin_log_tools_recount_rebuild_poll'] = "Umfrageergebnisse aktualisiert";
 $l['admin_log_tools_recount_rebuild_userposts'] = "Benutzerbeitragszahlen aktualisiert";
-$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "Thumbnails erneuert"; 
+$l['admin_log_tools_recount_rebuild_userthreads'] = "Benutzerthemenzahlen aktualisiert";
+$l['admin_log_tools_recount_rebuild_attachmentthumbs'] = "Thumbnails erneuert";
+$l['admin_log_tools_recount_rebuild_reputation'] = "Benutzerbewertungen aktualisiert";
+$l['admin_log_tools_recount_rebuild_warning'] = "Warnungspunkte aktualisiert";
+$l['admin_log_tools_recount_rebuild_privatemessages'] = "Private Nachrichten aktualisiert";
+$l['admin_log_tools_recount_rebuild_referral'] = "Empfehlerungszahlen aktualisiert";
+$l['admin_log_tools_recount_rebuild_threadrating'] = "Themenbwertungen aktualisiert";
 
 $l['admin_log_tools_tasks_add'] = "Aufgabe #{1} ({2}) hinzugefügt";
 $l['admin_log_tools_tasks_edit'] = "Aufgabe #{1} ({2}) bearbeitet";
@@ -243,7 +259,6 @@ $l['admin_log_user_group_promotions_enable'] = "Benutzergruppen-Beförderung #{1
 $l['admin_log_user_group_promotions_edit'] = "Benutzergruppen-Beförderung #{1} ({2}) bearbeitet";
 $l['admin_log_user_group_promotions_add'] = "Benutzergruppen-Beförderung #{1} ({2}) hinzugefügt";
 
-$l['admin_log_user_groups_export'] = "Benutzergruppen als XML exportiert";
 $l['admin_log_user_groups_add_leader'] = "Benutzer #{1} ({2}) als Leiter der Benutzergruppe #{3} ({4}) hinzugefügt";
 $l['admin_log_user_groups_delete_leader'] = "Benutzer #{1} ({2}) als Leiter der Benutzergruppe #{3} ({4}) gelöscht";
 $l['admin_log_user_groups_edit_leader'] = "Benutzer #{1} ({2}) als Leiter der Benutzergruppe #{3} ({4}) bearbeitet";
@@ -274,4 +289,5 @@ $l['admin_log_user_users_inline_activated'] = "{1} Benutzer aktiviert";
 $l['admin_log_user_users_inline_lift'] = "{1} Benutzer-Sperrungen(en) aufgehoben";
 
 $l['admin_log_user_mass_mail_delete'] = "Massenmail #{1} gelöscht ({2})";
-?>
+
+$l['admin_log_admin_locked_out'] = "Login-Versuch ins Admin-CP von ausgesperrtem Benutzer #{1} ({2}).";

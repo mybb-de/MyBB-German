@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['tools_and_maintenance'] = "Tools &amp; Verwaltung";
 
@@ -30,6 +27,7 @@ $l['moderator_log'] = "Moderator Log-Daten";
 $l['user_email_log'] = "Benutzer E-Mail Log-Daten";
 $l['system_mail_log'] = "System E-Mail Log-Daten";
 $l['user_warning_log'] = "Benutzer Verwarn Log-Daten";
+$l['spam_log'] = "Spam Log-Daten";
 $l['statistics'] = "Statistiken";
 
 $l['can_access_system_health'] = "Kann System-Status ansehen?";
@@ -43,8 +41,7 @@ $l['can_manage_mod_logs'] = "Kann Moderator Log-Daten verwalten?";
 $l['can_manage_user_mail_log'] = "Kann Logs der Benutzer-E-Mails verwalten?";
 $l['can_manage_system_mail_log'] = "Kann Logs der E-Mail-Fehler verwalten?";
 $l['can_manage_user_warning_log'] = "Kann Benutzer Verwarn Log-Daten verwalten?";
+$l['can_manage_spam_log'] = "Kann Spam Log-Daten verwalten?";
 $l['can_view_php_info'] = "Kann PHP-Info ansehen?";
 $l['can_manage_file_verification'] = "Kann Datei-Überprüfung durchführen?";
 $l['can_view_statistics'] = "Kann Statistiken sehen?";
-
-?>

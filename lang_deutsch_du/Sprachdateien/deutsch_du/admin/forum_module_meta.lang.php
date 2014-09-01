@@ -1,16 +1,13 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['forums_and_posts'] = "Foren &amp; Beiträge";
 
 $l['forum_management'] = "Forenverwaltung";
@@ -22,4 +19,3 @@ $l['can_manage_forums'] = "Kann Foren verwalten?";
 $l['can_manage_forum_announcements'] = "Kann Ankündigungen verwalten?";
 $l['can_moderate'] = "Kann Beiträge, Themen und Attachments moderieren?";
 $l['can_manage_attachments'] = "Kann Attachments verwalten?";
-?>

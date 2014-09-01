@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['click_no_wait'] = "Bitte klicken Sie hier, wenn Sie nicht länger warten wollen.";
 $l['redirect_return_forum'] = "<br /><br />Alternativ dazu, können Sie hier <a href=\"{1}\">zum Forum zurückkehren</a>.";
@@ -86,6 +83,7 @@ $l['error_message_too_short'] = "Entschuldigung, Ihre Nachricht ist zu kurz und 
 $l['failed_login_wait'] = "Die maximale Anzahl an Login-Versuchen wurde erreicht. Sie müssen {1} Stunde(n), {2} Minute(n) und {3} Sekunde(n) warten, bevor Sie sich wieder einloggen können.";
 $l['failed_login_again'] = "<br />Sie haben noch <strong>{1}</strong> Login-Versuche.";
 $l['error_max_emails_day'] = "Sie können die Funktionen 'Einem Freund schicken' und 'Benutzer eine E-Mail schreiben' nicht nutzen, weil Sie ihr E-Mail Limit von {1} Nachrichten in den letzten 24 Stunden bereits erreicht haben.";
+$l['attachments_disabled'] = "Sie können das Attachment-System nicht benutzen, da es vom Administrator deaktiviert wurde.";
 
 $l['emailsubject_lostpw'] = "Neues Passwort für {1}";
 $l['emailsubject_passwordreset'] = "Neues Passwort für {1}";
@@ -96,8 +94,10 @@ $l['emailsubject_forumsubscription'] = "Neues Thema bei {1}";
 $l['emailsubject_reportpost'] = "Gemeldeter Beitrag bei {1}";
 $l['emailsubject_reachedpmquota'] = "Privates Nachrichten-Limit erreicht bei {1}";
 $l['emailsubject_changeemail'] = "E-Mail-Adresswechsel bei {1}";
-$l['emailsubject_newpm'] = "Neue Private Nachricht bei {1}";
-$l['emailsubject_sendtofriend'] = "Interessante Internetseite bei {1}";
+$l['emailsubject_newpm'] = "Neue Private Nachricht bei {1} - {2}";
+$l['emailsubject_newjoinrequest'] = "Neue Gruppenbeitrittsanfragen bei {1}";
+$l['emailsubject_sendtofriend'] = "Interessante Diskussion bei {1}";
+$l['emailsubject_changepassword'] = "Änderung des Passworts bei {1}";
 $l['emailbit_viewthread'] = "... (Besuchen Sie das Thema, um weiterzulesen)";
 
 $l['email_lostpw'] = "Hallo {1},
@@ -357,12 +357,42 @@ Aktivierungsode: {6}
 Wenn Sie Ihre neue E-Mail-Adresse nicht aktivieren, bleibt Ihre alte E-Mail-Adresse in unserem System gespeichert.
 
 Vielen Dank,
-{2}-Team
-{5}";
+{2}-Team";
+
+$l['email_changeemail_noactivation'] = "Hallo {1},
+
+wir haben eine Anfrage bei {2} erhalten Ihre E-Mail-Adresse zu ändern (siehe Details unten).
+
+Alte E-Mail-Adresse: {3}
+Neue E-Mail-Adresse: {4}
+
+Diese Änderungen wurde automatisch umgesetzt. Bitte wenden Sie sich an einen Administrator, falls Sie diese Änderung nicht initiiert haben.
+
+Vielen Dank,
+{2}-Team";
+
+$l['email_changepassword'] = "Hallo {1},
+
+Sie erhalten diese E-Mail, weil Sie, oder jemand mit Zugriff auf Ihr Password, das Passwort geändert hat.
+
+Benutzername: {1}
+E-Mail-Adresse: {2}
+
+Bitte wenden Sie sich an einen Administrator, falls Sie diese Änderung nicht initiiert haben.
+
+Vielen Dank,
+{3}-Team
+{4}";
 
 $l['email_newpm'] = "Hallo {1},
 
-Sie haben bei {3} eine neue private Nachricht von {2} erhalten. Um die Nachricht zu lesen, können Sie auf den folgenden Link klicken:
+Sie haben bei {3} eine neue private Nachricht von {2} erhalten:
+
+------------------------------------------
+{5}
+------------------------------------------
+
+Um die Nachricht zu lesen, zu antworten oder weiterzuleiten, können Sie auf den folgenden Link klicken:
 
 {4}/private.php
 
@@ -395,4 +425,47 @@ Wenn Sie nicht möchten, dass Ihnen andere Mitglieder E-Mails schicken, besuchen
 
 ------------------------------------------";
 
-?>
+$l['email_groupleader_joinrequest'] = "Hallo {1},
+
+{2} hat bei {4} den Beitritt zu {3} angefragt (siehe unten).
+
+Begründung: {5}
+
+Um die Anfrage zu genehmigen oder abzulehnen, gehen Sie zu
+
+{6}/managegroup.php?gid={7}
+
+Vielen Dank,
+{4}-Team";
+
+$l['email_contact_subject'] = "Kontakt: {1}";
+$l['email_contact'] = "Foren-Profil: {1}
+IP-Addresse: {2}
+Nacricht:
+{3}";
+
+$l['pmsubject_subscription'] = "Neue Antwort zu {1}";
+$l['pm_subscription'] = "Hallo {1},
+
+{2} hat auf ein Thema geantwortet, das Sie abonniert haben. Das Thema trägt den Titel: {3}.
+
+Hier ist ein Ausschnitt der Nachricht:
+------------------------------------------
+{4}
+------------------------------------------
+
+Um das Thema zu besuchen, können Sie auf den folgenden Link klicken:
+[url]{5}/{6}[/url]
+
+Es könnte bereits auch weitere Antworten zu diesem Thema geben. Sie erhalten jedoch keine weitere Benachrichtigung, bevor Sie das Forum besucht haben.
+
+Vielen Dank,
+{3}-Team
+
+------------------------------------------
+Informationen zur Abmeldung:
+
+Klicken SIe auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
+[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
+
+------------------------------------------";

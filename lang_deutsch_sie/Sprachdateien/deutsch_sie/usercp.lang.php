@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['nav_usercp'] = "Benutzer Control-Panel";
 $l['nav_profile'] = "Profil ändern";
@@ -56,10 +53,9 @@ $l['avatar_mine'] = "Dies ist Ihr Avatar";
 $l['change_avatar'] = "Avatar ändern";
 $l['avatar_url'] = "Avatar-URL:";
 $l['avatar_url_note'] = "Direkte URL zum Avatar eingeben.";
+$l['avatar_url_gravatar'] = "Um <a href=\"http://gravatar.com\" target=\"_blank\">Gravatar</a> zu verwenden, geben Sie Ihre Gravatar E-Mail-Adresse ein.";
 $l['avatar_upload'] = "Avatar hochladen:";
-$l['avatar_upload_note'] = "Avatar von eigenem Rechner hochladen.<br /><br />Maximale Größe: {1}KB";
-$l['avatar_list'] = "Avatar Auswahl:";
-$l['avatar_list_note'] = "Es kann auch ein Avatar aus der rechten Liste gewählt werden.";
+$l['avatar_upload_note'] = "Avatar von eigenem Rechner hochladen.";
 $l['no_avatar'] = "Kein Avatar";
 $l['no_avatar_note'] = "Wenn kein Avatar benutzt werden soll.";
 $l['change_username'] = "Benutzernamen ändern";
@@ -115,7 +111,6 @@ $l['sig_suspended'] = "Die Möglichkeit eine Signatur anzugeben wurde eingeschr�
 $l['sig_suspended_posts'] = "Du benötigst mindestens {1} Beiträge um eine Signatur angeben zu können.";
 
 $l['change_email'] = "E-Mail-Adresse ändern";
-$l['enter_password'] = "Aktuelles Passwort eingeben";
 $l['please_enter_confirm_new_email'] = "Neue E-Mail-Adresse eingeben";
 $l['new_email'] = "Neue E-Mail-Adresse:";
 $l['confirm_email'] = "Neue E-Mail-Adresse wiederholen:";
@@ -147,10 +142,11 @@ $l['email_notify'] = "E-Mail-Benachrichtigung bei neuen Antworten.";
 $l['email_notify_desc'] = "E-Mail-Benachrichtigung bei neuen Antworten auf eigene Beiträge aktivieren.";
 $l['receive_pms'] = "Private Nachrichten empfangen.";
 $l['receive_pms_desc'] = "Private Nachrichten von anderen Mitgliedern empfangen.";
-$l['receive_from_buddy'] = "Nur Private Nachrichten von Benutzern empfangen, die auf meiner <a href=\"misc.php?action=buddypopup\" onclick=\"MyBB.popupWindow('misc.php?action=buddypopup', 'buddyList', 350, 350); return false;\" target=\"_blank\">Freundesliste</a> sind.";
+$l['receive_from_buddy'] = "Nur Private Nachrichten von Benutzern empfangen, die auf meiner <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">Freundesliste</a> sind.";
 $l['pm_notice'] = "Hinweis bei neuer privater Nachricht zeigen.";
 $l['pm_notify'] = "E-Mail-Benachrichtigung bei neuer privater Nachricht.";
-$l['show_codebuttons'] = "Zeige die MyBBCode-Formatierungsoptionen bei der Beitragserstellung an.";
+$l['show_codebuttons'] = "Zeige die MyCode-Formatierungsoptionen bei der Beitragserstellung an.";
+$l['source_editor'] = "Starte den MyCode-Editor im Quelltext-Modus";
 $l['show_redirect'] = "Zeige Weiterleitungsseiten.";
 $l['thread_view_options'] = "Themenansicht";
 $l['thread_mode'] = "Themenansichtsmodus:";
@@ -159,6 +155,8 @@ $l['use_default'] = "Standardeinstellung";
 $l['threaded'] = "Baumstruktur";
 $l['linear'] = "Lineare Struktur";
 $l['show_classic_postbit'] = "Beiträge im klassischen Modus anzeigen.";
+$l['show_images'] = "Zeige Bilder in Beiträgen.";
+$l['show_videos'] = "Zeige Videos in Beiträgen.";
 $l['show_sigs'] = "Signatur aller Benutzer in den Beiträgen anzeigen.";
 $l['show_sigs_desc'] = "Soll die Signatur der anderen Benutzer in den Beiträgen angezeigt werden?";
 $l['show_avatars'] = "Avatare aller Benutzer in den Beiträgen anzeigen.";
@@ -188,7 +186,7 @@ $l['dst_correction'] = "Sommerzeitkorrektur:";
 $l['dst_correction_auto'] = "Sommerzeitkorrektur automatisch erkennen";
 $l['dst_correction_enabled'] = "Sommerzeitkorrektur immer anwenden";
 $l['dst_correction_disabled'] = "Sommerzeitkorrektur nie anwenden";
-$l['board_language'] = "Forensprache:";
+$l['board_language'] = "Forensprache";
 $l['other_options'] = "Sonstiges";
 $l['style'] = "Forenstyle:";
 $l['style_desc'] = "Hier kann ein Alternativstyle ausgewählt werden, wenn Ihnen das Standardstyle nicht zusagt.";
@@ -200,7 +198,8 @@ $l['ppp_desc'] = "Hier kann die Anzahl der Beiträge ausgewählt werden, die pro
 $l['tpp'] = "Themen pro Seite:";
 $l['tpp_desc'] = "Hier kann die Anzahl der Themen ausgewählt werden, die pro Seite angezeigt werden sollen.";
 $l['change_password'] = "Passwort ändern";
-$l['current_password'] = "Aktuelles Passwort";
+$l['current_password'] = "Aktuelles Passwort:";
+$l['password_confirmation'] = "Passwort-Bestätigung";
 $l['please_enter_confirm_new_password'] = "Neues Passwort eingeben";
 $l['new_password'] = "Neues Passwort:";
 $l['confirm_password'] = "Neues Passwort bestätigen:";
@@ -211,10 +210,11 @@ $l['change_email_notice'] = "Zum Ändern der E-Mail-Adresse bitte <a href=\"user
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['icq_number'] = "ICQ Nummer:";
-$l['aim_screenname'] = "AIM-ID:";
-$l['yahoo_id'] = "Yahoo-ID:";
-$l['msn'] = "MSN-ID :";
+$l['contact_field_icq'] = "ICQ-Nummer:";
+$l['contact_field_aim'] = "AIM-ID:";
+$l['contact_field_yahoo'] = "Yahoo-ID:";
+$l['contact_field_skype'] = "Skype-ID:";
+$l['contact_field_google'] = "Google-Talk-ID:";
 $l['additional_information'] = "Zusätzliche Information";
 $l['update_profile'] = "Profil ändern";
 $l['away_information'] = "Abwesenheitsinformation";
@@ -232,6 +232,7 @@ $l['no_thread_subscriptions'] = "Sie haben zur Zeit keine Themen abonniert.<p>Um
 $l['no_forum_subscriptions'] = "Keine Foren abonniert!<p>Um ein Forum zu abonnieren:</p><ol><li>Gehen Sie in das Forum, welches abonniert werden soll.</li><li>Rechts oberhalb der Themen auf den Link 'Dieses Forum abonnieren' klicken und schon ist das Forum in der Aboliste.</li></ol>";
 $l['no_drafts'] = "Sie haben zur Zeit keine Entwürfe gespeichert.<p>So erstellen Sie einen Entwurf:</p><ol><li>Gehen Sie im Forum auf die normale Seite zum Erstellen eines Beitrags (ein neues Thema oder eine Antwort auf ein vorhandenes Thema erstellen).</li><li>Füllen Sie das Formular aus.</li><li>Klicken Sie unten auf den Button \"Als Entwurf speichern\".</li></ol>";
 $l['drafts'] = "Gespeicherte Entwürfe";
+$l['drafts_count'] = "Gespeicherte Entwürfe ({1})";
 $l['draft_saved'] = "Gespeichert";
 $l['edit_draft'] = "Entwurf bearbeiten";
 $l['draft_title'] = "Entwurfstitel";
@@ -254,45 +255,47 @@ $l['usergroup_leave'] = "Gruppe verlassen";
 $l['usergroup_leave_primary'] = "(Sie können Ihre primäre Gruppe nicht verlassen)";
 $l['usergroup_leave_leader'] = "(Sie sind ein Leiter dieser Gruppe)";
 $l['usergroup_joins_moderated'] = "Ein Gruppenleiter muss Beitritte zu der Gruppe moderieren.";
+$l['usergroup_joins_invite'] = "Ein Gruppenleiter muss Sie in die Gruppe einladen.";
 $l['usergroup_cannot_leave'] = "(Sie können diese Gruppe nicht verlassen)";
 $l['usergroup_joins_anyone'] = "Jeder kann dieser Gruppe beitreten.";
 $l['usergroup_leaders'] = "Gruppenleiter:";
 $l['usergroups_joinable'] = "Gruppen, denen Sie beitreten können";
 $l['join_conditions'] = "Beitrittsvereinbarung";
 $l['join_group'] = "Beitreten";
-$l['join_group_applied'] = "Sie haben sich für den Eintritt in folgende Gruppe beworben: {1}, {2}";
+$l['join_group_applied'] = "Sie haben sich für den Eintritt in folgende Gruppe beworben: {1}";
+$l['pending_invitation'] = "Sie wurden zum Beitritt in diese Gruppe eingeladen: <a href=\"usercp.php?action=usergroups&amp;acceptinvite={1}&amp;my_post_key={2}\">Einladung annehmen</a>";
 $l['usergroups_leader'] = "Gruppen, in denen Sie Leiter sind";
 $l['usergroup_members'] = "Gruppenmitglieder";
 $l['join_requests'] = "Wartende Beitrittsanfragen";
 $l['request_join_usergroup'] = "Mitgliedschaft beantragen";
 $l['join_group_moderate_note'] = "Alle Eintritte in diese Gruppe müssen von einem Moderator freigegeben werden.";
 $l['user_group'] = "Gruppe:";
+$l['usergroups_usergroup'] = "Benutzergruppe";
 $l['join_reason'] = "Grund:";
 $l['send_join_request'] = "Beitrittsanfrage senden";
 $l['cannot_join_group'] = "Entschuldigung, Sie können dieser Gruppe nicht beitreten, da sie nicht öffentlich ist.";
+$l['cannot_join_invite_group'] = "Um dieser Gruppe betreten zu können müssen Sie von einem Gruppenleiter eingeladen werden.";
+$l['no_pending_invitation'] = "Sie haben keine ausstehende Einladung zu dieser Gruppe.";
+$l['already_accepted_invite'] = "Sie haben bereits eine Einladung zu dieser Gruppe angenommen.";
 $l['already_member_of_group'] = "Sie können keiner Gruppe beitreten, in der Sie bereits Mitglied sind.";
 $l['already_sent_join_request'] = "Sie haben bereits eine Beitrittsanfrage für diese Gruppe gesendet. Diese wartet auf Moderation.";
 $l['group_join_requestsent'] = "Ihre Beitrittsanfrage wurde erfolgreich gesendet. Wird Ihre Mitgliedschaft bestätigt, sind Sie automatisch Mitglied dieser Gruppe.<br />Sie werden jetzt zur Gruppenmitgliedschaften-Seite geleitet.";
 $l['joined_group'] = "Sie sind der ausgewählten Gruppe erfolgreich beigetreten.<br />Sie werden jetzt zur Gruppenübersichtsseite geleitet.";
 $l['cannot_leave_primary_group'] = "Entschuldigung, Sie können Ihre primäre Benutzergruppe nicht verlassen.";
 $l['left_group'] = "Sie haben die ausgewählte Gruppe erfolgreich verlassen.<br />Sie werden jetzt zur Gruppenübersichtsseite geleitet.";
-$l['default_gallery'] = "Standardgalerie";
 $l['avatar_note'] = "Ein Avatar ist ein kleines Bild, welches bei jedem Beitrag eines Benutzers angezeigt wird.";
 $l['avatar_note_dimensions'] = "Die maximal zulässige Größe von Avataren beträgt: {1}x{2} Pixel.";
 $l['avatar_note_size'] = "Die maximal zulässige Dateigröße für Avatare beträgt {1}.";
-$l['local_galleries'] = "Lokale Avatar-Galerien";
 $l['custom_avatar'] = "Eigener Avatar";
 $l['remove_avatar'] = "Avatar löschen";
-$l['gallery'] = "Galerie:";
-$l['avatars_in_gallery'] = "Avatare in {1}";
-$l['attachments_manager'] ="Attachment-Manager";
-$l['attachments_attachment'] ="Attachment";
+$l['attachments_manager'] = "Attachment-Manager";
+$l['attachments_attachment'] = "Attachment";
 $l['attachments_post'] = "Beitrag";
 $l['delete_attachments'] = "Ausgewählte Attachments entfernen";
 $l['attachment_size_downloads'] = "({1}, {2} Downloads)";
 $l['attachment_thread'] = "Thema:";
 $l['no_attachments'] = "Sie haben zur Zeit keine Attachments zu Ihren Beiträgen hinzugefügt.";
-$l['date_uploaded'] ="Veröffentlicht";
+$l['date_uploaded'] = "Veröffentlicht";
 $l['no_attachments_selected'] = "Sie haben keine Attachments zum Löschen ausgewählt.";
 $l['attachments_deleted'] = "Die ausgewählten Attachments wurden erfolgreich gelöscht.<br />Sie werden jetzt zum Attachment-Manager geleitet.";
 $l['attachments_usage_quota'] = "- {1} von {2} ({3}) belegt, {4} Attachments";
@@ -349,19 +352,23 @@ $l['avatar_auto_resize_note'] = "Sollte die Grafik zu groß sein, wird versucht 
 $l['avatar_auto_resize_option'] = "Versuche Grafik automatisch zu verkleinern.";
 $l['subscribe_to_thread'] = "Thema abonnieren: {1}";
 $l['notification_method'] = "Benachrichtigungsmethode:";
-$l['no_notification'] = "Keine E-Mail-Benachrichtigung";
+$l['no_notification'] = "Keine Benachrichtigung";
 $l['no_notification_desc'] = "Es werden keine E-Mails zur Benachrichtigung verschickt.";
-$l['instant_notification'] = "Sofortige E-Mail-Benachrichtigung";
-$l['instant_notification_desc'] = "Bei einer neuen Antwort wird sofort eine Benachrichtigung per E-Mail verschickt.";
+$l['email_notification'] = "Sofortige E-Mail-Benachrichtigung";
+$l['email_notification_desc'] = "Bei einer neuen Antwort wird sofort eine Benachrichtigung per E-Mail verschickt.";
+$l['pm_notification'] = "Sofortige PN-Benachrichtigung";
+$l['pm_notification_desc'] = "Bei einer neuen Antwort wird sofort eine Benachrichtigung per Private Nachricht verschickt.";
 $l['do_subscribe'] = "Thema abonnieren";
 $l['subscription_method'] = "Standard-Abonnierungsmodus für Themen, in denen Sie gepostet haben:";
 $l['no_auto_subscribe'] = "Nicht abonnieren";
-$l['no_email_subscribe'] = "Keine E-Mail-Benachrichtigung";
+$l['no_subscribe'] = "No Benachrichtigung";
 $l['instant_email_subscribe'] = "Sofortige E-Mail-Benachrichtigung";
+$l['instant_pm_subscribe'] = "Sofortige PN-Benachrichtigung";
 $l['with_selected'] = "Für ausgewählte:";
 $l['delete_subscriptions'] = "Abonnements löschen";
 $l['update_no_notification'] = "Ändern zu keiner Benachrichtigung";
-$l['update_instant_notification'] = "Ändern zu sofortiger Benachrichtigung";
+$l['update_email_notification'] = "Ändern zur E-Mail-Benachrichtigung";
+$l['update_pm_notification'] = "Ändern zur PN-Benachrichtigung";
 $l['no_subscriptions_selected'] = "Sie haben kein Abonnement ausgewählt.";
 $l['redirect_subscriptions_updated'] = "Die ausgewählten Abonnements wurden aktualisiert.";
 $l['latest_threads'] = "Ihre letzten Themen";
@@ -384,4 +391,40 @@ $l['posts_by_you'] = "Beinhaltet Beiträge von Ihnen";
 $l['no_new_thread'] = "Keine neuen Beiträge";
 $l['hot_thread'] = "Heißes Thema ohne neue Beiträge";
 $l['locked_thread'] = "Geschlossenes Thema";
-?>
+$l['icon_dot'] = "Enthält Beiträge von Ihnen. ";
+$l['icon_no_new'] = "Keine neuen Beiträge.";
+$l['icon_new'] = "Neue Beiträge.";
+$l['icon_hot'] = " Heißes Thema.";
+$l['icon_lock'] = " Geschlossenes Thema.";
+$l['search_user'] = "Benutzer suchen";
+
+$l['buddylist_error'] = "Beim Laden der Freundesliste ist ein Fehler aufgetreten.";
+
+$l['buddyrequests_sent'] = "Freundeseinladungen gesendet";
+$l['buddyrequests_received'] = "Freundeseinladungen erhalten";
+$l['from'] = "Von";
+$l['to'] = "An";
+$l['date'] = "Datum";
+$l['options'] = "Optionen";
+$l['accept'] = "Annehmen";
+$l['decline'] = "Ablehnen";
+$l['cancel'] = "Abbrechen";
+$l['no_requests'] = "Keine Anfragen gefunden.";
+$l['buddyrequests_pm'] = "PN-Benachrichtigungen für Freundesanfragen erhalten.";
+$l['buddyrequests_auto'] = "Freundesanfragen automatisch annehmen (falls die Checkbox oben aktiviert ist, wird eine Private Nachricht gesendet um über die neue Freundschaft zu informieren)";
+$l['buddyrequest_received'] = "Freundeseinladung erhalten";
+$l['buddyrequest_new_buddy'] = "Sie haben einen neuen Freund";
+$l['buddyrequest_new_buddy_message'] = "Hallo,\n\nich wurde automatisch zu Ihrer Freundesliste hinzugefügt.";
+$l['buddyrequest_accepted_request'] = "Ich habe Ihre Freundesanfrage angenommen";
+$l['buddyrequest_accepted_request_message'] = "Hallo,\n\nich habe Ihre Freundesanfrage angenommen.";
+$l['buddyrequest_received_message'] = "Ich habe Ihnen eine Freundesanfrage gesendet.\nSie können Ihre ausstehenden Freundesanfragen im Benutzer-CP -&gt; Freunde-/Ignorierliste anschauen.";
+$l['users_already_sent_request'] = "Sie haben bereits eine Freundesanfrage an einen der Benutzer, die Sie hinzugefügt haben, gesendet.";
+$l['users_already_rec_request'] = "Sie haben eine ausstehende Freundesanfrage von einem der Benutzer, die Sie hinzugefügt haben.";
+$l['users_already_sent_request_alt'] = "Sie haben eine Freundesanfrage an einen Benutzer, den Sie hinzugefügt haben, gesendet. Bitte brechen Sie die Freundesanfrage ab, bevor Sie ihn auf die Ignorierliste setzen.";
+$l['users_already_rec_request_alt'] = "Sie haben eine ausstehende Freundesanfrage von einem Benutzer, den Sie hinzugefügt haben. Bitte lehnen Sie die Freundesanfrage ab, bevor Sie ihn auf die Ignorierliste setzen.";
+$l['invalid_request'] = "Sie haben eine ungültige Freundesanfrage ausgewählt.";
+$l['buddyrequest_cancelled'] = "Die ausgewählte Freundesanfrage wurde abgebrochen.";
+$l['buddyrequest_accepted'] = "Die ausgewählte Freundesanfrage wurde angenommen.";
+$l['buddyrequest_declined'] = "Die ausgewählte Freundesanfrage wurde abgelehnt.";
+$l['user_doesnt_exist'] = "Der Benutzer existiert nicht mehr.";
+$l['buddyrequests_sent_success'] = "Die Freundesanfrage wurde erfolgreich versendet.";

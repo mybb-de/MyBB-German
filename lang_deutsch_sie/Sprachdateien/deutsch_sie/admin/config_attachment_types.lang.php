@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['attachment_types'] = "Attachment-Typen";
 $l['attachment_types_desc'] = "Hier können Sie neue Attachment-Typen erstellen oder bestehende bearbeiten. Attachment-Typen geben vor, welchen Dateityp Benutzer an Beiträge in Ihrem Forum anhängen dürfen.";
@@ -23,6 +20,8 @@ $l['extension'] = "Erweiterung";
 $l['maximum_size'] = "Maximale Größe";
 $l['no_attachment_types'] = "Zur Zeit sind keine Attachment-Typen definiert.";
 
+$l['name'] = "Name";
+$l['name_desc'] = "Geben Sie den Name des Attachment-Typs ein.";
 $l['file_extension'] = "Dateierweiterung";
 $l['file_extension_desc'] = "Geben Sie die Dateierweiterung ohne führenden Punkt an (Beispiel: txt)";
 $l['mime_type'] = "MIME-Typ";
@@ -45,5 +44,3 @@ $l['success_attachment_type_updated'] = "Der Attachment-Typ wurde erfolgreich ak
 $l['success_attachment_type_deleted'] = "Der Attachment-Typ wurde erfolgreich gelöscht.";
 
 $l['confirm_attachment_type_deletion'] = "Soll dieser Attachment-Typ wirklich gelöscht werden?";
-
-?>

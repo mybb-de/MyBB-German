@@ -1,16 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
-
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['warning_logs'] = "Warn Log-Daten";
 $l['warning_logs_desc'] = "Dieser Bereich erlaubt Ihnen, den Verlauf von Warnungen anzusehen.";
@@ -55,4 +51,3 @@ $l['date_revoked'] = "Aufgehoben am:";
 $l['error_already_revoked'] = "Diese Warnung wurde bereits aufgehoben.";
 $l['error_no_revoke_reason'] = "Sie haben keinen Grund eingegeben, warum Sie diese Warnung aufheben wollen.";
 $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich aufgehoben und die Warn-Punkte wurden gesenkt.";
-?>

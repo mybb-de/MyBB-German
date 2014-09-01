@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['eventdata_missing_name'] = 'Der Name für den Termin fehlt. Bitte geben Sie einen Namen an.';
 $l['eventdata_missing_description'] = 'Die Beschreibung für den Termin fehlt. Bitte geben Sie eine Terminbeschreibung an.';
@@ -38,5 +35,3 @@ $l['eventdata_invalid_repeat_year_interval'] = "Sie haben ein ungültiges Jahres
 $l['eventdata_event_wont_occur'] = "Sie können nicht gleichzeitig Start- und Enddatum mit den Wiederholungseinstellungen für einen Termin nutzen.";
 
 $l['eventdata_no_permission_private_event'] = "Sie haben nicht die erforderliche Berechtigung, um private Termine einzutragen.";
-
-?>

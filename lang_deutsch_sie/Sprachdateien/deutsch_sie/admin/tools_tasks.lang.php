@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['task_manager'] = "Aufgaben-Manager";
 $l['add_new_task'] = "Neue Aufgabe hinzufügen";
@@ -54,12 +51,10 @@ $l['data'] = "Daten";
 $l['no_task_logs'] = "Es gibt im Moment keine Log-Einträge für die geplanten Aufgaben.";
 $l['next_run'] = "Nächste Ausführung";
 $l['run_task_now'] = "Diese Aufgabe jetzt ausführen";
-$l['run_task'] = "Aufgabe ausführen";
 $l['disable_task'] = "Aufgabe deaktivieren";
+$l['run_task'] = "Aufgabe ausführen";
 $l['enable_task'] = "Aufgabe aktivieren";
 $l['delete_task'] = "Aufgabe löschen";
-$l['alt_enabled'] = "Aktiviert";
-$l['alt_disabled'] = "Deaktiviert";
 
 $l['error_invalid_task'] = "Die ausgewählte Aufgabe existiert nicht.";
 $l['error_missing_title'] = "Sie haben keinen Titel für diese geplante Aufgabe eingegeben";
@@ -79,7 +74,5 @@ $l['success_task_disabled'] = "Die ausgewählte Aufgabe wurde deaktiviert.";
 $l['success_task_run'] = "Die ausgewählte Aufgabe wurde ausgeführt.";
 
 $l['confirm_task_deletion'] = "Wollen Sie die geplante Aufgabe wirklich löschen?";
-$l['confirm_task_enable'] = "<strong>WARNUNG:</strong> Sie sind gerade dabei, eine Aufgabe zu aktivieren, die nur von einem Cron-Job ausgeführt werden sollte (Bitte schauen Sie in die <a href=\"http://www.mybboard.de/doku.html\" target=\"_blank\">MyBB Doku</a> für weitere Informationen). Fortsetzen?";
+$l['confirm_task_enable'] = "<strong>WARNUNG:</strong> Sie sind gerade dabei, eine Aufgabe zu aktivieren, die nur von einem Cron-Job ausgeführt werden sollte (Bitte schauen Sie in die <a href=\"http://www.mybboard.de/doku/\" target=\"_blank\">MyBB Doku</a> für weitere Informationen). Fortsetzen?";
 $l['no_tasks'] = "Es wurden bisher keine Aufgaben angelegt.";
-
-?>

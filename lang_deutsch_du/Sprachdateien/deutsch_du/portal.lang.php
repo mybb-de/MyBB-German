@@ -1,18 +1,16 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
- 
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
+
 $l['nav_portal'] = "Portal";
 $l['posted_by'] = "Geschrieben von:";
+$l['forum'] = "Forum:";
 $l['replies'] = "Antworten";
 $l['no_replies'] = "Keine Antworten";
 $l['latest_threads'] = "Aktive Themen";
@@ -51,7 +49,7 @@ $l['online'] = "Benutzer Online";
 $l['online_user'] = "Momentan ist 1 Benutzer online";
 $l['online_users'] = "Momentan sind <b>{1}</b> Benutzer online";
 $l['online_counts'] = "<b>{1}</b> Mitglieder <br /><b>&raquo; {2}</b> Gäste";
-$l['no_one'] = "Niemand";
 $l['print_this_item'] = "Drucke diesen Beitrag";
 $l['send_to_friend'] = "Sende diesen Beitrag zu einem Freund";
-?>
+$l['latest_announcements'] = "Letzte Ankündigungen";
+$l['portal_disabled'] = "Du kannst das Portal nicht benutzen, da es von einem Administrator deaktiviert wurde.";

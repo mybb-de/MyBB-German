@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['statistics'] = "Statistiken";
 $l['overall_statistics'] = "Gesamte Statistiken";
@@ -31,4 +28,3 @@ $l['decrease'] = "Fallend";
 
 $l['error_no_results_found_for_criteria'] = "Es konnten leider keine Ergebnisse für den Datumsbreich gefunden werden. Bitte wählen Sie einen anderen Bereich.";
 $l['error_no_statistics_available_yet'] = "Es tut uns Leid, aber es gibt keine Daten für die Statistiken in ihrem Forum.";
-?>

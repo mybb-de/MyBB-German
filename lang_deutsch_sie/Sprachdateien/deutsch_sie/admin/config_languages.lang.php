@@ -1,15 +1,12 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Formell)                       #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen finden Sie in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (formal)
+ * Deutsches Sprachpaket für MyBB 1.8 "formell" (Sie)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 $l['languages'] = "Sprachen";
 $l['languages_desc'] = "Hier finden Sie eine Liste aller installierten Sprachpakete. Sie können die Sprachdateien oder die Eigenschaften der Sprachpakete bearbeiten.";
@@ -60,5 +57,3 @@ $l['alert_note_cannot_write'] = "Bevor Sie eine Sprachdatei bearbeiten können, 
 $l['success_langfile_updated'] = "Sprachdatei erfolgreich aktualisiert.";
 $l['success_langprops_updated'] = "Eigenschaften des Sprachpakets erfolgreich aktualisiert.";
 $l['success_quickphrases_updated'] = "Die Schnelleinstellungen wurden erfolgreich aktualisiert.";
-
-?>

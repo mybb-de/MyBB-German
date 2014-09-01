@@ -1,27 +1,24 @@
 <?php
-#########################################################
-# Deutsches Sprachpaket (Informell)                     #
-# Version x.x.x                                         #
-# Datum: xx.xx.xxxx                                     #
-# MyBB-Version x.x.x                                    #
-# Autor: MyBBoard.de | Webseite: http://www.mybboard.de #
-# (c) 2005-2014 MyBBoard.de | Alle Rechte vorbehalten!  #
-#                                                       #
-# Die Lizenz-/Nutzungsbedingungen findest du in der     #
-# beiliegenden Readme.                                  #
-#########################################################
+/**
+ * German language pack for MyBB 1.8 (informal)
+ * Deutsches Sprachpaket für MyBB 1.8 "informell" (Du)
+ * (c) 2005-2014 MyBBoard.de
+ * 
+ * Author/Autor: http://www.mybboard.de/
+ * License/Lizenz: GNU Lesser General Public License, Version 3
+ */
 
 // Help Document 1
 $l['d1_name'] = "Benutzerregistrierung";
 $l['d1_desc'] = "Nutzen und Vorteile der Registrierung.";
 $l['d1_document'] = "Einige Bereiche dieses Forums können voraussetzen, dass du registriert und eingeloggt bist. Die Registrierung kostet nichts und ist in wenigen Minuten durchgeführt.
 <br /><br />Eine Registrierung bringt dir Vorteile: Wenn du registriert bist, kannst du Nachrichten schreiben, deine eigenen Einstellungen festlegen und ein Profil anlegen.
-<br /><br />Einige Features, die dir nur nach einer Registrierung zur Verfügung stehen, sind z.B. Wechseln des Anzeigestils, persönlicher Notizblock und das Versenden von E-Mails an andere Benutzer.";
+<br /><br />Einige Features, die dir nur nach einer Registrierung zur Verfügung stehen, sind z.B. Wechseln des Anzeigestils, persönliches Notizbuch und das Versenden von E-Mails an andere Benutzer.";
 
 // Help Document 2
 $l['d2_name'] = "Profil aktualisieren";
 $l['d2_desc'] = "Ändern deiner momentanen Daten.";
-$l['d2_document'] = "Vielleicht musst du zwischendurch deine Angaben aktualisieren, wie z. B. Messengeridentitäten, dein Passwort oder deine E-Mail-Adresse. Du kannst alle Angaben über das Control Panel ändern. Um zum Control Panel zu gelangen, klicke einfach auf den Link \"Benutzer-CP\" im oberen Menü. Wähle dann \"Profil ändern\" und ändere oder aktualisiere deine Daten. Danach musst du unten auf der Seite auf den Button klicken, um deine Daten zu senden.";
+$l['d2_document'] = "Vielleicht musst du zwischendurch deine Angaben aktualisieren, wie z. B. Messengeridentitäten, dein Passwort oder deine E-Mail-Adresse. Du kannst alle Angaben über das Control Panel ändern. Um zum Control Panel zu gelangen, klicke einfach auf den Link \"Benutzer-CP\" im oberen Menü. Wähle dann den entsprechenden Punkt unter \"Dein Profil\" und ändere oder aktualisiere deine Daten. Danach musst du unten auf der Seite auf den Button klicken, um deine Daten zu senden.";
 
 // Help Document 3
 $l['d3_name'] = "Verwendung von Cookies";
@@ -72,5 +69,3 @@ $l['d7_document'] = "Du kannst in deinen Beiträgen MyCode benutzen, eine verein
 <p>[align=right]Dieser Text ist rechtsbündig[/align]<div align=\"right\">Dieser Text ist rechtsbündig</div>
 <p><br />[list]<br />[*]Listeneintrag #1<br />[*]Listeneintrag #2<br />[*]Listeneintrag #3<br />[/list]<br /><ul><li>Listeneintrag #1</li><li>Listeneintrag #2</li><li>Listeneintrag #3</li></ul>
 <p>Du kannst eine geordnete Liste erstellen, indem du [list=1] für nummerierte und [list=a] für alphabetisch sortierte Listen verwendest.";
-
-?>
