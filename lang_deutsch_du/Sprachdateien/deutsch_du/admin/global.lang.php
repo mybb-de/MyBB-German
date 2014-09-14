@@ -44,6 +44,7 @@ $l['username'] = "Benutzername:";
 $l['username1'] = "E-Mail:";
 $l['username2'] = "Benutzername/E-Mail:";
 $l['password'] = "Passwort:";
+$l['secret_pin'] = "Geheime PIN:";
 $l['login'] = "Anmelden";
 $l['lost_password'] = "Passwort vergessen?";
 
@@ -52,7 +53,7 @@ $l['error_admin_session_expired'] = "Deine Administrations-Sitzung ist abgelaufe
 $l['error_invalid_ip'] = "Deine IP-Adresse ist für diese Sitzung nicht gülti.g";
 $l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen.";
 $l['error_mybb_admin_lockedout_message'] = "Dein Benutzer-Konto wurde nach {1} Anmelde-Versuchen gesperrt. Dir wurde eine E-Mail gesendet mit Informationen um dein Benutzer-Konto wieder freizuschalten.";
-$l['error_invalid_secret_pin'] = "Du hast einen ungültigen geheimen PIN eingegeben.";
+$l['error_invalid_secret_pin'] = "Du hast eine ungültige geheime PIN eingegeben.";
 
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalid_uid'] = "Die eingegebene Benutzer-ID ist ungültig.";
