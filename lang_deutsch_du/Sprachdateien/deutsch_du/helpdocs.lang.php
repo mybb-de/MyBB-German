@@ -26,7 +26,7 @@ $l['d3_desc'] = "Das Forum speichert Cookies auf deinem Computer, die verschiede
 $l['d3_document'] = "Die Forensoftware verwendet Cookies, um deine Logininformationen und den Zeitpunkt deines letzten Besuchs zu speichern (nur bei registrierten Benutzern).
 <br /><br />Cookies sind kleine Textdokumente, die auf deinem Computer gespeichert werden; die Cookies dieses Forums können nur auf dieser Webseite verwendet werden und stellen kein Sicherheitsrisiko dar.
 <br /><br />In den Cookies wird auch gespeichert, welche Beiträge du wann gelesen hast.
-<br /><br />Um alle Cookies dieses Forums von deinem Computer zu löschen, <a href=\"misc.php?action=clearcookies&amp;key={1}\">klicke hier</a>.";
+<br /><br />Um alle Cookies dieses Forums von deinem Computer zu löschen, <a href=\"misc.php?action=clearcookies&amp;my_post_key={1}\">klicke hier</a>.";
 
 // Help Document 4
 $l['d4_name'] = "An- und Abmeldung";

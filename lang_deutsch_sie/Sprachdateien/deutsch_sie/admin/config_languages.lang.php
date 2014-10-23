@@ -51,9 +51,16 @@ $l['no_language_files_admin_cp'] = "Es wurden keine Sprachdateien für das Admin
 $l['error_invalid_set'] = "Ungültiges Sprachpaket angegeben.";
 $l['error_invalid_file'] = "Ungültige Sprachdatei angegeben.";
 $l['error_cannot_write_to_file'] = "Die Datei kann nicht beschrieben werden. Bitte überprüfen Sie die Dateiberechtigungen für dieses Sprachpaket und versuchen Sie es dann erneut.";
+$l['error_folders_fail'] = "Beim Zugriff auf die Ordner des angeforderten Sprachpakets ist ein Fehler aufgetreten. Bitte stellen Sie sicher, dass sie existieren und beschreibbar sind.";
 
 $l['alert_note_cannot_write'] = "Bevor Sie eine Sprachdatei bearbeiten können, müssen Sie die entsprechenden Dateirechte auf dem Server (CHMOD) setzen, damit die Änderungen in die Datei geschrieben werden können.";
 
 $l['success_langfile_updated'] = "Sprachdatei erfolgreich aktualisiert.";
 $l['success_langprops_updated'] = "Eigenschaften des Sprachpakets erfolgreich aktualisiert.";
 $l['success_quickphrases_updated'] = "Die Schnelleinstellungen wurden erfolgreich aktualisiert.";
+
+$l['issues'] = "Probleme";
+$l['phrases'] = "Sätze";
+$l['issues_ok'] = "Es scheint alles in Ordnung zu sein.";
+$l['issues_nothingtocompare'] = "Hier gibt es nicht zu vergleichen.";
+$l['issues_warning'] = "Diese Datei können Ihre Aufmerksamkeit erfordern.\nBitte überprüfen Sie sie.";

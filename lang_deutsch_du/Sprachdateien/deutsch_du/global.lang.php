@@ -549,3 +549,6 @@ $l['select2_selectiontoobig_single'] = "Du kannst nur einen Eintrag auswählen";
 $l['select2_selectiontoobig_plural'] = "Du kannst nur {1} Einträge auswählen";
 $l['select2_loadmore'] = "Lade weitere Ergebnisse...";
 $l['select2_searching'] = "Suche...";
+
+$l['stopforumspam_error_decoding'] = "Fehler beim Dekodieren von Daten von StopForumSpam.com.";
+$l['stopforumspam_error_retrieving'] = "Fehler beim Abfragen von Daten von StopForumSpam.com.";

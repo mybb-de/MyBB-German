@@ -35,7 +35,7 @@ $l['duplicate_theme'] = "Theme duplizieren";
 $l['duplicate_theme_desc'] = "Hier kannst du ein Theme duplizieren. Dies hilft dir, wenn du eine andere Variante des Themes entwickeln willst.";
 
 $l['colors_manage'] = "Farben verwalten";
-$l['colors_attached_to'] = "Farbeinstellung {1}";
+$l['colors_attached_to'] = "Farbeinstellung";
 $l['colors_setting'] = "Grundfarbe";
 $l['colors_setting_desc'] = "Wähle die Farbe aus, die das Theme als Grundfarbe benutzt. Es werden die Stylesheets benutzt, die an diese Farbe angeheftet sind.";
 $l['colors_no_color_setting'] = "Es stehen keine Farben zur Auswahl. Bitte erstelle unterhalb eine Liste mit Farben um diese Funktion nutzen zu können.";

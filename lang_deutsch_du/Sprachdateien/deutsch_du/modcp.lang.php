@@ -182,6 +182,7 @@ $l['ban_bannedby'] = "Ausgeschlossen von";
 $l['ban_movegroup'] = "Zur ausgeschlossenen Benutzergruppe hinzufügen:";
 $l['ban_liftafter'] = "Ausschluss aufheben nach:";
 $l['no_banned'] = "Momentan gibt es keine ausgeschlossenen Benutzer.";
+$l['no_banned_group'] = "Zur Zeit gibt es keine Ausschlussgruppen.";
 $l['redirect_banuser'] = "Der Benutzer wurde erfolgreich ausgeschlossen.";
 $l['redirect_banuser_updated'] = "Der Ausschluss des Benutzers wurde erfolgreich aktualisiert.";
 $l['invalid_username'] = "Der eingegebene Benutzername war ungültig. Stelle bitte sicher, dass du einen gültigen Benutzernamen eingegeben hast.";
