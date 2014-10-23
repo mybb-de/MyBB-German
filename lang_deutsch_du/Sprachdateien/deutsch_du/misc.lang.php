@@ -95,6 +95,5 @@ $l['redirect_cookiescleared'] = "Alle Cookies wurden gelöscht.";
 
 $l['error_invalidimtype'] = "Dieser Benutzer hat keinen Messaging-Account dieses Typs in seinem Profil angegeben.";
 $l['error_invalidhelpdoc'] = "Die angegebene Hilfe-Seite scheint nicht zu existieren.";
-$l['error_invalidkey'] = "Das Löschen der Cookies konnte nicht bestätigt werden. Es könnte sein, dass ein schädliches Javascript versucht hat, die Cookies automatisch zu löschen. Solltest du wirklich die Cookies entfernen wollen, lies dir bitte das Hilfedokument \"Verwendung von Cookies\" durch.";
 
 $l['dst_settings_updated'] = "Deine Sommerzeiteinstellungen wurden automatisch geändert.<br /><br />Du wirst jetzt zum Forenindex weitergeleitet.";

@@ -28,6 +28,7 @@ $l['name'] = "Kennung";
 $l['name_desc'] = "Diese eindeutige Kennung wird im Einstellungsarray bereitgestellt, um auf diese Einstellung zu verweisen (in Skripten, Übersetzungen und Templates).";
 $l['group_name_desc'] = "Diese eindeutige Kennung wird im Sprachsystem verwendet.";
 $l['text'] = "Text";
+$l['numeric_text'] = "Numerischer Text";
 $l['textarea'] = "Textarea";
 $l['yesno'] = "Ja/Nein-Wahl";
 $l['onoff'] = "An/Aus-Wahl";

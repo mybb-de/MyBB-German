@@ -33,6 +33,7 @@ $l['error_closedinvalidforum'] = "Sie können keinen Beitrag in diesem Forum sch
 $l['error_attachtype'] = "Der Datei-Typ ist nicht erlaubt. Bitte löschen Sie das Attachment oder wählen Sie ein anderes.";
 $l['error_attachsize'] = "Die angehängte Datei ist zu groß. Die maximal zulässige Größe für diesen Dateityp beträgt {1} Kilobyte.";
 $l['error_uploadsize'] = "Die hochgeladene Datei ist zu groß.";
+$l['error_uploadempty'] = "Die angehängte Datei ist leer.";
 $l['error_uploadfailed'] = "Das Hochladen ist gescheitert. Bitte wählen Sie eine gültige Datei und versuchen Sie es erneut.";
 $l['error_uploadfailed_detail'] = "Details zum Fehler: ";
 $l['error_uploadfailed_php1'] = "PHP gab zurück: Die Dateigröße überschreitet die upload_max_filesize-Direktive in der php.ini. Bitte melden Sie diesen Fehler an den Administrator des Forums.";
@@ -439,10 +440,11 @@ Vielen Dank,
 {4}-Team";
 
 $l['email_contact_subject'] = "Kontakt: {1}";
-$l['email_contact'] = "Foren-Profil: {1}
-IP-Addresse: {2}
+$l['email_contact'] = "E-Mail: {1}
+Foren-Profil: {2}
+IP-Addresse: {3}
 Nacricht:
-{3}";
+{4}";
 
 $l['pmsubject_subscription'] = "Neue Antwort zu {1}";
 $l['pm_subscription'] = "Hallo {1},

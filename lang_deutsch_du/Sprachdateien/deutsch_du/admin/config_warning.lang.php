@@ -67,6 +67,7 @@ $l['expiration_permanent'] = "Permanent";
 $l['error_invalid_warning_level'] = "Der ausgewählte Warnlevel existiert nicht.";
 $l['error_invalid_warning_percentage'] = "Du hast keine gültige Prozentangabe gemacht. Wähle einen Wert zwischen 1 und 100.";
 $l['error_invalid_warning_type'] = "Der ausgewählte Warntyp existiert nicht.";
+$l['error_missing_action_type'] = "Bitte wähle eine Aktion aus, die mit dem neuen Warnlevel verknüpft werden soll.";
 $l['error_missing_type_title'] = "Du hast keinen Titel für diesen Warntyp angegeben.";
 $l['error_missing_type_points'] = "Du hast eine ungültige Anzahl der zu vergebenden Punkte angegeben. Die Anzahl muss größer sein als 0, aber nicht größer als {1}.";
 

@@ -32,6 +32,7 @@ $l['error_invalidforum'] = "Ungültiges Forum";
 $l['error_closedinvalidforum'] = "Du kannst keinen Beitrag in diesem Forum schreiben, da das Forum entweder geschlossen ist, es auf eine andere Website verweist oder es sich um eine Kategorie handelt.";
 $l['error_attachtype'] = "Der Datei-Typ ist nicht erlaubt. Bitte lösche das Attachment oder wähle ein anderes.";
 $l['error_attachsize'] = "Die angehängte Datei ist zu groß. Die maximal zulässige Größe für diesen Dateityp beträgt {1} Kilobyte.";
+$l['error_uploadempty'] = "Die angehängte Datei ist leer.";
 $l['error_uploadsize'] = "Die hochgeladene Datei ist zu groß.";
 $l['error_uploadfailed'] = "Das Hochladen ist gescheitert. Bitte wähle eine gültige Datei und versuche es erneut.";
 $l['error_uploadfailed_detail'] = "Details zum Fehler: ";
@@ -441,10 +442,11 @@ Vielen Dank,
 {4}-Team";
 
 $l['email_contact_subject'] = "Kontakt: {1}";
-$l['email_contact'] = "Foren-Profil: {1}
-IP-Addresse: {2}
+$l['email_contact'] = "E-Mail: {1}
+Foren-Profil: {2}
+IP-Addresse: {3}
 Nacricht:
-{3}";
+{4}";
 
 $l['pmsubject_subscription'] = "Neue Antwort zu {1}";
 $l['pm_subscription'] = "Hallo {1},
