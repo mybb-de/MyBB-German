@@ -445,7 +445,7 @@ $l['email_contact_subject'] = "Kontakt: {1}";
 $l['email_contact'] = "E-Mail: {1}
 Foren-Profil: {2}
 IP-Addresse: {3}
-Nacricht:
+Nachricht:
 {4}";
 
 $l['pmsubject_subscription'] = "Neue Antwort zu {1}";
@@ -462,9 +462,6 @@ Um das Thema zu besuchen, kannst du auf den folgenden Link klicken:
 [url]{5}/{6}[/url]
 
 Es könnte bereits auch weitere Antworten zu diesem Thema geben. Du erhältst jedoch keine weitere Benachrichtigung, bevor du das Forum besucht hast.
-
-Vielen Dank,
-{3}-Team
 
 ------------------------------------------
 Informationen zur Abmeldung:

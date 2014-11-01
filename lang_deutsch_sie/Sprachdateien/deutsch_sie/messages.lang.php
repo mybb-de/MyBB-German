@@ -443,7 +443,7 @@ $l['email_contact_subject'] = "Kontakt: {1}";
 $l['email_contact'] = "E-Mail: {1}
 Foren-Profil: {2}
 IP-Addresse: {3}
-Nacricht:
+Nachricht:
 {4}";
 
 $l['pmsubject_subscription'] = "Neue Antwort zu {1}";
@@ -461,13 +461,10 @@ Um das Thema zu besuchen, können Sie auf den folgenden Link klicken:
 
 Es könnte bereits auch weitere Antworten zu diesem Thema geben. Sie erhalten jedoch keine weitere Benachrichtigung, bevor Sie das Forum besucht haben.
 
-Vielen Dank,
-{3}-Team
-
 ------------------------------------------
 Informationen zur Abmeldung:
 
-Klicken SIe auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
+Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
 [url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
 
 ------------------------------------------";
