@@ -162,7 +162,7 @@ $l['setting_group_statspage'] = "Forenstatistik";
 $l['setting_group_statspage_desc'] = "Dieser Bereich erlaubt Ihnen die Forenstatistik zu konfigurieren.";
 
 // Einstellungen
-$l['setting_boardclosed'] = "Forum online/offline";
+$l['setting_boardclosed'] = "Forum offline?";
 $l['setting_boardclosed_desc'] = "Hier kann das komplette Forum offline bzw. online gestellt werden. Alle Besucher sehen dann nur die Nachricht, die Sie unten eingeben können.<br /><br /><b>Administratoren können das Forum weiterhin betreten.</b>";
 $l['setting_boardclosed_reason'] = "Grund für den Offline-Modus";
 $l['setting_boardclosed_reason_desc'] = "Wenn Ihr Forum offline ist, können Sie hier eine Nachricht eingeben, die den Besuchern angezeigt wird.";
@@ -531,7 +531,7 @@ $l['setting_threadreview'] = "Zeige letzte Beiträge";
 $l['setting_threadreview_desc'] = "Sollen die letzten Beiträge angezeigt werden, wenn auf ein Thema geantwortet wird?";
 $l['setting_alloweditreason'] = "Bearbeitungsgrund erlauben";
 $l['setting_alloweditreason_desc'] = "Wollen Sie den Benutzern erlauben einen Grund für die Bearbeitung von Beiträgen angeben zu können?";
-$l['setting_enableattachments'] = "Aktivere Attachment-System";
+$l['setting_enableattachments'] = "Aktiviere Attachment-System";
 $l['setting_enableattachments_desc'] = "Wenn Sie Attachments im Forum verbieten wollen, wähle \"Nein\".";
 $l['setting_maxattachments'] = "Maximale Attachments pro Beitrag";
 $l['setting_maxattachments_desc'] = "Die maximal zulässige Anzahl von Attachments pro Beitrag.";
