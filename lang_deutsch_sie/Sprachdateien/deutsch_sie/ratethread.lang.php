@@ -16,8 +16,8 @@ $l['error_cannotrateownthread'] = "Entschuldigung, Sie können Ihre eigenen Them
 
 $l['rating_votes_average'] = "{1} Bewertung(en) - {2} von 5 durchschnittlich";
 $l['one_star'] = "1 Stern von 5";
-$l['two_stars'] = "2 Stern von 5";
-$l['three_stars'] = "3 Stern von 5";
-$l['four_stars'] = "4 Stern von 5";
-$l['five_stars'] = "5 Stern von 5";
+$l['two_stars'] = "2 Sterne von 5";
+$l['three_stars'] = "3 Sterne von 5";
+$l['four_stars'] = "4 Sterne von 5";
+$l['five_stars'] = "5 Sterne von 5";
 $l['rating_added'] = "Ihre Bewertung wurde hinzugefügt!";
