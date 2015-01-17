@@ -232,7 +232,7 @@ $l['js_validator_checking_referrer'] = "Der Referrer wird geprüft.";
 $l['js_validator_captcha_valid'] = "Prüfe, ob Du den richtigen Verifizierungscode eingegeben hast.";
 
 $l['security_question'] = "Sicherheitsfrage";
-$l['question_note'] = "Bitte beantworte die angezeigt Frage. Dies ist nötig, um automatisierte Prozesse zu unterbinden.";
+$l['question_note'] = "Bitte beantworte die angezeigte Frage. Dies ist nötig, um automatisierte Prozesse zu unterbinden.";
 $l['error_question_wrong'] = "Deine Antwort auf die Sicherheitsfrage war falsch. Bitte versuche es erneut.";
 
 $l['subscription_method'] = "Standard Themenabonnement-Modus:";
