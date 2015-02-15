@@ -10,7 +10,7 @@
 
 $l['template_sets'] = "Template-Sets";
 $l['template_set'] = "Template-Set";
-$l['templates'] = "Templates";
+$l['templates'] = "{1} Templates";
 
 $l['manage_template_sets'] = "Verwalte Template-Set";
 $l['manage_template_sets_desc'] = "Hier kannst du die Template-Sets verwalten, die Templates in den Sets anschauen und den Style deines Forums bearbeiten.";

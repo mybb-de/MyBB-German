@@ -28,10 +28,6 @@ $l['mod_options'] ="Moderations-Optionen:";
 $l['close_thread'] = "<b>Thema schließen</b>: Weitere Antworten zu diesem Thema verbieten.";
 $l['stick_thread'] = "<b>Wichtiges Thema:</b> Zeigt dieses Thema immer oben an.";
 $l['draft_saved'] = "Das neue Thema wurde erfolgreich als Entwurf gespeichert.<br />Sie werden jetzt zur Entwurfsübersicht weitergeleitet.";
-$l['image_verification'] = "Bestätigung";
-$l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisierte Beitragserstellungen zu vermeiden.";
-$l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
-$l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
 $l['error_post_already_submitted'] = "Sie haben dieses Thema bereits in diesem Forum gepostet. Bitte besuchen Sie das Forum, um das Thema zu sehen.";
 $l['no_prefix'] = "Kein Präfix";
 $l['forum_rules'] = "{1} - Regeln";
@@ -49,7 +45,7 @@ $l['redirect_newthread_moderation'] = "<br />Der Administrator hat spezifiziert,
 $l['redirect_newthread_thread'] = "<br />Sie werden nun zum neuen Thema geleitet.";
 $l['invalidthread'] = "Der ausgewählte Entwurf exisitiert nicht oder Sie haben nicht die Berechtigung ihn zu sehen.";
 
-$l['error_stop_forum_spam_spammer'] = "Entschuldigung, Ihr Benutzername oder Ihre IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, {1} stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
 $l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich Ihres Themas mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuchen Sie es später erneut.";
 
 $l['error_suspendedposting'] = "Ihre Rechte Beiträge zu verfassen wurden Ihnen {1} entzogen.<br /><br />

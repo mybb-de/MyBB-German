@@ -12,13 +12,13 @@
 $langinfo['name'] = "Deutsch formell (\"Sie\")";
 
 // The author of the language
-$langinfo['author'] = "MyBBoard.de";
+$langinfo['author'] = "MyBB.de";
 
 // The language authors website
-$langinfo['website'] = "http://www.mybboard.de/";
+$langinfo['website'] = "https://www.mybb.de/";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1803";
+$langinfo['version'] = "1804";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;

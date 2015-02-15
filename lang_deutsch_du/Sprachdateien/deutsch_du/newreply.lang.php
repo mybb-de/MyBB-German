@@ -29,10 +29,6 @@ $l['thread_review'] = "Themenübersicht (Neueste zuerst)";
 $l['thread_review_more'] = "Dieses Thema hat mehr als {1} Antworten. <a href=\"{2}\">Ganzes Thema lesen</a>.";
 $l['posted_by'] = "Geschrieben von";
 $l['draft_saved'] = "Der neue Beitrag wurde erfolgreich als Entwurf gespeichert.<br />Du wirst jetzt zur Entwurfsübersicht geleitet.";
-$l['image_verification'] = "Bestätigung";
-$l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisierte Beitragserstellung zu vermeiden.";
-$l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
-$l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";
 $l['error_post_already_submitted'] = "Deine Antwort zum angegebenen Thema wurde bereits gespeichert. Bitte besuche das Thema, um deine Antwort zu sehen.";
 $l['multiquote_external_one'] = "Du hast einen Beitrag zum Zitieren gewählt.";
 $l['multiquote_external'] = "Du hast {1} Beiträge zum Zitieren gewählt.";
@@ -48,7 +44,7 @@ $l['redirect_newreplyerror'] = "Leider wurde deine Antwort zurückgewiesen.<br /
 $l['redirect_threadclosed'] = "Auf dieses Thema kann nicht geantwortet werden, da das Thema von einem Moderator geschlossen wurde.";
 $l['error_post_noperms'] = "Du hast nicht die Berechtigung diesen Entwurf zu bearbeiten.";
 
-$l['error_stop_forum_spam_spammer'] = "Entschuldigung, dein Benutzername oder deine IP-Adresse stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, {1} stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
 $l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Beitrags mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
 
 $l['error_suspendedposting'] = "Dein Rechte Beiträge zu verfassen wurden dir {1} entzogen.<br /><br />

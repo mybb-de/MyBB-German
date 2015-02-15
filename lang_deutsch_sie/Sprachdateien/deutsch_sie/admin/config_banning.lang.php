@@ -21,6 +21,7 @@ $l['disallowed_email_addresses'] = "Verbotene E-Mail-Adressen";
 $l['disallowed_usernames'] = "Verbotene Benutzernamen";
 $l['banned_ip_addresses'] = "Ausgeschlossene IP-Adressen";
 $l['username'] = "Benutzername";
+$l['search_user'] = "Benutzer suchen";
 $l['date_disallowed'] = "Datum des Verbots";
 $l['last_attempted_use'] = "Letzter Versuch der Benutzung";
 $l['email_address'] = "E-Mail-Adresse";
