@@ -164,6 +164,9 @@ $l['admin_log_forum_moderation_queue_threads'] = "Abgewiesene Themen moderiert";
 $l['admin_log_forum_moderation_queue_posts'] = "Abgewiesene Beiträge moderiert";
 $l['admin_log_forum_moderation_queue_attachments'] = "Abgewiesene Attachments moderiert";
 
+$l['admin_log_home_preferences_enabled'] = "Zwei-Faktor-Authentifizierung aktiviert";
+$l['admin_log_home_preferences_disabled'] = "Zwei-Faktor-Authentifizierung deaktiviert";
+
 $l['admin_log_style_templates_delete_set'] = "Template-Set #{1} ({2}) gelöscht";
 $l['admin_log_style_templates_delete_template'] = "Template #{1} ({2}) aus Template-Set #{3} ({4}) gelöscht";
 $l['admin_log_style_templates_delete_template_global'] = "Template #{1} ({2}) aus dem globalen Template-Set gelöscht";

@@ -291,7 +291,6 @@ $l['postbit_button_delete_pm'] = "Löschen";
 $l['postbit_button_purgespammer'] = "Spammer löschen";
 
 $l['forumjump'] = "Gehe zu:";
-$l['forumjump_select'] = "Bitte wählen Sie:";
 $l['forumjump_pms'] = "Private Nachrichten";
 $l['forumjump_usercp'] = "Benutzer Control-Panel";
 $l['forumjump_wol'] = "Wer ist online?";
@@ -358,7 +357,7 @@ $l['banned_warning2'] = "Ausschlussgrund";
 $l['banned_warning3'] = "Ausschluss wird aufgehoben";
 $l['banned_lifted_never'] = "Nie";
 $l['banned_email_warning'] = "Sie benutzen eine E-Mail-Adresse, die in diesem Forum nicht erlaubt ist. Bitte ändern Sie diese um Fortzufahren.";
-$l['powered_by'] = "Deutsche Übersetzung: <a href=\"http://www.mybboard.de/\" target=\"_blank\">MyBBoard.de</a>, Powered by";
+$l['powered_by'] = "Deutsche Übersetzung: <a href=\"https://www.mybb.de/\" target=\"_blank\">MyBB.de</a>, Powered by";
 $l['copyright'] = "Copyright";
 $l['attach_quota'] = "Sie benutzen zur Zeit <strong>{1}</strong> des Ihnen insgesamt zur Verfügung stehenden Speicherplatzes von: <strong>{2}</strong> &mdash; ";
 $l['view_attachments'] = "Meine Attachments ansehen";
@@ -418,8 +417,16 @@ $l['select_theme'] = "Einfache Themeauswahl";
 
 $l['invalid_post_code'] = "Falscher Autorisierungscode! Greifen Sie auf diese Funktion auf die übliche Weise zu? Bitte gehen Sie zurück und versuchen Sie es erneut.";
 $l['invalid_captcha'] = "Bitte übertragen Sie den Verifizierungscode in das Textfeld um fortfahren zu können. Bitte geben Sie ihn genau so ein, wie er im Bild erscheint.";
+$l['invalid_nocaptcha'] = "Bitte lösen Sie reCAPTCHA um zu verifizieren, dass Sie kein Bot sind.";
 $l['invalid_captcha_verify'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
+$l['image_verification'] = "Bestätigung";
+$l['human_verification'] = "Bestätigung";
+$l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisierte Spambots zu stoppen.";
+$l['verification_note_nocaptcha'] = "Bitte klicken Sie auf das Kontrollkästchen, das Sie unten sehen. Dies ist nötig, um automatisierte Spambots zu stoppen.";
+$l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
+$l['invalid_captcha'] = "Der Verifizierungscode des Bildes war falsch. Bitte geben Sie den Code genau so ein, wie er im Bild erscheint.";
 $l['invalid_captcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufgetreten. Bitte versuchen Sie es erneut.";
+$l['invalid_nocaptcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufgetreten. Bitte versuchen Sie es erneut.";
 $l['captcha_fetch_failure'] = "Beim Laden eines neues Verifizierungscode ist ein Fehler aufgetreten.";
 $l['question_fetch_failure'] = "Beim Laden einer neuen Frage ist ein Fehler aufgetreten.";
 $l['invalid_ayah_result'] = "Die \"Are You a Human\"-Bestätigung wurde nicht abgeschlossen. Bitte versuchen Sie es erneut.";
@@ -535,6 +542,7 @@ $l['moderation_user_posts'] = "Bitte beachten Sie, dass neue Beiträge von Ihnen
 $l['moderation_forum_thread'] = "Bitte beachten Sie, dass neue Themen in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits_quick'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-users&amp;action=search&amp;results=1&amp;conditions=a%3A1%3A%7Bs%3A9%3A%22usergroup%22%3Bs%3A1%3A%225%22%3B%7D\">Zum Admin-CP wechseln</a>.";
 $l['awaiting_message_single'] = "Es gibt 1 nicht aktivierten Account. Um den Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
 $l['awaiting_message_plural'] = "Es gibt {1} nicht aktivierte Accounts. Um die Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
 
@@ -552,3 +560,10 @@ $l['select2_searching'] = "Suche...";
 
 $l['stopforumspam_error_decoding'] = "Fehler beim Dekodieren von Daten von StopForumSpam.com.";
 $l['stopforumspam_error_retrieving'] = "Fehler beim Abfragen von Daten von StopForumSpam.com.";
+
+$l['sfs_error_username'] = 'Ihr Benutzername';
+$l['sfs_error_ip'] = 'Ihre IP-Adresse';
+$l['sfs_error_email'] = 'Ihre E-Mail-Adresse';
+$l['sfs_error_or'] = 'oder';
+
+$l['boardclosed_reason'] = 'Dieses Forum ist zur Zeit wegen Wartungsarbeiten geschlossen. Bitte versuchen Sie es später noch einmal';

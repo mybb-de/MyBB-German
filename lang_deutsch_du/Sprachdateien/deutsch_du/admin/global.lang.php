@@ -329,6 +329,12 @@ Vielen Dank,
 
 $l['comma'] = ", ";
 
+$l['my2fa'] = "Zwei-Faktor-Authentifizierung";
+$l['my2fa_failed'] = "Der eingegebene Code war falsch, du bist nun ausgeloggt";
+$l['my2fa_code'] = "Bitte gib den Authentifizierungs-Code ein";
+$l['my2fa_label'] = "Authentifizierungs-Code:";
+$l['my2fa_no_codes'] = "Hinweis: Du hast alle deine Backup-Verifizierungscodes aufgebraucht. Bitte besuche <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">diese Seite</a> um neue Codes zu generieren.";
+
 // If the language string for "Username" is too cramped in the ACP Login box
 // then use this to define how much larger you want the gap to be (in px)
 $l['login_field_width'] = "15";

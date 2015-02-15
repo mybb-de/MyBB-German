@@ -149,6 +149,7 @@ $l['max_recipients'] = "Maximale Empfänger pro Nachricht";
 $l['max_recipients_desc'] = "Maximale Anzahl an Empfängern, an die ein Benutzer eine Private Nachricht senden können. Wenn leer, können unendlich viele Empfänger pro Nachricht eingegeben werden.";
 $l['show_reputations'] = "Zeige Bewertungen für Benutzer dieser Gruppe";
 $l['can_give_reputation'] = "Kann Benutzer bewerten";
+$l['can_delete_own_reputation'] = "Kann selbst abgegebene Bewertungen löschen?";
 $l['points_to_award_take'] = "Punkte zur Bewertung hinzufügen/abziehen:";
 $l['points_to_award_take_desc'] = "Hier kannst du einstellen wie viele Punkte ein Benutzer einem anderen hinzufügen/abziehen kann.";
 $l['max_reputations_daily'] = "Maximale Bewertungen pro Tag:";

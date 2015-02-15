@@ -157,15 +157,12 @@ $l['tpp'] = "Themen pro Seite:";
 $l['tpp_desc'] = "Erlaubt die Anzahl der Themen pro Seite der Themenliste zu wählen.";
 $l['reset_password'] = "Passwort zurücksetzen";
 $l['send_password'] = "Neues Passwort senden!";
-$l['image_verification'] = "Bestätigung";
-$l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisierte Prozesse zu unterbinden.";
-$l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
 $l['registration_errors'] = "Folgende Fehler sind bei der Registrierung aufgetreten:";
 $l['timeonline'] = "Gesamte Onlinezeit:";
 $l['timeonline_hidden'] = "(Versteckt)";
 $l['registrations_disabled'] = "Entschuldigung, Sie können sich zur Zeit nicht registrieren, da der Administrator diese Funktion deaktiviert hat.";
 $l['error_username_length'] = "Ihr Benutzername ist ungültig. Benutzernamen müssen aus {1} bis {2} Zeichen bestehen.";
-$l['error_stop_forum_spam_spammer'] = "Entschuldigung, Ihr Benutzername oder Ihre E-Mail-Adresse stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
+$l['error_stop_forum_spam_spammer'] = "Entschuldigung, {1} stimmt mit der eines bekannten Spammers überein. Falls Sie dies für einen Fehler halten, kontaktieren Sie bitte einen Administrator.";
 $l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich Ihres Accounts mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuchen Sie es später erneut.";
 
 $l['none_registered'] = "Nicht vorhanden";

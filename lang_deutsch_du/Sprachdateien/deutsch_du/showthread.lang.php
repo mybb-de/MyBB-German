@@ -97,9 +97,6 @@ $l['or'] ="oder";
 $l['quickreply_multiquote_deselect'] = "wähle sie ab";
 $l['search_thread'] = "Durchsuche Thema";
 $l['enter_keywords'] = "Suchbegriff(e)";
-$l['image_verification'] = "Bestätigung";
-$l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisiert erstellte Beiträge zu vermeiden.";
-$l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
 $l['view_thread_notes'] = "Themennotizen";
 $l['view_all_notes'] = "Alle Notizen anzeigen";
 

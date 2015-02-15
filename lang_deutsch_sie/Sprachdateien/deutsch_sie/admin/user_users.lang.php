@@ -240,7 +240,7 @@ $l['suspend_sig_box'] = "Die Signatur dieses Benutzer sperren.";
 $l['suspend_sig_perm'] = "<small>Permanent sperren.</small>";
 $l['suspend_sig_info'] = "Wenn eine Signatur gesperrt ist, kann der Benutzer sie nicht bearbeiten und sie wird im Profil und in den Beiträgen nicht angezeigt.";
 $l['suspend_sig_extend'] = "<small>Geben Sie unten eine neue Zeit ein oder entfernen Sie die Option um die Sperre aufzuheben.</small>";
-$l['suspend_expire_info'] = "<small>Läuft {1} ab</small>";
+$l['suspend_expire_info'] = "<small>Verbleibend: <span style=\"color: {2};\">{1}</span></small>";
 $l['suspend_never_expire'] = "<small>Die Sperre von {1} wird niemals ablaufen (permanent gesperrt).</small>";
 $l['suspend_sig_error'] = "Sie haben ein ungültiges Datum für die Signatur-Sperre eingegeben. Bitte geben Sie ein korrektes Datum ein.";
 
@@ -248,13 +248,13 @@ $l['moderate_posts'] = "Beiträge moderieren";
 $l['moderate_posts_info'] = "Moderiere neue Beiträge von {1}.";
 $l['moderate_for'] = "Moderiere für:";
 $l['moderated_perm'] = "<p><small>Permanent moderiert.<br />Bitte geben Sie unten ein neues Datum ein oder entfernen Sie die Moderation.</small></p>";
-$l['moderate_length'] = "<p><small>Moderiere bis {1}.<br />Bitte geben unten ein neues Datum ein oder entfernen Sie die Moderation.</small></p>";
+$l['moderate_length'] = "<p><small>Verbleibende Moderationsdauer: <span style=\"color: {2};\">{1}</span>.<br />Bitte geben Sie unten ein neues Datum ein oder entfernen Sie die Moderation.</small></p>";
 
 $l['suspend_posts'] = "Beitragserstellung sperren";
 $l['suspend_posts_info'] = "Sperre neue Beiträge von {1}.";
 $l['suspend_for'] = "Sperre für:";
 $l['suspended_perm'] = "<p><small>Permanent gesperrt.<br />Bitte geben Sie unten ein neues Datum ein oder entfernen Sie die Sperre.</small></p>";
-$l['suspend_length'] = "<p><small>Sperre bis {1}.<br />Bitte geben Sie unten ein neues Datum ein oder entfernen Sie die Sperre.</small></p>";
+$l['suspend_length'] = "<p><small>Verbleibende Sperrdauer: <span style=\"color: {2};\">{1}</span>.<br />Bitte geben Sie unten ein neues Datum ein oder entfernen Sie die Sperre.</small></p>";
 
 $l['suspendsignature_error'] = "Sie haben eine Sperre der Signatur dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte geben Sie ein gültiges Datum ein oder entfernen Sie die Sperre um abzubrechen.";
 $l['moderateposting_error'] = "Sie haben eine Moderation der Beiträge dieses Benutzers ausgewählt, aber das Zeitspanne ist ungültig. Bitte geben Sie ein gültiges Datum ein oder entfernen Sie die Moderation um abzubrechen.";
