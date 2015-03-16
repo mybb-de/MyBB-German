@@ -235,7 +235,6 @@ $l['invalid_post_verify_key2'] = "Der Autorisierungscode konnte nicht bestätigt
 $l['unknown_error'] = "Ein unbekannter Fehler ist aufgetreten.";
 
 // Code buttons editor language strings
- 
 $l['editor_bold'] = "Fett";
 $l['editor_italic'] = "Kursiv";
 $l['editor_underline'] = "Unterstrichen";
