@@ -28,7 +28,6 @@ $l['email_address'] = "E-Mail-Adresse";
 $l['ip_address'] = "IP-Adresse";
 $l['ban_date'] = "Datum des Ausschlusses";
 $l['last_access'] = "Letzter Zugriff";
-$l['delete'] = "Löschen";
 $l['no_bans'] = "Zur Zeit ist kein Ausschluss definiert.";
 $l['add_disallowed_username'] = "Verbotenen Benutzernamen hinzufügen";
 $l['username_desc'] = "Hinweis: Benutze * als Platzhalter für beliebige Zeichen.";

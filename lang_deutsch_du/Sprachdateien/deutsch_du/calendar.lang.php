@@ -59,6 +59,7 @@ $l['birthday'] = "Geburtstag";
 $l['birthdays'] = "Geburtstage";
 $l['event_author'] = "Verfasser:";
 $l['edit_event'] = "Ereignis bearbeiten";
+$l['view_event'] = "Ereignis ansehen";
 $l['no_events'] = "Keine Ereignisse sind mit diesem Tag verbunden.<p><a href=\"calendar.php?action=addevent&amp;calendar={1}&amp;day={2}&amp;month={3}&amp;year={4}\">Ein Ereignis eintragen</a>.</p>";
 $l['years_old'] = "{1} Jahre alt";
 $l['alt_edit'] = "Dieses Ereignis bearbeiten";

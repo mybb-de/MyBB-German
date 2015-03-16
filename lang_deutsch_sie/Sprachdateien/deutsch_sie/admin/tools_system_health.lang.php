@@ -64,7 +64,7 @@ $l['cache_dir'] = "Cache-Verzeichnis";
 $l['themes_dir'] = "Theme-Verzeichnis";
 $l['chmod_files_and_dirs'] = "CHMOD Dateien und Verzeichnisse";
 
-$l['notice_proccess_long_time'] = "Dieser Prozess kann je nach Größe der Datenbank und der Tabellen bis zu mehreren Stunden dauern. <strong>Es wird dringend empfohlen ein Datenbank-Backup anzulegen, da dieser Prozess nicht rückgängig gemacht werden kann.</strong>";
+$l['notice_process_long_time'] = "Dieser Prozess kann je nach Größe der Datenbank und der Tabellen bis zu mehreren Stunden dauern. <strong>Es wird dringend empfohlen ein Datenbank-Backup anzulegen, da dieser Prozess nicht rückgängig gemacht werden kann.</strong>";
 $l['notice_mb4_warning'] = "4-Byte UTF-8 Unterstützung benötigt MySQL 5.5.3 oder höher. Es wird nicht möglich sein die Datenbank auf einem MySQL-Server mit einer anderen Version einzuspielen.";
 
 $l['check_templates'] = "Templates überprüfen";

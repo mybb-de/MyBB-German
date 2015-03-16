@@ -248,9 +248,9 @@ $l['suspend_posts'] = "Beitragserstellung sperren";
 $l['modpost_length'] = "Moderieren für:";
 $l['suspost_length'] = "Sperren für:";
 
-$l['moderateposts_for'] = "Moderieren bis {1}, {2}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
-$l['suspendposting_for'] = "Sperren bis {1}, {2}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
-$l['suspendsignature_for'] = "Sperren bis {1}, {2}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
+$l['moderateposts_for'] = "Moderieren bis {1}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
+$l['suspendposting_for'] = "Sperren bis {1}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
+$l['suspendsignature_for'] = "Sperren bis {1}.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
 $l['suspendposting_perm'] = "Permanent sperren.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
 $l['moderateposts_perm'] = "Permanent moderieren.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";
 $l['suspendsignature_perm'] = "Permanent sperren.<br />Entfernen Sie die Option oder erweiteren Sie sie unten.";

@@ -187,7 +187,7 @@ $l['error_invalidsearch'] = "Die Eingaben waren ungültig. Bitte gehe zurück un
 
 $l['redirect_pmsaved'] = "Die Nachricht wurde in deinem 'Entwürfe'-Ordner gespeichert.";
 $l['redirect_pmstrackingstopped'] = "Die Verfolgung der ausgewählten PNs wurde gestoppt.";
-$$l['redirect_pmstrackingcanceled'] = "Die ausgewählten ungelesenen Nachrichten wurden aus dem Posteingang des Empfängers gelöscht.";
+$l['redirect_pmstrackingcanceled'] = "Die ausgewählten ungelesenen Nachrichten wurden aus dem Posteingang des Empfängers gelöscht.";
 $l['redirect_allpmstrackingstopped'] = "Die Verfolgung alle gelesenen Nachrichten wurde gestoppt.";
 $l['redirect_pmsmoved'] = "Die ausgewählten Nachrichten wurden verschoben.";
 $l['redirect_pmsdeleted'] = "Die ausgewählten Nachrichten wurden gelöscht.";

@@ -10,6 +10,7 @@
 
 $l['bad_words'] = "Wortfilter";
 $l['edit_bad_word'] = "Filter bearbeiten";
+$l['edit_bad_word_desc'] = "Hier können Sie die Filter und ihre Ersetzungen bearbeiten.";
 $l['bad_word_filters'] = "Wortfilter";
 $l['bad_word_filters_desc'] = "Diese Funktion erlaubt es Ihnen, einzelne Worte oder Phrasen automatisch ersetzen zu lassen. Dies ist beispielsweise bei Beleidigungen nützlich.";
 
@@ -27,7 +28,7 @@ $l['add_bad_word'] = "Filter hinzufügen";
 
 $l['error_missing_bad_word'] = "Sie haben kein Wort zur Filterung angegeben.";
 $l['error_invalid_bid'] = "Der angegebene Filter existiert nicht.";
-$l['error_filter_already_banned'] = "Der angegebene Filter ist bereits ausgeschlossen.";
+$l['error_bad_word_filtered'] = "Der angegebene Filter ist bereits ausgeschlossen.";
 
 $l['success_added_bad_word'] = "Der Filter wurde erfolgreich hinzugefügt.";
 $l['success_deleted_bad_word'] = "Der Filter wurde erfolgreich gelöscht.";
