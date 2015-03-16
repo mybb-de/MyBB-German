@@ -389,7 +389,7 @@ $l['newpm_notice_multiple'] = "<strong>Sie haben {1} ungelesene Nachrichten.</st
 $l['deleteevent_confirm'] = "Möchten Sie dieses Ereignis wirklich löschen?";
 $l['removeattach_confirm'] = "Möchten Sie die ausgewählten Anhänge wirklich löschen?";
 
-$ll['latest_threads'] = "Letzte Themen";
+$l['latest_threads'] = "Letzte Themen";
 
 $l['folder_inbox'] = "Eingang";
 $l['folder_sent_items'] = "Ausgang";

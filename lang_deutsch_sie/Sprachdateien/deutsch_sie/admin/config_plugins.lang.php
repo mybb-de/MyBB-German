@@ -40,6 +40,7 @@ $l['search'] = "Suchen";
 
 $l['error_vcheck_no_supported_plugins'] = "Keines der installierten Plugins unterstützt die Versionsüberprüfung.";
 $l['error_vcheck_communications_problem'] = "Bei der Kommunikation mit dem externen Server ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.";
+$l['error_vcheck_vulnerable'] = "[Unsicheres Plugin]:";
 $l['error_vcheck_vulnerable_notes'] = "Dieses Plugin wurde vom MyBB-Team als unsicher eingestuft. Wir empfehlen die vollständige Entfernung dieser Modifikation. Bitte beachten Sie folgenden die Hinweise: ";
 $l['error_no_input'] = "Fehler (code 1): Keine Daten übergeben.";
 $l['error_no_pids'] = "Fehler (Code 2): Keine Plugin-IDs angegeben.";

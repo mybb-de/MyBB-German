@@ -26,6 +26,7 @@ $l['userdata_emails_dont_match'] = 'Die E-Mail-Adresse, die du zur Bestätigung 
 $l['userdata_banned_email'] = "Die eingegebene E-Mail-Adresse wurde gesperrt. Gib bitte eine andere Adresse ein.";
 $l['userdata_email_already_in_use'] = "Die eingegebene E-Mail-Adresse wird bereits von einem anderen Benutzer verwendet. Bitte gib eine andere E-Mail-Adresse ein.";
 
+$l['userdata_dob_required'] = "Du hast deinen Geburtstag nicht eingegeben. Bitte gib deinen Geburtstag ein um fortzufahren - du kannst deinen Geburtstag und dein Alter vor anderen Benutzern verstecken.";
 $l['userdata_invalid_website'] = 'Die eingegebene Webseiten-Adresse ist ungültig. Bitte gib eine gültige URL ein oder lasse das Feld leer.';
 $l['userdata_invalid_icq_number'] = 'Die eingegebene ICQ-Nummer ist ungültig. Bitte gib eine gültige ICQ-Nummer ein oder lasse das Feld leer.';
 $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. Bitte gib ein gültiges Geburtsdatum ein oder lasse das Feld leer.';

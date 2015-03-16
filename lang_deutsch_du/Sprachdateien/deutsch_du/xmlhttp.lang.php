@@ -10,6 +10,7 @@
 
 $l['no_new_subject'] = "Du hast keinen neuen Betreff eingegeben.";
 $l['post_moderation'] = "Dein Beitrag wartet nun auf Moderation.";
+$l['thread_moderation'] = "Dein Thema wartet nun auf Moderation.";
 $l['post_doesnt_exist'] = "Der angegebene Beitrag existiert nicht.";
 $l['thread_doesnt_exist'] = "Das angegebene Thema existiert nicht.";
 $l['thread_closed_edit_subjects'] = "Dieses Thema ist geschlossen und du kannst Betreffe nicht bearbeiten.";

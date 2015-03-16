@@ -358,7 +358,8 @@ Aktivierungsode: {6}
 Wenn Sie Ihre neue E-Mail-Adresse nicht aktivieren, bleibt Ihre alte E-Mail-Adresse in unserem System gespeichert.
 
 Vielen Dank,
-{2}-Team";
+{2}-Team
+{5}";
 
 $l['email_changeemail_noactivation'] = "Hallo {1},
 
@@ -370,7 +371,8 @@ Neue E-Mail-Adresse: {4}
 Diese Änderungen wurde automatisch umgesetzt. Bitte wenden Sie sich an einen Administrator, falls Sie diese Änderung nicht initiiert haben.
 
 Vielen Dank,
-{2}-Team";
+{2}-Team
+{5}";
 
 $l['email_changepassword'] = "Hallo {1},
 

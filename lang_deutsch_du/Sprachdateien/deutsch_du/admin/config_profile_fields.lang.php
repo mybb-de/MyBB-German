@@ -62,7 +62,6 @@ $l['name'] = "Name";
 $l['registration'] = "Registrierung?";
 $l['editable'] = "Bearbeitbar?";
 $l['profile'] = "Profil?";
-$l['hidden'] = "Versteckt?";
 $l['postbit'] = "In Beiträgen?";
 $l['edit_field'] = "Feld bearbeiten";
 $l['delete_field'] = "Feld löschen";

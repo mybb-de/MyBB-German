@@ -75,6 +75,7 @@ $l['date_revoked'] = "Zurückgenommen am";
 $l['warning_already_revoked'] = "Diese Warnung wurde bereits zurückgenommen.";
 $l['no_revoke_reason'] = "Sie haben keinen Grund angegeben, warum Sie diese Warnung zurücknehmen möchten.";
 $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich zurückgenommen und die Warnungspunkte des Mitglieds heruntergesetzt.<br /><br />Sie werden nun zur Warnung zurückgeleitet.";
+$l['result'] = "Folge:";
 $l['result_banned'] = "Das Mitglied wird nun in die Verbannungsgruppe ({1}) {2}";
 $l['result_suspended'] = "Schreibprivilegien werden ausgesetzt für {1}";
 $l['result_moderated'] = "Beträge werden {1} moderiert";
