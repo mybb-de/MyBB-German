@@ -184,7 +184,7 @@ $l['admin_edit_in_acp'] = "Diesen Benutzer im Admin-CP bearbeiten";
 $l['admin_ban_in_acp'] = "Diesen Benutzer im Admin-CP ausschließen";
 $l['admin_options'] = "Administrator-Optionen";
 
-$l['redirect_registered_activation'] = "Vielen Dank für deine Registrierung bei {1}, {2}.<p>Um deine Registrierung abzuschließen, musst du den Anweisungen in der E-Mail folgen, die dir gerade geschickt wurde. Erst danach kannst du Beiträge schreiben.";
+$l['redirect_registered_activation'] = "Vielen Dank für deine Registrierung bei {1}, {2}.<p>Um deine Registrierung abzuschließen, musst du den Anweisungen in der E-Mail folgen, die dir gerade geschickt wurden. Erst danach kannst du Beiträge schreiben.";
 $l['redirect_emailupdated'] = "Deine E-Mail-Adresse wurde erfolgreich geändert.<br />Du wirst jetzt zur Startseite weitergeleitet.";
 $l['redirect_accountactivated'] = "Dein Account wurde erfolgreich aktiviert.<br />Du wirst jetzt zur Startseite weitergeleitet.";
 $l['redirect_accountactivated_admin'] = "Deine E-Mail-Adresse wurde erfolgreich überprüft.<br />Dein Account muss nun durch einen Administrator freigegeben werden. Bis dahin kann es sein, dass du in diesem Forum keine Beiträge schreiben kannst.<br />Du wirst jetzt zur Startseite weitergeleitet.";
