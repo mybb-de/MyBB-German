@@ -125,7 +125,7 @@ $l['can_delete_threads'] = "Kann eigene Themen löschen";
 $l['can_edit_attachments'] = "Kann eigene Attachments aktualisieren";
 $l['account_management'] = "Berechtigungen: Accounts verwalten";
 $l['edit_time_limit'] = "Bearbeitungs-Limit";
-$l['edit_time_limit_desc'] = "Der Zeitraum im Minuten, bevor Benutzer ihre Beiträge nicht mehr bearbeiten können, falls sie die nötigen Rechte haben (0 = unendlich).";
+$l['edit_time_limit_desc'] = "Der Zeitraum in Minuten, bevor Benutzer ihre Beiträge nicht mehr bearbeiten können, falls sie die nötigen Rechte haben (0 = unendlich).";
 $l['can_be_reported'] = "Kann gemeldet werden?";
 $l['can_access_usercp'] = "Kann Benutzer-CP betreten";
 $l['can_change_username'] = "Kann Benutzernamen wechseln";
