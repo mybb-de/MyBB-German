@@ -376,7 +376,7 @@ Vielen Dank,
 
 $l['email_changepassword'] = "Hallo {1},
 
-du erhältst diese E-Mail, weil du, oder jemand mit Zugriff auf dein Password, das Passwort geändert hast.
+du erhältst diese E-Mail, weil du, oder jemand mit Zugriff auf dein Passwort, das Passwort geändert hast.
 
 Benutzername: {1}
 E-Mail-Adresse: {2}
