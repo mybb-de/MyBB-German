@@ -145,6 +145,7 @@ $l['advanced_search'] = "Erweiterte Suche";
 $l['search_pms'] = "Suche in PNs";
 $l['advanced_private_message_search'] = "Erweiterte Private Nachrichten Suche";
 $l['search_criteria'] = "Suchkriterien";
+$l['find_users'] = "Benutzer suchen";
 $l['keywords'] = "Suchbegriffe";
 $l['search_in_subject'] = "Suche in Betreffen";
 $l['search_in_message'] = "Suche in Nachrichten";
@@ -174,7 +175,7 @@ $l['error_pmrecipientreachedquota'] = "Sie können keine PN an {1} senden, weil 
 $l['error_recipientpmturnedoff'] = "{1} möchte keine PNs erhalten oder er darf es nicht. Deshalb können Sie diesem Benutzer keine Nachricht schicken.";
 $l['error_pmsturnedoff'] = "Sie haben zur Zeit PNs in Ihrem Profil ausgeschaltet.<br />Um das Private Nachrichten-System benutzen zu können, müssen Sie es aktivieren.";
 $l['error_recipientignoring'] = "Leider kann Ihre Nachricht nicht an {1} zugestellt werden. Ihnen fehlt die Berechtigung für diese Aktion.";
-$l['error_pm_already_submitted'] = "Sie haben in den letzten 5 Minuten die gleiche Nachricht an den gleichen Empfänger geschickt.";
+$l['error_pm_already_submitted'] = "Sie haben in den letzten 5 Stunden die gleiche Nachricht an den gleichen Empfänger geschickt.";
 $l['error_nopms'] = "Zur Benutzung dieser Funktion müssen Sie mindestens eine Private Nachricht auswählen.";
 
 $l['error_minsearchlength'] = "Ein oder mehrere der Suchbegriffe sind kürzer als das Minimum. Die minimale Länges eines Suchbegegriffes sind {1} Zeichen.<br /><br />Wenn Sie nach einem ganzen Satz suchen, schließen Sie ihn bitte mit Anführungszeichen ein. Zum Beispiel \"Vogel Quax zwickt Johnys Pferd Bim\".";

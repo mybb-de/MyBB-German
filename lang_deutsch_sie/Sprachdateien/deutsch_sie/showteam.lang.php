@@ -18,6 +18,7 @@ $l['pm'] = "PN";
 $l['mod_forums'] = "Foren";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
+$l['away'] = "Abwesend";
 
 $l['group_leaders'] = "Leiter";
 $l['group_members'] = "Mitglied(er)";

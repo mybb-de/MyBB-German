@@ -169,7 +169,6 @@ $l['name'] = "Name";
 $l['forum_rules'] = "Forenregeln";
 $l['username'] = "Benutzername";
 $l['moderator_username_desc'] = "Benutzername des hinzuzufügenden Moderators";
-$l['search_user'] = "Benutzer suchen";
 $l['add_user_as_moderator'] = "Benutzer als Moderator hinzufügen";
 $l['usergroup'] = "Benutzergruppe";
 $l['add_usergroup_as_moderator'] = "Benutzerguppe als Moderator hinzufügen";

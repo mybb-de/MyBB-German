@@ -234,6 +234,7 @@ $l['postbit_group'] = "Gruppe:";
 $l['postbit_joined'] = "Registriert seit:";
 $l['postbit_status'] = "Status:";
 $l['postbit_attachments'] = "Angehängte Dateien";
+$l['postbit_attachment_filename'] = "Dateiname:";
 $l['postbit_attachment_size'] = "Größe:";
 $l['postbit_attachment_downloads'] = "Downloads:";
 $l['postbit_attachments_images'] = "Bild(er)";

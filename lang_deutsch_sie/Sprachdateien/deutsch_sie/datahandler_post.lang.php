@@ -18,6 +18,7 @@ $l['postdata_subject_too_long'] = 'Der Betreff ist zu lang. Bitte geben Sie eine
 $l['postdata_banned_username'] = 'Der eingegebene Benutzername kann nicht verwendet werden. Bitte wählen Sie einen anderen Benutzernamen.';
 $l['postdata_bad_characters_username'] = 'Der eingegebene Benutzername enthält ungültige Zeichen. Bitte wählen Sie einen anderen Benutzernamen.';
 $l['postdata_invalid_username_length'] = 'Der Benutzername ist zu kurz oder zu lang. Bitte geben Sie einen Benutzernamen mit {1} bis {2} Zeichen ein.';
+$l['postdata_username_exists'] = 'Der eingegebene Benutzer wird bereits verwendet. Bitte wählen Sie einen anderen Benutzernamen.';
 $l['postdata_post_flooding'] = 'Sie versuchen, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warten Sie noch {1} Sekunden.';
 $l['postdata_post_flooding_one_second'] = 'Sie versuchen, eine Nachricht zu kurz nach der vorigen zu schreiben. Bitte warten Sie noch 1 Sekunde.';
 $l['postdata_too_many_images'] = 'Die von Ihnen eingegebene Nachricht enthält {1} Grafiken, es sind aber nur {2} Grafiken pro Nachricht erlaubt. Bitte entfernen Sie Grafiken aus Ihrer Nachricht, um das Limit nicht zu überschreiten.';
