@@ -76,6 +76,8 @@ $l['away_no_reason'] = "Nicht angegeben.";
 $l['ban_note'] = "Dieser Account ist derzeit gesperrt.";
 $l['ban_by'] = "Gesperrt von";
 $l['ban_length'] = "Länge der Sperrung";
+$l['ban_remaining'] = "verbleibend";
+
 $l['users_additional_info'] = "Zusätzliche Informationen über {1}";
 $l['email'] = "E-Mail:";
 $l['send_user_email'] = "{1} eine E-Mail schicken.";
