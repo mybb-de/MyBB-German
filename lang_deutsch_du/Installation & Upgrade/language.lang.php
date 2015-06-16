@@ -332,7 +332,7 @@ $l['done_step_success'] = '<p class="success">Deine Kopie des MyBB wurde erfolgr
 <p>Die MyBB Group bedankt sich für die Unterstützung durch die Installation der Software und wir hoffen, dich in der Community begrüßen zu können, wenn du Fragen hast oder einfach Teil der MyBB Community werden möchtest.</p>';
 $l['done_step_locked'] = '<p>Die Installation ist gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um die Installationsroutine erneut ausführen zu können.</p><p>Du kannst nun ins <a href="../index.php">Forum</a> oder ins <a href="../admin/index.php">Admin Control Panel</a> gehen.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="color:red">Bitte entferne das Installationsverzeichnis vom Server, bevor du fortfährst.</span></strong></p>';
-$l['done_subscribe_mailing'] = '<div class="error"><p><strong>Melde dich für unseren Newsletter an!</strong></p><p>Wir verschicken jedesmal einen Newsletter, wenn eine neue Version (neue Features, Sicherheitsupdate) des MyBB erschienen ist.</p><p>Dadurch wirst du schnell informiert, so dass du immer auf dem neuesten Stand bist!</p><p><a href="http://www.mybboard.de/support/newsletter/">Jetzt für den Newsletter anmelden!</a></p>';
+$l['done_whats_next'] = '<div class="error"><p><strong>Von einer anderen Forensoftware wechseln?</strong></p><p>MyBB bietet ein Merge System zum einfachen Zusammenfügen mehrerer Foren für verschiedene beliebte Foren-Systeme an, das einen leichten Wechsel zum MyBB erlaubt. Falls du gerne zum MyBB wechseln möchtest, bist du auf dem richtigen Weg. Erfahre mehr über das <a target="_blank" href="https://www.mybb.de/doku/merge-system/">Merge System</a>.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Upgraderoutine";
@@ -361,5 +361,6 @@ $l['login_password_desc'] = "Bitte beachte Groß- und Kleinschreibung.";
 /* Error messages */
 $l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Warnung</h2><p>Diese MyBB-Version ist eine Entwicklerversion und ist nur für Tests gedacht.</p><p>Es gibt für diese Version keinen offiziellen Support außer für die Plugin- und Themeentwicklung. Eine Installation bzw. ein Upgrade geschieht auf eigene Gefahr.</p></div>";
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';
+$l['no_permision'] = "Du hast keine Berechtigung diesen Vorgang auszuführen. Du benötigst Administrations-Rechte um das Upgrade durchzuführen.<br /><br />Falls du dich abmelden möchtest, klicke <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">hier</a>. Danach kannst du dich mit einem Administrator-Account anmelden.";
 
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
