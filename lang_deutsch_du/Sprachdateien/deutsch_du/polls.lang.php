@@ -48,6 +48,7 @@ $l['redirect_unvoted'] = "Deine Stimme(n) bei dieser Umfrage wurde(n) entfernt.<
 $l['redirect_polldeleted'] = "Die Umfrage wurde erfolgreich aus dem Thema entfernt.<br />Du wirst jetzt zum Thema zurückgeleitet.";
 
 $l['error_polloptiontoolong'] = "Eine oder mehrere Antwortmöglichkeiten sind zu lang. Gehe bitte zurück und kürze diese.";
+$l['error_polloptionsequence'] = "Eine oder mehrere Antwortmöglichkeiten enthalten eine Zeichenfolge, die nicht benutzt werden darf: <strong>||~|~||</strong>. Gehe bitte zurück und entferne sie.";
 $l['error_noquestionoptions'] = "Entweder hast du keine Frage oder zu wenig Optionen eingegeben. Es muss mindestens zwei Antwortmöglichkeiten geben.<br />Gehe bitte zurück und korrigiere deine Eingabe.";
 $l['error_pollalready'] = "Das Thema besitzt bereits eine Umfrage!";
 $l['error_nopolloptions'] = "Die angegebene Umfrage-Möglichkeit ist ungültig oder existiert nicht.";
