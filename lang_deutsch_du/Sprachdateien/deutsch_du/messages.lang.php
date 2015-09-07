@@ -93,6 +93,8 @@ $l['emailsubject_randompassword'] = "Dein Passwort bei {1}";
 $l['emailsubject_activateaccount'] = "Account-Aktivierung bei {1}";
 $l['emailsubject_forumsubscription'] = "Neues Thema bei {1}";
 $l['emailsubject_reportpost'] = "Gemeldeter Beitrag bei {1}";
+$l['emailsubject_reportprofile'] = "Gemeldeter Benutzer bei {1}";
+$l['emailsubject_reportreputation'] = "Gemeldete Bewertung bei {1}";
 $l['emailsubject_reachedpmquota'] = "Privates Nachrichten-Limit erreicht bei {1}";
 $l['emailsubject_changeemail'] = "E-Mail-Adresswechsel bei {1}";
 $l['emailsubject_newpm'] = "Neue Private Nachricht bei {1} - {2}";
@@ -152,17 +154,45 @@ Vielen Dank,
 
 $l['email_reportpost'] = "Hallo,
 
-{1} von {2} hat diesen Beitrag gemeldet:
+{1} von {2} hat den folgenden Beitrag gemeldet:
 
 {3}
 {4}/{5}
 
 Der Benutzer hat diesen Grund angegeben:
-{7}
+{6}
 
 Diese Nachricht wurde an alle Moderatoren des Forums versandt oder an alle Administratoren und Super-Moderatoren, wenn es keine Moderatoren gibt.
 
 Bitte überprüfe den Beitrag so schnell wie möglich.";
+
+$l['email_reportprofile'] = "Hallo,
+
+{1} von {2} hat den folgenden Benutzer gemeldet:
+
+{3}
+{4}/{5}
+
+Der Benutzer hat diesen Grund angegeben:
+{6}
+
+Diese Nachricht wurde an alle Moderatoren des Forums versandt oder an alle Administratoren und Super-Moderatoren, wenn es keine Moderatoren gibt.
+
+Bitte überprüfe den Benutzer so schnell wie möglich.";
+
+$l['email_reportreputation'] = "Hallo,
+
+{1} von {2} hat die folgende Bewertung gemeldet:
+
+{3}
+{4}/{5}
+
+Der Benutzer hat diesen Grund angegeben:
+{6}
+
+Diese Nachricht wurde an alle Moderatoren des Forums versandt oder an alle Administratoren und Super-Moderatoren, wenn es keine Moderatoren gibt.
+
+Bitte überprüfe die Bewertung so schnell wie möglich.";
 
 $l['email_passwordreset'] = "Hallo {1},
 

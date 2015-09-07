@@ -93,6 +93,7 @@ $l['delete_q'] = "Löschen?";
 $l['delete_1'] = "Markieren Sie die Box auf der linken Seite und klicken Sie dann auf den Button rechts, um dieses Ereignis zu löschen.";
 $l['delete_2'] = "<b>Hinweis:</b> Dieser Vorgang kann nicht rückgängig gemacht werden.";
 $l['delete_now'] = "Jetzt löschen";
+$l['delete_no_checkbox'] = "Das Ereignis würde nicht gelöscht, weil Sie die \"Löschen\"-Checkbox nicht aktiviert haben.";
 $l['jump_to_calendar'] = "Öffne Kalender:";
 $l['select_calendar'] = "Kalender:";
 $l['type_single'] = "Einmaliges Ereignis";
