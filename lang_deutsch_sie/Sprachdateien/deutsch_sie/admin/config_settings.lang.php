@@ -766,6 +766,8 @@ $l['setting_purgespammerbandelete_ban'] = "Dauerhaft sperren";
 $l['setting_purgespammerbandelete_delete'] = "Löschen";
 $l['setting_purgespammerbangroup'] = "Sperrgruppe";
 $l['setting_purgespammerbangroup_desc'] = "Wählen Sie die Gruppe aus, in die gesperrte Benutzer verschoben werden. Standard ist vorkonfigurierte Gruppe des MyBBs.";
+$l['setting_purgespammerbanreason'] = "Sperrgrund";
+$l['setting_purgespammerbanreason_desc'] = "Der Sperrgrund wird beim Sperren von Spammern verwendet.";
 $l['setting_purgespammerapikey'] = "Stop Forum Spam API Key";
 $l['setting_purgespammerapikey_desc'] = "Um die Daten von Spammern an Stop Forum Spam übermitteln zu können, benötigen Sie einen API-Key. Um einen zu erhalten, melden Sie sich <a href=\"http://stopforumspam.com/signup\" target=\"_blank\">hier</a> an. Nach Erhalt des Keys, tragen Sie diesen hier ein.";
 $l['setting_enablestopforumspam_on_register'] = "Prüfe Registrierungen mit StopForumSpam?";
