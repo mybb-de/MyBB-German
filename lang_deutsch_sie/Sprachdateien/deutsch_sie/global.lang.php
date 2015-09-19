@@ -539,7 +539,7 @@ $l['december'] = "Dezember";
  
 $l['moderation_forum_attachments'] = "Bitte beachten Sie, dass neue Attachments in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_posts'] = "Bitte beachten Sie, dass neue Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
-$l['moderation_user_posts'] = "Bitte beachten Sie, dass neue Beiträge von Ihnen von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar waren.";
+$l['moderation_user_posts'] = "Bitte beachten Sie, dass neue Beiträge von Ihnen von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_thread'] = "Bitte beachten Sie, dass neue Themen in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits_quick'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
