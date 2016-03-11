@@ -15,6 +15,7 @@ $l['archive_pages'] = "Seiten:";
 $l['archive_note'] = "Sie sehen gerade eine vereinfachte Darstellung unserer Inhalte. <a href=\"{1}\">Normale Ansicht</a> mit richtiger Formatierung.";
 $l['archive_nopermission'] = "Entschuldigung. Sie haben nicht die Berechtigung, diese Seite zu betreten.";
 $l['error_nothreads'] = "Es gibt zur Zeit keine Themen in diesem Forum.";
+$l['error_nopermission'] = "Sie haben nicht die Berechtigung Themen in diesem Forum anzusehen.";
 $l['error_unapproved_thread'] = "Dieses Thema ist abgewiesen. Bitte benutzen Sue <a href=\"{1}\">die normale Ansicht</a> um den Inhalt des Themas zu sehen.";
 $l['archive_not_found'] = "Das angegebene Dokument konnte nicht gefunden werden.";
 $l['error_mustlogin'] = "Zur Benutzung dieses Forum müssen Sie sich anmelden.";

@@ -42,6 +42,7 @@ $l['multiquote_external_quote'] = "Zitiere diese Beiträge auch";
 $l['redirect_newthread'] = "Vielen Dank, dein Thema wurde veröffentlicht.";
 $l['redirect_newthread_poll'] = "<br />Du wirst nun zu der Umfrageoptions- und Konfigurationsseite weitergeleitet.";
 $l['redirect_newthread_moderation'] = "<br />Der Administrator hat spezifiziert, dass alle neuen Themen überprüft werden müssen. Du wirst zur Themenübersicht weitergeleitet.";
+$l['redirect_newthread_unviewable'] = "<br />Du hast nicht die Berechtigung Themen in diesem Forum anzusehen. Du wirst zum Forum zurückgeleitet.";
 $l['redirect_newthread_thread'] = "<br />Du wirst nun zum neuen Thema geleitet.";
 $l['invalidthread'] = "Der ausgewählte Entwurf exisitiert nicht oder du hast nicht die Berechtigung ihn zu sehen.";
 

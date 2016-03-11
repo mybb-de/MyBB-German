@@ -359,6 +359,8 @@ $l['comma'] = ", ";
 
 $l['search_user'] = "Benutzer suchen";
 
+$l['mybb_engine'] = "MyBB Engine";
+
 $l['my2fa'] = "Zwei-Faktor-Authentifizierung";
 $l['my2fa_failed'] = "Der eingegebene Code war falsch, Sie sind nun ausgeloggt";
 $l['my2fa_code'] = "Bitte geben Sie den Authentifizierungs-Code ein";

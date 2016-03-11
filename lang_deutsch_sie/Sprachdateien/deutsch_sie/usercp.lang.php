@@ -397,7 +397,6 @@ $l['icon_no_new'] = "Keine neuen Beiträge.";
 $l['icon_new'] = "Neue Beiträge.";
 $l['icon_hot'] = " Heißes Thema.";
 $l['icon_lock'] = " Geschlossenes Thema.";
-$l['search_user'] = "Benutzer suchen";
 
 $l['buddylist_error'] = "Beim Laden der Freundesliste ist ein Fehler aufgetreten.";
 
