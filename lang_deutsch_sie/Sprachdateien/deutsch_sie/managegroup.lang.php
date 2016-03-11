@@ -47,7 +47,6 @@ $l['group_public_invite'] = "TDiese Benutzergruppe ist eine öffentliche Benutze
 $l['group_private'] = "Diese Benutzergruppe ist eine private Benutzergruppe. Mitglieder können dieser Gruppe nur durch den Gruppenleiter hinzugefügt werden.";
 $l['group_default'] = "Diese Benutzergruppe ist eine Standardbenutzergruppe.";
 $l['group_leaders'] = "Gruppenleiter";
-$l['search_user'] = "Ein Mitglied suchen";
 $l['no_users_selected'] = "Es wurden keine Benutzer zum Entfernen ausgewählt.<br />Bitte gehen Sie zurück und wählen Sie die Benutzer aus, die Sie aus der Gruppe entfernen wollen.";
 
 $l['error_alreadyingroup'] = "Der angegebene Benutzer ist bereits Mitglied in dieser Gruppe.";

@@ -145,7 +145,6 @@ $l['advanced_search'] = "Erweiterte Suche";
 $l['search_pms'] = "Suche in PNs";
 $l['advanced_private_message_search'] = "Erweiterte Private Nachrichten Suche";
 $l['search_criteria'] = "Suchkriterien";
-$l['find_users'] = "Benutzer suchen";
 $l['keywords'] = "Suchbegriffe";
 $l['search_in_subject'] = "Suche in Betreffen";
 $l['search_in_message'] = "Suche in Nachrichten";
@@ -164,7 +163,6 @@ $l['ascending_order'] = "Aufsteigend";
 $l['descending_order'] = "Absteigend";
 $l['search_private_messages'] = "Suche Private Nachrichten";
 $l['check_all'] = "Alle auswählen";
-$l['search_user'] = "Benutzer suchen";
 
 $l['error_nopmsarchive'] = "Entschuldigung, aber es gibt keine Nachrichten, die Ihren Kriterien entsprechen.";
 $l['error_invalidpmfoldername'] = "Entschuldigung, der Ordnername, den Sie angegeben haben, enthält ungültige Zeichen.";

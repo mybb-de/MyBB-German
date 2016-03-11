@@ -98,7 +98,6 @@ $l['page_selected'] = "Alle <strong>{1}</strong> Ergebnisse auf dieser Seite sin
 $l['all_selected'] = "Alle <strong>{1}</strong> Ergebnisse dieser Suche sind ausgewählt.";
 $l['select_all'] = "Wähle alle <strong>{1}</strong> Ergebnisse dieser Suche.";
 $l['clear_selection'] = "Auswahl aufheben.";
-$l['search_user'] = "Benutzer suchen";
 
 $l['results'] = "Ergebnisse";
 $l['mod_options'] = "Moderations-Optionen";

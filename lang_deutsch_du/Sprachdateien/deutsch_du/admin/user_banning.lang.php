@@ -63,4 +63,3 @@ $l['prune_threads_and_posts'] = "Themen und Beiträge löschen";
 // Buttons
 $l['ban_user'] = "Benutzer sperren";
 $l['update_ban'] = "Sperrung aktualisieren";
-$l['search_user'] = "Benutzer suchen";

@@ -328,4 +328,3 @@ $l['you_cannot_moderate_attachments'] = "Du hast keine Berechtigung Attachments 
 $l['you_cannot_use_mod_queue'] = "Du hast keine Berechtigung das Warnungs-Protokoll anzusehen.";
 
 $l['post'] = "Beitrag";
-$l['search_user'] = "Benutzer suchen";

@@ -350,7 +350,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
-{6}/usercp2.php?action=removesubscription&tid={8}&key={9}&my_post_key={10}
+{6}/usercp2.php?action=removesubscription&tid={8}&my_post_key={9}
 
 ------------------------------------------";
 
@@ -497,6 +497,13 @@ Es könnte bereits auch weitere Antworten zu diesem Thema geben. Sie erhalten je
 Informationen zur Abmeldung:
 
 Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&key={8}&my_post_key={9}[/url]
+[url]{5}/usercp2.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
 
 ------------------------------------------";
+
+$l['email_broken_task_subject'] = "MyBB Aufgaben-Fehler bei {1}";
+$l['email_broken_task'] = "Bei ihrer MyBB-Installation bei {1} ({2}) ist im Aufgaben-System ein Fehler aufgetreten.
+
+Die Aufgaben-Datei {3} fehlt.
+
+Diese Aufgabe wurde deaktiviert bis der Fehler behoben wurde.";

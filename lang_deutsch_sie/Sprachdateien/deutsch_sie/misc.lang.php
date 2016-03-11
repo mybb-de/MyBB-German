@@ -16,7 +16,6 @@ $l['aol_im'] = "AOL IM";
 $l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo IM";
 $l['skype_center'] = "Skype Center";
-$l['skype_status'] = "Skype Status";
 $l['chat_on_skype'] = "Mit {1} über Skype chatten";
 $l['call_on_skype'] = "{1} über Skype anrufen";
 $l['yahoo_center'] = "Yahoo!-Center";
@@ -92,7 +91,12 @@ $l['redirect_markforumsread'] = "Alle Foren wurden als gelesen markiert.";
 $l['redirect_forumpasscleared'] = "Das für dieses Forum gespeicherte Passwort wurde entfernt.";
 $l['redirect_cookiescleared'] = "Alle Cookies wurden gelöscht.";
 
-$l['error_invalidimtype'] = "Dieser Benutzer hat keinen Messaging-Account dieses Typs in seinem Profil angegeben.";
+$l['error_invalidforum'] = "Ungültiges Forum";
 $l['error_invalidhelpdoc'] = "Die angegebene Hilfe-Seite scheint nicht zu existieren.";
+$l['error_invalidimtype'] = "Dieser Benutzer hat keinen Messaging-Account dieses Typs in seinem Profil angegeben.";
+$l['error_invalidsearch'] = "Der Suchbegriff ist ungültig. Bitte gehen Sie zurück und versuchen Sie es erneut.";
+$l['error_no_search_support'] = "Diese Datenbank-Engine unterstützt keine Suchfunktion.";
+$l['error_searchflooding'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch {2} Sekunden und versuchen Sie es dann erneut.";
+$l['error_searchflooding_1'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch 1 Sekunde und versuchen Sie es dann erneut.";
 
 $l['dst_settings_updated'] = "Ihre Sommerzeiteinstellungen wurden automatisch geändert.<br /><br />Sie werden jetzt zum Forenindex weitergeleitet.";

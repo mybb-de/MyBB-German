@@ -11,6 +11,7 @@
 $l['post_thread'] = "Thema erstellen";
 $l['moderated_by'] = "Moderiert von:";
 $l['nothreads'] = "Momentan gibt es leider keine Themen in diesem Forum mit den spezifizierten Zeit- und Datumseinschränkungen.";
+$l['nopermission'] = "Du hast nicht die Berechtigung Themen in diesem Forum anzusehen.";
 $l['search_forum'] = "Dieses Forum durchsuchen:";
 $l['thread'] = "Thema";
 $l['author'] = "Verfasser";

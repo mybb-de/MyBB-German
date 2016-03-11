@@ -311,6 +311,8 @@ $l['unread_reports'] = "Moderatoren-Nachricht: Es gibt {1} ungelesene Meldungen.
 $l['pending_joinrequest'] = "Gruppenleiter-Notiz: Du hast eine ausstehende Gruppenbeitrittsanfrage.";
 $l['pending_joinrequests'] = "Gruppenleiter-Notiz: Du hast {1} ausstehende Gruppenbeitrittsanfragen.";
 
+$l['search_user'] = "Benutzer suchen";
+
 $l['year'] = "Jahr";
 $l['year_short'] = "J";
 $l['years'] = "Jahre";
@@ -430,7 +432,6 @@ $l['invalid_captcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufget
 $l['invalid_nocaptcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufgetreten. Bitte versuche es erneut.";
 $l['captcha_fetch_failure'] = "Beim Laden eines neues Verifizierungscode ist ein Fehler aufgetreten.";
 $l['question_fetch_failure'] = "Beim Laden einer neuen Frage ist ein Fehler aufgetreten.";
-$l['invalid_ayah_result'] = "Die \"Are You a Human\"-Bestätigung wurde nicht abgeschlossen. Bitte versuche es erneut.";
 
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Marshallinseln";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midwayinseln";

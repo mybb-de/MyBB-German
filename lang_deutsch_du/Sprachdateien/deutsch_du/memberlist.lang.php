@@ -50,7 +50,6 @@ $l['search_icq'] = "ICQ Nummer";
 $l['search_options'] = "Suchoptionen";
 $l['per_page'] = "Ergebnisse pro Seite";
 $l['search'] = "Suche";
-$l['search_user'] = "Benutzer suchen";
 
 $l['error_no_members'] = "<p>Es wurden keine Mitglieder mit den eingegebenen Kriterien gefunden.</p><p>Bitte versuche es mit einem anderen Suchwort erneut.</p>";
 

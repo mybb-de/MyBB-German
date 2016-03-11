@@ -150,7 +150,6 @@ $l['submit_registration'] = "Registrierung bestätigen!";
 $l['confirm_password'] = "Passwort bestätigen:";
 $l['referrer'] = "Empfohlen von:";
 $l['referrer_desc'] = "Wurde Ihnen das Forum von einem unserer Benutzer empfohlen, geben Sie hier seinen Namen ein.";
-$l['search_user'] = "Einen Benutzer suchen";
 $l['resend_activation'] = "Konto-Aktivierung erneut schicken";
 $l['request_activation'] = "Aktivierungscode anfordern";
 $l['ppp'] = "Nachrichten pro Seite:";
