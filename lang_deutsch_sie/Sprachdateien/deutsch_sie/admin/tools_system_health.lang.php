@@ -77,7 +77,7 @@ $l['full_edit'] = "Zum Editor";
 
 $l['error_chmod'] = "Die benötigten Dateien und Verzeichnisse haben nicht die richtigen CHMOD-Einstellungen.";
 $l['error_invalid_table'] = "Die ausgewählte Tabelle existiert nicht.";
-$l['error_db_encoding_not_set'] = "Ihre MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicken Sie <a href=\"http://www.mybboard.de/doku/sonstiges/utf-8-konvertierung/\">hier</a> f&uuml;r weitere Informationen.";
+$l['error_db_encoding_not_set'] = "Ihre MyBB-Installation ist derzeit nicht zur Verwendung dieses Tools konfiguriert. Klicken Sie <a href=\"https://www.mybb.de/doku/sonstiges/utf-8-konvertierung/\">hier</a> f&uuml;r weitere Informationen.";
 $l['error_not_supported'] = "Ihre aktuelle Datenbank-Engine wird nicht von der UTF-8 Konvertierung unterstützt.";
 $l['error_invalid_input'] = "Es ist ein Problem beim Überprüfen der Templates aufgetreten. Bitte probieren Sie es erneut oder kontaktieren Sie den MyBB-Support.";
 $l['error_master_templates_altered'] = "Die Master-Templates wurden verändert. Bitte kontaktieren Sie den MyBB-Support um Unterstützung beim Ändern zu erhalten.";

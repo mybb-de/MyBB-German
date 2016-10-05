@@ -56,12 +56,12 @@ $l['error_nosearchresults'] = "Entschuldigung, aber nach deinen Angaben wurden k
 $l['no_help_results'] = "Entschuldigung, aber nach deinen Angaben wurden keine Ergebnisse gefunden.";
 $l['error_helpsearchdisabled'] = "Die Möglichkeit die Hilfe-Seiten zu durchsuchen wurde vom Administrator deaktiviert.";
 
-
 $l['smilies_listing'] = "Smilie-Liste";
 $l['name'] = "Name";
 $l['abbreviation'] = "Abkürzung";
 $l['click_to_add'] = "Smilie anklicken, um es in den Beitrag einzufügen";
 $l['close_window'] = "Fenster schließen";
+$l['no_smilies'] = "Es sind derzeit keine Smilies verfügbar.";
 
 $l['who_posted'] = "Wer schrieb?";
 $l['total_posts'] = "Gesamtanzahl der Beiträge:";

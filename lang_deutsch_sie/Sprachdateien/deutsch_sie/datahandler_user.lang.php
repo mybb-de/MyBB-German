@@ -44,3 +44,9 @@ $l['userdata_max_limit_reached'] = 'Sie haben eine ungültige Anzahl an Zeichen 
 $l['userdata_invalid_checkfield'] = "Es wurde festgestellt, dass dieses Formular von einem Spambot verschickt wurde. Wenn dies ein Fehler ist, kontaktieren Sie bitte den Administrator.";
 $l['userdata_invalid_postnum'] = "Die eingegebene Beitragsanzahl ist ungültig. Bitte geben Sie eine gültige Beitragsanzahl ein oder lassen Sie das Feld leer.";
 $l['userdata_invalid_threadnum'] = "Die eingegebene Themenanzahl ist ungültig. Bitte geben Sie eine gültige Themenanzahl ein oder lassen Sie das Feld leer.";
+
+$l['userdata_too_many_sig_images'] = "Entschuldigung, aber Ihre Signatur kann nicht aktualisiert werden, da sie zu viele Bilder enthält. Bitte entfernen Sie einige Bilder um fortzufahren.";
+$l['userdata_too_many_sig_images2'] = "<strong>Hinweis:</strong> Die maximal zulässige Anzahl an Bildern in der Signatur beträgt {1}.";
+$l['userdata_sig_too_long'] = "Die Signatur kann nicht gespeichert werden, weil sie zu lang ist. Es sind maximal {1} Zeichen in der Signatur erlaubt.";
+$l['userdata_sig_remove_chars_plural'] = " Bitte entfernen Sie {1} Zeichen und versuchen Sie es erneut.";
+$l['userdata_sig_remove_chars_singular'] = " Bitte entfernen Sie 1 Zeichen und versuchen Sie es erneut.";

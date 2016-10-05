@@ -27,6 +27,7 @@ $l['calendars'] = "Kalender";
 $l['warning_system'] = "Warnsystem";
 $l['thread_prefixes'] = "Präfixe";
 $l['security_questions'] = "Sicherheitsfragen";
+$l['report_reasons'] = "Melde-Gründe";
 
 $l['can_manage_settings'] = "Kann Einstellungen verwalten?";
 $l['can_manage_banned_accounts'] = "Kann Ausschlüsse verwalten?";
@@ -45,3 +46,4 @@ $l['can_manage_warning_system'] = "Kann Warnsystem verwalten?";
 $l['can_manage_mod_tools'] = "Kann Moderationstools verwalten?";
 $l['can_manage_thread_prefixes'] = "Kann Präfixe verwalten?";
 $l['can_manage_security_questions'] = "Kann Sicherheitsfragen verwalten?";
+$l['can_manage_report_reasons'] = "Kann Melde-Gründe verwalten?";

@@ -61,6 +61,7 @@ $l['name'] = "Name";
 $l['abbreviation'] = "Abkürzung";
 $l['click_to_add'] = "Smilie anklicken, um es in den Beitrag einzufügen";
 $l['close_window'] = "Fenster schließen";
+$l['no_smilies'] = "Es sind derzeit keine Smilies verfügbar.";
 
 $l['who_posted'] = "Wer schrieb?";
 $l['total_posts'] = "Gesamtanzahl der Beiträge:";

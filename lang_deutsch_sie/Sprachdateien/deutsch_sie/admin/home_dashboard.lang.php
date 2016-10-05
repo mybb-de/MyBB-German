@@ -39,7 +39,7 @@ $l['latest_mybb_announcements'] = "Neueste MyBB-Ankündigungen";
 $l['no_announcements'] = "Keine Ankündigungen gespeichert. <a href=\"index.php?module=home&amp;action=version_check\">Nach Updates suchen</a>.";
 $l['your_version'] = "ihre Version";
 $l['latest_version'] = "Neueste Version";
-$l['update_forum'] = "Bitte führen Sie ein Upgrade zur letzten MyBB-Version aus, das auf der <a href=\"http://www.mybboard.de/\" target=\"_blank\">MyBB Website</a> verfügbar ist.";
+$l['update_forum'] = "Bitte führen Sie ein Upgrade zur letzten MyBB-Version aus, das auf der <a href=\"https://www.mybb.de/\" target=\"_blank\">MyBB Website</a> verfügbar ist.";
 $l['read_more'] = "Lesen Sie mehr";
 
 $l['success_up_to_date'] = "Herzlichen Glückwunsch, Ihre MyBB-Version ist aktuell.";
@@ -48,7 +48,7 @@ $l['error_out_of_date'] = "Ihre MyBB-Kopie ist veraltet.";
 $l['error_communication'] = "Es gab ein Problem mit der Verbindung zum Server. Bitte versuchen Sie es in ein paar Minuten erneut.";
 $l['error_fetch_news'] = "Die neuesten Ankündigungen konnten nicht von der MyBB Webseite geladen werden.";
 
-$l['news_description'] = "Die neusten Ankündigungen aus dem <a href=\"http://blog.mybb.com/\" target=\"_blank\">MyBB Blog</a>.";
+$l['news_description'] = "Die neusten Ankündigungen aus dem <a href=\"https://blog.mybb.com/\" target=\"_blank\">MyBB Blog</a>.";
 
 $l['admin_notes_public'] = "Diese Notizen werden jedem Administrator angezeigt.";
 $l['admin_notes'] = "Administratoren-Notizen";

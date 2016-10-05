@@ -157,7 +157,7 @@ $l['points_to_award_take_desc'] = "Hier kannst du einstellen wie viele Punkte ei
 $l['max_reputations_daily'] = "Maximale Bewertungen pro Tag:";
 $l['max_reputations_daily_desc'] = "Gib hier die Anzahl der Bewertungen an, die ein Benutzer dieser Gruppe pro Tag höchstens geben darf (0 = unendlich).";
 $l['max_reputations_perthread'] = "Maximale Bewertungen pro Thema:";
-$l['max_reputations_perthread_desc'] = "Gib hier die Anzahl der Bewertungen an, die ein Benutzer dieser Gruppe einem anderen Benutzer in einem Thema höchstens geben darf (0 = unendlich).";
+$l['max_reputations_perthread_desc'] = "Wenn 'Beitragsbewertungen erlauben' aktiv ist, kannst du hier die Anzahl der Bewertungen angeben, die ein Benutzer dieser Gruppe einem anderen Benutzer in einem Thema am selben Tagen höchstens geben darf (0 = unendlich).";
 $l['max_reputations_peruser'] = "Maximale Bewertungen pro Benutzer:";
 $l['max_reputations_peruser_desc'] = "Gib hier die Anzahl der Bewertungen an, die ein Benutzer dieser Gruppe einem anderen Benutzer höchstens geben darf (0 = unendlich).";
 $l['warning_system'] = "Verwarn-System";

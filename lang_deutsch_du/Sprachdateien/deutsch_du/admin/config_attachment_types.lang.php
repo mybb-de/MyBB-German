@@ -44,3 +44,13 @@ $l['success_attachment_type_updated'] = "Der Attachment-Typ wurde erfolgreich ak
 $l['success_attachment_type_deleted'] = "Der Attachment-Typ wurde erfolgreich gelöscht.";
 
 $l['confirm_attachment_type_deletion'] = "Soll dieser Attachment-Typ wirklich gelöscht werden?";
+
+$l['success_activated_attachment_type'] = "Der ausgewählte Attachment-Typ wurde erfolgreich aktiviert.";
+$l['success_deactivated_attachment_type'] = "Der ausgewählte Attachment-Typ wurde erfolgreich deaktiviert.";
+
+$l['enabled'] = "Aktiviert?";
+$l['avatar_file'] = "Avatar-Datei";
+$l['avatar_file_desc'] = "Soll dieser Attachment-Typ für Avatare genutzt werden können?";
+
+$l['available_in_forums'] = "Verfügbar in folgenden Foren";
+$l['available_to_groups'] = "Verfügbar für folgende Gruppen";
