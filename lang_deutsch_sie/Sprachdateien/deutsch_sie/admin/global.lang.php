@@ -136,6 +136,8 @@ $l['on'] = "An";
 $l['off'] = "Aus";
 $l['alt_enabled'] = "Aktiviert";
 $l['alt_disabled'] = "Deaktiviert";
+$l['enable'] = "Aktivieren";
+$l['disable'] = "Deaktivieren";
 $l['saved'] = "Gespeichert";
 
 $l['rel_in'] = "In ";
@@ -179,7 +181,7 @@ $l['cannot_perform_action_super_admin_general'] = "Entschuldigung, aber Sie kön
 $l['loading_text'] = "Lade<br />Bitte warten ...";
 
 // Time zone selection boxes
-$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Marshallinseln";
+$l['timezone_gmt_minus_1200'] = "(GMT -12:00) Baker- und Howlandinseln";
 $l['timezone_gmt_minus_1100'] = "(GMT -11:00) Nome, Midwayinseln";
 $l['timezone_gmt_minus_1000'] = "(GMT -10:00) Hawaii, Papeete";
 $l['timezone_gmt_minus_950'] = "(GMT -9:30) Marquesas-Inseln";
@@ -208,6 +210,8 @@ $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Jekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Rangun";
 $l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Jakarta";
 $l['timezone_gmt_800'] = "(GMT +8:00) Peking, Hong Kong, Perth, Singapur, Taipei, Manila";
+$l['timezone_gmt_850'] = "(GMT +8:30) Pyongyang";
+$l['timezone_gmt_875'] = "(GMT +8:45) Eucla";
 $l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Irkutsk";
 $l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
 $l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua-Neuguinea, Sydney, Yakutsk";

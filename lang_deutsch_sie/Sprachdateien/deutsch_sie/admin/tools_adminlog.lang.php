@@ -45,6 +45,7 @@ $l['note_logs_locked'] = "Aus Sicherheitsgründen können die Einträge der letz
 $l['admin_log_config_attachment_types_add'] = "Attachment-Typ #{1} ({2}) hinzugefügt";
 $l['admin_log_config_attachment_types_edit'] = "Attachment-Typ #{1} ({2}) bearbeitet";
 $l['admin_log_config_attachment_types_delete'] = "Attachment-Typ #{1} ({2}) gelöscht";
+$l['admin_log_config_attachment_types_toggle_status'] = "Attachment-Typ #{1} ({2}) de- oder aktiviert";
 
 $l['admin_log_config_badwords_add'] = "Wortfilter #{1} ({2}) hinzugefügt";
 $l['admin_log_config_badwords_edit'] = "Wortfilter #{1} ({2}) bearbeitet";
@@ -107,6 +108,10 @@ $l['admin_log_config_questions_edit'] = "Frage #{1} ({2}) bearbeitet";
 $l['admin_log_config_questions_delete'] = "Frage #{1} ({2}) gelöscht";
 $l['admin_log_config_questions_enable'] = "Frage #{1} ({2}) aktiviert";
 $l['admin_log_config_questions_disable'] = "Frage #{1} ({2}) deaktiviert";
+
+$l['admin_log_config_report_reasons_add'] = "Melde-Grund #{1} ({2}) hinzugefügt";
+$l['admin_log_config_report_reasons_edit'] = "Melde-Grund #{1} ({2}) bearbeitet";
+$l['admin_log_config_report_reasons_delete'] = "Melde-Grund #{1} ({2}) gelöscht";
 
 $l['admin_log_config_settings_delete_duplicates'] = "Doppelte Einstellungen und Einstellungsgruppen gelöscht";
 $l['admin_log_config_settings_addgroup'] = "Eigenschaften für die Einstellungsgruppe #{1} ({2}) hinzugefügt";

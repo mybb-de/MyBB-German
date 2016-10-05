@@ -44,7 +44,7 @@ $l['error_invalid_thread_tool'] = "Das angegebene Thementool existiert nicht.";
 $l['general_options'] = "Allgemeine Optionen";
 $l['short_description'] = "Kurzbeschreibung";
 $l['available_in_forums'] = "Verfügbar in folgenden Foren";
-$l['available_to_groups'] = "Verfügbar für alle Gruppen";
+$l['available_to_groups'] = "Verfügbar für folgende Gruppen";
 $l['show_confirmation'] = "Zeige Bestätigungs-Seite";
 $l['save_thread_tool'] = "Speichere Thementool";
 

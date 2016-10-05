@@ -86,13 +86,17 @@ $l['error_cannot_edit_default'] = "Standard-Einstellungen und -Einstellungsgrupp
 $l['error_cannot_edit_php'] = "Dieser spezielle Einstellungs-Typ kann nicht bearbeitet werden.";
 $l['error_ajax_search'] = "Bei der Suche ist ein Fehler aufgetreten:";
 $l['error_ajax_unknown'] = "Bei der Suche ist ein unbekannter Fehler aufgetreten.";
-$l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setzen Sie die CHMOD-Rechte auf 777.<br />Weitere Informationen finden Sie in der <a href=\"http://www.mybboard.de/doku/installationaktualisierung/installation/\" target=\"_blank\">Doku</a>.";
-$l['error_hidden_captcha_conflict'] = "Der Name des versteckten Captcha-Feldes kann nicht \"{1}\" sein, sonst kommt es zu Konflikten mit anderen Feldern der Registrierung.";
+$l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setzen Sie die CHMOD-Rechte auf 777.<br />Weitere Informationen finden Sie in der <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\">Doku</a>.";
 
 $l['success_setting_added'] = "Die Einstellung wurde erfolgreich erstellt.";
 $l['success_setting_updated'] = "Die Einstellung wurde erfolgreich aktualisiert.";
 $l['success_setting_deleted'] = "Die Einstellung wurde erfolgreich gelöscht.";
 $l['success_settings_updated'] = "Die Einstellungen wurden erfolgreich aktualisiert.";
+$l['success_settings_updated_hiddencaptchaimage'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachten Sie, dass die Einstellung <strong>Verstecktes Captcha-Feld</strong> auf {1} zurückgesetzt wurde, da es zu einem Konflikt mit dem Feld <strong>{2}</strong> des Registrierungs-Formulars kommt.</div>';
+$l['success_settings_updated_username_method'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachten Sie, dass die Einstellung <b>Erlaubte Login-Methoden</b> nicht geändert werden konnte, da aktuell mehrere Benutzer die selbe E-Mail-Adresse verwenden.</div>';
+$l['success_settings_updated_allowmultipleemails'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachten Sie, dass die Einstellung <b>Erlaube mehrfache Registrierung mit der gleichen E-Mail-Adresse?</b> nicht geändert werden konnte, da die Option <b>Erlaubte Login-Methoden</b> eine Anmeldung mit der E-Mail-Adresse erlaubt.</div>';
+$l['success_settings_updated_captchaimage'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachten Sie, dass die Einstellung <strong>
+Bestätigungsgrafik (Captcha) bei Registrierung und Beitragserstellung</strong> auf <strong>MyBB Standard-Captcha</strong> zurückgesetzt wurde, da keine Private oder Public Keys hinterlegt wurden.</div>';
 $l['success_display_orders_updated'] = "Die Sortierung wurde erfolgreich aktualisiert.";
 $l['success_setting_group_added'] = "Die Einstellungsgruppe wurde erfolgreich erstellt.";
 $l['success_setting_group_updated'] = "Die Einstellungsgruppe wurde erfolgreich aktualisiert.";
@@ -418,7 +422,7 @@ $l['setting_coppa_enabled'] = "Aktiviert";
 $l['setting_coppa_deny'] = "Zugriff für unter 13jährige verweigern";
 $l['setting_coppa_disabled'] = "Deaktiviert";
 $l['setting_username_method'] = "Erlaubte Login-Methoden";
-$l['setting_username_method_desc'] = "Die erlaubten Eingaben für das Login-Feld Benutzername. Nur Benutzername, nur E-Mail-Adresse oder beides.";
+$l['setting_username_method_desc'] = "Die erlaubten Eingaben für das Login-Feld Benutzername. Nur Benutzername, nur E-Mail-Adresse oder beides.<br />Damit sich Benutzer mit der E-Mail-Adresse anmelden können, dürfen keine die selbe E-Mail-Adresse verwenden.";
 $l['setting_username_method_0'] = "Nur Benutzername";
 $l['setting_username_method_1'] = "Nur E-Mail-Adresse";
 $l['setting_username_method_2'] = "Benutzername oder E-Mail-Adresse";
@@ -449,7 +453,7 @@ $l['setting_maxsigimages_desc'] = "Geben Sie die maximal zulässige Zahl an Bild
 $l['setting_siglength'] = "Limit für Signaturen";
 $l['setting_siglength_desc'] = "Die maximal erlaubte Zeichenanzahl in einer Signatur.";
 $l['setting_useravatar'] = "Standard-Avatar";
-$l['setting_useravatar_desc'] = "Wenn ein Benutzer kein eigenes Avatar eingerichtet hat, wird stattdessen dieses Bild angezeigt.";
+$l['setting_useravatar_desc'] = "Wenn ein Benutzer kein eigenes Avatar eingerichtet hat, wird stattdessen dieses Bild angezeigt. Falls Sie für verschiedene Themes unterschiedliche Bilder verwenden möchten, verwenden Sie bitte <strong>{theme}</strong> als Platzhalter für das Theme im Pfad.";
 $l['setting_useravatardims'] = "Standard-Avatar-Größe";
 $l['setting_useravatardims_desc'] = "Die Abmessungen des Standard-Avatars; Breite Trennstrich Höhe (z.B. 40|40).";
 $l['setting_useravatarrating'] = "Gravatar Einstufung";
