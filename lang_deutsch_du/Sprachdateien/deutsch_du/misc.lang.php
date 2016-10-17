@@ -66,7 +66,7 @@ $l['no_smilies'] = "Es sind derzeit keine Smilies verfügbar.";
 $l['who_posted'] = "Wer schrieb?";
 $l['total_posts'] = "Gesamtanzahl der Beiträge:";
 $l['user'] = "Benutzer";
-$l['num_posts'] = "# Nachrichten";
+$l['num_posts'] = "# Beiträge";
 
 $l['forum_rules'] = "{1} - Regeln";
 
