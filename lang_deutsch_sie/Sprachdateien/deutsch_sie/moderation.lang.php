@@ -84,6 +84,7 @@ $l['post_separator'] = "Beitragsauswahl";
 $l['new_line'] = "Zusammenfügen";
 $l['horizontal_rule'] = "Durch Linie(n) trennen";
 $l['resolve_fail'] = "Keine Angabe (Aktion nicht möglich)";
+$l['time'] = "Zeit:";
 
 $l['opened'] = "Geöffnet";
 $l['closed'] = "Geschlossen";

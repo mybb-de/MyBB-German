@@ -25,7 +25,7 @@ $l['name_desc'] = "Geben Sie den Name des Attachment-Typs ein.";
 $l['file_extension'] = "Dateierweiterung";
 $l['file_extension_desc'] = "Geben Sie die Dateierweiterung ohne führenden Punkt an (Beispiel: txt)";
 $l['mime_type'] = "MIME-Typ";
-$l['mime_type_desc'] = "Geben Sie den MIME-Typ an, der vom Server beim Herunterladen einer Datei gesendet wird (<a href=\"http://de.selfhtml.org/diverses/mimetypen.htm\" target=\"_blank\">Weitere Informationen</a>)";
+$l['mime_type_desc'] = "Geben Sie den MIME-Typ an, der vom Server beim Herunterladen einer Datei gesendet wird (<a href=\"https://wiki.selfhtml.org/wiki/Referenz:MIME-Typen\" target=\"_blank\">Weitere Informationen</a>)";
 $l['maximum_file_size'] = "Maximale Dateigröße (Kilobyte)";
 $l['maximum_file_size_desc'] = "Die maximal zulässige Größe für diesen Attachment-Typ in Kilobyte (1 MB = 1024 KB)";
 $l['limit_intro'] = "Bitte stellen Sie sicher, dass die Attachment-Größe den kleineren Wert folgender Begrenzungen aus der PHP-Konfiguration nicht überschreitet:";

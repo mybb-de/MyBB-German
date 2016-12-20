@@ -102,7 +102,7 @@ $l['no_forums'] = "Es wurden keine Foren gefunden.";
 $l['no_moderators'] = "Es wurden keine Moderatoren gefunden.";
 
 $l['success_forum_disporder_updated'] = "Die Sortierung wurde erfolgreich aktualisiert.";
-$l['success_forum_deleted'] = "Das angegebene Forum wurde erfolgreich gelöscht.";
+$l['success_forum_deleted'] = "Das angegebene Forum wurde erfolgreich gelöscht. Wir empfehlen anschließend <a href=\"/index.php?module=tools-recount_rebuild\">Neu zählen &amp; aktualisieren</a> auszuführen.";
 $l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich gelöscht.<br />Bitte beachten Sie, dass dies die Benutzergruppen-Rechte nicht verändert hat, sodass der Moderator noch Moderations-Rechte haben könnte.";
 $l['success_forum_permissions_updated'] = "Die Forenberechtigungen wurden erfolgreich aktualisiert.";
 $l['success_forum_updated'] = "Das Forum wurde erfolgreich aktualisiert.";
@@ -266,6 +266,7 @@ $l['editing_field_caneditposts'] = "Kann eigene Beiträge bearbeiten";
 $l['editing_field_candeleteposts'] = "Kann eigene Beiträge löschen";
 $l['editing_field_candeletethreads'] = "Kann eigene Themen löschen";
 $l['editing_field_caneditattachments'] = "Kann eigene Attachments aktualisieren";
+$l['editing_field_canviewdeletionnotice'] = "Kann Lösch-Hinweise sehen?";
 
 $l['moderate_field_modposts'] = "Neue Beiträge moderieren?";
 $l['moderate_field_modthreads'] = "Neue Themen moderieren?";
@@ -276,3 +277,6 @@ $l['polls_field_canpostpolls'] = "Kann Umfragen erstellen";
 $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";
 
 $l['misc_field_cansearch'] = "Kann Forum durchsuchen";
+
+$l['confirm_proceed_deletion'] = "Klicke \"Weiter\" um die Löschung des Forums fortzusetzen.";
+$l['automatically_redirecting'] = "Automatische Weiterleitung...";

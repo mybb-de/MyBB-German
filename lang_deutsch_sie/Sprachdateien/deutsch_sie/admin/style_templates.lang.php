@@ -167,6 +167,7 @@ $l['error_invalid_set'] = "Bitte geben Sie ein korrektes Template-Set ein.";
 $l['error_invalid_template_set'] = "Ungültiges Template-Set ausgewählt.";
 $l['error_themes_attached_template_set'] = "Dieses Template-Set kann nicht gelöscht werden, weil es noch von einem Theme benutzt wird.";
 $l['error_missing_group_prefix'] = "Bitte geben Sie ein Präfix für die Template-Gruppe ein.";
+$l['error_invalid_group_title'] = "Unterstriche (_) können nicht als Prefix verwendet werden. Bitte wählen Sie ein anderes Präfix.";
 $l['error_missing_group_title'] = "Bitte geben Sie einen Titel für die Template-Gruppe ein.";
 $l['error_duplicate_group_prefix'] = "Es existiert bereits eine Template-Gruppe mit diesem Präfix. Bitte wählen Sie ein anderes Präfix.";
 $l['error_missing_template_group'] = "Die Template-Gruppe konnte nicht gefunden werden.";

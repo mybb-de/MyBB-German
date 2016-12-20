@@ -211,6 +211,7 @@ $l['editor_veoh'] = "Veoh";
 $l['editor_vimeo'] = "Vimeo";
 $l['editor_youtube'] = "YouTube";
 $l['editor_facebook'] = "Facebook";
+$l['editor_twitch'] = "Twitch";
 $l['editor_liveleak'] = "LiveLeak";
 $l['editor_insertvideo'] = "Video einfügen";
 $l['editor_maximize'] = "Maximieren";
@@ -271,6 +272,11 @@ $l['postbit_currently_ignoring_user'] = "Der Inhalt dieses Beitrags wird nicht a
 $l['postbit_warning_level'] = "Verwarnungslevel:";
 $l['postbit_warn'] = "Den Autor dieses Beitrags verwarnen";
 $l['postbit_purgespammer'] = "Spammer löschen";
+$l['postbit_post_deleted'] = "Dieser Beitrag wurde gelöscht.";
+$l['postbit_post_unapproved'] = "Dieser Beitrag wartet auf Freischaltung.";
+$l['postbit_thread_deleted'] = "Dieses Thema wurde gelöscht.";
+$l['postbit_thread_unapproved'] = "Dieses Thema wartet auf Freischaltung";
+$l['postbit_deleted_post_user'] = "Dieser Beitrag von {1} wurde gelöscht.";
 
 $l['postbit_button_reputation_add'] = "Bewerten";
 $l['postbit_button_website'] = "Homepage";
@@ -306,6 +312,7 @@ $l['smilieinsert'] = "Smilies";
 $l['smilieinsert_getmore'] = "mehr";
 $l['on'] = "aktiviert";
 $l['off'] = "deaktiviert";
+$l['remote_avatar_disabled_default_avatar'] = "Sie verwenden derzeit ein externes Avatar, das gespert wurde. Daher wird stattdessen das Standard-Avatar angezeigt.";
 $l['unread_report'] = "Moderatoren-Nachricht: Es gibt eine ungelesene Meldung.";
 $l['unread_reports'] = "Moderatoren-Nachricht: Es gibt {1} ungelesene Meldungen.";
 $l['pending_joinrequest'] = "Gruppenleiter-Notiz: Sie haben eine ausstehende Gruppenbeitrittsanfrage.";
@@ -456,7 +463,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moskau, Abu Dhabi, Baku, Maskat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Madras, Neu-Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Chennai, Neu-Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Jekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Rangun";
@@ -546,7 +553,7 @@ $l['moderation_user_posts'] = "Bitte beachten Sie, dass neue Beiträge von Ihnen
 $l['moderation_forum_thread'] = "Bitte beachten Sie, dass neue Themen in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits_quick'] = "Bitte beachten Sie, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
-$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-users&amp;action=search&amp;results=1&amp;conditions=a%3A1%3A%7Bs%3A9%3A%22usergroup%22%3Bs%3A1%3A%225%22%3B%7D\">Zum Admin-CP wechseln</a>.";
+$l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">Zum Admin-CP wechseln</a>.";
 $l['awaiting_message_single'] = "Es gibt 1 nicht aktivierten Account. Um den Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
 $l['awaiting_message_plural'] = "Es gibt {1} nicht aktivierte Accounts. Um die Benutzer zu aktivieren, gehen Sie ins Admin-CP.";
 
