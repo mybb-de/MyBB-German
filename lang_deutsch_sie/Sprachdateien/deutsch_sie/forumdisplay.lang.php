@@ -97,6 +97,7 @@ $l['page_selected'] = "Alle <strong>{1}</strong> Themen auf dieser Seite sind au
 $l['all_selected'] = "Alle <strong>{1}</strong> Themen in diesem Forum sind ausgewählt.";
 $l['select_all'] = "Alle <strong>{1}</strong> Themen in diesem Forum auswählen.";
 $l['clear_selection'] = "Auswahl löschen.";
+$l['deleted_thread'] = "Gelöschtes Thema";
 
 $l['error_containsnoforums'] = "Entschuldigung, aber das Forum, welches Sie gerade ansehen, enthält keine Unterforen.";
 

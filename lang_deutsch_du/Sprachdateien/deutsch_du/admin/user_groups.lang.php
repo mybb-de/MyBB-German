@@ -125,6 +125,7 @@ $l['can_edit_posts'] = "Kann eigene Beiträge bearbeiten";
 $l['can_delete_posts'] = "Kann eigene Beiträge löschen";
 $l['can_delete_threads'] = "Kann eigene Themen löschen";
 $l['can_edit_attachments'] = "Kann eigene Attachments aktualisieren";
+$l['can_view_deletion_notices'] = "Kann Lösch-Hinweise sehen?";
 $l['account_management'] = "Berechtigungen: Accounts verwalten";
 $l['edit_time_limit'] = "Bearbeitungs-Limit";
 $l['edit_time_limit_desc'] = "Der Zeitraum in Minuten, bevor Benutzer ihre Beiträge nicht mehr bearbeiten können, falls sie die nötigen Rechte haben (0 = unendlich).";

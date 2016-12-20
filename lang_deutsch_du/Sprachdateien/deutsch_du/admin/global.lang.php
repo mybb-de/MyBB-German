@@ -53,7 +53,6 @@ $l['error_admin_session_expired'] = "Deine Administrations-Sitzung ist abgelaufe
 $l['error_invalid_ip'] = "Deine IP-Adresse ist für diese Sitzung nicht gülti.g";
 $l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen.";
 $l['error_mybb_admin_lockedout_message'] = "Dein Benutzer-Konto wurde nach {1} Anmelde-Versuchen gesperrt. Dir wurde eine E-Mail gesendet mit Informationen um dein Benutzer-Konto wieder freizuschalten.";
-$l['error_invalid_secret_pin'] = "Du hast eine ungültige geheime PIN eingegeben.";
 
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalid_uid'] = "Die eingegebene Benutzer-ID ist ungültig.";
@@ -204,7 +203,7 @@ $l['timezone_gmt_350'] = "(GMT +3:30) Tehran";
 $l['timezone_gmt_400'] = "(GMT +4:00) Moskau, Abu Dhabi, Baku, Maskat, Tbilisi";
 $l['timezone_gmt_450'] = "(GMT +4:30) Kabul";
 $l['timezone_gmt_500'] = "(GMT +5:00) Islamabad, Karachi, Tashkent";
-$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Madras, Neu-Delhi";
+$l['timezone_gmt_550'] = "(GMT +5:30) Mumbai, Kalkutta, Chennai, Neu-Delhi";
 $l['timezone_gmt_575'] = "(GMT +5:45) Kathmandu";
 $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Jekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Rangun";
@@ -361,7 +360,7 @@ Vielen Dank,
 
 $l['comma'] = ", ";
 
-$l['search_user'] = "Benutzer suchen";
+$l['search_for_a_user'] = "Benutzer suchen";
 
 $l['mybb_engine'] = "MyBB Engine";
 

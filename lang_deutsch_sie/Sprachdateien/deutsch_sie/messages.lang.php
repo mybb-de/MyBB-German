@@ -194,6 +194,8 @@ Diese Nachricht wurde an alle Moderatoren des Forums versandt oder an alle Admin
 
 Bitte überprüfen Sie die Bewertung so schnell wie möglich.";
 
+$l['email_report_comment_extra'] = "{1}: {2}";
+
 $l['email_passwordreset'] = "Hallo {1},
 
 ein neues Passwort für {2} wurde erstellt.

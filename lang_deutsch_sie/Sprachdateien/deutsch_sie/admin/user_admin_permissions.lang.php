@@ -38,7 +38,7 @@ $l['edit_group'] = "Gruppe bearbeiten";
 $l['default'] = "Standard";
 $l['group'] = "Gruppe";
 
-$l['error_super_admin'] = "Der ausgewählte Benutzer ist ein Super-Administrator. Daher können Sie diese Funktion nicht verwenden.<br /><br />Um dies trotzdem zu ermöglichen muss Ihre Benutzer-ID in die Liste der Super-Administratoren in der inc/config.php eingefügt werden.";
+$l['error_super_admin'] = "Der ausgewählte Benutzer ist ein Super-Administrator. Daher können Sie diese Funktion nicht verwenden.";
 $l['error_delete_no_uid'] = "Sie haben keine Benutzer-/Gruppen-Berechtigungs-ID eingegeben";
 $l['error_delete_invalid_uid'] = "Die eingegebene Benutzer-/Gruppen-Berechtigungs-ID ist ungültig";
 

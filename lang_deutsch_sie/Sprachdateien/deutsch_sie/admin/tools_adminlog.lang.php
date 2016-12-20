@@ -249,6 +249,9 @@ $l['admin_log_tools_tasks_enable'] = "Aufgabe #{1} ({2}) aktiviert";
 $l['admin_log_tools_tasks_disable'] = "Aufgabe #{1} ({2}) deaktiviert";
 $l['admin_log_tools_tasks_run'] = "Aufgabe #{1} ({2}) ausgeführt";
 
+$l['admin_log_user_awaiting_activation_activate_activated'] = "{2} Benutzer aktiviert";
+$l['admin_log_user_awaiting_activation_activate_deleted'] = "{2} Benutzer gelöscht";
+
 $l['admin_log_user_admin_permissions_delete_user'] = "Administrator-Berechtigungen für Benutzer #{1} ({2}) gelöscht";
 $l['admin_log_user_admin_permissions_delete_group'] = "Administrator-Berechtigungen für Gruppe #{1} ({2}) gelöscht";
 $l['admin_log_user_admin_permissions_edit_user'] = "Administrator-Berechtigungen für Benutzer #{1} ({2}) bearbeitet";
