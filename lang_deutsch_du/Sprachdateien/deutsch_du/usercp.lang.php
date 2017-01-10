@@ -143,7 +143,7 @@ $l['email_notify'] = "E-Mail-Benachrichtigung bei neuen Antworten.";
 $l['email_notify_desc'] = "E-Mail-Benachrichtigung bei neuen Antworten auf eigene Beiträge aktivieren.";
 $l['receive_pms'] = "Private Nachrichten empfangen.";
 $l['receive_pms_desc'] = "Private Nachrichten von anderen Mitgliedern empfangen.";
-$l['receive_from_buddy'] = "Nur Private Nachrichten von Benutzern empfangen, die auf meiner <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">Freundesliste</a> sind.";
+$l['receive_from_buddy'] = "Nur Private Nachrichten von Benutzern empfangen, die auf meiner <a href=\"#\" onclick=\"MyBB.popupWindow('/misc.php?action=buddypopup'); return false;\" target=\"_blank\">Freundesliste</a> sind. Diese Einstellung hat keine Auswirkungen, wenn die Freundesliste leer ist.";
 $l['pm_notice'] = "Hinweis bei neuer privater Nachricht zeigen.";
 $l['pm_notify'] = "E-Mail-Benachrichtigung bei neuer privater Nachricht.";
 $l['show_codebuttons'] = "Zeige die MyCode-Formatierungsoptionen bei der Beitragserstellung an.";

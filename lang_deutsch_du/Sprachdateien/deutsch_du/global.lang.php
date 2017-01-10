@@ -22,6 +22,7 @@ $l['bottomlinks_contactus'] = "Kontakt";
 $l['bottomlinks_returntop'] = "Nach oben";
 $l['bottomlinks_syndication'] = "RSS-Synchronisation";
 $l['bottomlinks_litemode'] = "Archiv-Modus";
+$l['bottomlinks_markread'] = "Alle Foren als gelesen markieren";
 
 $l['welcome_usercp'] = "Benutzer-CP";
 $l['welcome_modcp'] = "Moderator-CP";
