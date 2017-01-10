@@ -102,7 +102,7 @@ $l['no_forums'] = "Es wurden keine Foren gefunden.";
 $l['no_moderators'] = "Es wurden keine Moderatoren gefunden.";
 
 $l['success_forum_disporder_updated'] = "Die Sortierung wurde erfolgreich aktualisiert.";
-$l['success_forum_deleted'] = "Das angegebene Forum wurde erfolgreich gelöscht. Wir empfehlen anschließend <a href=\"/index.php?module=tools-recount_rebuild\">Neu zählen &amp; aktualisieren</a> auszuführen.";
+$l['success_forum_deleted'] = "Das angegebene Forum wurde erfolgreich gelöscht. Wir empfehlen anschließend <a href=\"index.php?module=tools-recount_rebuild\">Neu zählen &amp; aktualisieren</a> auszuführen.";
 $l['success_moderator_deleted'] = "Der ausgewählte Moderator wurde erfolgreich gelöscht.<br />Bitte beachte, dass dies die Benutzergruppen-Rechte nicht verändert hat, sodass der Moderator noch Moderatoren-Rechte haben könnte.";
 $l['success_forum_permissions_updated'] = "Die Forenberechtigungen wurden erfolgreich aktualisiert.";
 $l['success_forum_updated'] = "Das Forum wurde erfolgreich aktualisiert.";
