@@ -46,6 +46,7 @@ $l['test'] = "MyCode testen";
 
 $l['error_missing_title'] = "Du hast keinen Titel angegeben.";
 $l['error_missing_regex'] = "Du hast keinen regulären Ausdruck angegeben.";
+$l['error_regex_already_available'] = "Der eingegebene reguläre Ausdruck wird bereits bei einem anderen MyCode verwendet. Bitte gib einen anderen regulären Ausdruck für diesen MyCode an.";
 $l['error_missing_replacement'] = "Du hast keine Ersetzung angegeben.";
 $l['error_invalid_mycode'] = "Der angegebene MyCode existiert nicht.";
 

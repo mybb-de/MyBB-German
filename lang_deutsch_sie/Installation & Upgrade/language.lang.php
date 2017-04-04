@@ -30,6 +30,7 @@ $l['theme_install'] = 'Einfügen des Themes';
 $l['board_config'] = 'Konfiguration des Forums';
 $l['admin_user'] = 'Administrator';
 $l['finish_setup'] = 'Installation beenden';
+$l['upgrade_complete'] = 'Aktualisierung abgeschlossen';
 
 $l['table_population'] = 'Einfügen der Daten';
 $l['theme_installation'] = 'Einfügen des Themes';
