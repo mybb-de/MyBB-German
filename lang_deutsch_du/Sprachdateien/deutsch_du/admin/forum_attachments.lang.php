@@ -22,6 +22,7 @@ $l['attachment_stats_desc'] = "Hier findest du allgemeine Angaben zu den Attachm
 $l['error_nothing_selected'] = "Du hast keine Attachments zum Entfernen ausgewählt.";
 $l['error_no_attachments'] = "In deinem Forum gibt es keine Attachments. Dieser Bereich ist erst verfügbar, nachdem ein Attachment an einen Beitrag angefügt wurde.";
 $l['error_not_all_removed'] = "Die verwaisten Attachments wurden nur teilweise entfernt, da einige Dateien auf dem Server nicht gelöscht werden konnten.";
+$l['error_count'] = '{1} Attachment(s) konnte(n) nicht gelöscht werden.';
 $l['error_invalid_username'] = "Der angegebene Benutzername ist ungültig.";
 $l['error_invalid_forums'] = "Ein Forum oder mehrere gewählte Foren sind ungültig.";
 $l['error_no_results'] = "Nach den Suchkriterien wurden keine Ergebnisse gefunden.";
@@ -32,6 +33,7 @@ $l['error_does_not_exist'] = "Das Thema/der Beitrag zu diesem Attachment existie
 // Success
 $l['success_deleted'] = "Die ausgewählten Attachments wurden erfolgreich gelöscht.";
 $l['success_orphan_deleted'] = "Die ausgewählten verwaisten Attachments wurden erfolgreich gelöscht.";
+$l['success_count'] = '{1} Attachment(s) erfolgreich gelöscht.';
 $l['success_no_orphans'] = "In deinem Forum gibt es keine verwaisten Attachments.";
 
 // Confirm

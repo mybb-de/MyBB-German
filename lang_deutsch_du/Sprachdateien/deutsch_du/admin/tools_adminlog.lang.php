@@ -224,6 +224,8 @@ $l['admin_log_tools_index_utf8_conversion'] = "Tabelle {1} zu UTF-8 konvertiert"
 
 $l['admin_log_tools_mailerrors_prune'] = "{1} E-Mail-Fehler-Logs gelöscht";
 
+$l['admin_log_tools_maillogs_prune'] = "{1} E-Mail-Benutzer-Logs gelöscht";
+
 $l['admin_log_tools_optimizedb_'] = "Datenbank-Tabellen optimiert: {1}";
 
 $l['admin_log_tools_php_info_phpinfo'] = "PHP Info angeschaut";
@@ -241,6 +243,11 @@ $l['admin_log_tools_recount_rebuild_warning'] = "Warnungspunkte aktualisiert";
 $l['admin_log_tools_recount_rebuild_privatemessages'] = "Private Nachrichten aktualisiert";
 $l['admin_log_tools_recount_rebuild_referral'] = "Empfehlerungszahlen aktualisiert";
 $l['admin_log_tools_recount_rebuild_threadrating'] = "Themenbwertungen aktualisiert";
+
+$l['admin_log_tools_spamlog_prune'] = "{4} Spam-Logs älter als {1} Tage gelöscht";
+$l['admin_log_tools_spamlog_prune_user'] = "{4} Spam-Logs mit Benutzername {2} älter als {1} Tage gelöscht";
+$l['admin_log_tools_spamlog_prune_email'] = "{4} Spam-Logs mit E-Mail-Adresse {3} älter als {1} Tage gelöscht";
+$l['admin_log_tools_spamlog_prune_user_email'] = "{4} Spam-Logs mit Benutzername {2} und E-Mail-Adresse {3} älter als {1} Tage gelöscht";
 
 $l['admin_log_tools_tasks_add'] = "Aufgabe #{1} ({2}) hinzugefügt";
 $l['admin_log_tools_tasks_edit'] = "Aufgabe #{1} ({2}) bearbeitet";

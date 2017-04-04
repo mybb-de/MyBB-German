@@ -74,7 +74,7 @@ $l['error_invalid_limit'] = "Das angegebene Limit ist ungültig. Bitte geben Sie
 
 $l['syndication'] = "Synchronisation der letzten Themen";
 $l['syndication_generated_url'] = "Ihre erstellte Synchronisations-URL:";
-$l['syndication_note'] = "Unten können Links für eine RSS-Synchronisation generiert werden. Es können Links zu allen Foren, zu einem Forum oder für eine bestimmte Anzahl von Foren generiert werden. Sie können diesen Link dann in einen RSS-Reader kopieren. <i><a href=\"http://de.wikipedia.org/wiki/RSS\" target=\"_blank\">Was ist RSS?</a></i>";
+$l['syndication_note'] = "Unten können Links für eine RSS-Synchronisation generiert werden. Es können Links zu allen Foren, zu einem Forum oder für eine bestimmte Anzahl von Foren generiert werden. Sie können diesen Link dann in einen RSS-Reader kopieren. <i><a href=\"https://de.wikipedia.org/wiki/RSS_(Web-Feed)\" target=\"_blank\">Was ist RSS?</a></i>";
 $l['syndication_forum'] = "Foren, die synchronisiert werden sollen:";
 $l['syndication_forum_desc'] = "Bitte rechts ein Forum auswählen. Die STRG-Taste benutzen, um mehrere Foren zu wählen.";
 $l['syndication_version'] = "Feed-Version:";
