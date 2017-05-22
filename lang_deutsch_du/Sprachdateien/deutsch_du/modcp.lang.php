@@ -97,6 +97,7 @@ $l['action'] = "Aktion";
 $l['all_moderators'] = "Alle Moderatoren";
 $l['ip'] = "IP-Adresse";
 $l['info_on_ip'] = "Information für diese IP-Adresse";
+$l['search_ip_sfs']  = "Diese IP-Adresse bei Stop Forum Spam suchen";
 $l['information']  = "Information";
 $l['filter_modlogs'] = "Moderatoren-Protokoll filtern";
 $l['forum'] = "Forum";
