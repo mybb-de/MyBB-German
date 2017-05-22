@@ -8,8 +8,8 @@
  * License/Lizenz: GNU Lesser General Public License, Version 3
  */
 
-$l['today'] = "Heute";
-$l['yesterday'] = "Gestern";
+$l['today'] = "<span title=\"{1}\">Heute</span>";
+$l['yesterday'] = "<span title=\"{1}\">Gestern</span>";
 
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
@@ -142,7 +142,7 @@ $l['saved'] = "Gespeichert";
 $l['rel_in'] = "In ";
 $l['rel_ago'] = "Vor ";
 $l['rel_less_than'] = "weniger als ";
-$l['rel_time'] = "{4}{1}{2} {3}";
+$l['rel_time'] = "<span title=\"{5}{6}\">{4}{1}{2} {3}</span>";
 $l['rel_minutes_single'] = "Minute";
 $l['rel_minutes_plural'] = "Minuten";
 $l['rel_hours_single'] = "Stunde";

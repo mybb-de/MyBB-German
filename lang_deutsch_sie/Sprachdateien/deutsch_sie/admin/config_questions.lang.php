@@ -16,6 +16,7 @@ $l['edit_question'] = "Frage bearbeiten";
 $l['edit_question_desc'] = "Hier können Sie eine Sicherheitsfrage bearbeiten.";
 
 $l['options'] = "Optionen";
+$l['shown'] = "Angezeigt";
 $l['correct'] = "Richtig";
 $l['incorrect'] = "Falsch";
 $l['disable_question'] = "Frage deaktivieren";

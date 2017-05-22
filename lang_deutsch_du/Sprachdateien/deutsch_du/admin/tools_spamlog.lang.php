@@ -27,6 +27,8 @@ $l['days'] = "Tage";
 $l['filter_spam_logs'] = "Spam Log-Daten filtern";
 $l['asc'] = "Aufsteigend";
 $l['desc'] = "Absteigend";
+$l['search_ip_on_sfs'] = "Diese IP-Adresse bei Stop Forum Spam suchen";
+$l['search'] = "Suchen";
 
 $l['in'] = "in";
 $l['order'] = "Sortierung";

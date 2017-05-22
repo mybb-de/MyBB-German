@@ -30,3 +30,4 @@ $l['my2fa_qr'] = "Code für die Zwei-Faktor-Authentifizierung";
 $l['recovery_codes_desc'] = "Anzeige Ihrer <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">Backup-Verifizierungscodes</a>.";
 $l['recovery_codes'] = "Backup-Verifizierungscodes";
 $l['recovery_codes_warning'] = "<b>Hinweis:</b> Die Codes werden bei jedem Besuch dieser Seite neu erstellt und können nur einmal verwendet werden.";
+$l['print_recovery_codes'] = "Backup-Verifizierungscodes ausdrucken";
