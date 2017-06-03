@@ -60,8 +60,8 @@ $l['d7_document'] = "Du kannst in deinen Beiträgen MyCode benutzen, eine verein
 <p>[email=beispiel@example.org?subject=Spam]E-Mail mit Betreff[/email]<br />&nbsp;&nbsp;&nbsp;<a href=\"mailto:beispiel@example.org?subject=Spam\">E-Mail mit Betreff</a>
 <p><br />[quote]Das ist zitierter Text[/quote]<br />&nbsp;&nbsp;&nbsp;<quote>Das ist zitierter Text</quote>
 <p>[code]Text mit vorgegebener Formatierung[/code]<br />&nbsp;&nbsp;&nbsp;<code>Text mit vorgegebener Formatierung</code>
-<p><br />[img]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"http://www.php.net/images/php.gif\" alt=\"\" />
-<p>[img=50x50]http://www.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"http://www.php.net/images/php.gif\" width=\"50\" height=\"50\" alt=\"\" />
+<p><br />[img]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\" alt=\"\" />
+<p>[img=50x50]https://secure.php.net/images/php.gif[/img]<br />&nbsp;&nbsp;&nbsp;<img src=\"https://secure.php.net/images/php.gif\" width=\"50\" height=\"50\" alt=\"\" />
 <p><br />[color=red]Dieser Text ist rot[/color]<br />&nbsp;&nbsp;&nbsp;<font color=\"red\">Dieser Text ist rot</font>
 <p>[size=3]Dieser Text ist Größe 3[/size]<br />&nbsp;&nbsp;&nbsp;<font size=\"3\">Dieser Text ist Größe 3</font>
 <p>[font=Tahoma]Diese Schriftart ist Tahoma[/font]<br />&nbsp;&nbsp;&nbsp;<font face=\"Tahoma\">Diese Schriftart ist Tahoma</font>
