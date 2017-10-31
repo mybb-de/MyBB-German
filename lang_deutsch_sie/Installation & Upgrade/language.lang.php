@@ -61,7 +61,7 @@ $l['mybb_already_installed'] = "<p>Willkommen bei der Installationsroutine für 
 
 $l['mybb_incorrect_folder'] = "<div class=\"border_wrapper upgrade_note\" style=\"padding: 4px;\">
 	<h3>MyBB hat festgestellt, dass es vom \"Upload\" Ordner aus ausgeführt wird.</h3>
-	<p>Auch wenn kein Fehler vorliegt wird empfohlen, dass die Dateien aus dem Ordner \"Upload\" auf den Server übertragen werden und nicht der Ordner selbst.<br /><br />Für mehr Informationen siehe auch <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\">Installation</a>.</p>
+	<p>Auch wenn kein Fehler vorliegt wird empfohlen, dass die Dateien aus dem Ordner \"Upload\" auf den Server übertragen werden und nicht der Ordner selbst.<br /><br />Für mehr Informationen siehe auch <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\" rel=\"noopener\">Installation</a>.</p>
 </div>";
 
 $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Diese Routine installiert und konfiguriert eine Kopie des MyBB auf Ihrem Server.</p>
@@ -77,7 +77,7 @@ $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Dies
 </ul>
 <p>Nachdem ein Schritt erfolgreich abgeschlossen wurde, klicken Sie auf "Weiter", um die Installation fortzusetzen.</p>
 <p>Klicken Sie auf "Weiter", um die Lizenzvereinbarung anzeigen zu lassen.</p>
-<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" style="color: #555;" target="_blank"><small>Welche Informationen werden gesendet?</small></a>)</p>';
+<p><input type="checkbox" name="allow_anonymous_info" value="1" id="allow_anonymous" checked="checked" /> <label for="allow_anonymous"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href="https://docs.mybb.com/1.8/install/anonymous-statistics/" style="color: #555;" target="_blank" rel=\"noopener\"><small>Welche Informationen werden gesendet?</small></a>)</p>';
 
 $l['license_step'] = '<div class="license_agreement">
 {1}
@@ -143,14 +143,14 @@ $l['req_step_span_pass'] = '<span class="pass">{1}</span>';
 $l['req_step_error_box'] = '<p><strong>{1}</strong></p>';
 $l['req_step_error_phpversion'] = 'MyBB benötigt PHP 5.2.0 oder höher. Sie haben zur Zeit {1} installiert.';
 $l['req_step_error_dboptions'] = 'MyBB benötigt mindestens eine installierte kompatible Datenbankerweiterung. Der Server gab zurück, dass keine zur Verfügung steht.';
-$l['req_step_error_xmlsupport'] = 'MyBB benötigt PHP mit der Unterstützung für die Verarbeitung von XML. Bitte gehen Sie auf <a href="http://www.php.net/xml" target="_blank">PHP.net</a> fü;r weitere Informationen.';
-$l['req_step_error_configdefaultfile'] = 'Die Konfigurationsdatei (inc/config.default.php) konnte nicht umbenannt werden. Bitte benennen Sie die <u>config.default.php</u> manuell um in <u>config.php</u>, damit sie beschrieben werden kann. Bei Problemen kontaktieren Sie bitte den <a href="http://www.mybboard.de/support/" targert="_blank">MyBB Support</a>.';
-$l['req_step_error_configfile'] = 'Die Konfigurationsdatei (inc/config.php) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
-$l['req_step_error_settingsfile'] = 'Die Einstellungsdatei (inc/settings.php) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
-$l['req_step_error_cachedir'] = 'Der Ordner für den Zwischenspeicher (cache/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_uploaddir'] = 'Der Ordner für Uploads (uploads/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_avatardir'] = 'Der Ordner für Avatare (uploads/avatars/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
-$l['req_step_error_cssddir'] = 'Der Ordner für CSS (css/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank">Dateirechte </a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_xmlsupport'] = 'MyBB benötigt PHP mit der Unterstützung für die Verarbeitung von XML. Bitte gehen Sie auf <a href="http://www.php.net/xml" target="_blank" rel=\"noopener\">PHP.net</a> fü;r weitere Informationen.';
+$l['req_step_error_configdefaultfile'] = 'Die Konfigurationsdatei (inc/config.default.php) konnte nicht umbenannt werden. Bitte benennen Sie die <u>config.default.php</u> manuell um in <u>config.php</u>, damit sie beschrieben werden kann. Bei Problemen kontaktieren Sie bitte den <a href="https://www.mybb.de/support/" targert="_blank" rel=\"noopener\">MyBB Support</a>.';
+$l['req_step_error_configfile'] = 'Die Konfigurationsdatei (inc/config.php) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
+$l['req_step_error_settingsfile'] = 'Die Einstellungsdatei (inc/settings.php) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass die Datei beschrieben werden kann.';
+$l['req_step_error_cachedir'] = 'Der Ordner für den Zwischenspeicher (cache/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_uploaddir'] = 'Der Ordner für Uploads (uploads/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_avatardir'] = 'Der Ordner für Avatare (uploads/avatars/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
+$l['req_step_error_cssddir'] = 'Der Ordner für CSS (css/) ist nicht beschreibbar. Bitte korrigieren Sie die Berechtigungen (<a href="https://www.mybb.de/doku/installationaktualisierung/installation/" target="_blank" rel=\"noopener\">Dateirechte</a>), so dass der Ordner beschrieben werden kann.';
 $l['req_step_error_tablelist'] = '<div class="error">
 <h3>Fehler</h3>
 <p>Bei der Überprüfung der Voraussetzungen des MyBB wurden die unten aufgeführten Probleme festgestellt. Die Installation kann nicht fortgesetzt werden, da die minimalen Voraussetzungen nicht erfüllt werden. Bitte beheben Sie folgende Probleme und versuchen es erneut:</p>
@@ -241,7 +241,7 @@ $l['config_step_table'] = '<p>Sie müssen nun die Basiseinstellungen Ihres Forum
 					<td class="last alt_col"><input type="text" class="text_input" name="websiteurl" id="websiteurl" value="{4}" /></td>
 				</tr>
 				<tr>
-					<th colspan="2" class="first last">Cookie-Einstellungen <a title="Was ist das?" target="_blank" href="https://www.mybb.de/doku/haeufig-gestellte-fragen/warum-kann-ich-mich-nicht-im-forum-anmelden/">(?)</a></th>
+					<th colspan="2" class="first last">Cookie-Einstellungen <a title="Was ist das?" target="_blank" href="https://www.mybb.de/doku/haeufig-gestellte-fragen/warum-kann-ich-mich-nicht-im-forum-anmelden/" rel=\"noopener\">(?)</a></th>
 				</tr>
 				<tr>
 					<td class="first"><label for="cookiedomain">Cookie-Domain:</label></td>
@@ -333,7 +333,7 @@ $l['done_step_success'] = '<p class="success">Ihre Kopie des MyBB wurde erfolgre
 <p>Die MyBB Group bedankt sich für die Unterstützung durch die Installation der Software und wir hoffen, Sie in der Community begrüßen zu können, wenn Sie Fragen haben oder einfach Teil der MyBB Community werden möchten.</p>';
 $l['done_step_locked'] = '<p>Die Installation ist gesperrt. Bitte entfernen Sie die Datei \'lock\' aus dem Installationsverzeichnis, um die Installationsroutine erneut ausführen zu können.</p><p>Sie können nun ins <a href="../index.php">Forum</a> oder ins <a href="../admin/index.php">Admin Control Panel</a> gehen.</p>';
 $l['done_step_dirdelete'] = '<p><strong><span style="color:red">Bitte entfernen Sie das Installationsverzeichnis vom Server, bevor Sie fortfahren.</span></strong></p>';
-$l['done_whats_next'] = '<div class="error"><p><strong>Von einer anderen Forensoftware wechseln?</strong></p><p>MyBB bietet ein Merge System zum einfachen Zusammenfügen mehrerer Foren für verschiedene beliebte Foren-Systeme an, das einen leichten Wechsel zum MyBB erlaubt. Falls Sie gerne zum MyBB wechseln möchten, sind Sie auf dem richtigen Weg. Erfahren Sie mehr über das <a target="_blank" href="https://www.mybb.de/doku/merge-system/">Merge System</a>.</p>';
+$l['done_whats_next'] = '<div class="error"><p><strong>Von einer anderen Forensoftware wechseln?</strong></p><p>MyBB bietet ein Merge System zum einfachen Zusammenfügen mehrerer Foren für verschiedene beliebte Foren-Systeme an, das einen leichten Wechsel zum MyBB erlaubt. Falls Sie gerne zum MyBB wechseln möchten, sind Sie auf dem richtigen Weg. Erfahren Sie mehr über das <a target="_blank" href="https://www.mybb.de/doku/merge-system/" rel=\"noopener\">Merge System</a>.</p>';
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Upgraderoutine";
@@ -350,7 +350,7 @@ $l['upgrade_removedir'] = 'Bitte löschen Sie den Ordner \"install\", bevor Sie 
 $l['upgrade_congrats'] = "<p>Herzlichen Glückwunsch! Ihr Forum wurde erfolgreich auf MyBB {1} aktualisiert.</p>{2}<p><strong>Wie geht es weiter?</strong></p><ul><li>Benutzen Sie das Tool im Admin-CP, um eigene Templates zu finden, die während des Upgrades aktualisiert wurden. Sie können diese entsprechend anpassen oder zurücksetzen.</li><li>Stellen Sie sicher, dass das Forum wie erwartet funktioniert.</li></ul>";
 $l['upgrade_template_reversion'] = "Warnung: Templates werden zurückgesetzt";
 $l['upgrade_template_reversion_success'] = "<p>Alle erforderlichen Änderungen in der Datenbank wurden erfolgreich abgeschlossen.</p><p>Das Upgrade wird alle vorhandenen Templates zurücksetzen und aktualisieren. Bitte machen Sie eine Sicherung eigener Templates, bevor Sie fortfahren.";
-$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"https://docs.mybb.com/1.8/install/anonymous-statistics/\" style=\"color: #555;\" target=\"_blank\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
+$l['upgrade_send_stats'] = "<p><input type=\"checkbox\" name=\"allow_anonymous_info\" value=\"1\" id=\"allow_anonymous\" checked=\"checked\" /> <label for=\"allow_anonymous\"> Anonyme Statistik über Serverspezifikationen an die MyBB Group schicken</label> (<a href=\"https://docs.mybb.com/1.8/install/anonymous-statistics/\" style=\"color: #555;\" target=\"_blank\" rel=\"noopener\"><small>Welche Informationen werden gesendet?</small></a>)</p>";
 
 $l['please_login'] = "Bitte melden Sie sich an";
 $l['login'] = "Anmeldung";

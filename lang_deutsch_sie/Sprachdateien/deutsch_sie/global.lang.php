@@ -135,8 +135,10 @@ $l['no_subscribe_notification'] = "Abonnieren, ohne bei einer neuen Antwort eine
 $l['instant_email_subscribe'] = "Abonnieren und eine E-Mail-Benachrichtigung bei neuen Antworten erhalten";
 $l['instant_pm_subscribe'] = "Abonnieren und eine Benachrichtigung bei neuen Antworten als Private Nachricht erhalten";
 
-$l['today'] = "<span title=\"{1}\">Heute</span>";
-$l['yesterday'] = "<span title=\"{1}\">Gestern</span>";
+$l['today_rel'] = "<span title=\"{1}\">Heute</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Gestern</span>";
+$l['today'] = "Heute";
+$l['yesterday'] = "Gestern";
 $l['error'] = "Forenmeldung";
 
 $l['multipage_pages'] = "Seiten ({1}):";
@@ -572,6 +574,8 @@ $l['select2_searching'] = "Suche...";
 
 $l['stopforumspam_error_decoding'] = "Fehler beim Dekodieren von Daten von StopForumSpam.com.";
 $l['stopforumspam_error_retrieving'] = "Fehler beim Abfragen von Daten von StopForumSpam.com.";
+$l['stopforumspam_invalid_email'] = 'Ungültige E-Mail-Adresse beim Abfragen von Daten von StopForumSpam.com.';
+$l['stopforumspam_invalid_ip_address'] = 'Ungültige IP-Adresse beim Abfragen von Daten von StopForumSpam.com.';
 
 $l['sfs_error_username'] = 'Ihr Benutzername';
 $l['sfs_error_ip'] = 'Ihre IP-Adresse';

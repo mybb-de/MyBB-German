@@ -8,8 +8,10 @@
  * License/Lizenz: GNU Lesser General Public License, Version 3
  */
 
-$l['today'] = "<span title=\"{1}\">Heute</span>";
-$l['yesterday'] = "<span title=\"{1}\">Gestern</span>";
+$l['today_rel'] = "<span title=\"{1}\">Heute</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Gestern</span>";
+$l['today'] = "Heute";
+$l['yesterday'] = "Gestern";
 
 $l['size_yb'] = "YB";
 $l['size_zb'] = "ZB";
@@ -138,6 +140,7 @@ $l['alt_disabled'] = "Deaktiviert";
 $l['enable'] = "Aktivieren";
 $l['disable'] = "Deaktivieren";
 $l['saved'] = "Gespeichert";
+$l['guest'] = "Gast";
 
 $l['rel_in'] = "In ";
 $l['rel_ago'] = "Vor ";

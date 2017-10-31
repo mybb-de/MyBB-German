@@ -54,7 +54,7 @@ $l['avatar_mine'] = "Dies ist dein Avatar";
 $l['change_avatar'] = "Avatar ändern";
 $l['avatar_url'] = "Avatar-URL:";
 $l['avatar_url_note'] = "Direkte URL zum Avatar eingeben.";
-$l['avatar_url_gravatar'] = "Um <a href=\"https://gravatar.com\" target=\"_blank\">Gravatar</a> zu verwenden, gebe deine Gravatar E-Mail-Adresse ein.";
+$l['avatar_url_gravatar'] = "Um <a href=\"https://gravatar.com\" target=\"_blank\" rel=\"noopener\">Gravatar</a> zu verwenden, gebe deine Gravatar E-Mail-Adresse ein.";
 $l['avatar_upload'] = "Avatar hochladen:";
 $l['avatar_upload_note'] = "Avatar von eigenem Rechner hochladen.";
 $l['no_avatar'] = "Kein Avatar";
