@@ -44,10 +44,11 @@ $l['report_time'] = "Gemeldet am";
 $l['mark_read'] = "Ausgewählte als gelesen markieren";
 $l['no_reports'] = "Im Moment gibt es keine ungelesenen Meldungen.";
 $l['no_logs'] = "Bisher wurden keine Moderations-Aktivitäten geloggt.";
-$l['error_noselected_reports'] = "Sie haben keinen gemeldeten Beitrag markiert, um ihn als gelesen zu markieren. Entweder das, oder dieser Beitrag wurde bereits von einem anderen Benutzer als gelesen markiert.";
+$l['error_noselected_reports'] = "Sie haben keine gemeldeten Inhalte markiert, um diese als gelesen zu markieren.";
 $l['error_missing_ipaddress'] = "Sie haben keine IP-Adresse zum Suchen eingegeben.";
 $l['error_no_results'] = "Es gab leider keine Ergebnisse mit den angegebenen Kriterien.";
-$l['redirect_reportsmarked'] = "Die ausgewählten, gemeldeten Beiträge wurden als gelesen markiert.";
+$l['redirect_reportsmarked'] = "Die ausgewählten, gemeldeten Inhalte wurden als gelesen markiert.";
+$l['redirect_allreportsmarked'] = "Alle gemeldeten Inhalte wurden als gelesen markiert.";
 $l['redirect_modnotes'] = "Die Moderatoren-Notiz wurde aktualisiert.";
 
 $l['for'] = "Für";
@@ -64,6 +65,11 @@ $l['report_info_profile'] = "Profil von {1}";
 $l['report_info_reputation'] = "<a href=\"{1}\">Bewertung</a> von {2}";
 $l['report_info_rep_profile'] = "<br /><span class=\"smalltext\">Im Profil von {1}</span>";
 $l['report_info_lastreporter'] = "{1}<br />von {2}";
+
+$l['page_selected'] = "Alle <strong>{1}</strong> ungelesenen Meldungen auf dieser Seite wurden markiert.";
+$l['all_selected'] = "Alle <strong>{1}</strong> ungelesenen Meldungen wurden markiert.";
+$l['select_all'] = "Alle <strong>{1}</strong> ungelesenen Meldungen auswählen.";
+$l['clear_selection'] = "Auswahl löschen.";
 
 $l['moderator_notes'] = "Moderator-Notizen";
 $l['notes_public_all'] = "Diese Notizen sind für alle Moderatoren sichtbar.";

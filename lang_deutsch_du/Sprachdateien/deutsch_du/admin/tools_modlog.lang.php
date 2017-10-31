@@ -16,6 +16,7 @@ $l['prune_mod_logs_desc'] = "Hier kannst du die Moderator Log-Daten säubern, di
 $l['no_modlogs'] = "Es wurden leider keine Ergebnisse entsprechend den Kriterien gefunden.";
 
 $l['username'] = "Benutzername";
+$l['na_deleted'] = "Unbekannt / Gelöscht";
 $l['date'] = "Datum";
 $l['action'] = "Aktion";
 $l['information'] = "Informationen";

@@ -18,7 +18,7 @@ $l['userdata_username_exists'] = 'Der eingegebene Benutzername existiert bereits
 $l['userdata_invalid_password_length'] =  'Die Länge des eingegebenen Passworts ist ungültig. Bitte gib ein Passwort mit einer Länge zwischen {1} und {2} Zeichen ein.';
 $l['userdata_no_complex_characters'] = 'Das eingegeben Passwort ist nicht komplex genug. Bitte gib ein Passwort mit mindestens {1} Zeichen ein, das Groß- und Kleinbuchstaben und Zahlen enthält.';
 $l['userdata_passwords_dont_match'] = 'Das Passwort, das du zur Bestätigung eingegeben hast, stimmt nicht mit dem originalen Passwort überein. Bitte korrigiere deine Eingabe.';
-$l['userdata_bad_password_security'] = 'Das eingegebene Passwort stimmt entweder mit deinem Benutzernamen oder deiner E-Mail-Adresse überein. Bitte gib ein besseres Passwort ein.';
+$l['userdata_bad_password_security'] = 'Das eingegebene Passwort ähnelt entweder mit deinem Benutzernamen oder deiner E-Mail-Adresse. Bitte gib ein besseres Passwort ein.';
 
 $l['userdata_missing_email'] = 'Du hast keine E-Mail-Adresse angegeben. Bitte gib eine E-Mail-Adresse ein.';
 $l['userdata_invalid_email_format'] = 'Die eingegebene E-Mail-Adresse ist ungültig. Bitte gib eine gültige Adresse an.';

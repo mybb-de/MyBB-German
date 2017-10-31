@@ -81,7 +81,6 @@ $l['viewing_reputation_report2'] = "Sieht sich eine Bewertung an";
 $l['member_resendactivation'] = "Schickt sich eine Aktivierungs-Mail";
 $l['member_lostpw'] = "Fordert ein <a href=\"member.php?action=lostpw\">neues Passwort</a> an";
 $l['sending_thread'] = "Sendet ein Thema an einen Freund";
-$l['guest'] = "Gast";
 $l['page'] = "Seite";
 $l['users_online'] = "Wer ist online?";
 $l['on_username'] = "Benutzername";

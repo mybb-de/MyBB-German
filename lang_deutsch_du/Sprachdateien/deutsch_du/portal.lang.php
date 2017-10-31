@@ -30,7 +30,6 @@ $l['num_threads'] = "Foren-Themen:";
 $l['num_posts'] = "Foren-Beiträge:";
 $l['full_stats'] = "Komplettstatistiken";
 $l['welcome'] = "Hallo, {1}";
-$l['guest'] = "Gast";
 $l['guest_welcome_registration'] = "Du musst dich <a href=\"{1}\">registrieren</a> bevor du auf unserer Seite Beiträge schreiben kannst.";
 $l['username'] = "Benutzername";
 $l['password'] = "Passwort";

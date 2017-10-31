@@ -90,7 +90,7 @@ $l['agreement_4'] = "Durch das Abschließen der Registrierung stimmen Sie diesen
 $l['agreement_5'] = "Wenn Sie auf 'Ich stimme zu' klicken, erklären Sie sich mit den Regeln einverstanden.";
 $l['registration'] = "Registrierung";
 $l['required_fields'] = "Erforderliche Felder";
-$l['complex_password'] = "<acronym title=\"Ein Passwort mit mindestens {1} Zeichen, dass große Buchstaben, kleine Buchstaben und Zahlen enthält.\">Komplexes</acronym> Passwort:";
+$l['complex_password'] = "<abbr title=\"Ein Passwort mit mindestens {1} Zeichen, dass große Buchstaben, kleine Buchstaben und Zahlen enthält.\">Komplexes</abbr> Passwort:";
 $l['confirm_email'] = "E-Mail bestätigen:";
 $l['optional_fields'] = "Optionale Felder";
 $l['website_url'] = "Ihre Hompageadresse:";
@@ -115,7 +115,7 @@ $l['dst_correction_enabled'] = "Sommerzeit immer verwenden";
 $l['dst_correction_disabled'] = "Sommerzeit nie verwenden";
 $l['redirect_registered_coppa_activate'] = "Vielen Dank für Ihre Registrierung bei {1}, {2}. Ihr Account wurde erfolgreich erstellt. Wenn der Besitzer dieses Accounts jünger als 13 Jahre ist, muss zuerst eine elterliche Genehmigung eingeholt werden.<br /><br />Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.<br /><br />Sobald wir eine vollständige Kopie erhalten haben, wird der Account aktiviert.";
 $l['coppa_compliance'] = "COPPA Zustimmung";
-$l['coppa_desc'] = "Um sich in diesem Forum zu registrieren, müssen Sie ihr Alter mit <a href=\"http://coppa.org\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\">COPPA</a> verifizieren. Bitte geben Sie unten Ihr Geburtsdatum ein.<br /><br />Wenn Sie jünger als 13 Jahre sind, müssen Sie zuvor die Zustimmung der Eltern einholen. Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.";
+$l['coppa_desc'] = "Um sich in diesem Forum zu registrieren, müssen Sie ihr Alter mit <a href=\"http://coppa.org\" title=\"Children's Online Privacy Protection Act\" target=\"_blank\" rel=\"noopener\">COPPA</a> verifizieren. Bitte geben Sie unten Ihr Geburtsdatum ein.<br /><br />Wenn Sie jünger als 13 Jahre sind, müssen Sie zuvor die Zustimmung der Eltern einholen. Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.";
 $l['hide_dob'] = "Sie können ihr Geburtsdatum nach der Registrierung verstecken, indem Sie Ihr Profil ändern.";
 $l['signature'] = "Signatur:";
 $l['continue_registration'] = "Mit der Registrierung fortfahren";
@@ -225,6 +225,7 @@ $l['js_validator_no_security_question'] = "Sie müssen die obenstehende Frage be
 $l['js_validator_password_matches'] = "Sie müssen zwei Mal dieselben Passwörter eingeben";
 $l['js_validator_password_complexity'] = "Komplexität des Passworts prüfen";
 $l['js_validator_password_length'] = "Ihr Passwort muss {1} oder mehr Zeichen haben";
+$l['js_validator_bad_password_security'] = "Das eingegebene Passwort ähnelt entweder mit Ihrem Benutzernamen oder Ihrer E-Mail-Adresse. Bitte geben Sie ein besseres Passwort ein.";
 $l['js_validator_not_empty'] = "Sie müssen etwas für dieses Feld auswählen";
 $l['js_validator_checking_username'] = "Benutzername wird geprüft";
 $l['js_validator_username_length'] = "Benutzernamen müssen zwischen {1} und {2} Zeichen haben";

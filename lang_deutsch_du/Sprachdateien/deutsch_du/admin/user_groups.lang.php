@@ -211,6 +211,8 @@ $l['error_cannot_have_both_types'] = "Die Beitritte in eine Gruppe können nicht
 
 $l['success_group_created'] = "Die neue Benutzergruppe wurde erfolgreich erstellt.";
 $l['success_group_updated'] = "Die Benutzergruppe wurde erfolgreich aktualisiert.";
+$l['success_group_created_duplicate_title'] = "Die neue Benutzergruppe wurde erfolgreich erstellt. Bitte beachte, dass es mehrere Benutzergruppen mit dem Namen \"{1}\" gibt.";
+$l['success_group_updated_duplicate_title'] = "Die Benutzergruppe wurde erfolgreich aktualisiert. Bitte beachte, dass es mehrere Benutzergruppen mit dem Namen \"{1}\" gibt.";
 $l['success_group_deleted'] = "Die ausgewählte Benutzergruppe wurde erfolgreich gelöscht.";
 $l['success_groups_disporder_updated'] = "Die Anzeigereihenfolge wurde erfolgreich aktualisiert.";
 $l['success_join_request_approved'] = "Die Beitrittsanfrage wurde erfolgreich akzeptiert. Der Benutzer ist nun Teil dieser Gruppe.";
