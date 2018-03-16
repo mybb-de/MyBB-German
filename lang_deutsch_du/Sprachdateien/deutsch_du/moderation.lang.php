@@ -174,6 +174,7 @@ $l['error_nosplitposts'] = "Du kannst das Thema nicht trennen, da du keine Beitr
 $l['error_movetosameforum'] = "Du kannst dieses Thema nicht in das Forum verschieben, in dem es sich bereits befindet. Bitte wähle ein anderes Forum.";
 $l['error_mergewithself'] = "Themen können nicht mit sich selbst zusammengefügt werden.<br />Bitte gehe zurück und gib eine gültige URL an.";
 $l['error_movetoself'] = "Beiträge können nicht in das Thema verschoben werden, in dem sie bereits sind.<br />Bitte gehe zurück und gib eine gültige URL an.";
+$l['error_movetononmodforum'] = "Du kannst dieses Thema nicht in ein Forum verschieben, in dem du kein Moderator bist oder keine Berechtigung hast dieses zu sehen.";
 $l['error_delayedmoderation_unsupported_type'] = "Du hast leider keinen gültigen Typ für die verzögerte Moderation ausgewählt oder keine Berechtigung für diesen Typ.";
 $l['error_delayedmoderation_unsupported_method'] = "Du hast leider keine gültige Methode zum Verschieben für die verzögerte Moderation ausgewählt.";
 $l['error_delayedmoderation_invalid_date_day'] = "Du hast leider keinen gültigen Tag für die verzögerte Moderation ausgewählt.";

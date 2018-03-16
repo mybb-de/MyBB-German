@@ -50,6 +50,7 @@ $l['you_voted'] = "&lowast; Du hast diese Antwort gewählt.";
 $l['poll_closed'] = "Diese Umfrage ist geschlossen.";
 $l['poll_closes'] = "Diese Umfrage schließt am: {1}";
 $l['already_voted'] = "Du hast bei dieser Umfrage schon gewählt.";
+$l['no_voting_permission'] = "Du hast keine Berechtigung bei dieser Umfrage abzustimmen.";
 $l['undo_vote'] = "Stimme zurückziehen";
 $l['quick_reply'] = "Schnellantwort";
 $l['message_note'] = "Gib hier deine Antwort zum Beitrag ein.";
