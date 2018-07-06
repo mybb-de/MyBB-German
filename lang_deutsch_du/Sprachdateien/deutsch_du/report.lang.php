@@ -26,7 +26,7 @@ $l['report_reason_other'] = "Sonstiges";
 $l['success_report_voted'] = "Vielen Dank für die Meldung.<br />Ein Mitglied des Foren-Teams wird die Meldung in Kürze bearbeiten.";
 
 $l['error_report_length'] = "Bitte gib einen ausführlichen Grund für die Meldung an.";
-$l['error_invalid_report'] = "Der Inhalt existiert nicht oder kann nicht gemeldet werden.";
+$l['error_invalid_report'] = "Der Inhalt ({1}) existiert nicht oder darf nicht gemeldet werden.";
 $l['error_invalid_report_reason'] = "Der ausgewählte Grund ist ungültig.";
 $l['error_comment_required'] = "Für den ausgewählten Melde-Grund müssen zusätzliche Informationen angegeben werden.";
 $l['error_report_duplicate'] = "Dieser Inhalt wurde bereits von einem anderen Mitglied gemeldet.<br />Du kannst ihn trotzdem unten melden.";

@@ -278,7 +278,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Wenn du keine weiteren Benachrichtigungen zu diesem Thema erhalten möchtest, klicke auf den folgenden Link:
-{7}/usercp2.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
+{7}/usercp.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
 
 ------------------------------------------";
 
@@ -352,7 +352,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Klicke auf den folgenden Link, wenn du keine weiteren Benachrichtigungen zu diesem Thema erhalten möchtest:
-{6}/usercp2.php?action=removesubscription&tid={8}&my_post_key={9}
+{6}/usercp.php?action=removesubscription&tid={8}&my_post_key={9}
 
 ------------------------------------------";
 
@@ -499,7 +499,7 @@ Es könnte bereits auch weitere Antworten zu diesem Thema geben. Du erhältst je
 Informationen zur Abmeldung:
 
 Klicke auf den folgenden Link, wenn du keine weiteren Benachrichtigungen zu diesem Thema erhalten möchtest:
-[url]{5}/usercp2.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
+[url]{5}/usercp.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
 
 ------------------------------------------";
 

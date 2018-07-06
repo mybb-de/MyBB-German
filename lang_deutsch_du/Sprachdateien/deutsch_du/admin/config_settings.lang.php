@@ -166,6 +166,8 @@ $l['setting_group_contactdetails'] = "Kontaktmöglichkeiten";
 $l['setting_group_contactdetails_desc'] = "Dieser Bereich erlaubt dir die Felder mit Kontaktmöglichkeiten anzupassen.";
 $l['setting_group_statspage'] = "Forenstatistik";
 $l['setting_group_statspage_desc'] = "Dieser Bereich erlaubt dir die Forenstatistik zu konfigurieren.";
+$l['setting_group_forumteam'] = "Foren-Team";
+$l['setting_group_forumteam_desc'] = "Dieser Bereich erlaubt dir verschiedene Einstellung zur Anzeige des Forum-Teams (showteam.php) anzupassen.";
 
 // Einstellungen
 $l['setting_boardclosed'] = "Forum offline?";
@@ -194,6 +196,8 @@ $l['setting_cookiepath'] = "Cookie-Pfad";
 $l['setting_cookiepath_desc'] = "Der Pfad, zu dem die Cookies gesetzt werden. Wir empfehlen, die komplette Adresse zu deinem Forum anzugeben - inklusive Slash (/) am Ende (Beispiel: /forum/).";
 $l['setting_cookieprefix'] = "Cookie-Präfix";
 $l['setting_cookieprefix_desc'] = "Der Präfix wird dem Namen aller Cookies vorangestellt. Diese Option ist sinnvoll, wenn du mehrere Foren unter der gleichen Domain betreibst. Wenn das Feld leer ist, wird kein Präfix verwendet.";
+$l['setting_cookiesamesiteflag'] = "SameSite Cookie Flag";
+$l['setting_cookiesamesiteflag_desc'] = "Authentifizierungs-Cookies werden das SameSite-Flag erhalten um CSRF-Attacken zu verhindern. Deaktiviere diese Option, wenn du ursprungsübergreifende POST-Anfragen erwartest.";
 $l['setting_cookiesecureflag'] = "Cookies nur über HTTPS";
 $l['setting_cookiesecureflag_desc'] = "Diese Option verhindert, dass Cookies über unverschlüsselte Verbindungen übertragen werden. Du solltest diese Einstellung nur aktivieren, wenn dein Forum ausschließlich über HTTPS erreichbar ist.";
 $l['setting_showvernum'] = "Zeige Versionsnummer";
@@ -208,8 +212,6 @@ $l['setting_captchaimage'] = "Bestätigungsgrafik (Captcha) bei Registrierung un
 $l['setting_captchaimage_desc'] = "Wenn ja, müssen Benutzer bei der Registrierung und Gäste bei der Beitragserstellung den Code aus einer Grafik eingeben (GD muss dazu auf deinem Server installiert sein). Dadurch werden automatisierte Vorgänge verhindert.";
 $l['setting_captchaimage_0'] = "Kein Captcha";
 $l['setting_captchaimage_1'] = "MyBB Standard-Captcha";
-$l['setting_captchaimage_2'] = "reCAPTCHA";
-$l['setting_captchaimage_3'] = "Are You a Human";
 $l['setting_captchaimage_4'] = "NoCAPTCHA reCAPTCHA";
 $l['setting_captchaimage_5'] = "Unsichtbares reCAPTCHA";
 $l['setting_captchapublickey'] = "reCAPTCHA Public Key";
@@ -495,13 +497,8 @@ $l['setting_allowbuddyonly_desc'] = "Sollen Benutzer private Nachrichten nur an 
 $l['setting_minmessagelength'] = "Minimale Nachrichtenlänge";
 $l['setting_minmessagelength_desc'] = "Die minimal benötigte Anzahl an Zeichen eines Beitrags.";
 $l['setting_maxmessagelength'] = "Maximale Nachrichtenlänge";
-$l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen (Bytes) in einer Nachricht (0 = Keine Beschränkung).
-<br />Der maximale Wert wird vom Datentyp in der Datenbank-Tabelle, die die Beiträge enthält, bestimmt. Hier die maximalen Werte der einzelnen Datentypen:
-<ul>
-	<li>TEXT: 65535 (Standard)</li>
-	<li>MEDIUMTEXT: 16777215</li>
-	<li>LONGTEXT: 4294967295</li>
-</ul>";
+$l['setting_maxmessagelength_desc'] = "Die maximal zulässige Anzahl an Zeichen (Bytes) in einer Nachricht (0 = Beschränkung durch Datenbank).
+<br />Tipp: MySQL-Benutzer (Maximum: 65535) können manuell den Typ der Spalte 'message' von TEXT auf MEDIUMTEXT (16777215) oder LONGTEXT (4294967295) ändern um das Limit zu erhöhen.";
 $l['setting_mycodemessagelength'] = "MyCode wird bei der minimalen Beitragslänge beachtet?";
 $l['setting_mycodemessagelength_desc'] = "Soll MyCode bei der minimalen Beitragslänge in Nachrichten gezählt werden?";
 $l['setting_postfloodcheck'] = "Zeit zwischen Beiträgen";
@@ -799,8 +796,6 @@ $l['setting_stopforumspam_log_blocks'] = "StopForumSpam-Sperren aufzeichnen?";
 $l['setting_stopforumspam_log_blocks_desc'] = "Sollen alle von StopForumSpam ausgelösten Sperrungen aufgezeichnet werden?";
 $l['setting_allowicqfield'] = "Erlaube ICQ-Nummer für Gruppen";
 $l['setting_allowicqfield_desc'] = "Wähle die Gruppen aus, die ihre ICQ-Nummer festlegen dürfen.";
-$l['setting_allowaimfield'] = "Erlaube AIM-ID für Gruppen";
-$l['setting_allowaimfield_desc'] = "Wähle die Gruppen aus, die ihre AIM-ID festlegen dürfen.";
 $l['setting_allowyahoofield'] = "Erlaube Yahoo-ID für Gruppen";
 $l['setting_allowyahoofield_desc'] = "Wähle die Gruppen aus, die ihre Yahoo-ID festlegen dürfen.";
 $l['setting_allowskypefield'] = "Erlaube Skype-ID für Gruppen";
@@ -811,3 +806,9 @@ $l['setting_statsenabled'] = "Forenstatistik aktivieren";
 $l['setting_statsenabled_desc'] = "Um die Forenstatistik zu deaktivieren, wähle Nein aus.";
 $l['setting_statscachetime'] = "Statistik Cache Aktualisierung";
 $l['setting_statscachetime_desc'] = "Wähle die Zeitspanne (in Stunden), nach der der Statistik-Cache aktualisiert wird.";
+$l['setting_enableshowteam'] = "Foren-Team-Seite aktivieren";
+$l['setting_enableshowteam_desc'] = "Falls du die Foren-Team-Seite deaktivieren willst, wähle Nein aus.";
+$l['setting_showaddlgroups'] = "Zeige sekundäre Gruppen";
+$l['setting_showaddlgroups_desc'] = "Wähle, ob die Teamliste auch unter Berücksichtigung weiterer Gruppen gefüllt wird.";
+$l['setting_showgroupleaders'] = "Zeige Gruppenleiter";
+$l['setting_showgroupleaders_desc'] = "Sollen Gruppenleiter auf der Teamliste angezeigt werden?";

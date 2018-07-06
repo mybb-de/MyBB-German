@@ -125,7 +125,7 @@ $l['success_view_deleted'] = "Die Verwaltungs-Ansicht wurde erfolgreich gelösch
 
 $l['confirm_view_deletion'] = "Wollen Sie wirklich die ausgewählte Ansicht löschen?";
 
-$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user-users&amp;action=activate_user&amp;uid={1}\">Account aktivieren</a></p>";
+$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user-users&amp;action=activate_user&amp;uid={1}&amp;my_post_key={2}\">Account aktivieren</a></p>";
 
 $l['required_profile_info'] = "Benötigte Profil-Informationen";
 $l['password'] = "Passwort";
@@ -162,7 +162,6 @@ $l['custom_user_title'] = "Eigener Benutzertitel";
 $l['custom_user_title_desc'] = "Wenn leer, wird der Titel der Benutzergruppe verwendet";
 $l['website'] = "Homepage";
 $l['icq_number'] = "ICQ-Nummer";
-$l['aim_handle'] = "AIM-ID";
 $l['yahoo_messanger_handle'] = "Yahoo-ID";
 $l['skype_handle'] = "Skype-ID";
 $l['google_handle'] = "Google-Hangouts-ID";
@@ -191,8 +190,9 @@ $l['buddy_requests_pm'] = "PN-Benachrichtigungen für Freundesanfragen erhalten"
 $l['buddy_requests_auto'] = "Freundesanfragen automatisch annehmen (falls die Checkbox oben aktiviert ist, wird eine Private Nachricht gesendet um über die neue Freundschaft zu informieren)";
 $l['default_thread_subscription_mode'] = "Standard-Modus bei Themen-Abonnement";
 $l['do_not_subscribe'] = "Nicht abonnieren";
-$l['no_email_notification'] = "Keine E-Mail-Benachrichtigung";
+$l['no_notification'] = "Keine Benachrichtigung";
 $l['instant_email_notification'] = "sofortige E-Mail-Benachrichtigung";
+$l['instant_pm_notification'] = "sofortige PN-Benachrichtigung";
 $l['messaging_and_notification'] = "Nachrichten &amp; Benachrichtigungen";
 $l['use_default'] = "Standard benutzen";
 $l['date_format'] = "Datums-Format";
@@ -347,7 +347,6 @@ $l['email_address_contains'] = "E-Mail-Adresse enthält";
 $l['is_member_of_groups'] = "Ist Mitglied einer oder mehrerer dieser Benutzergruppen";
 $l['website_contains'] = "Homepage enthält";
 $l['icq_number_contains'] = "ICQ-Nummer enthält";
-$l['aim_handle_contains'] = "AIM-ID enthält";
 $l['yahoo_contains'] = "Yahoo-ID enthält";
 $l['skype_contains'] = "Skype-ID enthält";
 $l['google_contains'] = "Google-Hangouts-ID enthält";

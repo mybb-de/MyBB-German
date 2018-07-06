@@ -36,6 +36,7 @@ $l['userdata_invalid_birthday_privacy'] = 'Bitte wählen Sie eine gültige Gebur
 $l['userdata_invalid_referrer'] = 'Der eingegebene Benutzer, der das Forum empfohlen haben soll, existiert nicht. Bitte geben Sie einen gültigen Benutzer an oder lassen Sie das Feld leer.';
 $l['userdata_invalid_language'] = 'Die gewählte Sprache existiert nicht. Bitte wählen Sie eine existierende Sprache.';
 $l['userdata_invalid_style'] = 'Der gewählte Style ist ungültig. Bitte wählen Sie einen gültigen Style aus.';
+$l['userdata_away_too_long'] = 'Die Abwesenheitsmeldung ist zu lang. In diesem Feld sind maximal 200 Zeichen erlaubt. Bitte entfernen Sie {1} Zeichen aus dem Eingabefeld.';
 $l['userdata_missing_returndate'] = 'Das Datum der Rückkehr ist nicht vollständig. Stellen Sie sicher, dass Sie den Tag, den Monat und das Jahr angegeben haben.';
 $l['userdata_missing_required_profile_field'] = 'Die Angabe im Feld "{1}" fehlt. Bitte korrigieren Sie Ihre Eingabe.';
 $l['userdata_bad_profile_field_value'] = 'Die Angabe im Feld "{1}" ist ungültig. Bitte korrigieren Sie Ihre Eingabe.';
