@@ -12,6 +12,7 @@ $l['pmdata_too_long_subject'] = 'Der Betreff deiner privaten Nachricht ist zu la
 $l['pmdata_code_no_subject'] = '[Kein Betreff]';
 $l['pmdata_missing_subject'] = 'Du hast vergessen, einen Betreff einzugeben. Bitte gib einen Betreff ein.';
 $l['pmdata_missing_message'] = 'Du hast vergessen, eine Nachricht einzugeben. Bitte gib eine Nachricht ein.';
+$l['pmdata_message_too_long'] = 'Die Nachricht ist zu lang. Bitte gib eine Nachricht mit weniger als {1} Zeichen ein (aktuell {2} Zeichen).';
 $l['pmdata_invalid_recipients'] = 'Der Empfänger der Nachricht existiert nicht. Bitte gib einen gültigen Empfänger ein. Ungültige Empfänger: {1}';
 $l['pmdata_no_recipients'] = "Du hast vergessen, Empfänger für diese Nachricht einzugeben. Du musst mindestens einen Empfänger im Feld \"Empfänger\" eingeben.";
 $l['pmdata_too_many_recipients'] = "Du darfst eine Nachricht an höchstens {1} Benutzer gleichzeitig schicken.";

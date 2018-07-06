@@ -12,21 +12,16 @@ $l['nav_helpdocs'] = "Hilfe-Seiten";
 $l['nav_smilies'] = "Smilie-Liste";
 $l['nav_syndication'] = "Neueste Themen-Synchronisation (RSS)";
 
-$l['aol_im'] = "AOL IM";
 $l['skype'] = "Skype";
 $l['yahoo_im'] = "Yahoo IM";
 $l['skype_center'] = "Skype Center";
 $l['chat_on_skype'] = "Mit {1} über Skype chatten";
 $l['call_on_skype'] = "{1} über Skype anrufen";
 $l['yahoo_center'] = "Yahoo!-Center";
-$l['aim_center'] = "AOL IM-Center";
 
-$l['download_aim'] = "AOL IM herunterladen";
-$l['aim_remote'] = "AIM Remote";
 $l['send_me_instant'] = "Mir eine Sofortnachricht schicken";
 $l['add_me_buddy_list'] = "Füge mich deiner Freundesliste hinzu";
 $l['add_remote_to_page'] = "Add Remote to Your Page";
-$l['download_aol_im'] = "AOL Instant Messenger herunterladen";
 
 $l['buddy_list'] = "Freundesliste";
 $l['online'] = "Online";

@@ -19,6 +19,8 @@ $l['bad_word_desc'] = "Gib das Wort ein, das gefiltert werden soll. Ein '*' steh
 $l['bad_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen sein.";
 $l['replacement'] = "Ersetzung";
 $l['replacement_desc'] = "Gib die Zeichenfolge ein, durch die das Wort ersetzt werden soll (falls leer, werden Sternchen gezeigt)";
+$l['regex'] = "Regulärer Ausdruck";
+$l['regex_desc'] = "Verarbeite das \"Wort\" als regulären Ausdruck.";
 $l['replacement_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen lang sein.";
 $l['error_replacement_word_invalid'] = "Die Ersetzung darf nicht dem Wort gleichen.";
 

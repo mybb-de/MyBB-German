@@ -16,13 +16,15 @@ $l['lastvisit'] = "Letzter Besuch";
 $l['email'] = "E-Mail";
 $l['pm'] = "PN";
 $l['mod_forums'] = "Foren";
+$l['mod_groups'] = "Gruppen";
 $l['online'] = "Online";
 $l['offline'] = "Offline";
 $l['away'] = "Abwesend";
 
-$l['group_leaders'] = "Leiter";
+$l['group_leaders'] = "Gruppenleiter";
 $l['group_members'] = "Mitglied(er)";
 
 $l['no_members'] = "Keine Mitglieder in dieser Gruppe";
+$l['showteam_disabled'] = "Der Administrator hat die Anzeige des Foren-Teams deaktiviert.";
 
 $l['error_noteamstoshow'] = "Es gibt kein anzuzeigendes Foren-Team.";
