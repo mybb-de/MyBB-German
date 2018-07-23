@@ -11,7 +11,7 @@
 $l['boardstats'] = "Foren-Statistiken";
 $l['new_posts'] = "Forum enthält neue Beiträge";
 $l['no_new_posts'] = "Forum enthält keine neuen Beiträge";
-$l['forum_locked'] = "Forum ist geschlossen";
+$l['forum_closed'] = "Forum ist geschlossen";
 $l['forum_unapproved_posts_count'] = "Es gibt zur Zeit {1} ungeprüfte Beiträge in diesem Forum.";
 $l['forum_unapproved_post_count'] = "Es gibt zur Zeit 1 ungeprüften Beitrag in diesem Forum.";
 $l['forum_unapproved_threads_count'] = "Es gibt zur Zeit {1} ungeprüfte Themen in diesem Forum.";
