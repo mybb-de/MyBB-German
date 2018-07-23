@@ -387,12 +387,12 @@ $l['new_hot_thread'] = "Heißes Thema mit neuen Beiträgen";
 $l['posts_by_you'] = "Beinhaltet Beiträge von Ihnen";
 $l['no_new_thread'] = "Keine neuen Beiträge";
 $l['hot_thread'] = "Heißes Thema ohne neue Beiträge";
-$l['locked_thread'] = "Geschlossenes Thema";
+$l['closed_thread'] = "Geschlossenes Thema";
 $l['icon_dot'] = "Enthält Beiträge von Ihnen. ";
 $l['icon_no_new'] = "Keine neuen Beiträge.";
 $l['icon_new'] = "Neue Beiträge.";
 $l['icon_hot'] = " Heißes Thema.";
-$l['icon_lock'] = " Geschlossenes Thema.";
+$l['icon_close'] = " Geschlossenes Thema.";
 
 $l['buddylist_error'] = "Beim Laden der Freundesliste ist ein Fehler aufgetreten.";
 
