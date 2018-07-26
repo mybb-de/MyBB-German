@@ -256,4 +256,4 @@ bei {2} hat sich ein neuer Benutzer angemeldet, der von einem Administrator frei
 Benutzername: {3}
 
 Vielen Dank,
-{4}-Team";
+{2}-Team";
