@@ -15,10 +15,10 @@ $l['bad_word_filters'] = "Wortfilter";
 $l['bad_word_filters_desc'] = "Diese Funktion erlaubt es dir, einzelne Worte oder Phrasen automatisch ersetzen zu lassen. Dies ist beispielsweise bei Beleidigungen nützlich.";
 
 $l['bad_word'] = "Wort";
-$l['bad_word_desc'] = "Gib das Wort ein, das gefiltert werden soll. Ein '*' steht für ein einzelnes Zeichen (a-zA-Z0-9_).";
+$l['bad_word_desc'] = "Gib das Wort ein, das gefiltert werden soll. Ein '*' steht für beliebig viele, ein '+' für ein einzelnes Zeichen (außer Leerzeichen und Zeilenumbrüche).";
 $l['bad_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen sein.";
 $l['replacement'] = "Ersetzung";
-$l['replacement_desc'] = "Gib die Zeichenfolge ein, durch die das Wort ersetzt werden soll (falls leer, werden Sternchen gezeigt)";
+$l['replacement_desc'] = "Gib die Zeichenfolge ein, durch die das Wort ersetzt werden soll (falls leer, werden Sternchen gezeigt).";
 $l['regex'] = "Regulärer Ausdruck";
 $l['regex_desc'] = "Verarbeite das \"Wort\" als regulären Ausdruck.";
 $l['replacement_word_max'] = "Die Eingabe darf nicht länger als 100 Zeichen lang sein.";
@@ -29,6 +29,7 @@ $l['no_bad_words'] = "Zur Zeit sind keine Wortfilter definiert.";
 $l['add_bad_word'] = "Filter hinzufügen";
 
 $l['error_missing_bad_word'] = "Du hast kein Wort zur Filterung angegeben.";
+$l['error_invalid_regex'] = "Der angegebene reguläre Ausdruck ist ungültig.";
 $l['error_invalid_bid'] = "Der angegebene Filter existiert nicht.";
 $l['error_bad_word_filtered'] = "Der angegebene Filter ist bereits ausgeschlossen.";
 

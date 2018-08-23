@@ -90,6 +90,7 @@ $l['opened'] = "Geöffnet";
 $l['closed'] = "Geschlossen";
 $l['stuck'] = "als \"wichtig\" markiert";
 $l['unstuck'] = "als \"unwichtig\" markiert";
+$l['error'] = "Fehler!";
 $l['mod_process'] = "Thema {1}";
 $l['redirects_removed'] = "Themen-Umleitungen entfernt";
 $l['thread_deleted'] = "Thema dauerhaft gelöscht: {1}";
@@ -180,6 +181,7 @@ $l['error_delayedmoderation_unsupported_method'] = "Sie haben leider keine gült
 $l['error_delayedmoderation_invalid_date_day'] = "Sie haben leider keinen gültigen Tag für die verzögerte Moderation ausgewählt.";
 $l['error_delayedmoderation_invalid_date_month'] = "Sie haben leider keinen gültigen Monat für die verzögerte Moderation ausgewählt.";
 $l['error_delayedmoderation_invalid_date_year'] = "Sie haben leider kein gültiges Jahr für die verzögerte Moderation ausgewählt.";
+$l['error_thread_deleted'] = "Das Ziel-Thema wurde als gelöscht markiert. Um diese Aktion auszuführen, stellen Sie das Thema zuerst wieder her.";
 
 $l['redirect_pollnotdeleted'] = "Die Umfrage wurde nicht gelöscht, da Sie in der \"Löschen\"-Box kein Häkchen gesetzt haben.";
 $l['redirect_polldeleted'] = "Die Umfrage wurde erfolgreich gelöscht.<br />Sie werden zum Thema zurückgeleitet.";

@@ -13,6 +13,7 @@ $l['redirect_threadrated'] = "Danke, dass Sie das Thema bewertet haben. Sie werd
 $l['error_invalidrating'] = "Sie haben eine ungültige Bewertung für dieses Thema gewählt. Bitte gehen Sie zurück und korrigieren Sie Ihre Eingaben.";
 $l['error_alreadyratedthread'] = "Entschuldigung, Sie haben dieses Thema bereits bewertet.";
 $l['error_cannotrateownthread'] = "Entschuldigung, Sie können Ihre eigenen Themen nicht bewerten.";
+$l['thread_doesnt_exist'] = "Sie können kein Thema bewerten, das nicht existiert.";
 
 $l['rating_votes_average'] = "{1} Bewertung(en) - {2} von 5 durchschnittlich";
 $l['one_star'] = "1 Stern von 5";
