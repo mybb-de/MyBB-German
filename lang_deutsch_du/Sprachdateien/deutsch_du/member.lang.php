@@ -15,7 +15,13 @@ $l['nav_lostpw'] = "Neues Passwort anfordern";
 $l['nav_resetpassword'] = "Passwort zurücksetzen";
 $l['nav_login'] = "Anmelden";
 $l['nav_emailuser'] = "E-Mail an Benutzer schicken";
+$l['nav_referrals'] = "Benutzer empfohlen von {1}";
 $l['nav_profile'] = "Profil von {1}";
+
+$l['referrals'] = 'Empfehlungen';
+$l['referral_date'] = 'Empfehlungsdatum:';
+$l['referrals_no_user_specified'] = 'Kein Benutzer ausgewählt.';
+$l['member_no_referrals'] = 'Keine Empfehlung von diesem Benutzer.';
 
 $l['tpp_option'] = "{1} Themen pro Seite anzeigen";
 $l['ppp_option'] = "{1} Nachrichten pro Seite anzeigen";
@@ -172,6 +178,8 @@ $l['membdayage'] = "({1} Jahre alt)";
 $l['mod_options'] = "Moderator-Optionen";
 $l['edit_in_mcp'] = "Diesen Benutzer im Mod-CP bearbeiten";
 $l['ban_in_mcp'] = "Diesen Benutzer im Mod-CP ausschließen";
+$l['edit_ban_in_mcp'] = "Ausschluss im Mod-CP bearbeiten";
+$l['lift_ban_in_mcp'] = "Ausschluss im Mod-CP aufheben";
 $l['purgespammer'] = "Spammer löschen";
 $l['edit_usernotes'] = "Benutzernotizen im Mod-CP bearbeiten";
 $l['no_usernotes'] = "Es gibt keine Benutzernotizen für diesen Benutzer";

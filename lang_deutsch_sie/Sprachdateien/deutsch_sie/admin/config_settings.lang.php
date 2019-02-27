@@ -250,6 +250,8 @@ $l['setting_soft_delete'] = "Beiträge und Themen verstecken anstatt zu löschen
 $l['setting_soft_delete_desc'] = "Wenn aktiviert, werden von Benutzern gelöschte Beiträge und Themen versteckt und können von Moderatoren wiederhergestellt werden. Ansonsten sind diese Beiträge und Themen unwiederbringlich gelöscht.";
 $l['setting_announcementshtml'] = "HTML in Ankündigungen erlauben";
 $l['setting_announcementshtml_desc'] = "Erlaubt Moderatoren HTML in Ankündigungen zu aktivieren.";
+$l['setting_showownunapproved'] = "Zugriff auf eigene abgewiesene Themen / Beiträge";
+$l['setting_showownunapproved_desc'] = "Erlaubt Benutzern ihre eigenen abgewiesenen Themen und Beiträge zu sehen.";
 $l['setting_helpsearch'] = "Hilfe-Seiten durchsuchbar?";
 $l['setting_helpsearch_desc'] = "Wenn aktiviert, können die Hilfe-Seiten durchsucht werden.";
 $l['setting_deleteinvites'] = "Auslaufen alter Gruppeneinladungen";
@@ -428,6 +430,8 @@ $l['setting_hiddencaptchaimagefield'] = "Verstecktes Captcha-Feld";
 $l['setting_hiddencaptchaimagefield_desc'] = "Hier können Sie den Namen des versteckten Captcha-Felds wählen.";
 $l['setting_usereferrals'] = "Benutze Referrer-System";
 $l['setting_usereferrals_desc'] = "Soll in diesem Forum das Referrer-System benutzt werden?";
+$l['setting_referralsperpage'] = "Empfehlungen pro Seite";
+$l['setting_referralsperpage_desc'] = "Die Anzahl der Benutzer, die pro Seite auf der Empfehlungsliste angezeigt werden sollen.";
 $l['setting_coppa'] = "COPPA Einwilligung";
 $l['setting_coppa_desc'] = "Hier können Sie die <a href=\"http://www.coppa.org/comply.htm\" target=\"_blank\">COPPA</a>-Unterstützung ein- und ausschalten.";
 $l['setting_coppa_enabled'] = "Aktiviert";

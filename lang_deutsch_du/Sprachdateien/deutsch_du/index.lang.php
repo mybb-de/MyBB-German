@@ -16,7 +16,6 @@ $l['forum_unapproved_posts_count'] = "Es gibt zur Zeit {1} ungeprüfte Beiträge
 $l['forum_unapproved_post_count'] = "Es gibt zur Zeit 1 ungeprüften Beitrag in diesem Forum.";
 $l['forum_unapproved_threads_count'] = "Es gibt zur Zeit {1} ungeprüfte Themen in diesem Forum.";
 $l['forum_unapproved_thread_count'] = "Es gibt zur Zeit 1 ungeprüftes Thema in diesem Forum.";
-$l['forumteam'] = "Foren-Team";
 $l['forumstats'] = "Foren-Statistiken";
 $l['todays_birthdays'] = "Heutige Geburtstage";
 $l['birthdayhidden'] = "versteckt";

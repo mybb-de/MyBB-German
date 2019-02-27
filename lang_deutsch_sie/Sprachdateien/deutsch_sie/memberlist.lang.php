@@ -41,6 +41,7 @@ $l['search_member_list'] = "Mitgliederliste durchsuchen";
 $l['search_criteria'] = "Suchkriterium";
 $l['begins_with'] = "beginnt mit";
 $l['username_contains'] = "enthält";
+$l['username_exact'] = "Exakte Schreibweise";
 $l['search_website'] = "Homepage";
 $l['search_skype'] = "Skype-ID";
 $l['search_google'] = "Google-Hangouts-Adresse";
