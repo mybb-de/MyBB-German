@@ -91,7 +91,7 @@ $l['error_cannot_edit_default'] = "Standard-Einstellungen und -Einstellungsgrupp
 $l['error_cannot_edit_php'] = "Dieser spezielle Einstellungs-Typ kann nicht bearbeitet werden.";
 $l['error_ajax_search'] = "Bei der Suche ist ein Fehler aufgetreten:";
 $l['error_ajax_unknown'] = "Bei der Suche ist ein unbekannter Fehler aufgetreten.";
-$l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setze die CHMOD-Rechte auf 777.<br />Weitere Informationen findest du in der <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\" rel=\"noopener\">Doku</a>.";
+$l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setze die CHMOD-Rechte auf 666.<br />Weitere Informationen findest du in der <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\" rel=\"noopener\">Doku</a>.";
 
 $l['success_setting_added'] = "Die Einstellung wurde erfolgreich erstellt.";
 $l['success_setting_updated'] = "Die Einstellung wurde erfolgreich aktualisiert.";
@@ -108,7 +108,7 @@ $l['success_setting_group_updated'] = "Die Einstellungsgruppe wurde erfolgreich 
 $l['success_setting_group_deleted'] = "Die Einstellungsgruppe wurde erfolgreich gelöscht.";
 $l['success_duplicate_settings_deleted'] = "Alle doppelten Einstellungen wurden erfolgreich gelöscht.";
 
-$l['searching'] = 'Suchen...';
+$l['searching'] = 'Suchen&hellip;';
 $l['search_error'] = 'Es ist zu einem Fehler beim Laden der Suchergebnisse gekommen:';
 $l['search_done'] = 'Fertig!';
 

@@ -149,8 +149,8 @@ $l['multipage_last'] = "Letzte";
 $l['multipage_first'] = "Erste";
 $l['multipage_next'] = "Nächste";
 $l['multipage_previous'] = "Vorherige";
-$l['multipage_link_start'] = " ...";
-$l['multipage_link_end'] = "... ";
+$l['multipage_link_start'] = " &hellip;";
+$l['multipage_link_end'] = "&hellip; ";
 $l['multipage_jump'] = "Springe zu Seite";
  
 $l['editor_bold'] = "Fett";
@@ -436,8 +436,8 @@ $l['error_database_repair'] = "MyBB repariert automatisch die beschädigten Date
 $l['unknown_user_trigger'] = "Ein unbekannter Fehler ist aufgetreten.";
 $l['warnings'] = "Folgende Warnungen sind aufgetreten:";
 
-$l['ajax_loading'] = "Lade.<br />Bitte warten...";
-$l['saving_changes'] = "Änderungen werden gespeichert ...";
+$l['ajax_loading'] = "Lade.<br />Bitte warten&hellip;";
+$l['saving_changes'] = "Änderungen werden gespeichert&hellip;";
 $l['refresh'] = "Aktualisieren";
 $l['select_language'] = "Einfache Sprachauswahl";
 $l['select_theme'] = "Einfache Themeauswahl";
@@ -580,8 +580,8 @@ $l['select2_inputtoolong_single'] = "Bitte löschen Sie ein Zeichen";
 $l['select2_inputtoolong_plural'] = "Bitte löschen Sie {1} Zeichen";
 $l['select2_selectiontoobig_single'] = "Sie können nur einen Eintrag auswählen";
 $l['select2_selectiontoobig_plural'] = "Sie können nur {1} Einträge auswählen";
-$l['select2_loadmore'] = "Lade weitere Ergebnisse...";
-$l['select2_searching'] = "Suche...";
+$l['select2_loadmore'] = "Lade weitere Ergebnisse&hellip;";
+$l['select2_searching'] = "Suche&hellip;";
 
 $l['stopforumspam_error_decoding'] = "Fehler beim Dekodieren von Daten von StopForumSpam.com.";
 $l['stopforumspam_error_retrieving'] = "Fehler beim Abfragen von Daten von StopForumSpam.com.";

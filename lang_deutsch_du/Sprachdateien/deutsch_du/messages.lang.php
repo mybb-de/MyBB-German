@@ -101,7 +101,7 @@ $l['emailsubject_newpm'] = "Neue Private Nachricht bei {1} - {2}";
 $l['emailsubject_newjoinrequest'] = "Neue Gruppenbeitrittsanfragen bei {1}";
 $l['emailsubject_sendtofriend'] = "Interessante Diskussion bei {1}";
 $l['emailsubject_changepassword'] = "Änderung des Passworts bei {1}";
-$l['emailbit_viewthread'] = "... (Besuche das Thema, um weiterzulesen)";
+$l['emailbit_viewthread'] = "… (Besuche das Thema, um weiterzulesen…)";
 
 $l['email_lostpw'] = "Hallo {1},
 

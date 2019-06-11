@@ -72,6 +72,7 @@ $l['syndication_forum'] = "Foren, die synchronisiert werden sollen:";
 $l['syndication_forum_desc'] = "Bitte rechts ein Forum auswählen. Die STRG-Taste benutzen, um mehrere Foren zu wählen.";
 $l['syndication_version'] = "Feed-Version:";
 $l['syndication_version_desc'] = "Bitte die Version des Feeds wählen, die erstellt werden soll.";
+$l['syndication_version_json1'] = "JSON Feed 1";
 $l['syndication_version_atom1'] = "Atom 1.0";
 $l['syndication_version_rss2'] = "RSS 2.00 (Standard)";
 $l['syndication_generate'] = "Synchronisations-URL erstellen";

@@ -279,4 +279,4 @@ $l['polls_field_canvotepolls'] = "Kann an Umfragen teilnehmen";
 $l['misc_field_cansearch'] = "Kann Forum durchsuchen";
 
 $l['confirm_proceed_deletion'] = "Klicke \"Weiter\" um die Löschung des Forums fortzusetzen.";
-$l['automatically_redirecting'] = "Automatische Weiterleitung...";
+$l['automatically_redirecting'] = "Automatische Weiterleitung&hellip;";
