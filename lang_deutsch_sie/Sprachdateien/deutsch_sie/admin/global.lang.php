@@ -180,7 +180,7 @@ $l['access_denied_desc'] = "Ihnen fehlt die Berechtigung, diesen Teil des Admin-
 $l['cannot_perform_action_super_admin_general'] = "Entschuldigung, aber Sie können diese Aktion nicht durchführen, da Sie kein Super-Administrator sind.<br /><br />Um diese Aktion durchzuführen, müssen Sie Ihre Benutzer-ID in der Datei \"inc/config.php\" hinterlegen.";
 
 // AJAX
-$l['loading_text'] = "Lade<br />Bitte warten ...";
+$l['loading_text'] = "Lade<br />Bitte warten&hellip;";
 
 // Time zone selection boxes
 $l['timezone_gmt_minus_1200'] = "(GMT -12:00) Baker- und Howlandinseln";

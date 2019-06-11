@@ -9,7 +9,7 @@
  */
 
 $l['file_verification'] = "Datei-Überprüfung";
-$l['checking'] = "Überprüfen...";
+$l['checking'] = "Überprüfen&hellip;";
 $l['file_verification_message'] = "Dies wird die Dateien des MyBBs auf ihre Gültigkeit überprüfen. Drücken Sie Ja um fortzufahren.<br /> <small>Bitte beachten Sie, dass kein Unterschied zwischen gewollten Veränderungen und Beschädigungen gemacht wird. Deshalb sollten Sie beim Zurücksetzen von \"beschädigten\" Dateien vorsichtig sein.</small>";
 
 $l['error_communication'] = "Es gab ein Problem bei der Kommunikation mit dem MyBB-Server. Bitte versuchen Sie es in ein paar Minuten noch einmal.";

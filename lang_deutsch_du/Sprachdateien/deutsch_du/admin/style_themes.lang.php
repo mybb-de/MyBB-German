@@ -215,9 +215,9 @@ $l['success_stylesheet_order_updated'] = "Die Anzeigereihenfolge der Stylesheets
 
 $l['confirm_theme_deletion'] = "Willst du dieses Theme wirklich löschen?";
 $l['confirm_stylesheet_deletion'] = "Bist du sicher, dass du dieses Stylesheet löschen willst?";
-$l['confirm_theme_forced'] = "Möchtest du diese Theme wirklich allen Benutzern zuweisen setzen?";
+$l['confirm_theme_forced'] = "Möchtest du diese Theme wirklich allen Benutzern zuweisen setzen? Dies könnte die Berechtigungen des Themes zurücksetzen.";
 
 $l['theme_info_fetch_error'] = "Beim Laden des Themes ist ein Problem aufgetreten.";
 $l['theme_info_save_error'] = "Beim Speichern des Themes ist ein Problem aufgetreten.";
 
-$l['saving'] = "Speichern...";
+$l['saving'] = "Speichern&hellip;";

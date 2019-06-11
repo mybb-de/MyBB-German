@@ -14,6 +14,7 @@ $l['add_new_question'] = "Neue Frage hinzufügen";
 $l['add_new_question_desc'] = "Füge eine Frage und ihre Antwort hinzu um sie als Sicherheitsfrage bei der Registrierung anzuzeigen.";
 $l['edit_question'] = "Frage bearbeiten";
 $l['edit_question_desc'] = "Hier kannst du eine Sicherheitsfrage bearbeiten.";
+$l['preview_question'] = "Vorschau";
 
 $l['options'] = "Optionen";
 $l['shown'] = "Angezeigt";

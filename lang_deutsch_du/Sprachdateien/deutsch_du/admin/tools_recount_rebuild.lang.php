@@ -51,4 +51,4 @@ $l['success_rebuilt_referral'] = "Die Empfehlungen wurden erfolgreich aktualisie
 $l['success_rebuilt_thread_ratings'] = "Die Themenbewertungen wurden erfolgreich aktualisiert.";
 
 $l['confirm_proceed_rebuild'] = "Klicke \"Fortfahren\" um die Neuzählung und Neubildung fortzusetzen.";
-$l['automatically_redirecting'] = "Automatische Weiterleitung...";
+$l['automatically_redirecting'] = "Automatische Weiterleitung&hellip;";
