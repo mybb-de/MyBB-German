@@ -8,8 +8,8 @@
  * License/Lizenz: GNU Lesser General Public License, Version 3
  */
 
-$l['today'] = "<span title=\"{1}\">Heute</span>";
-$l['yesterday'] = "<span title=\"{1}\">Gestern</span>";
+$l['today_rel'] = "<span title=\"{1}\">Heute</span>";
+$l['yesterday_rel'] = "<span title=\"{1}\">Gestern</span>";
 $l['today'] = "Heute";
 $l['yesterday'] = "Gestern";
 
