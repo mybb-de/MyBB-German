@@ -13,11 +13,9 @@ $l['nav_smilies'] = "Smilie-Liste";
 $l['nav_syndication'] = "Neueste Themen-Synchronisation (RSS)";
 
 $l['skype'] = "Skype";
-$l['yahoo_im'] = "Yahoo IM";
 $l['skype_center'] = "Skype Center";
 $l['chat_on_skype'] = "Mit {1} über Skype chatten";
 $l['call_on_skype'] = "{1} über Skype anrufen";
-$l['yahoo_center'] = "Yahoo!-Center";
 
 $l['send_me_instant'] = "Mir eine Sofortnachricht schicken";
 $l['add_me_buddy_list'] = "Füge mich deiner Freundesliste hinzu";

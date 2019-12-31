@@ -15,7 +15,7 @@ $l['edit_task'] = "Aufgabe bearbeiten";
 $l['edit_task_desc'] = "Hier kannst du die verschiedenen Einstellungen dieser geplanten Aufgabe bearbeiten.";
 $l['task_logs'] = "Log-Daten der Aufgaben";
 $l['view_task_logs'] = "Log-Daten der Aufgaben anschauen";
-$l['view_task_logs_desc'] = "Wenn eine Aufgabe ausgeführt wird und die Protokollierung aktiviert ist, wird jedes Ergebnis und jeder Fehler unten aufgelistet. Einträge älter als 30 Tage werden automatisch gelöscht.";
+$l['view_task_logs_desc'] = "Wenn eine Aufgabe ausgeführt wurde und die Protokollierung aktiviert ist, wird jedes Ergebnis und jeder Fehler unten aufgelistet. Einträge älter als 30 Tage werden automatisch gelöscht.";
 $l['scheduled_tasks'] = "Geplante Aufgaben";
 $l['scheduled_tasks_desc'] = "Hier kannst du Aufgaben verwalten, die automatisch in deinem Forum ausgeführt werden. Um eine Aufgabe jetzt auszuführen, klicke auf das Icon rechts von der Aufgabe.";
 
