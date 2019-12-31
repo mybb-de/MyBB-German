@@ -85,6 +85,7 @@ $l['failed_login_wait'] = "Die maximale Anzahl an Login-Versuchen wurde erreicht
 $l['failed_login_again'] = "<br />Sie haben noch <strong>{1}</strong> Login-Versuche.";
 $l['error_max_emails_day'] = "Sie können die Funktionen 'Einem Freund schicken' und 'Benutzer eine E-Mail schreiben' nicht nutzen, weil Sie ihr E-Mail Limit von {1} Nachrichten in den letzten 24 Stunden bereits erreicht haben.";
 $l['attachments_disabled'] = "Sie können das Attachment-System nicht benutzen, da es vom Administrator deaktiviert wurde.";
+$l['error_attach_filename_length'] = "Der Dateiname '{1}' überschreitet die maximale Länge {2}. Bitte laden Sie eine Datei mit einem kürzeren Namen hoch.";
 
 $l['emailsubject_lostpw'] = "Neues Passwort für {1}";
 $l['emailsubject_passwordreset'] = "Neues Passwort für {1}";
