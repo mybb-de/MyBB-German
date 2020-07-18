@@ -21,6 +21,7 @@ $l['nav_profile'] = "Profil von {1}";
 $l['referrals'] = 'Empfehlungen';
 $l['referral_date'] = 'Empfehlungsdatum:';
 $l['referrals_no_user_specified'] = 'Kein Benutzer ausgewählt.';
+$l['referrals_invalid_user'] = 'Ungültiger Benutzer ausgewählt.';
 $l['member_no_referrals'] = 'Keine Empfehlung von diesem Benutzer.';
 
 $l['tpp_option'] = "{1} Themen pro Seite anzeigen";
@@ -192,6 +193,8 @@ $l['reputation_details'] = "Details";
 $l['already_logged_in'] = "Hinweis: Du bist momentan als {1} angemeldet.";
 $l['admin_edit_in_acp'] = "Diesen Benutzer im Admin-CP bearbeiten";
 $l['admin_ban_in_acp'] = "Diesen Benutzer im Admin-CP ausschließen";
+$l['admin_lift_ban_in_acp'] = "Ausschluss im Admin-CP aufheben";
+$l['admin_edit_ban_in_acp'] = "Ausschluss im Admin-CP bearbeiten";
 $l['admin_options'] = "Administrator-Optionen";
 
 $l['redirect_registered_activation'] = "Vielen Dank für deine Registrierung bei {1}, {2}.<p>Um deine Registrierung abzuschließen, musst du den Anweisungen in der E-Mail folgen, die dir gerade geschickt wurden. Erst danach kannst du Beiträge schreiben.";

@@ -314,6 +314,7 @@ $l['forumjump_home'] = "Forenstartseite";
 $l['redirect'] = "Du wirst jetzt weitergeleitet";
 $l['unknown_error'] = "Ein unbekannter Fehler ist aufgetreten.";
 $l['post_fetch_error'] = 'Es ist zu einem Fehler beim Laden des Beitrags gekommen.';
+$l['ratings_update_error'] = 'Es ist zu einem Fehler beim Aktualisieren der Bewertung gekommen.';
 
 $l['smilieinsert'] = "Smilies";
 $l['smilieinsert_getmore'] = "mehr";
@@ -444,13 +445,16 @@ $l['select_theme'] = "Einfache Themeauswahl";
 
 $l['invalid_post_code'] = "Falscher Autorisierungscode! Greifst du auf diese Funktion auf die übliche Weise zu? Bitte gehe zurück und versuche es erneut.";
 $l['invalid_nocaptcha'] = "Bitte löse reCAPTCHA um zu verifizieren, dass du kein Bot bist.";
+$l['invalid_hcaptcha'] = "Bitte löse hCaptcha um zu verifizieren, dass du kein Bot bist.";
 $l['invalid_captcha_verify'] = "Der Verifizierungscode des Bildes war falsch. Bitte gib den Code genau so ein, wie er im Bild erscheint.";
 $l['image_verification'] = "Bestätigung";
 $l['human_verification'] = "Bestätigung";
 $l['verification_note'] = "Bitte den Code im Bild in das Feld eingeben. Dies ist nötig, um automatisierte Spambots zu stoppen.";
 $l['verification_note_nocaptcha'] = "Bitte klicke auf das Kontrollkästchen, das du unten siehst. Dies ist nötig, um automatisierte Spambots zu stoppen.";
+$l['verification_note_hcaptcha'] = "Bitte klicke auf das Kontrollkästchen, das du unten siehst. Dies ist nötig, um automatisierte Spambots zu stoppen.";
 $l['verification_subnote'] = "(Keine Beachtung von Groß- und Kleinschreibung)";
-$l['invalid_nocaptcha_transmit'] = "Es ist ein Fehler bei der Verifizierung aufgetreten. Bitte versuche es erneut.";
+$l['invalid_nocaptcha_transmit'] = "Es ist ein Fehler bei der Verifizierung von reCAPTCHA aufgetreten. Bitte versuche es erneut.";
+$l['invalid_hcaptcha_transmit'] = "Es ist ein Fehler bei der Verifizierung von hCaptcha aufgetreten. Bitte versuche es erneut.";
 $l['captcha_fetch_failure'] = "Beim Laden eines neues Verifizierungscode ist ein Fehler aufgetreten.";
 $l['question_fetch_failure'] = "Beim Laden einer neuen Frage ist ein Fehler aufgetreten.";
 

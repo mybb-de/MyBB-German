@@ -12,15 +12,6 @@ $l['nav_helpdocs'] = "Hilfe-Seiten";
 $l['nav_smilies'] = "Smilie-Liste";
 $l['nav_syndication'] = "Neueste Themen-Synchronisation (RSS)";
 
-$l['skype'] = "Skype";
-$l['skype_center'] = "Skype Center";
-$l['chat_on_skype'] = "Mit {1} über Skype chatten";
-$l['call_on_skype'] = "{1} über Skype anrufen";
-
-$l['send_me_instant'] = "Mir eine Sofortnachricht schicken";
-$l['add_me_buddy_list'] = "Fügen Sie mich Ihrer Freundesliste hinzu";
-$l['add_remote_to_page'] = "Add Remote to Your Page";
-
 $l['buddy_list'] = "Freundesliste";
 $l['online'] = "Online";
 $l['online_none'] = "<em>Keiner Ihrer Freunde ist online</em>";
@@ -86,7 +77,6 @@ $l['redirect_cookiescleared'] = "Alle Cookies wurden gelöscht.";
 
 $l['error_invalidforum'] = "Ungültiges Forum";
 $l['error_invalidhelpdoc'] = "Die angegebene Hilfe-Seite scheint nicht zu existieren.";
-$l['error_invalidimtype'] = "Dieser Benutzer hat keinen Messaging-Account dieses Typs in seinem Profil angegeben.";
 $l['error_invalidsearch'] = "Der Suchbegriff ist ungültig. Bitte gehen Sie zurück und versuchen Sie es erneut.";
 $l['error_no_search_support'] = "Diese Datenbank-Engine unterstützt keine Suchfunktion.";
 $l['error_searchflooding'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch {2} Sekunden und versuchen Sie es dann erneut.";

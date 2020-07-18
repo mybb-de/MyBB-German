@@ -54,7 +54,7 @@ $l['error_invalidusername'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalidpassword'] = "Das eingegebene Passwort ist nicht korrekt. Sollten Sie Ihr Passwort vergessen haben, klicken Sie bitte <a href=\"member.php?action=lostpw\">hier</a>. Andernfalls gehen Sie zurück und probieren Sie es noch einmal.";
 $l['error_postflooding'] = "Entschuldigung, aber Ihr Beitrag kann nicht angenommen werden. Der Administrator hat eingestellt, dass nur ein Beitrag in {1} Sekunden abgegeben werden darf.";
 $l['error_nopermission_guest_1'] = "Sie sind entweder nicht eingeloggt oder Ihnen fehlt die Berechtigung, diese Seite zu sehen. Grund dafür könnte einer der folgenden sein:";
-$l['error_nopermission_guest_2'] = "Sie sind nicht eingeloggt oder registriert. Bitte benutzen Sie das Formular unten auf dieser Seite, um sich einzuloggen.";
+$l['error_nopermission_guest_2'] = "Sie sind nicht eingeloggt oder registriert. Bitte melden Sie sich an und versuchen Sie die gewünschte Aktion erneut.";
 $l['error_nopermission_guest_3'] = "Ihnen fehlt die Berechtigung, diese Seite zu betreten. Versuchen Sie auf eine Administratoren-Seite zu kommen? Lesen Sie in den Forenregeln, ob Sie diese Aktion durchführen dürfen.";
 $l['error_nopermission_guest_4'] = "Ihr Account könnte durch den Administrator deaktiviert worden sein oder wartet auf Aktivierung.";
 $l['error_nopermission_guest_5'] = "Sie rufen diese Seite direkt auf, anstatt das entsprechende Formular oder den entsprechenden Link zu benutzen.";
@@ -279,7 +279,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten, klicken Sie auf den folgenden Link:
-{7}/usercp.php?action=removesubscription&type=forum&fid={9}&my_post_key={10}
+{7}/usercp.php?action=removesubscription&type=forum&fid={9}
 
 ------------------------------------------";
 
@@ -353,7 +353,7 @@ Vielen Dank,
 Informationen zur Abmeldung:
 
 Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
-{6}/usercp.php?action=removesubscription&tid={8}&my_post_key={9}
+{6}/usercp.php?action=removesubscription&tid={8}
 
 ------------------------------------------";
 
@@ -500,7 +500,7 @@ Es könnte bereits auch weitere Antworten zu diesem Thema geben. Sie erhalten je
 Informationen zur Abmeldung:
 
 Klicken Sie auf den folgenden Link, wenn Sie keine weiteren Benachrichtigungen zu diesem Thema erhalten möchten:
-[url]{5}/usercp.php?action=removesubscription&tid={7}&my_post_key={8}[/url]
+[url]{5}/usercp.php?action=removesubscription&tid={7}[/url]
 
 ------------------------------------------";
 

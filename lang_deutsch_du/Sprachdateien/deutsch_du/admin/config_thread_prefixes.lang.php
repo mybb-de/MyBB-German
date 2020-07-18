@@ -9,6 +9,7 @@
  */
 
 $l['thread_prefixes'] = "Präfixe";
+$l['thread_prefixes_in'] = "Präfixe im Forum \"{1}\"";
 $l['thread_prefixes_desc'] = "Hier kannst du Präfixe definieren, die Benutzer Themen zuweisen können. Man kann im Forum Themen nach ihrem Präfix suchen.";
 
 $l['add_new_thread_prefix'] = "Neues Präfix hinzufügen";
@@ -23,13 +24,14 @@ $l['prefix_options'] = "Präfix Optionen";
 $l['save_thread_prefix'] = "Präfix speichern";
 
 $l['prefix'] = "Präfix";
+$l['forums'] = "Verfügbar in den Foren";
 $l['prefix_desc'] = "Text-Version des Präfix, das im Auswahlmenü angezeigt wird.";
 $l['display_style'] = "Anzeigen-Stil";
 $l['display_style_desc'] = "So wird das Präfix im Thema angezeigt. Du kannst HTML benutzen oder das Gleiche wie bei der Text-Version eingeben.";
 $l['available_in_forums'] = "Verfügbar in Foren";
 $l['available_to_groups'] = "Verfügbar für Gruppen";
 
-$l['no_thread_prefixes'] = "Es wurden in deinem Forum keine Präfixe erstellt.";
+$l['no_thread_prefixes'] = "Es wurden keine Präfixe erstellt.";
 
 $l['confirm_thread_prefix_deletion'] = "Willst du das Präfix wirklich entfernen? Hinweis: Du musst bedenken, dass du nach der Löschnung alle Moderationstools ändern musst, die dieses Präfix benutzen.";
 

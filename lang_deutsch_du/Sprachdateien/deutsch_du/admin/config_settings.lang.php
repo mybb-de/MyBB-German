@@ -93,6 +93,7 @@ $l['error_cannot_edit_php'] = "Dieser spezielle Einstellungs-Typ kann nicht bear
 $l['error_ajax_search'] = "Bei der Suche ist ein Fehler aufgetreten:";
 $l['error_ajax_unknown'] = "Bei der Suche ist ein unbekannter Fehler aufgetreten.";
 $l['error_chmod_settings_file'] = "Die Datei \"./inc/settings.php\" ist nicht beschreibbar. Bitte setze die CHMOD-Rechte auf 666.<br />Weitere Informationen findest du in der <a href=\"https://www.mybb.de/doku/installationaktualisierung/installation/\" target=\"_blank\" rel=\"noopener\">Doku</a>.";
+$l['error_admin_email_settings_empty'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachte, dass die Einstellung <strong>E-Mail-Adresse des Administrators</strong> nicht gespeichert wurde, da die Einstellung nicht leer sein darf und eine gültige E-Mail-Adresse sein muss.</div>';
 
 $l['success_setting_added'] = "Die Einstellung wurde erfolgreich erstellt.";
 $l['success_setting_updated'] = "Die Einstellung wurde erfolgreich aktualisiert.";
@@ -103,6 +104,7 @@ $l['success_settings_updated_username_method'] = '<div class="smalltext" style="
 $l['success_settings_updated_allowmultipleemails'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachte, dass die Einstellung <b>Erlaube mehrfache Registrierung mit der gleichen E-Mail-Adresse?</b> nicht geändert werden konnte, da die Option <b>Erlaubte Login-Methoden</b> eine Anmeldung mit der E-Mail-Adresse erlaubt.</div>';
 $l['success_settings_updated_captchaimage'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachte, dass die Einstellung <strong>
 Bestätigungsgrafik (Captcha) bei Registrierung und Beitragserstellung</strong> auf <strong>MyBB Standard-Captcha</strong> zurückgesetzt wurde, da keine Private oder Public Keys hinterlegt wurden.</div>';
+$l['success_settings_updated_minsearchword'] = '<div class="smalltext" style="font-weight: normal;">Bitte beachte, dass die Einstellung <strong>Minimale Suchbegriffslänge</strong> an die Konfiguration der Datenbank angepasst wurde.</div>';
 $l['success_display_orders_updated'] = "Die Sortierung wurde erfolgreich aktualisiert.";
 $l['success_setting_group_added'] = "Die Einstellungsgruppe wurde erfolgreich erstellt.";
 $l['success_setting_group_updated'] = "Die Einstellungsgruppe wurde erfolgreich aktualisiert.";
@@ -220,10 +222,27 @@ $l['setting_captchaimage_0'] = "Kein Captcha";
 $l['setting_captchaimage_1'] = "MyBB Standard-Captcha";
 $l['setting_captchaimage_4'] = "NoCAPTCHA reCAPTCHA";
 $l['setting_captchaimage_5'] = "Unsichtbares reCAPTCHA";
-$l['setting_captchapublickey'] = "reCAPTCHA Public Key";
-$l['setting_captchapublickey_desc'] = "Dein reCAPTCHA Public Key.";
-$l['setting_captchaprivatekey'] = "reCAPTCHA Private Key";
-$l['setting_captchaprivatekey_desc'] = "Dein reCAPTCHA Private Key.";
+$l['setting_captchaimage_6'] = "hCaptcha";
+$l['setting_captchaimage_7'] = "Unsichtbares hCaptcha";
+$l['setting_captchaimage_8'] = "reCAPTCHA v3";
+$l['setting_recaptchapublickey'] = "reCAPTCHA Public Key";
+$l['setting_recaptchapublickey_desc'] = "Dein reCAPTCHA Public Key.";
+$l['setting_recaptchaprivatekey'] = "reCAPTCHA Private Key";
+$l['setting_recaptchaprivatekey_desc'] = "Dein reCAPTCHA Private Key.";
+$l['setting_recaptchascore'] = "reCAPTCHA v3 Bewertung";
+$l['setting_recaptchascore_desc'] = "Lege die Bewertung zur Benutzerabweisung für reCAPTCHA v3 fest. 1.0 ist sehr wahrscheinlich ein echter Benutzer, 0.0 ist sehr wahrscheinlich ein Bot";
+$l['setting_hcaptchapublickey'] = "hCaptcha Public Key";
+$l['setting_hcaptchapublickey_desc'] = "Dein hCaptcha Public Key";
+$l['setting_hcaptchaprivatekey'] = "hCaptcha Private Key";
+$l['setting_hcaptchaprivatekey_desc'] = "Dein hCaptcha Private Key";
+$l['setting_hcaptchatheme'] = "hCaptcha Theme";
+$l['setting_hcaptchatheme_desc'] = "Lege die Farbe des hCaptcha-Widgets fest.";
+$l['setting_hcaptchatheme_light'] = "Hell";
+$l['setting_hcaptchatheme_dark'] = "Dunkel";
+$l['setting_hcaptchasize'] = "hCaptcha Größe";
+$l['setting_hcaptchasize_desc'] = "Lege die Größe des hCaptcha-Widgets fest.";
+$l['setting_hcaptchasize_normal'] = "Normal";
+$l['setting_hcaptchasize_compact'] = "Kompakt";
 $l['setting_reportmethod'] = "Benachrichtigung über Meldungen";
 $l['setting_reportmethod_desc'] = "Bitte wähle aus der Liste, wie über Meldungen informiert werden soll. Hinweis: Moderatoren werden nur über Beiträge aus Foren, die sie moderieren, informiert; Super-Moderatoren über alle Meldungen.";
 $l['setting_reportmethod_db'] = "Nur im Moderator-CP anzeigen";
@@ -273,7 +292,7 @@ $l['setting_gzipoutput_desc'] = "Willst Du, dass die Seiten im GZip-Format kompr
 $l['setting_gziplevel'] = "GZip Komprimierungs-Level";
 $l['setting_gziplevel_desc'] = "Gib das Level der Kompression zwischen 0 und 9 an (0 = Keine Kompression, 9 = Maximale Kompression). Für die meisten Installation ist 4 ein guter Wert.";
 $l['setting_nocacheheaders'] = "Sende \"No Cache\"-Header";
-$l['setting_nocacheheaders_desc'] = "Mit dieser Option kannst du das Cachen von Seiten durch Browser verhindern.";
+$l['setting_nocacheheaders_desc'] = "Mit dieser Option kannst du erzwingen, dass dynamische Seiten von Browsern erneut validiert und nicht von Proxies zwischengespeichert werden.";
 $l['setting_redirects'] = "Weiterleitungsseiten aktivieren";
 $l['setting_redirects_desc'] = "Hier kannst du einstellen, ob Benutzern eine Weiterleitungsseite angezeigt wird oder ob sie direkt zur entsprechenden Seite gelangen sollen.";
 $l['setting_load'] = "*NIX Last-Begrenzung";
@@ -434,7 +453,7 @@ $l['setting_usereferrals_desc'] = "Soll in diesem Forum das Referrer-System benu
 $l['setting_referralsperpage'] = "Empfehlungen pro Seite";
 $l['setting_referralsperpage_desc'] = "Die Anzahl der Benutzer, die pro Seite auf der Empfehlungsliste angezeigt werden sollen.";
 $l['setting_coppa'] = "COPPA Einwilligung";
-$l['setting_coppa_desc'] = "Hier kannst du die <a href=\"http://www.coppa.org/comply.htm\" target=\"_blank\">COPPA</a>-Unterstützung ein- und ausschalten.";
+$l['setting_coppa_desc'] = "Hier kannst du die <a href=\"https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule\" target=\"_blank\">COPPA</a>-Unterstützung ein- und ausschalten.";
 $l['setting_coppa_enabled'] = "Aktiviert";
 $l['setting_coppa_deny'] = "Zugriff für unter 13jährige verweigern";
 $l['setting_coppa_disabled'] = "Deaktiviert";
