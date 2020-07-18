@@ -51,3 +51,5 @@ $l['date_revoked'] = "Aufgehoben am:";
 $l['error_already_revoked'] = "Diese Warnung wurde bereits aufgehoben.";
 $l['error_no_revoke_reason'] = "Du hast keinen Grund eingegeben, warum du diese Warnung aufheben willst.";
 $l['redirect_warning_revoked'] = "Die Warnung wurde erfolgreich aufgehoben und die Warn-Punkte wurden gesenkt.";
+
+$l['warning_points'] = "({1} Punkte)";

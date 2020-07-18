@@ -168,6 +168,7 @@ $l['error_nopmsarchive'] = "Entschuldigung, aber es gibt keine Nachrichten, die 
 $l['error_invalidpmfoldername'] = "Entschuldigung, der Ordnername, den du angegeben hast, enthält ungültige Zeichen.";
 $l['error_emptypmfoldername'] = "Entschuldigung, der Ordnername, den du angegeben hast, enthält keinen Text. Bitte gib einen Ordnernamen an oder lasse das Feld leer um den Ordner zu löschen.";
 $l['error_invalidpmrecipient'] = "Der Empfänger ist ungültig oder existiert nicht. Korrigiere bitte deine Eingabe.";
+$l['error_invalidmovefid'] = "Der Ordner, in den du die Nachticht(en) verschieben willst, ist ungültig. Bitte gehe zurück und versuche es erneut.";
 $l['error_invalidpm'] = "Ungültige PN";
 $l['error_pmrecipientreachedquota'] = "Du kannst keine PN an {1} senden, weil dieser Benutzer seine PN-Speicherplatzgrenze erreicht hat. Er kann keine Nachricht empfangen, bis er Nachrichten gelöscht hat. Der Benutzer wurde per E-Mail benachrichtigt. Bitte versuche es später noch einmal.";
 $l['error_recipientpmturnedoff'] = "{1} möchte keine PNs erhalten oder er darf es nicht. Deshalb kannst du diesem Benutzer keine Nachricht schicken.";

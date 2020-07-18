@@ -109,7 +109,6 @@ $l['members_were_online_today'] = "<strong>{1}</strong> Mitglieder waren heute o
 $l['member_online_hidden'] = " ({1} Mitglied war unsichtbar)";
 $l['members_online_hidden'] = " ({1} Mitglieder waren unsichtbar)";
 $l['rating_thread'] = "Bewertet ein Thema";
-$l['viewing_imcenter'] = "Sieht sich das IM-Center an";
 $l['managing_favorites'] = "Verwaltet seine Favoriten";
 $l['managing_subscriptions'] = "Verwaltet seine Abonnements";
 
