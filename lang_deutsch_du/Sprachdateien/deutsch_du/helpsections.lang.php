@@ -10,7 +10,7 @@
 
 // Help Section 1
 $l['s1_name'] = "Benutzung des Forums";
-$l['s1_desc'] = "Grundlegende Informationen zur Accountverwaltung.";
+$l['s1_desc'] = "Grundlegende Informationen zur Kontoverwaltung.";
 
 // Help Section 2
 $l['s2_name'] = "Beitragserstellung";

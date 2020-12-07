@@ -279,14 +279,14 @@ $l['admin_step_insertesettings'] = '<p>{1} Einstellungen in {2} Gruppen eingefü
 <p>Aktualisiere Einstellungen mit den eingegebenen Daten.</p>';
 $l['admin_step_insertedtasks'] = '<p>{1} geplante Aufgaben eingefügt.</p>';
 $l['admin_step_insertedviews'] = '<p>{1} Admin-Ansichten eingefügt.</p>';
-$l['admin_step_createadmin'] ='<p>Sie müssen zuerst einen Benutzer-Account erstellen, über den Sie Ihre Kopie des MyBB verwalten können. Bitte geben Sie unten die erforderlichen Daten ein, um den Account zu erstellen.</p>';
+$l['admin_step_createadmin'] ='<p>Sie müssen zuerst einen Benutzerkonto erstellen, über den Sie Ihre Kopie des MyBB verwalten können. Bitte geben Sie unten die erforderlichen Daten ein, um den Konto zu erstellen.</p>';
 $l['admin_step_admintable'] = '<div class="border_wrapper">
 			<div class="title">Administrator-Konto Details</div>
 
 		<table class="general" cellspacing="0">
 		<thead>
 		<tr>
-			<th colspan="2" class="first last">Account-Details</th>
+			<th colspan="2" class="first last">Kontodetails</th>
 		</tr>
 		</thead>
 		<tr class="first">

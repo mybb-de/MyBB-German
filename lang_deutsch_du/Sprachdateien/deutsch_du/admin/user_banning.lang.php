@@ -10,8 +10,8 @@
 
 // Tabs
 $l['banning'] = "Sperrungen";
-$l['banned_accounts'] = "Gesperrte Accounts";
-$l['banned_accounts_desc'] = "Hier kannst du die gesperrten Accounts verwalten.";
+$l['banned_accounts'] = "Gesperrte Konten";
+$l['banned_accounts_desc'] = "Hier kannst du die gesperrten Konten verwalten.";
 $l['ban_a_user'] = "Benutzer sperren";
 $l['ban_a_user_desc'] = "Hier kannst du einen Benutzer sperren.";
 $l['edit_ban'] = "Sperrung bearbeiten";

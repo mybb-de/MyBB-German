@@ -11,7 +11,7 @@
 $l['banning'] = "Ausschluss";
 $l['banned_ips'] = "Ausgeschlossene IPs";
 $l['banned_ips_desc'] = "Hier kannst du IP-Adressen verwalten, denen der Zugriff auf das Forum verboten ist.";
-$l['banned_accounts'] = "Ausgeschlossene Accounts";
+$l['banned_accounts'] = "Ausgeschlossene Konten";
 $l['disallowed_usernames'] = "Verbotene Benutzernamen";
 $l['disallowed_usernames_desc'] = "Hier kannst du Benutzernamen verwalten, die nicht registriert werden dürfen. Dadurch kannst du beispielsweise bestimmte Namen reservieren.";
 $l['disallowed_email_addresses'] = "Verbotene E-Mail-Adressen";

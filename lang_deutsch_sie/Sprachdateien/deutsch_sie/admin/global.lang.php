@@ -341,15 +341,15 @@ $l['board_url'] = "Foren-URL";
 $l['lockout_unlock'] = "Admin-CP freischalten";
 $l['enter_username_and_token'] = "Bitte geben Sie Ihren Benutzernamen und den Aktivierungscode ein um fortzufahren.";
 $l['unlock_token'] = "Aktivierungscode:";
-$l['unlock_account'] = "Account freischalten";
+$l['unlock_account'] = "Konto freischalten";
 
 // Email message for if an admin account has been locked out
-$l['locked_out_subject'] = "Dein Benutzer-Konto bei {1} wurde ausgeschlossen";
+$l['locked_out_subject'] = "Ihr Benutzerkonto bei {1} wurde ausgeschlossen";
 $l['locked_out_message'] = "{1},
 
-Ihr Benutzer-Konto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen gesperrt.
+Ihr Benutzerkonto bei {2} wurde nach {3} fehlerhaften Anmelde-Versuchen gesperrt.
 
-Um Ihr Benutzer-Konto wieder freizuschalten, öffnen Sie bitte folgenden Link in Ihrem Browser.
+Um Ihr Benutzerkonto wieder freizuschalten, öffnen Sie bitte folgenden Link in Ihrem Browser.
 
 {4}/{5}/index.php?action=unlock&uid={7}&token={6}
 

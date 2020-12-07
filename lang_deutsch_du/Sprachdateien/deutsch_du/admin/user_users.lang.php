@@ -18,7 +18,7 @@ $l['find_users_desc'] = "Hier kannst du nach Benutzern deines Forums suchen. Je 
 $l['create_user'] = "Neuen Benutzer erstellen";
 $l['create_user_desc'] = "Hier kannst du neue Benutzer erstellen.";
 $l['merge_users'] = "Benutzer zusammenfügen";
-$l['merge_users_desc'] = "Hier kannst du zwei Accounts zu einem zusammenfügen. Der \"Quell-Account\" wird zum \"Ziel-Account\" hinzugefügt, während <strong>nur</strong> der Ziel-Account bestehen bleibt. Die Beiträge, Themen, Privaten Nachrichten, Termine, Beitragszähler und Freundesliste des Quell-Accounts werden zum Ziel-Account hinzugefügt.<br /><span style=\"font-size: 15px;\">Die Aktion kann nicht rückgängig gemacht werden.</span>";
+$l['merge_users_desc'] = "Hier kannst du zwei Konten zu einem zusammenfügen. Der \"Quellkonto\" wird zum \"Zielkonto\" hinzugefügt, während <strong>nur</strong> der Zielkonto bestehen bleibt. Die Beiträge, Themen, Privaten Nachrichten, Termine, Beitragszähler und Freundesliste des Quellkontos werden zum Zielkonto hinzugefügt.<br /><span style=\"font-size: 15px;\">Die Aktion kann nicht rückgängig gemacht werden.</span>";
 $l['edit_user'] = "Benutzer bearbeiten";
 $l['edit_user_desc'] = "Hier kannst du das Profil, die Einstellungen und die Signatur dieses Benutzers bearbeiten; die Statistiken sehen; und andere Seiten mit weiteren Informationen zu diesem Benutzer ansehen.";
 $l['show_referrers'] = "Durch Empfehlung registrierte Mitglieder";
@@ -94,9 +94,9 @@ $l['error_invalidavatarurl'] = "Die eingegebene URL für deinen Avatar scheint u
 $l['error_remote_avatar_not_allowed'] = "Avatar-URLs wurden von den Administratoren des Forums deaktiviert.";
 $l['error_invalid_user'] = "Du hast einen ungültigen Benutzer ausgewählt.";
 $l['error_no_perms_super_admin'] = "Du hast keine Berechtigung diesen Benutzer zu bearbeiten, weil du kein Super-Administrator bist.";
-$l['error_invalid_user_source'] = "Der Quell-Account existiert nicht";
-$l['error_invalid_user_destination'] = "Der Ziel-Account existiert nicht";
-$l['error_cannot_merge_same_account'] = "Der Quell- und der Ziel-Account müssen unterschiedlich sein";
+$l['error_invalid_user_source'] = "Das Quellkonto existiert nicht";
+$l['error_invalid_user_destination'] = "Das Zielkonto existiert nicht";
+$l['error_cannot_merge_same_account'] = "Der Quell- und der Ziel-Konto müssen unterschiedlich sein";
 $l['error_no_users_found'] = "Es wurde kein Benutzer mit diesen Kritieren gefunden. Bitte ändere deine Such-Kriterien und versuche es erneut.";
 $l['error_invalid_admin_view'] = "Du hast eine ungültige Verwaltungs-Ansicht ausgewählt.";
 $l['error_missing_view_title'] = "Du hast keinen Titel für diese Ansicht ausgewählt.";
@@ -125,7 +125,7 @@ $l['success_view_deleted'] = "Die Verwaltungs-Ansicht wurde erfolgreich gelösch
 
 $l['confirm_view_deletion'] = "Willst du wirklich die ausgewählte Ansicht löschen?";
 
-$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user-users&amp;action=activate_user&amp;uid={1}&amp;my_post_key={2}\">Account aktivieren</a></p>";
+$l['warning_coppa_user'] = "<p class=\"alert\"><strong>Warnung: </strong> Dieser Benutzer wartet auf die COPPA-Validierung. <a href=\"index.php?module=user-users&amp;action=activate_user&amp;uid={1}&amp;my_post_key={2}\">Konto aktivieren</a></p>";
 
 $l['required_profile_info'] = "Benötigte Profil-Informationen";
 $l['password'] = "Passwort";
@@ -140,11 +140,11 @@ $l['save_user'] = "Benutzer speichern";
 
 $l['overview'] = "Übersicht";
 $l['profile'] = "Profil";
-$l['account_settings'] = "Account-Einstellungen";
+$l['account_settings'] = "Konto-Einstellungen";
 $l['signature'] = "Signatur";
 $l['avatar'] = "Avatar";
 $l['mod_options'] = "Moderations-Optionen";
-$l['general_account_stats'] = "Generelle Account-Statistiken";
+$l['general_account_stats'] = "Generelle Konten-Statistiken";
 $l['local_time'] = "Lokale Zeit";
 $l['local_time_format'] = "{1} um {2}";
 $l['posts'] = "Beiträge";
@@ -310,11 +310,11 @@ $l['show_users_posted_with_ip'] = "Suche Benutzer, die unter dieser IP Beiträge
 $l['ban_ip'] = "IP sperren";
 $l['ip_address_for'] = "IP-Adresse für";
 
-$l['source_account'] = "Quell-Account";
-$l['source_account_desc'] = "Dies ist der Account, der mit dem Ziel-Account zusammengefügt wird. Er wird nach dem Ausführen gelöscht.";
-$l['destination_account'] = "Ziel-Account";
-$l['destination_account_desc'] = "Dies ist der Account, in den der Quell-Account eingefügt wird. Er bleibt nach dem Ausführen erhalten.";
-$l['merge_user_accounts'] = "Accounts zusammenfügen";
+$l['source_account'] = "Quellkonto";
+$l['source_account_desc'] = "Dies ist das Konto, der mit dem Zielkonto zusammengefügt wird. Er wird nach dem Ausführen gelöscht.";
+$l['destination_account'] = "Zielkonto";
+$l['destination_account_desc'] = "Dies ist das Konto, in den das Quellkonto eingefügt wird. Er bleibt nach dem Ausführen erhalten.";
+$l['merge_user_accounts'] = "Konten zusammenfügen";
 
 $l['display_options'] = "Anzeige-Optionen";
 $l['ascending'] = "Aufsteigend";
@@ -395,10 +395,10 @@ $l['title'] = "Titel";
 
 $l['view_title_1'] = "Alle Benutzer";
 
-$l['emailsubject_activateaccount'] = "Account-Aktivierung bei {1}";
+$l['emailsubject_activateaccount'] = "Konto-Aktivierung bei {1}";
 $l['email_adminactivateaccount'] = "Hallo {1},
 
-der Administrator hat deinen Foren-Account bei {2} aktiviert.
+der Administrator hat deinen Foren-Konto bei {2} aktiviert.
 
 Um fortzufahren, gehe zu
 

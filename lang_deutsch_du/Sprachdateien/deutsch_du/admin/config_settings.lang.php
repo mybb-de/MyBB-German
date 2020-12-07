@@ -437,7 +437,7 @@ $l['setting_maxpasswordlength_desc'] = "Die maximale Anzahl an Zeichen für Pass
 $l['setting_requirecomplexpasswords'] = "Benötigt ein komplexes Passwort?";
 $l['setting_requirecomplexpasswords_desc'] = "Sollen die Benutzer ein komplexes Passwort benutzen müssen? Komplexe Passwörter bestehen aus großen Buchstaben, kleinen Buchstaben und Zahlen.";
 $l['setting_betweenregstime'] = "Zeit zwischen Registrierungen";
-$l['setting_betweenregstime_desc'] = "Die Zeit (in Stunden), die ein Benutzer warten muss, bevor er sich unter der gleichen IP-Adresse einen weiteren Account anlegen kann.  Wähle 0, um diese Funktion zu deaktivieren.";
+$l['setting_betweenregstime_desc'] = "Die Zeit (in Stunden), die ein Benutzer warten muss, bevor er sich unter der gleichen IP-Adresse ein weiteres Konto anlegen kann.  Wähle 0, um diese Funktion zu deaktivieren.";
 $l['setting_maxregsbetweentime'] = "Maximale Registrierungen pro IP-Addresse";
 $l['setting_maxregsbetweentime_desc'] = "Diese Option erlaubt es dir, die maximale Anzahl an Registrierungen festzulegen, die ein Benutzer unter einer IP-Adresse im o. a. Zeitrahmen durchführen darf.";
 $l['setting_allowmultipleemails'] = "Erlaube mehrfache Registrierung mit der gleichen E-Mail-Adresse?";
@@ -452,7 +452,7 @@ $l['setting_usereferrals'] = "Benutze Referrer-System";
 $l['setting_usereferrals_desc'] = "Soll in diesem Forum das Referrer-System benutzt werden?";
 $l['setting_referralsperpage'] = "Empfehlungen pro Seite";
 $l['setting_referralsperpage_desc'] = "Die Anzahl der Benutzer, die pro Seite auf der Empfehlungsliste angezeigt werden sollen.";
-$l['setting_coppa'] = "COPPA Einwilligung";
+$l['setting_coppa'] = "COPPA-Einwilligung";
 $l['setting_coppa_desc'] = "Hier kannst du die <a href=\"https://www.ftc.gov/enforcement/rules/rulemaking-regulatory-reform-proceedings/childrens-online-privacy-protection-rule\" target=\"_blank\">COPPA</a>-Unterstützung ein- und ausschalten.";
 $l['setting_coppa_enabled'] = "Aktiviert";
 $l['setting_coppa_deny'] = "Zugriff für unter 13jährige verweigern";

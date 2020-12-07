@@ -26,7 +26,7 @@ $l['viewing_forum'] = "Sieht sich ein Forum an";
 $l['viewing_forum2'] = "Sieht sich das Forum <a href=\"{1}\">{2}</a> an";
 $l['forum_redirect_to'] = "Wird weitergeleitet nach <a href=\"{1}\">{2}</a>";
 $l['viewing_index'] = "{1} <a href=\"index.php\">Hauptindex</a>";
-$l['activating_account'] = "Accountaktivierung";
+$l['activating_account'] = "Kontoaktivierung";
 $l['viewing_profile'] = "Sieht sich ein Profil an";
 $l['viewing_profile2'] = "Sieht sich das Profil von <a href=\"{1}\">{2}</a> an";
 $l['registering'] = "<a href=\"member.php?action=register\">Registrierung</a>";

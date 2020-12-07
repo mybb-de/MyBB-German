@@ -31,7 +31,7 @@ $l['d3_document'] = "Die Forensoftware verwendet Cookies, um deine Logininformat
 // Help Document 4
 $l['d4_name'] = "An- und Abmeldung";
 $l['d4_desc'] = "Wie du dich an- und abmelden kannst.";
-$l['d4_document'] = "Wenn du dich anmeldest, werden die Informationen der Anmeldung in einem Cookie auf deinem PC gespeichert, so dass du dich nicht jedes Mal neu anmelden musst. Bei der Abmeldung wird dieses Cookie gelöscht, so dass sich niemand anderes über deinen Account einloggen kann.
+$l['d4_document'] = "Wenn du dich anmeldest, werden die Informationen der Anmeldung in einem Cookie auf deinem PC gespeichert, so dass du dich nicht jedes Mal neu anmelden musst. Bei der Abmeldung wird dieses Cookie gelöscht, so dass sich niemand anderes über dein Konto einloggen kann.
 <br /><br />Um dich anzumelden, klicke einfach auf \"Anmelden\" oben auf der Seite. Solltest du dich nicht abmelden können, kannst du auch die Cookies auf deinem Computer löschen.";
 
 // Help Document 5

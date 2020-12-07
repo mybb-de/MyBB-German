@@ -377,7 +377,7 @@ $l['permanent'] = "Permanent";
 $l['save_draft'] = "Als Entwurf speichern";
 $l['go'] = "Los";
 $l['bbclosed_warning'] = "Dein Forum ist zur Zeit geschlossen.";
-$l['banned_warning'] = "Dein Account wurde ausgeschlossen.";
+$l['banned_warning'] = "Dein Konto wurde ausgeschlossen.";
 $l['banned_warning2'] = "Ausschlussgrund";
 $l['banned_warning3'] = "Ausschluss wird aufgehoben";
 $l['banned_lifted_never'] = "Nie";
@@ -572,8 +572,8 @@ $l['moderation_forum_thread'] = "Bitte beachte, dass neue Themen in diesem Forum
 $l['moderation_forum_edits'] = "Bitte beachte, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['moderation_forum_edits_quick'] = "Bitte beachte, dass bearbeitete Beiträge in diesem Forum von einem Moderator freigeschaltet werden müssen, bevor sie sichtbar werden.";
 $l['awaiting_message_link'] = " <a href=\"{1}/{2}/index.php?module=user-awaiting_activation\">Zum Admin-CP wechseln</a>.";
-$l['awaiting_message_single'] = "Es gibt 1 nicht aktivierten Account. Um den Benutzer zu aktivieren, gehe ins Admin-CP.";
-$l['awaiting_message_plural'] = "Es gibt {1} nicht aktivierte Accounts. Um die Benutzer zu aktivieren, gehe ins Admin-CP.";
+$l['awaiting_message_single'] = "Es gibt 1 nicht aktivierten Konto. Um den Benutzer zu aktivieren, gehe ins Admin-CP.";
+$l['awaiting_message_plural'] = "Es gibt {1} nicht aktivierte Konten. Um die Benutzer zu aktivieren, gehe ins Admin-CP.";
 
 $l['select2_match'] = "Ein Ergebnis wurde gefunden, drücke die Eingabetaste um es auszuwählen.";
 $l['select2_matches'] = "{1} Ergebnisse wurden gefunden, benutze die Pfeiltasten zum Navigieren.";
