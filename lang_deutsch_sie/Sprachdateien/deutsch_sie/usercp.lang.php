@@ -34,7 +34,7 @@ $l['using_remote_avatar'] = "Sie benutzen derzeit ein Avatar-Bild von einem exte
 $l['na_deleted'] = "Gelöscht";
 $l['user_cp'] = "Benutzer Control-Panel";
 $l['user_cp_welcome'] = "Dies ist Ihr Benutzer-Control-Panel (Profil). Von hier aus können Sie Ihr Profil bearbeiten, private Nachrichten erstellen und lesen, Ordner verwalten uvm. Die Hauptseite zeigt Informationen über Ihr Konto.";
-$l['account_summary'] = "Benutzeraccountübersicht";
+$l['account_summary'] = "Benutzerkontoübersicht";
 $l['username'] = "Benutzername:";
 $l['user_id'] = "Benutzernummer:";
 $l['title'] = "Benutzertitel:";
@@ -110,7 +110,7 @@ $l['current_sig'] = "Aktuelle Signatur";
 $l['sig_preview'] = "Signaturvorschau";
 
 $l['sig_suspended'] = "Die Möglichkeit eine Signatur anzugeben wurde eingeschränkt.";
-$l['sig_suspended_posts'] = "Du benötigst mindestens {1} Beiträge um eine Signatur angeben zu können.";
+$l['sig_suspended_posts'] = "Sie benötigen mindestens {1} Beiträge um eine Signatur angeben zu können.";
 
 $l['change_email'] = "E-Mail-Adresse ändern";
 $l['please_enter_confirm_new_email'] = "Neue E-Mail-Adresse eingeben";
@@ -329,7 +329,7 @@ $l['redirect_subscriptionsremoved'] = "Ihre Themen-Abonnements wurden bereinigt.
 $l['redirect_forumsubscriptionsremoved'] = "Ihre Foren-Abonnements wurden bereinigt.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort geleitet.";
 $l['redirect_subscriptionadded'] = "Das ausgewählte Thema wurde in die Abonnement-Liste aufgenommen.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort geleitet.";
 $l['redirect_optionsupdated'] = "Ihre Einstellungen wurden erfolgreich übernommen.<br />Sie werden jetzt zu den Optionen zurückgeleitet.";
-$l['redirect_subscriptionremoved'] = "Das gewählte Thema wurde erfolgreich aus Ihrer Abonnementliste entfernt.<br />Sie werden jetzt du deinen abonnierte Themen zurückgeleitet.";
+$l['redirect_subscriptionremoved'] = "Das gewählte Thema wurde erfolgreich aus Ihrer Abonnementliste entfernt.<br />Sie werden jetzt zu Ihren abonnierte Themen zurückgeleitet.";
 $l['redirect_sigupdated'] = "Ihre Signatur wurde aktualisiert.<br />Sie werden jetzt zu den Signatur-Optionen zurückgeleitet.";
 $l['redirect_notepadupdated'] = "Ihr persönliches Notizbuch wurde aktualisiert.<br />Sie werden jetzt zu Ihrem Benutzer Control-Panel zurückgeleitet.";
 $l['redirect_profileupdated'] = "Ihr Profil wurde aktualisiert.<br />Sie werden jetzt zu Profil-Optionen zurückgeleitet.";
