@@ -397,7 +397,7 @@ $l['view_title_1'] = "Alle Benutzer";
 $l['emailsubject_activateaccount'] = "Konto-Aktivierung bei {1}";
 $l['email_adminactivateaccount'] = "Hallo {1},
 
-der Administrator hat Ihren Foren-Konto bei {2} aktiviert.
+der Administrator hat Ihr Foren-Konto bei {2} aktiviert.
 
 Um fortzufahren, gehen Sie zu
 
