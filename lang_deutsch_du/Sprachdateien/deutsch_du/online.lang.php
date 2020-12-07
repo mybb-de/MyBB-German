@@ -13,8 +13,8 @@ $l['nav_onlinetoday'] = "Wer war in den letzten 24 Stunden online?";
 
 $l['viewing_announcements'] = "Sieht sich die Ankündigung <a href=\"{1}\">{2}</a> an";
 $l['viewing_announcements2'] = "Sieht sich eine Ankündigung an";
-$l['viewing_attachment'] = "Sieht sich ein Attachment an";
-$l['viewing_attachment2'] = "Sieht sich ein <a href=\"attachment.php?aid={1}\" target=\"_blank\">Attachment</a> im Thema <a href=\"{3}\">{2}</a> an";
+$l['viewing_attachment'] = "Sieht sich ein Anhang an";
+$l['viewing_attachment2'] = "Sieht sich ein <a href=\"attachment.php?aid={1}\" target=\"_blank\">Anhang</a> im Thema <a href=\"{3}\">{2}</a> an";
 $l['viewing_calendar'] = "Sieht sich den <a href=\"calendar.php\">Kalender</a> an";
 $l['viewing_event'] = "Sieht sich Details zu einem Ereignis an";
 $l['viewing_event2'] = "Sieht sich Details zum Ereignis <a href=\"{1}\">{2}</a> an";

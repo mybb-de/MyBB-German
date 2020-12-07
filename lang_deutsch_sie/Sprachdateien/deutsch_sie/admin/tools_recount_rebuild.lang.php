@@ -35,7 +35,7 @@ $l['recount_user_posts_desc'] = "Wenn Sie das ausführen, werden die Beitragszä
 $l['recount_user_threads'] = "Benutzerthemenzahlen aktualisieren";
 $l['recount_user_threads_desc'] = "Wenn Sie das ausführen, werden die Themenzähler jedes Benutzers erneuert, um die aktuellen Werte basierend auf den Themen in der Datenbank und den Foren, in denen die Themen nicht gezählt werden, wiederzugeben.";
 $l['rebuild_attachment_thumbs'] = "Thumbnails erneuern";
-$l['rebuild_attachment_thumbs_desc'] = "Diese Funktion aktualisiert die Thumbnails aller Attachments, so dass diese der aktuell erlaubten Maximalgröße entsprechen. Außerdem werden fehlende Thumbnails erstellt.";
+$l['rebuild_attachment_thumbs_desc'] = "Diese Funktion aktualisiert die Thumbnails aller Anhänge, so dass diese der aktuell erlaubten Maximalgröße entsprechen. Außerdem werden fehlende Thumbnails erstellt.";
 
 $l['success_rebuilt_forum_counters'] = "Die Forenzähler wurden erfolgreich aktualisiert.";
 $l['success_rebuilt_thread_counters'] = "Die Themenzähler wurden erfolgreich aktualisiert.";

@@ -13,9 +13,9 @@ $l['forums_and_posts'] = "Foren &amp; Beiträge";
 $l['forum_management'] = "Forenverwaltung";
 $l['forum_announcements'] = "Forenankündigungen";
 $l['moderation_queue'] = "Moderationswarteschlange";
-$l['attachments'] = "Attachments";
+$l['attachments'] = "Anhänge";
 
 $l['can_manage_forums'] = "Kann Foren verwalten?";
 $l['can_manage_forum_announcements'] = "Kann Ankündigungen verwalten?";
-$l['can_moderate'] = "Kann Beiträge, Themen und Attachments moderieren?";
-$l['can_manage_attachments'] = "Kann Attachments verwalten?";
+$l['can_moderate'] = "Kann Beiträge, Themen und Anhänge moderieren?";
+$l['can_manage_attachments'] = "Kann Anhänge verwalten?";

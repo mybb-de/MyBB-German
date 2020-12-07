@@ -33,4 +33,4 @@ $l['ucp_nav_notepad'] = "Notizbuch";
 $l['ucp_nav_view_profile'] = "Profil ansehen";
 $l['ucp_nav_home'] = "Benutzer-CP Startseite";
 $l['ucp_nav_usergroups'] = "Gruppenmitgliedschaften";
-$l['ucp_nav_attachments'] = "Attachments";
+$l['ucp_nav_attachments'] = "Anhänge";
