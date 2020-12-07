@@ -336,7 +336,7 @@ $l['approve_coppa_user'] = "COPPA-Benutzer aktivieren";
 $l['approve_user'] = "Benutzer aktivieren";
 $l['delete_user'] = "Benutzer löschen";
 $l['show_referred_users'] = "Durch Empfehlung registrierte Mitglieder";
-$l['show_attachments'] = "Zeige Anhänge";
+$l['show_attachments'] = "Anhänge anzeigen";
 $l['table_view'] = "Tabellen-Ansicht";
 $l['card_view'] = "Karten-Ansicht";
 
