@@ -324,12 +324,12 @@ $l['announcement_deleted'] = "Ankündigung gelöscht";
 
 $l['preview'] = "Vorschau";
 
-$l['you_cannot_view_mod_logs'] = "Du hast keine Berechtigung, das Moderatoren-Protokoll anzusehen.";
-$l['you_cannot_view_reported_posts'] = "Du hast keine Berechtigung, das Meldungs-Zentrum anzusehen.";
-$l['you_cannot_manage_announcements'] = "Du hast keine Berechtigung, die Ankündigungen zu verwalten.";
-$l['you_cannot_moderate_threads'] = "Du hast keine Berechtigung, die Themen zu moderieren.";
-$l['you_cannot_moderate_posts'] = "Du hast keine Berechtigung, dieBeiträge zu moderieren.";
-$l['you_cannot_moderate_attachments'] = "Du hast keine Berechtigung, die Anhänge zu moderieren.";
-$l['you_cannot_use_mod_queue'] = "Du hast keine Berechtigung das Warnungs-Protokoll anzusehen.";
+$l['you_cannot_view_mod_logs'] = "Sie haben keine Berechtigung, das Moderatoren-Protokoll anzusehen.";
+$l['you_cannot_view_reported_posts'] = "Sie haben keine Berechtigung, das Meldungs-Zentrum anzusehen.";
+$l['you_cannot_manage_announcements'] = "Sie haben keine Berechtigung, die Ankündigungen zu verwalten.";
+$l['you_cannot_moderate_threads'] = "Sie haben keine Berechtigung, die Themen zu moderieren.";
+$l['you_cannot_moderate_posts'] = "Sie haben keine Berechtigung, die Beiträge zu moderieren.";
+$l['you_cannot_moderate_attachments'] = "Sie haben keine Berechtigung, die Anhänge zu moderieren.";
+$l['you_cannot_use_mod_queue'] = "Sie haben keine Berechtigung das Warnungs-Protokoll anzusehen.";
 
 $l['post'] = "Beitrag";

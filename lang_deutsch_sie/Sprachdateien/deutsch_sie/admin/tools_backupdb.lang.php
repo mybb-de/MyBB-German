@@ -12,7 +12,7 @@ $l['database_backups'] = "Datenbank-Sicherung";
 $l['database_backups_desc'] = "Hier finden Sie eine Liste mit den Datenbank-Sicherungen, die im Moment im MyBB-Sicherungs-Ordner auf dem Server gespeichert sind.";
 $l['new_database_backup'] = "Neue Datenbank-Sicherung";
 $l['new_backup'] = "Neue Sicherung";
-$l['new_backup_desc'] = "Hier können Sie neue Sicherungen deiner Datenbank machen";
+$l['new_backup_desc'] = "Hier können Sie neue Sicherungen Ihrer Datenbank machen";
 $l['backups'] = "Sicherungen";
 $l['existing_database_backups'] = "Vorhandene Datenbank-Sicherungen";
 

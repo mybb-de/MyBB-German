@@ -197,7 +197,7 @@ $l['redirect_pmfoldersemptied'] = "Die ausgewählten Ordner wurden erfolgreich g
 $l['redirect_searchresults'] = "Danke, die Suche wurde durchgeführt und Sie werden zu Ergebnis geleitet.";
 
 $l['quick_reply'] = "Schnellantwort";
-$l['message_note'] = "Gib hier deine Antwort zur Nachricht ein.";
+$l['message_note'] = "Geben Sie hier die Antwort zu der Nachricht ein.";
 $l['send_reply'] = "Antwort absenden";
 $l['quickreply_signature'] = "Signatur";
 $l['quickreply_disable_smilies'] = "Smilies ausschalten";
