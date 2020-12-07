@@ -42,7 +42,7 @@ $l['error_uploadfailed_php3'] = "Die Datei wurde nicht komplett übertragen.";
 $l['error_uploadfailed_php4'] = "Es wurde keine Datei hochgeladen.";
 $l['error_uploadfailed_php6'] = "PHP gab zurück: Fehlender temporärer Ordner. Bitte melden Sie diesen Fehler an den Administrator des Forums.";
 $l['error_uploadfailed_php7'] = "PHP gab zurück: Fehler beim Schreiben auf die Festplatte. Bitte melden Sie diesen Fehler an den Administrator des Forums.";
-$l['error_uploadfailed_phpx'] = "PHP gab diesen Error-Code zurück: {1}. Bitte melden Sie diesen Fehler an den Administrator des Forums.";
+$l['error_uploadfailed_phpx'] = "PHP gab diesen Fehlercode zurück: {1}. Bitte melden Sie diesen Fehler an den Administrator des Forums.";
 $l['error_uploadfailed_nothingtomove'] = "Es wurde eine ungültige Datei angegeben, weshalb die hochgeladene Datei nicht verschoben werden konnte.";
 $l['error_uploadfailed_movefailed'] = "Beim Verschieben der Datei ist ein Fehler aufgetreten.";
 $l['error_uploadfailed_lost'] = "Der Anhang konnte auf dem Server nicht gefunden werden.";
@@ -373,8 +373,8 @@ $l['email_changeemail'] = "Hallo {1},
 
 wir haben bei {2} die Anfrage bekommen, Ihre E-Mail-Adresse zu ändern.
 
-Alte E-Mail-Addresse: {3}
-Neue E-Mail-Addresse: {4}
+Alte E-Mail-Adresse: {3}
+Neue E-Mail-Adresse: {4}
 
 Wenn diese Angaben korrekt sind, schließen Sie die Änderung bei {2} ab, indem Sie auf den folgenden Link klicken:
 
@@ -477,7 +477,7 @@ Vielen Dank,
 $l['email_contact_subject'] = "Kontakt: {1}";
 $l['email_contact'] = "E-Mail: {1}
 Foren-Profil: {2}
-IP-Addresse: {3}
+IP-Adresse: {3}
 Nachricht:
 {4}";
 
