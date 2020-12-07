@@ -20,7 +20,7 @@ $l['edit_mass_mail'] = "Bearbeite Massenmail";
 $l['edit_mass_mail_desc'] = "Hier können Sie eine Massenmail und die Optionen bearbeiten.";
 $l['send_mass_mail'] = "Sende Massenmail";
 
-$l['email_addr'] = "E-Mail-Addresse";
+$l['email_addr'] = "E-Mail-Adresse";
 $l['board_name'] = "Boardname";
 $l['board_url'] = "Board-URL";
 $l['personalize_message'] = "Personalisiere diese Nachricht:";
