@@ -35,7 +35,7 @@ $l['field_type_desc'] = "Dies ist der Feldtyp, der gezeigt wird.";
 $l['field_regex'] = "Regulärer Ausdruck";
 $l['field_regex_desc'] = "Gibt einen regulären Ausdruck ein, den die Eingabe erfüllen muss. Bitte achte darauf, dass der reguläre Ausdruck gültig ist und fehlerhafte Eingaben sicher ablehnt. Lasse das Feld leer um alles zu erlauben.<br />
 Beispiel: ([a-z0-9_\- ,.+]+)";
-$l['selectable_options'] = "Auwählbare Optionen?";
+$l['selectable_options'] = "Auswählbare Optionen?";
 $l['selectable_options_desc'] = "Gib jede Option in eine neue Zeile ein. Diese Einstellung trifft nur bei Auswahlboxen, Checkboxen und Radiobuttons zu.";
 $l['required'] = "Benötigt?";
 $l['required_desc'] = "Muss dieses Feld bei der Registrierung und bei der Bearbeitung des Profils ausgefüllt werden? Bitte beachte, dass dies nicht beachtet wird, wenn das Feld versteckt oder nicht bearbeitbar ist.";
