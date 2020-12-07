@@ -25,7 +25,7 @@ $l['use_codemirror_desc'] = "Diese Einstellung erlaubt es dir Code Mirror (verwe
 
 $l['success_preferences_updated'] = "Die persönlichen Notizen wurden erfolgreich aktualisiert.";
 
-$l['use_2fa_desc'] = "Zwei-Faktor-Authentifizierung ist eine Möglichkeit deinen Administrator-Account zusätzlich zu schützen. Nach der Aktivierung wird ein QR-Code eingeblendet, den du mit einer App <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\" rel=\"noopener\">wie Google Authenticator oder Authy</a> scannen musst. Diese App generiert einen Code, der bei jedem Einloggen in das Admin-CP eingegeben werden muss.";
+$l['use_2fa_desc'] = "Zwei-Faktor-Authentifizierung ist eine Möglichkeit deinen Administrator-Konto zusätzlich zu schützen. Nach der Aktivierung wird ein QR-Code eingeblendet, den du mit einer App <a href=\"https://docs.mybb.com/1.8/administration/security/2fa/\" target=\"_blank\" rel=\"noopener\">wie Google Authenticator oder Authy</a> scannen musst. Diese App generiert einen Code, der bei jedem Einloggen in das Admin-CP eingegeben werden muss.";
 $l['my2fa_qr'] = "Code für die Zwei-Faktor-Authentifizierung";
 $l['recovery_codes_desc'] = "Anzeige deiner <a href=\"index.php?module=home-preferences&amp;action=recovery_codes\">Backup-Verifizierungscodes</a>.";
 $l['recovery_codes'] = "Backup-Verifizierungscodes";

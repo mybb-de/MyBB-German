@@ -34,7 +34,7 @@ $l['upgrade_complete'] = 'Aktualisierung abgeschlossen';
 
 $l['table_population'] = 'Einfügen der Daten';
 $l['theme_installation'] = 'Einfügen des Themes';
-$l['create_admin'] = 'Administrator-Account erstellen';
+$l['create_admin'] = 'Administrator-Konto erstellen';
 
 $l['already_installed'] = "MyBB ist bereits installiert";
 $l['mybb_already_installed'] = "<p>Willkommen bei der Installationsroutine für MyBB {1}. MyBB hat festgestellt, dass es bereits in diesem Ordner eingerichtet wurde.</p>
@@ -72,7 +72,7 @@ $l['welcome_step'] = '<p>Willkommen zur Installationsroutine für MyBB {1}. Dies
 	<li>Erstellung der Datenbanktabellen</li>
 	<li>Einfügen der Standard-Daten</li>
 	<li>Einfügen der Standard-Templates und des -Themes</li>
-	<li>Erstellung eines Administrator-Accounts zur Verwaltung des Forums</li>
+	<li>Erstellung eines Administrator-Konto zur Verwaltung des Forums</li>
 	<li>Allgemeine Foreneinstellungen</li>
 </ul>
 <p>Nachdem ein Schritt erfolgreich abgeschlossen wurde, klicke auf "Weiter", um die Installation fortzusetzen.</p>
@@ -281,7 +281,7 @@ $l['admin_step_insertedtasks'] = '<p>{1} geplante Aufgaben eingefügt.</p>';
 $l['admin_step_insertedviews'] = '<p>{1} Admin-Ansichten eingefügt.</p>';
 $l['admin_step_createadmin'] ='<p>Du musst erst einen Benutzer-Account erstellen, über den du deine Kopie des MyBB verwalten kannst. Bitte gib unten die erforderlichen Daten ein, um den Account zu erstellen.</p>';
 $l['admin_step_admintable'] = '<div class="border_wrapper">
-			<div class="title">Administrator-Account Details</div>
+			<div class="title">Administrator-Konto Details</div>
 
 		<table class="general" cellspacing="0">
 		<thead>
@@ -319,14 +319,14 @@ $l['admin_step_error_config'] = '<div class="error">
 {1}
 <p>Sind alle Probleme behoben, kannst du mit der Installation fortfahren.</p>
 </div>';
-$l['admin_step_error_nouser'] = 'Du hast keinen Benutzernamen für den Administrator-Account angegeben.';
-$l['admin_step_error_nopassword'] = 'Du hast kein Passwort für den Administrator-Account angegeben.';
+$l['admin_step_error_nouser'] = 'Du hast keinen Benutzernamen für den Administrator-Konto angegeben.';
+$l['admin_step_error_nopassword'] = 'Du hast kein Passwort für den Administrator-Konto angegeben.';
 $l['admin_step_error_nomatch'] = 'Die eingegebenen Passwörter stimmen nicht überein.';
-$l['admin_step_error_noemail'] = 'Du hast keine E-Mail-Adresse für den Administrator-Account angegeben.';
+$l['admin_step_error_noemail'] = 'Du hast keine E-Mail-Adresse für den Administrator-Konto angegeben.';
 $l['admin_step_nomatch'] = 'Das erneut eingegebene Passwort stimmt nicht mit dem Passwort überein. Bitte überprüfe dieses, bevor du fortfährst.';
 
 $l['done_step_usergroupsinserted'] = "<p>Benutzergruppen importieren...";
-$l['done_step_admincreated'] = '<p>Erstelle Administrator-Account...';
+$l['done_step_admincreated'] = '<p>Erstelle Administrator-Konto...';
 $l['done_step_adminoptions'] = '<p>Erstelle Administrator-Rechte...';
 $l['done_step_cachebuilding'] = '<p>Lese Daten in Cache ein...';
 $l['done_step_success'] = '<p class="success">Deine Kopie des MyBB wurde erfolgreich installiert und konfiguriert.</p>
@@ -362,7 +362,7 @@ $l['login_password_desc'] = "Bitte beachte Groß- und Kleinschreibung.";
 /* Error messages */
 $l['development_preview'] = "<div class=\"error\"><h2 class=\"fail\">Warnung</h2><p>Diese MyBB-Version ist eine Entwicklerversion und ist nur für Tests gedacht.</p><p>Es gibt für diese Version keinen offiziellen Support außer für die Plugin- und Themeentwicklung. Eine Installation bzw. ein Upgrade geschieht auf eigene Gefahr.</p></div>";
 $l['locked'] = 'Die Installation ist zur Zeit gesperrt. Bitte entferne die Datei \'lock\' aus dem Installationsverzeichnis, um fortfahren zu können.';
-$l['no_permision'] = "Du hast keine Berechtigung diesen Vorgang auszuführen. Du benötigst Administrations-Rechte um das Upgrade durchzuführen.<br /><br />Falls du dich abmelden möchtest, klicke <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">hier</a>. Danach kannst du dich mit einem Administrator-Account anmelden.";
+$l['no_permision'] = "Du hast keine Berechtigung diesen Vorgang auszuführen. Du benötigst Administrations-Rechte um das Upgrade durchzuführen.<br /><br />Falls du dich abmelden möchtest, klicke <a href=\"upgrade.php?action=logout&amp;logoutkey={1}\">hier</a>. Danach kannst du dich mit einem Administrator-Konto anmelden.";
 $l['no_theme_functions_file'] = "Es wurde keine Datei mit Theme-Funktionen gefunden. Bitte stelle sicher, dass alle Dateien ordnungsgemäß hochgeladen wurden.";
 
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";

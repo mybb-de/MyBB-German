@@ -135,7 +135,7 @@ $l['coppa_registration'] = "COPPA Registrierungsformular";
 $l['coppa_form_instructions'] = "Bitte drucke dieses Formular aus, fülle es aus und schicke es an die unten angegebene Faxnummer oder per E-Mail an die angegebene E-Mail-Adresse.";
 $l['fax_number'] = "Faxnummer:";
 $l['mailing_address'] = "E-Mail-Adresse:";
-$l['account_information'] = "Accountinformationen";
+$l['account_information'] = "Kontoinformationen";
 $l['parent_details'] = "Eltern / gesetzliche Vertreter";
 $l['full_name'] = "Vollständiger Name:";
 $l['relation'] = "Beziehung:";
@@ -144,10 +144,10 @@ $l['coppa_parent_agreement'] = "Ich versichere, dass die von mir angegebenen Inf
 
 $l['coppa_agreement_1'] = "Benutzer, die jünger als 13 Jahre sind, brauchen eine Genehmigung ihrer Eltern oder gesetzlichen Vertreter, um sich bei {1} zu registrieren.";
 $l['coppa_agreement_2'] = "Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken, bevor eine Mitgliedschaft gewährt wird.";
-$l['coppa_agreement_3'] = "Wenn du möchtest, kannst du den Registrierungsvorgang jetzt beginnen. Der Account wird jedoch erst nutzbar, wenn wir das oben genannte Einverständnisformular erhalten haben.";
+$l['coppa_agreement_3'] = "Wenn du möchtest, kannst du den Registrierungsvorgang jetzt beginnen. Das Konto wird jedoch erst nutzbar, wenn wir das oben genannte Einverständnisformular erhalten haben.";
 
 $l['error_invalid_birthday'] = "Das von dir eingegebene Geburtsdatum ist ungültig. Bitte gib ein gültiges Geburtsdatum ein.";
-$l['error_awaitingcoppa'] = "Du kannst dich nicht mit diesem Account einloggen, weil wir noch immer auf die Altersüberprüfung eines Elternteils oder gesetzlichen Vertreters warten.<br /><br />Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.<br /><br />Sobald wir eine vollständige Kopie erhalten haben, wird der Account aktiviert.";
+$l['error_awaitingcoppa'] = "Du kannst dich nicht mit diesem Konto einloggen, weil wir noch immer auf die Altersüberprüfung eines Elternteils oder gesetzlichen Vertreters warten.<br /><br />Ein Elternteil oder gesetzlicher Verteter muss unser <a href=\"member.php?action=coppa_form\">COPPA Zustimmungs- &amp; Erlaubnisformular</a> herunterladen, ausfüllen und uns eine vollständige Kopie schicken.<br /><br />Sobald wir eine vollständige Kopie erhalten haben, wird der Account aktiviert.";
 
 $l['lang_select'] = "Spracheinstellungen:";
 $l['lang_select_desc'] = "Solltest du in einem Land leben, in dem eine von der Standardsprache dieses Forums abweichende Sprache gesprochen wird, kannst du, sofern das entsprechende Sprachpaket installiert ist, eine andere Sprache wählen.";
@@ -170,7 +170,7 @@ $l['timeonline_hidden'] = "(Versteckt)";
 $l['registrations_disabled'] = "Entschuldigung, du kannst dich zur Zeit nicht registrieren, da der Administrator diese Funktion deaktiviert hat.";
 $l['error_username_length'] = "Dein Benutzername ist ungültig. Benutzernamen müssen aus {1} bis {2} Zeichen bestehen.";
 $l['error_stop_forum_spam_spammer'] = "Entschuldigung, {1} stimmt mit der eines bekannten Spammers überein. Falls du dies für einen Fehler hältst, kontaktiere bitte einen Administrator.";
-$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Accounts mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
+$l['error_stop_forum_spam_fetching'] = "Entschuldigung, beim Abgleich deines Kontos mit einer Spam-Datenbank ist ein Fehler aufgetreten. Wahrscheinlich ist der Zugriff auf die Datenbank gescheitert. Bitte versuche es später erneut.";
 
 $l['none_registered'] = "Nicht vorhanden";
 $l['not_specified'] = "Nicht angegeben";
