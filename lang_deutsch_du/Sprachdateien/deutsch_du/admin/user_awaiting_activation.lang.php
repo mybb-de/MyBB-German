@@ -19,7 +19,7 @@ $l['username'] = "Benutzername";
 $l['registered'] = "Registriert am";
 $l['last_active'] = "Letzte Aktivität";
 $l['email'] = "E-Mail-Adresse";
-$l['ipaddress'] = "IP-Addresse";
+$l['ipaddress'] = "IP-Adresse";
 $l['type'] = "Art";
 
 $l['email_activation'] = "E-Mail muss verifiziert werden";

@@ -20,7 +20,7 @@ $l['na_deleted'] = "Unbekannt / Gelöscht";
 $l['date'] = "Datum";
 $l['action'] = "Aktion";
 $l['information'] = "Informationen";
-$l['ipaddress'] = "IP-Addresse";
+$l['ipaddress'] = "IP-Adresse";
 
 $l['forum'] = "Forum:";
 $l['thread'] = "Thema:";

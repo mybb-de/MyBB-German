@@ -296,7 +296,7 @@ $l['admin_log_user_users_activate_user'] = "Benutzer #{1} ({2}) aktiviert";
 $l['admin_log_user_users_add'] = "Benutzer #{1} ({2}) hinzugefügt";
 $l['admin_log_user_users_edit'] = "Benutzer #{1} ({2}) bearbeitet";
 $l['admin_log_user_users_delete'] = "Benutzer #{1} ({2}) gelöscht";
-$l['admin_log_user_users_ipaddresses'] = "IP-Addressen des Benutzers #{1} ({2}) angezeigt";
+$l['admin_log_user_users_ipaddresses'] = "IP-Adressen des Benutzers #{1} ({2}) angezeigt";
 $l['admin_log_user_users_merge'] = "Benutzer #{1} ({2}) mit dem Benutzer #{3} ({4}) zusammengefügt";
 
 $l['admin_log_user_users_inline_usergroup'] = "Primäre / sekündäre / Anzeige-Benutzergruppe von {1} Benutzer(n) geändert.";
