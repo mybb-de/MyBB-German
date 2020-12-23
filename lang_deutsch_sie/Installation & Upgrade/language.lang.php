@@ -41,7 +41,7 @@ $l['mybb_already_installed'] = "<p>Willkommen bei der Installationsroutine für 
 <p>Bitte wählen Sie eine passende Aktion:</p>
 
 <div class=\"border_wrapper upgrade_note\" style=\"padding: 4px;\">
-	<h3>Aktualisiere deine aktuelle Version auf MyBB {1} <span style=\"font-size: 80%; color: maroon;\">(Empfohlen)</span></h3>
+	<h3>Aktualisieren Sie Ihre aktuelle Version auf MyBB {1} <span style=\"font-size: 80%; color: maroon;\">(Empfohlen)</span></h3>
 	<p>Über diese Option aktualisieren Sie Ihr MyBB auf MyBB {1}.</p>
 	<p>Sie sollten diese Option wählen, wenn Sie die Themen, Beiträge und alle anderen Informationen behalten möchten.</p>
 	<form method=\"post\" action=\"upgrade.php\">

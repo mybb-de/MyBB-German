@@ -16,6 +16,6 @@ $l['warnings_error_user_reached_max_warning'] = "Dieser Benutzer kann nicht verw
 $l['warnings_error_no_note'] = "Sie haben keine administrativen Notizen zu dieser Warnung eingegeben.";
 $l['warnings_error_invalid_type'] = "Sie haben einen ungültigen Warnungstyp ausgewählt.";
 $l['warnings_error_cant_custom_warn'] = "Sie haben nicht die Berechtigung benutzerdefinierte Warnungen zu geben.";
-$l['warnings_error_no_custom_reason'] = "Sie haben keinen Grund für deine benutzerdefinierte Warnung eingegeben.";
+$l['warnings_error_no_custom_reason'] = "Sie haben keinen Grund für Ihre benutzerdefinierte Warnung eingegeben.";
 $l['warnings_error_invalid_custom_points'] = "Sie haben keine gültige Punktezahl eingegeben, die zum Warnungslevel dieses Mitglieds hinzugefügt werden soll. Sie müssen eine Zahl eingeben, die größer als 0, aber nicht größer als {1} ist.";
 $l['warnings_error_invalid_expires_period'] = "Sie haben ein ungültiges Auslaufsdatum eingegeben.";

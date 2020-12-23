@@ -218,7 +218,7 @@ $l['error_alreadyregisteredtime'] = "Die Registrierung kann nicht fortgesetzt we
 $l['error_badlostpwcode'] = "Sie haben einen ungültigen Code eingegeben, um Ihr Passwort zurückzusetzen. Bitte kontrollieren Sie Ihre Eingabe oder wenden Sie sich an einen Administrator für Hilfe.";
 $l['error_badactivationcode'] = "Sie haben einen ungültigen Aktivierungscode eingegeben. <a href=\"member.php?action=resendactivation\">Klicken Sie hier</a>, um die Aktivierungsmail erneut zu verschicken.";
 $l['error_alreadyactivated'] = "Ihr Account ist bereits aktiviert oder benötigt keine Aktivierung per E-Mail.";
-$l['error_alreadyvalidated'] = "Deine E-Mail-Adresse wurde bereits überprüft.";
+$l['error_alreadyvalidated'] = "Ihre E-Mail-Adresse wurde bereits überprüft.";
 $l['error_nothreadurl'] = "Ihre Nachricht enthält nicht die URL des Themas. Bitte benutzen Sie die \"Thema einem Freund senden\"-Funktion.";
 $l['error_bannedusername'] = "Sie haben einen Benutzernamen eingegeben, der nicht registriert werden kann. Bitte wählen Sie einen anderen Benutzernamen.";
 $l['error_notloggedout'] = "Ihre Benutzer-ID konnte nicht verifiziert werden, um Sie abzumelden. Ein Grund könnte sein, dass ein böswilliges JavaScript versucht hat, Sie abzumelden. Wenn Sie sich abmelden wollen, benutzen Sie bitte den Abmelde-Button im Menü.";

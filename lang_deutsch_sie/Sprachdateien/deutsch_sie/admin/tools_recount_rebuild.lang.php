@@ -9,7 +9,7 @@
  */
 
 $l['recount_rebuild'] = "Neu zählen &amp; aktualisieren";
-$l['recount_rebuild_desc'] = "Hier können Sie Daten neu zählen &amp; aktualisieren, um Synchronisations-Fehler in deinem Forum zu beheben.";
+$l['recount_rebuild_desc'] = "Hier können Sie Daten neu zählen &amp; aktualisieren, um Synchronisations-Fehler in Ihrem Forum zu beheben.";
 
 $l['data_per_page'] = "Einträge pro Seite";
 $l['recount_stats'] = "Statistiken erneuern";
