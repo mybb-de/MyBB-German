@@ -36,7 +36,7 @@ $l['add_public_event'] = "Öffentliches Ereignis hinzufügen";
 
 $l['calendar'] = "Kalender";
 
-$l['jump_month'] ="Gehe zu Monat:";
+$l['jump_month'] = "Gehe zu Monat:";
 
 $l['birthdays_on_day'] = "Geburtstage am {1}";
 $l['birthdayhidden'] = "Versteckt";

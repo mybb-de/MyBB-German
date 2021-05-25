@@ -10,7 +10,7 @@
 
 $l['file_verification'] = "Datei-Überprüfung";
 $l['checking'] = "Überprüfen&hellip;";
-$l['file_verification_message'] = "Dies wird die Dateien des MyBBs auf ihre Gültigkeit überprüfen. Drücken Sie Ja um fortzufahren.<br /> <small>Bitte beachten Sie, dass kein Unterschied zwischen gewollten Veränderungen und Beschädigungen gemacht wird. Deshalb sollten Sie beim Zurücksetzen von \"beschädigten\" Dateien vorsichtig sein.</small>";
+$l['file_verification_message'] = "Dies wird die Dateien des MyBBs auf ihre Gültigkeit überprüfen. Drücken Sie Ja um fortzufahren.<br /> <small>Bitte beachten Sie, dass kein Unterschied zwischen gewollten Veränderungen und Beschädigungen gemacht wird. Deshalb sollten Sie beim Zurücksetzen von \"beschädigten\" Dateien vorsichtig sein. Beschädigte oder fehlende Dateien können ersetzt werden, in dem sie aus dem originalen <a href=\"https://www.mybb.de/downloads/\" target=\"_blank\" rel=\"noopener\">MyBB-Paket</a> kopiert werden.</small>";
 
 $l['error_communication'] = "Es gab ein Problem bei der Kommunikation mit dem MyBB-Server. Bitte versuchen Sie es in ein paar Minuten noch einmal.";
 $l['file'] = "Datei";

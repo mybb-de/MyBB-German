@@ -12,6 +12,7 @@ $l['click_no_wait'] = "Bitte klicken Sie hier, wenn Sie nicht länger warten wol
 $l['redirect_return_forum'] = "<br /><br />Alternativ dazu, können Sie hier <a href=\"{1}\">zum Forum zurückkehren</a>.";
 $l['redirect_emailsent'] = "Ihre E-Mail wurde erfolgreich versandt.";
 $l['redirect_loggedin'] = "Sie haben sich erfolgreich eingeloggt.<br />Sie werden jetzt zu Ihrem letzten Aufenthaltsort weitergeleitet.";
+$l['update_confirm'] = "Die folgende(n) Datei(en) ist/sind bereits angehängt und wird/werden durch die ausgewählte(n) Datei(en) aktualisiert/ersetzt. {1} Sind Sie sicher?";
 
 $l['error_invalidpworusername'] = "Der eingegebene Benutzername und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
 $l['error_invalidpworusername1'] = "Die eingegebene E-Mail-Adresse und/oder das Passwort ist falsch!<br /><br />Falls Sie Ihr Passwort vergessen haben, fordern Sie bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
@@ -19,6 +20,7 @@ $l['error_invalidpworusername2'] = "Der eingegebene Benutzername bzw. die eingeg
 $l['error_incompletefields'] = "Sie haben mindestens ein erforderliches Feld nicht ausgefüllt. Gehen Sie bitte zurück und geben Sie die benötigten Daten an.";
 $l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit dem Namen \"{1}\". Bitte benennen Sie die Datei um und versuchen Sie es erneut. Alternativ können Sie auch \"Attachment aktualisieren\" klicken.";
 $l['error_alreadyuploaded_perm'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte entfernen Sie den vorhandenen Anhang oder benennen Sie die Datei um und versuchen Sie es erneut.";
+$l['error_updatefailed'] = "Die Datei \"{1}\" wurde noch nicht angehängt und kann nicht aktualisiert werden.";
 $l['error_nomessage'] = "Entschuldigung, Sie haben keine gültige Nachricht eingegeben. Bitte gehen Sie zurück und korrigieren Sie Ihre Eingaben.";
 $l['error_invalidemail'] = "Sie haben eine ungültige E-Mail-Adresse angegeben.";
 $l['error_nomember'] = "Dieser Benutzer ist ungültig oder nicht vorhanden.";

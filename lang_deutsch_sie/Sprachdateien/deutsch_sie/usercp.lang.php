@@ -153,7 +153,6 @@ $l['show_redirect'] = "Zeige Weiterleitungsseiten.";
 $l['thread_view_options'] = "Themenansicht";
 $l['thread_mode'] = "Themenansichtsmodus:";
 $l['thread_mode_desc'] = "Diese Option stellt den Anzeigemodus zur Auswahl.";
-$l['use_default'] = "Standardeinstellung";
 $l['threaded'] = "Baumstruktur";
 $l['linear'] = "Lineare Struktur";
 $l['show_classic_postbit'] = "Beiträge im klassischen Modus anzeigen.";
@@ -309,6 +308,7 @@ $l['error_avatarurltoolong'] = "Entschuldigung, Ihr Avatar kann nicht geändert 
 $l['error_avatartoobig'] = "Entschuldigung, Ihr Avatar kann nicht geändert werden, da der neue Avatar zu groß ist. Die maximal zulässige Größe beträgt {1}x{2} Pixel (Breite x Höhe).";
 $l['error_invalidavatarurl'] = "Die für den Avatar eingegebene URL scheint ungültig zu sein. Geben Sie bitte eine gültige URL an.";
 $l['error_remote_avatar_not_allowed'] = "Avatar-URLs wurden von den Administratoren des Forums deaktiviert.";
+$l['error_avatarimagemissing'] = "Die Avatar-Datei fehlt, bitte wählen Sie eine Datei aus um sie hochzuladen.";
 $l['custom_usertitle'] = "Eigener Benutzertitel";
 $l['new_custom_usertitle'] = "Neuer eigener Benutzertitel: (Wenn leer, wird der bestehende Titel verwendet)";
 $l['custom_usertitle_note'] = "Hier können Sie sich einen eigenen Benutzertitel geben, der den automatisch zugeteilten ersetzt.";
@@ -403,6 +403,7 @@ $l['icon_no_new'] = "Keine neuen Beiträge.";
 $l['icon_new'] = "Neue Beiträge.";
 $l['icon_hot'] = " Heißes Thema.";
 $l['icon_close'] = " Geschlossenes Thema.";
+$l['goto_first_unread'] = "Gehe zum ersten ungelesenen Beitrag";
 
 $l['buddylist_error'] = "Beim Laden der Freundesliste ist ein Fehler aufgetreten.";
 

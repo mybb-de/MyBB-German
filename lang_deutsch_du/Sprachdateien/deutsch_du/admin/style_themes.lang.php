@@ -67,7 +67,7 @@ $l['delete_revert'] = "Löschen / Zurücksetzen";
 $l['local_file'] = "Lokale Datei";
 $l['url'] = "URL";
 $l['import_from'] = "Importieren von";
-$l['import_from_desc'] = "Wähle eine Datei zum Importieren. Du kannst die Datei entweder von deinem PC oder von einer URL importieren.";
+$l['import_from_desc'] = "Wähle eine Datei zum Importieren. Du kannst die Datei entweder von deinem PC oder von einer URL importieren. Denke daran, nur Themes aus <strong>sicheren und vertrauenswürdigen Quellen</strong> zu verwenden.";
 $l['parent_theme'] = "Übergeordnetes Theme";
 $l['parent_theme_desc'] = "Wähle das Theme, welchem dieses untergeordnet sein soll.";
 $l['new_name'] = "Neuer Name";
@@ -191,7 +191,7 @@ $l['error_missing_stylesheet_name'] = "Gib bitte einen Namen für dieses Stylesh
 $l['error_missing_stylesheet_extension'] = "Dieses Stylesheet muss mit einer korrekten Datei-Endung enden, zum Beispiel {1}<em>.css</em>";
 $l['error_invalid_parent_theme'] = "Das ausgewählte übergeordnete Theme existiert nicht. Bitte wähle ein gültiges.";
 $l['error_invalid_templateset'] = "Das ausgewählte Template-Set existiert nicht. Bitte wähle ein gültiges Template-Set aus.";
-$l['error_invalid_color'] = "Die angegebenen Farbe \"{1}\" enthält entweder ungültige Zeichen oder entspricht nicht dem vorgegebenen Format. Es sind nur alphanumerische Zeichen erlaubt, die durch '=' getrennt werden.";
+$l['error_invalid_color'] = "Die angegebenen Farbe \"{1}\" enthält entweder ungültige Zeichen oder entspricht nicht dem vorgegebenen Format. Im Namen einer Farbe und ihrem Wert sind nur Zahlen, Unicode-Zeichen und Unterstriche erlaubt, die durch '=' getrennt werden.";
 $l['error_invalid_editortheme'] = "Das ausgewählte Editor-Theme existiert nicht. Bitte wähle ein gültiges Editor-Theme aus.";
 $l['error_inheriting_stylesheets'] = "Du kannst dieses Theme nicht löschen, weil noch andere Themes Stylesheets von ihm benutzen.";
 $l['error_cannot_parse'] = "MyBB kann dieses Stylesheet nicht für den einfachen Editor wandeln. Es kann nur im erweiterten Modus editiert werden.";

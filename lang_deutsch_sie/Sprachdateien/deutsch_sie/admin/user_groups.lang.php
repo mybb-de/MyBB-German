@@ -131,6 +131,7 @@ $l['edit_time_limit'] = "Bearbeitungs-Limit";
 $l['edit_time_limit_desc'] = "Der Zeitraum in Minuten, bevor Benutzer ihre Beiträge nicht mehr bearbeiten können, falls sie die nötigen Rechte haben (0 = unendlich).";
 $l['can_access_usercp'] = "Kann Benutzer-CP betreten";
 $l['can_be_reported'] = "Kann gemeldet werden (Profil, Beiträge, Bewertungen)?";
+$l['can_be_invisible'] = "Kann diese Gruppe ihren Online-Status verbergen?";
 $l['can_change_username'] = "Kann Benutzernamen wechseln";
 $l['can_change_website'] = "Kann Homepage ändern";
 $l['can_use_usertitles'] = "Kann eigene Benutzertitel verwenden";
@@ -164,7 +165,7 @@ $l['max_reputations_peruser_desc'] = "Geben Sie hier die Anzahl der Bewertungen 
 $l['warning_system'] = "Verwarn-System";
 $l['can_send_warnings'] = "Kann andere Benutzer verwarnen";
 $l['can_receive_warnings'] = "Kann verwarnt werden";
-$l['warnings_per_day'] = "Maximale Verwarnungen pro Tag:";
+$l['warnings_per_day'] = "Maximale Verwarnungen pro Tag. (0=keine Begrenzung)";
 $l['private_messaging'] = "Private Nachrichten";
 $l['calendar'] = "Kalender";
 $l['can_view_calendar'] = "Kann Kalender sehen";

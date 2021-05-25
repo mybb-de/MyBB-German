@@ -337,6 +337,7 @@ $l['done_whats_next'] = '<div class="error"><p><strong>Von einer anderen Forenso
 
 /* UPGRADE LANGUAGE VARIABLES */
 $l['upgrade'] = "Upgraderoutine";
+$l['upgrade_not_needed'] = '<p>Die Upgraderoutine muss für diese Version nicht ausgeführt werden.</p><p>Falls Sie dies für einen Fehler halten, können Sie <a href="upgrade.php?force=1">das Upgrade erzwingen</a>. Klicken Sie ansonsten auf \"Weiter\" um die Routine zu sperren.</p>';
 $l['upgrade_welcome'] = "<p>Willkommen zur Upgraderoutine für MyBB {1}.</p><p>Bitte vergewissern Sie sich, welche Version des MyBB zur Zeit installiert ist, da Sie diese unten auswählen müssen.</p><p><strong>Wir empfehlen dringend, vor dem Upgrade ein vollständiges Backup des Forums durchzuführen (Datenbank und Dateien)</strong>, so dass das Forum im Notfall wiederhergestellt werden kann.</p><p>Klicken Sie bei jedem Schritt des Upgradeprozesses nur einmal auf den \"Weiter\"-Button. Je nach Größe des Forums können die einzelnen Schritte einige Zeit in Anspruch nehmen.</p><p>Sind alle Vorbereitungen getroffen, wählen Sie Ihre installierte Version des MyBB und klicken Sie auf \"Weiter\".</p>";
 $l['upgrade_templates_reverted'] = 'Templates zurückgesetzt';
 $l['upgrade_templates_reverted_success'] = "<p>Alle Templates wurden erfolgreich zurückgesetzt und aktualisiert. Bitte klicken Sie auf \"Weiter\", um mit dem Upgrade fortzufahren.</p>";

@@ -33,6 +33,7 @@ $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. B
 $l['userdata_invalid_birthday_coppa'] = 'Bitte gib das Jahr ein, in dem du geboren wurdest, um dein Alter zu verifizieren. Du kannst dein Alter und dein Geburtsdatum in den Einstellungen verstecken.';
 $l['userdata_invalid_birthday_coppa2'] = 'Du musst mindestens 13 Jahre alt sein, um ein Mitglied dieses Forums zu sein. Bitte kontaktiere einen Administrator.';
 $l['userdata_invalid_birthday_privacy'] = 'Bitte wähle eine gültige Geburtstags-Privatsphären-Option aus.';
+$l['userdata_conflicted_birthday_privacy'] = 'Du musst dein Geburtsjahr angeben, wenn du auswählst, dass nur dein Alter angezeigt werden soll.';
 $l['userdata_invalid_referrer'] = 'Der eingegebene Benutzer, der das Forum empfohlen haben soll, existiert nicht. Bitte gib einen gültigen Benutzer an oder lasse das Feld leer.';
 $l['userdata_invalid_language'] = 'Die gewählte Sprache existiert nicht. Bitte wähle eine existierende Sprache.';
 $l['userdata_invalid_style'] = 'Der gewählte Style ist ungültig. Bitte wähle einen gültigen Style aus.';

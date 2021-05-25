@@ -23,6 +23,7 @@ $l['save_calendar_orders'] = "Kalendersortierung speichern";
 
 $l['name'] = "Name";
 $l['display_order'] = "Sortierung";
+$l['display_order_desc'] = "Die Reihenfolge, in der die Kalender in der Kalenderauswahl angezeigt werden. Der Kalender mit der Anzeigereihenfolge 1 wird standardmäßig auf der Kalenderseite angezeigt.";
 $l['week_start'] = "Erster Tag der Woche";
 $l['week_start_desc'] = "Hier kannst du den Tag angeben, mit dem eine Woche in diesem Kalender beginnt.";
 $l['sunday'] = "Sonntag";

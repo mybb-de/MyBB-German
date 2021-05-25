@@ -125,8 +125,12 @@ $l['insert_attachment_post'] = "In den Beitrag einfügen";
 $l['new_attachment'] = "Neues Attachment:";
 $l['add_attachment'] = "Attachment hinzufügen";
 $l['update_attachment'] = "Attachment aktualisieren";
+$l['attachment_missing'] = "Bitte wähle mindestens eine Datei zum Anhängen aus.";
 $l['attachment_too_many_files'] = "Du kannst maximal {1} Dateien auf einmal hochladen.";
-$l['attachment_too_big_upload'] = "Du kannst maximal {1} Byte auf einmal hochladen.";
+$l['attachment_max_allowed_files'] = "Du kannst {1} weitere Datei(en) anhängen.";
+$l['attachment_too_big_upload'] = "Du kannst maximal {1} MB auf einmal hochladen.";
+$l['drop_files'] = "Klicke oder ziehe einige Datei zum Hochladen...";
+$l['upload_initiate'] = "Loslassen um Upload zu starten...";
 $l['post_preview'] = "Beitragsvorschau";
 $l['change_user'] = "Benutzer wechseln";
 $l['post_icon'] = "Beitrags-Icon:";
@@ -311,6 +315,7 @@ $l['forumjump_wol'] = "Wer ist online?";
 $l['forumjump_search'] = "Suche";
 $l['forumjump_home'] = "Forenstartseite";
 
+$l['confirm_title'] = "Bitte bestätigen";
 $l['redirect'] = "Du wirst jetzt weitergeleitet";
 $l['unknown_error'] = "Ein unbekannter Fehler ist aufgetreten.";
 $l['post_fetch_error'] = 'Es ist zu einem Fehler beim Laden des Beitrags gekommen.';
@@ -330,8 +335,9 @@ $l['unapproved_attachment'] = "1 Attachment";
 $l['unapproved_attachments'] = "{1} Attachments";
 $l['unread_report'] = "1 ungelesene Meldung";
 $l['unread_reports'] = "{1} ungelesene Meldungen";
-$l['pending_joinrequest'] = "Gruppenleiter-Notiz: Du hast eine ausstehende Gruppenbeitrittsanfrage.";
-$l['pending_joinrequests'] = "Gruppenleiter-Notiz: Du hast {1} ausstehende Gruppenbeitrittsanfragen.";
+$l['groupleader_notice'] = "Gruppenleiter-Notiz:";
+$l['pending_joinrequest'] = "Du hast eine ausstehende Gruppenbeitrittsanfrage.";
+$l['pending_joinrequests'] = "Du hast {1} ausstehende Gruppenbeitrittsanfragen.";
 
 $l['search_user'] = "Benutzer suchen";
 
@@ -520,6 +526,7 @@ $l['task_massmail_ran_errors'] = "Es gab ein oder mehrere Problem(e) beim Senden
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
 $l['task_versioncheck_ran_errors'] = "Es konnte keine Verbindung zum Versions-Check aufgebaut werden.";
 $l['task_recachestylesheets_ran'] = "Cache von {1} Stylesheets erneut.";
+$l['task_sendmailqueue_ran'] = "Es wurden {1} E-Mails aus der Warteschlange versendet.";
 
 $l['dismiss_notice'] = "Diese Notiz löschen";
 
@@ -597,4 +604,9 @@ $l['sfs_error_ip'] = 'deine IP-Adresse';
 $l['sfs_error_email'] = 'deine E-Mail-Adresse';
 $l['sfs_error_or'] = 'oder';
 
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+
 $l['boardclosed_reason'] = 'Dieses Forum ist zur Zeit wegen Wartungsarbeiten geschlossen. Bitte versuche es später noch einmal';
+
+$l['use_default'] = "Standardeinstellung";

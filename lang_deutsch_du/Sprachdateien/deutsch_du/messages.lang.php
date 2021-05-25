@@ -12,6 +12,7 @@ $l['click_no_wait'] = "Bitte klicke hier, wenn Du nicht länger warten willst.";
 $l['redirect_return_forum'] = "<br /><br />Alternativ dazu, kannst du hier <a href=\"{1}\">zum Forum zurückkehren</a>.";
 $l['redirect_emailsent'] = "Deine E-Mail wurde erfolgreich versandt.";
 $l['redirect_loggedin'] = "Du hast dich erfolgreich eingeloggt.<br />Du wirst jetzt zu deinem letzten Aufenthaltsort weitergeleitet.";
+$l['update_confirm'] = "Die folgende(n) Datei(en) ist/sind bereits angehängt und wird/werden durch die ausgewählte(n) Datei(en) aktualisiert/ersetzt. {1} Bist du sicher?";
 
 $l['error_invalidpworusername'] = "Der eingegebene Benutzername und/oder das Passwort ist falsch!<br /><br />Falls du dein Passwort vergessen hast, fordere bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
 $l['error_invalidpworusername1'] = "Die eingegebene E-Mail-Adresse und/oder das Passwort ist falsch!<br /><br />Falls du dein Passwort vergessen hast, fordere bitte <a href=\"member.php?action=lostpw\">hier</a> ein neues an.";
@@ -19,6 +20,7 @@ $l['error_invalidpworusername2'] = "Der eingegebene Benutzername bzw. die eingeg
 $l['error_incompletefields'] = "Du hast mindestens ein erforderliches Feld nicht ausgefüllt. Gehe bitte zurück und gib die benötigten Daten an.";
 $l['error_alreadyuploaded'] = "Dieser Beitrag enthält bereits einen Anhang mit dem Namen \"{1}\". Bitte benenne die Datei um und versuche es erneut. Alternativ kannst du auch \"Attachment aktualisieren\" klicken.";
 $l['error_alreadyuploaded_perm'] = "Dieser Beitrag enthält bereits einen Anhang mit diesem Namen. Bitte entferne den vorhandenen Anhang oder benenne die Datei um und versuche es erneut.";
+$l['error_updatefailed'] = "Die Datei \"{1}\" wurde noch nicht angehängt und kann nicht aktualisiert werden.";
 $l['error_nomessage'] = "Entschuldigung, du hast keine gültige Nachricht eingegeben. Bitte gehe zurück und korrigiere deine Eingaben.";
 $l['error_invalidemail'] = "Du hast eine ungültige E-Mail-Adresse angegeben.";
 $l['error_nomember'] = "Dieser Benutzer ist ungültig oder nicht vorhanden.";

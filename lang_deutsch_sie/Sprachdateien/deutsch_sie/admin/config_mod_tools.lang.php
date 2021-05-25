@@ -89,12 +89,15 @@ $l['remove_subscriptions'] = "Alle Abonnements entfernen?";
 $l['recount_rebuild'] = "Neu zählen &amp; aktualisieren?";
 $l['apply_thread_prefix'] = "Präfix hinzufügen?";
 $l['new_subject'] = "Neuer Betreff?";
-$l['new_subject_desc'] = "{subject} repräsentiert den Originalbetreff. {username} repräsentiert den Benutzernamen des Moderators.";
+$l['new_subject_desc'] = "Geben Sie den neuen Betreff für das Thema ein.";
+
+$l['subject_message_replacements'] = "Verfügbare Platzhalter";
+$l['subject_message_replacements_desc'] = "{subject} repräsentiert den Originalbetreff. {username} steht für den Benutzernamen des Moderators. {author} repräsentiert den Autor des Themas.";
 
 $l['add_new_reply'] = "Antwort hinzufügen";
 $l['add_new_reply_desc'] = "Lassen Sie das folgende Feld leer, wenn keine Antwort im Thema hinterlassen werden soll.";
 $l['reply_subject'] = "Betreff der Antwort.";
-$l['reply_subject_desc'] = "Wird nur benötigt, wenn eine Antwort erstellt werden soll.<br />{subject} repräsentiert den Originalbetreff. {username} repräsentiert den Benutzernamen des Moderators.";
+$l['reply_subject_desc'] = "Wird nur benötigt, wenn eine Antwort erstellt werden soll.";
 
 $l['success_mod_tool_created'] = "Moderationstool erfolgreich erstellt.";
 $l['success_mod_tool_updated'] = "Moderationstool erfolgreich aktualisiert.";
@@ -115,7 +118,7 @@ $l['stick_split_thread'] = "Setze abgetrenntes Thema als wichtig?";
 $l['unapprove_split_thread'] = "Lehne abgetrenntes Thema ab?";
 $l['split_thread_prefix'] = "Präfix abtrennen";
 $l['split_thread_subject'] = "Betreff des abgetrennten Themas";
-$l['split_thread_subject_desc'] = "{subject} repräsentiert den Originalbetreff. Wird nur beim Teilen von Beiträgen benötigt.";
+$l['split_thread_subject_desc'] = "Wird nur benötigt, wenn Beiträge geteilt werden sollen.";
 $l['add_new_split_reply'] = "Füge dem abgetrennten Thema eine Antwort hinzu";
 $l['add_new_split_reply_desc'] = "Lassen Sie das Feld leer, für keine Antwort.";
 $l['split_reply_subject'] = "Betreff der Antwort";

@@ -27,6 +27,7 @@ $l['error_replacement_word_invalid'] = "Die Ersetzung darf nicht dem Wort gleich
 $l['save_bad_word'] = "Filter speichern";
 $l['no_bad_words'] = "Zur Zeit sind keine Wortfilter definiert.";
 $l['add_bad_word'] = "Filter hinzufügen";
+$l['add_bad_word_desc'] = "Hier können Sie Wortfilter und ihrer Ersetzungen hinzufügen.";
 
 $l['error_missing_bad_word'] = "Sie haben kein Wort zur Filterung angegeben.";
 $l['error_invalid_regex'] = "Der angegebene reguläre Ausdruck ist ungültig.";

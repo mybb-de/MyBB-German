@@ -14,7 +14,7 @@ $l['nav_group_memberships'] = "Gruppen-Mitgliedschaften";
 
 $l['not_leader_of_this_group'] = "Entschuldigung, aber du bist kein Gruppenleiter.";
 $l['invalid_group'] = "Diese Benutzergruppe existiert nicht oder sie ist nicht öffentlich zugänglich.";
-$l['pending_requests'] ="Wartende Beitrittsanfragen";
+$l['pending_requests'] = "Wartende Beitrittsanfragen";
 $l['num_requests_pending'] = "Es gibt zur Zeit <strong>{1}</strong> wartende Beitrittsanfragen für diese Benutzergruppe.";
 $l['group_management'] = "Gruppen-Management";
 $l['members_of'] = "Mitglieder in \"{1}\"";
@@ -30,7 +30,7 @@ $l['invite_member_submit'] = "Mitglied zur Gruppe einladen";
 $l['join_requests'] = "Beitrittsanfragen";
 $l['join_requests_title'] = "Beitrittsanfragen für \"{1}\"";
 $l['leader'] = "(Leiter)";
-$l['reason'] ="Grund";
+$l['reason'] = "Grund";
 $l['accept'] = "Akzeptieren";
 $l['ignore'] = "Ignorieren";
 $l['decline'] = "Ablehnen";

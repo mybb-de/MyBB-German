@@ -17,8 +17,20 @@ $langinfo['author'] = "MyBB.de";
 // The language authors website
 $langinfo['website'] = "https://www.mybb.de/";
 
+// The documentation site link
+$langinfo['docs_link'] = "https://www.mybb.de/doku/";
+
+// The documentation FAQs site link
+$langinfo['common_issues_link'] = "https://www.mybb.de/doku/haeufig-gestellte-fragen/";
+
+// The support website link
+$langinfo['support_link'] = "https://www.mybb.de/forum/";
+
+// The additional website name
+$langinfo['additional_name'] = ".de";
+
 // Compatible version of MyBB
-$langinfo['version'] = "1823";
+$langinfo['version'] = "1827";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;
