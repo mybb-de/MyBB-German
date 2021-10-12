@@ -129,7 +129,7 @@ $l['attachment_missing'] = "Bitte wählen Sie mindestens eine Datei zum Anhänge
 $l['attachment_too_many_files'] = "Sie können maximal {1} Dateien auf einmal hochladen.";
 $l['attachment_max_allowed_files'] = "Sie können {1} weitere Datei(en) anhängen.";
 $l['attachment_too_big_upload'] = "Sie können maximal {1} MB auf einmal hochladen.";
-$l['drop_files'] = "Klicken oder ziehen Sie einige Datei zum Hochladen...";
+$l['drop_files'] = "Zum Hochladen können Sie hier klicken oder die Dateien direkt in dieses Feld ziehen...";
 $l['upload_initiate'] = "Loslassen um Upload zu starten...";
 $l['post_preview'] = "Beitragsvorschau";
 $l['change_user'] = "Benutzer wechseln";
@@ -388,11 +388,11 @@ $l['banned_warning2'] = "Ausschlussgrund";
 $l['banned_warning3'] = "Ausschluss wird aufgehoben";
 $l['banned_lifted_never'] = "Nie";
 $l['banned_email_warning'] = "Sie benutzen eine E-Mail-Adresse, die in diesem Forum nicht erlaubt ist. Bitte ändern Sie diese um fortzufahren.";
-$l['powered_by'] = "Deutsche Übersetzung: <a href=\"https://www.mybb.de/\" target=\"_blank\">MyBB.de</a>, Powered by";
+$l['powered_by'] = "Deutsche Übersetzung: <a href=\"https://www.mybb.de/\" target=\"_blank\" rel=\"noopener\">MyBB.de</a>, Powered by";
 $l['copyright'] = "Copyright";
-$l['attach_quota'] = "Es stehen Ihnen {1} zum Speichern von Attachments zur Verfügung.";
+$l['attach_quota'] = "Der Ihnen zur Verfügung stehende Speicherplatz für Attachments ist {1}";
 $l['attach_usage'] = "Sie verwenden zur Zeit <strong>{1}</strong>.";
-$l['view_attachments'] = "Meine Attachments ansehen";
+$l['view_attachments'] = "Eigene Attachments ansehen";
 $l['unlimited'] = "Unbegrenzt";
 
 $l['click_hold_edit'] = "(Maus gedrückt halten zum Bearbeiten)";
@@ -419,7 +419,7 @@ $l['quickrestore_confirm'] = "Möchten Sie diesen Beitrag wirklich wiederherstel
 $l['newpm_notice_one'] = "<strong>Sie haben eine ungelesene Nachricht</strong> von {1} mit dem Betreff <a href=\"{2}/private.php?action=read&amp;pmid={3}\" style=\"font-weight:bold;\">{4}</a>";
 $l['newpm_notice_multiple'] = "<strong>Sie haben {1} ungelesene Nachrichten.</strong> Die neueste ist von {2} mit dem Betreff <a href=\"{3}/private.php?action=read&amp;pmid={4}\" style=\"font-weight:bold;\">{5}</a>";
 $l['deleteevent_confirm'] = "Möchten Sie dieses Ereignis wirklich löschen?";
-$l['removeattach_confirm'] = "Möchten Sie die ausgewählten Anhänge wirklich löschen?";
+$l['removeattach_confirm'] = "Möchten Sie den ausgewählten Anhang wirklich löschen?";
 
 $l['latest_threads'] = "Letzte Themen";
 
