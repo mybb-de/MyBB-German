@@ -166,6 +166,7 @@ $l['search_for_themes'] = "Nach Themes suchen";
 $l['search'] = "Suchen";
 $l['download'] = "Herunterladen";
 $l['created_by'] = "Erstellt von";
+$l['theme_thumbnail'] = "Theme-Vorschau";
 
 $l['error_invalid_stylesheet'] = "Du hast ein ungültiges Stylesheet ausgewählt.";
 $l['error_invalid_theme'] = "Du hast ein ungültiges Theme ausgewählt.";

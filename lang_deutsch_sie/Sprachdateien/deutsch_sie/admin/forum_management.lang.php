@@ -54,6 +54,7 @@ $l['set_custom_perms'] = "Setze eigene Berechtigungen";
 
 $l['permissions_use_group_default'] = "Benutze Gruppenstandard";
 $l['permissions_group'] = "Gruppe";
+$l['permissions_user'] = "Benutzer";
 $l['permissions_canview'] = "Kann sehen";
 $l['permissions_canpostthreads'] = "Kann Themen eröffnen";
 $l['permissions_canpostreplys'] = "Kann antworten";
