@@ -202,4 +202,4 @@ $l['send_reply'] = "Antwort absenden";
 $l['quickreply_signature'] = "Signatur";
 $l['quickreply_disable_smilies'] = "Smilies ausschalten";
 $l['quickreply_save_copy'] = "Kopie speichern";
-$l['quickreply_read_receipt'] = "<strong>Empfangsbestätigung</strong>";
+$l['quickreply_read_receipt'] = "Empfangsbestätigung";
