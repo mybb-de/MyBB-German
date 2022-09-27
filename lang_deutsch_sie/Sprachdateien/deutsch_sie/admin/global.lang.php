@@ -331,7 +331,7 @@ $l['task_massmail_ran_errors'] = "Es gab ein oder mehrere Problem(e) beim Senden
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
 $l['task_versioncheck_ran_errors'] = "Es konnte keine Verbindung zum Versions-Check aufgebaut werden.";
 $l['task_recachestylesheets_ran'] = "Cache von {1} Stylesheets erneut.";
-$l['task_sendmailqueue_ran'] = "Es wurden {1} E-Mails aus der Warteschlange versendet.";
+$l['task_sendmailqueue_ran'] = "Es wurden bis zu {1} E-Mails aus der Warteschlange versendet.";
 
 $l['massmail_username'] = "Benutzername";
 $l['email_addr'] = "E-Mail-Adresse";
