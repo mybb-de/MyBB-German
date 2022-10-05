@@ -785,7 +785,7 @@ $l['setting_secure_smtp_0'] = "Keine Verschlüsselung";
 $l['setting_secure_smtp_1'] = "SSL-Verschlüsselung";
 $l['setting_secure_smtp_2'] = "TLS-Verschlüsselung";
 $l['setting_mail_parameters'] = "Zusätzliche Parameter für die PHP-Funktion 'mail()'";
-$l['setting_mail_parameters_desc'] = "Diese Option erlaubt es Ihnen, Parameter an die PHP-Funktion 'mail()' zu übergeben (<a href=\"http://de.php.net/function.mail\" target=\"_blank\" rel=\"noopener\">weitere Informationen</a>). Wird nur benötigt, wenn E-Mails per PHP verschickt werden sollen.";
+$l['setting_mail_parameters_desc'] = "<strong>Nicht unterstützt.</strong> Zusätzliche Parameter können stattdessen in der <a href=\"https://docs.mybb.com/1.8/faq/mail/#additional-parameters-for-phps-mail\">Konfiguration</a> festgelegt werden.";
 $l['setting_mail_logging'] = "E-Mail loggen";
 $l['setting_mail_logging_desc'] = "Hier könne Sie einstellen, wie E-Mails über die \"Thema einem Freund senden\"-Funktion geloggt werden sollen. In einigen Ländern ist es nicht erlaubt, den Inhalt zu loggen.";
 $l['setting_mail_logging_0'] = "E-Mails nicht loggen";
