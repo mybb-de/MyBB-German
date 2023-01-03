@@ -27,7 +27,7 @@ $l['nav_addsubscription'] = "Abonnement hinzufügen";
 $l['nav_removesubscription'] = "Abonnement entfernen";
 
 $l['resend_activation'] = "Aktivierungs-E-Mail erneut senden";
-$l['away_notice_away'] = "Sie waren das letzte mal hier: {1}.";
+$l['away_notice_away'] = "Sie sind seit {1} als abwesend gekennzeichnet.";
 $l['away_notice'] = "Diese Option erlaubt es Ihnen zu bestimmen, ob Sie als anwesend oder abwesend gekennzeichnet werden.";
 $l['already_uploaded_avatar'] = "Sie benutzen derzeit ein hochgeladenes Avatar-Bild. Wenn Sie ein anderes Avatar-Bild wählen, wird das ältere Bild vom Server gelöscht.";
 $l['using_remote_avatar'] = "Sie benutzen derzeit ein Avatar-Bild von einem externen Server. Wenn Sie ein anderes Avatar-Bild wählen, wird die URL zum Avatar gelöscht.";
