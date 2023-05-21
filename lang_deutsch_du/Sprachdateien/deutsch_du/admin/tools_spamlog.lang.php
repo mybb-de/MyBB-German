@@ -23,6 +23,7 @@ $l['note_logs_locked'] = "Aus Sicherheitsgründen können Log-Einträge jünger 
 $l['all_usernames'] = "Alle Benutzernamen";
 $l['all_emails'] = "Alle E-Mail-Adressen";
 $l['date_range'] = "Zeitraum:";
+$l['older_than'] = "Älter als ";
 $l['days'] = "Tage";
 $l['filter_spam_logs'] = "Spam Log-Daten filtern";
 $l['asc'] = "Aufsteigend";
