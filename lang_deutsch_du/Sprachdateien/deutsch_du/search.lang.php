@@ -11,6 +11,7 @@
 $l['nav_search'] = "Suche";
 $l['nav_results'] = "Ergebnisse";
 
+$l['pages'] = "Seiten:";
 $l['pages_last'] = "Letzte";
 $l['search'] = "Suche";
 $l['search_keyword'] = "Suche nach Schlüssel-/Schlagwörtern";
