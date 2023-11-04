@@ -64,6 +64,7 @@ $l['ago'] = "";
 $l['user_last_active'] = "Benutzer zuletzt online vor";
 $l['user_registered'] = "Benutzer registriert vor";
 $l['save_mass_mail'] = "Speichere Massenmail";
+$l['additional_user_groups_desc'] = "Halte STRG gedrückt, um mehrere Gruppen auszuwählen.";
 
 $l['step_four'] = "Schritt 4";
 $l['delivery_method'] = "Sendemethode";
