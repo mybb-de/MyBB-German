@@ -162,7 +162,7 @@ $l['purgespammer_invalid_user'] = "Du hast einen ungültigen Benutzer ausgewähl
 $l['purgespammer_modlog'] = "Spammer gelöscht";
 
 $l['error_invalidpm'] = "Ungültige Private Nachricht";
-$l['error_nomergeposts'] = "Du musst einen oder mehrere Beiträge wählen, um sie zusammenzufügen.";
+$l['error_nomergeposts'] = "Du musst mindestens zwei Beiträge wählen, um sie zusammenzufügen.";
 $l['error_cantsplitonepost'] = "Du kannst ein Thema mit einem Beitrag nicht aufteilen.";
 $l['error_badmergeurl'] = "Die URL für das zusammenzufügende Thema ist ungültig oder leer. Bitte kopiere die exakte URL in die Textbox.<br />Bitte gehe zurück und korrigiere die Eingabe.";
 $l['error_badmovepostsurl'] = "Die URL, in die die Beiträge verschoben werden sollen, ist ungültig oder leer. Bitte kopiere die exakte URL in die Textbox.<br />Bitte gehe zurück und korrigiere die Eingabe.";

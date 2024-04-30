@@ -55,6 +55,7 @@ $l['error_admin_session_expired'] = "Ihre Administrations-Sitzung ist abgelaufen
 $l['error_invalid_ip'] = "Ihre IP-Adresse ist für diese Sitzung nicht gültig.";
 $l['error_mybb_admin_lockedout'] = "Dieses Benutzer-Konto wurde ausgeschlossen.";
 $l['error_mybb_admin_lockedout_message'] = "Ihr Benutzer-Konto wurde nach {1} Anmelde-Versuchen gesperrt. Ihnen wurde eine E-Mail gesendet mit Informationen um Ihr Benutzer-Konto wieder freizuschalten.";
+$l['error_mybb_not_admin_account'] = "Ihnen fehlt die Berechtigung, das Administrations-Panel zu betreten.";
 
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig.";
 $l['error_invalid_uid'] = "Die eingegebene Benutzer-ID ist ungültig.";

@@ -98,7 +98,8 @@ $l['all_selected'] = "Alle <strong>{1}</strong> Themen in diesem Forum sind ausg
 $l['select_all'] = "Alle <strong>{1}</strong> Themen in diesem Forum auswählen.";
 $l['clear_selection'] = "Auswahl löschen.";
 $l['deleted_thread'] = "Gelöschtes Thema";
-
+$l['select_a_tool'] = "Wählen Sie ein Tool";
 $l['error_containsnoforums'] = "Entschuldigung, aber das Forum, welches Sie gerade ansehen, enthält keine Unterforen.";
-
+$l['inline_no_tool_selected'] = "Bitte wählen Sie ein Tool aus, um eine Moderationsaktion durchzuführen.";
+$l['inline_no_post_selected'] = "Sie müssen einen oder mehrere Beiträge auswählen, für die Sie die Moderationsaktion durchführen möchtest.";
 $l['inline_edit_description'] = "(Maus gedrückt halten zum Bearbeiten)";

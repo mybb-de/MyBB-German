@@ -367,3 +367,4 @@ $l['no_permision'] = "Sie haben keine Berechtigung diesen Vorgang auszuführen. 
 $l['no_theme_functions_file'] = "Es wurde keine Datei mit Theme-Funktionen gefunden. Bitte stellen Sie sicher, dass alle Dateien ordnungsgemäß hochgeladen wurden.";
 
 $l['task_versioncheck_ran'] = "Der Versions-Check wurde erfolgreich ausgeführt.";
+$l['task_versioncheck_ran_errors'] = "Es konnte keine Verbindung zum Versions-Check aufgebaut werden.";
