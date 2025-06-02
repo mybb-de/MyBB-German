@@ -67,7 +67,6 @@ $l['users_contact_details'] = "Kontaktdetails für {1}";
 $l['homepage'] = "Webseite:";
 $l['pm'] = "Private Nachricht:";
 $l['send_pm'] = "{1} eine private Nachricht senden.";
-$l['icq_number'] = "ICQ-Nummer:";
 $l['skype_id'] = "Skype-ID:";
 $l['google_id'] = "Google-Hangouts-ID:";
 $l['avatar'] = "Avatar:";

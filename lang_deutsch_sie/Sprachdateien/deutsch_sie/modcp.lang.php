@@ -135,7 +135,6 @@ $l['remove_avatar'] = "Avatar des Benutzers entfernen?";
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['icq_number'] = "ICQ-Nummer:";
 $l['skype_id'] = "Skype-ID:";
 $l['google_id'] = "Google-Hangouts-ID:";
 $l['away_notice_away'] = "Sie sind seit {1} als abwesend gekennzeichnet.";

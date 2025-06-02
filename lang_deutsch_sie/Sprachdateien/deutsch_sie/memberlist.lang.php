@@ -46,7 +46,6 @@ $l['username_exact'] = "Exakte Schreibweise";
 $l['search_website'] = "Homepage";
 $l['search_skype'] = "Skype-ID";
 $l['search_google'] = "Google-Hangouts-Adresse";
-$l['search_icq'] = "ICQ-Nummer";
 $l['search_options'] = "Suchoptionen";
 $l['per_page'] = "Ergebnisse pro Seite";
 $l['search'] = "Suche";

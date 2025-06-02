@@ -211,11 +211,9 @@ $l['change_email_notice'] = "Zum Ändern der E-Mail-Adresse bitte <a href=\"user
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['contact_field_icq'] = "ICQ-Nummer:";
 $l['contact_field_skype'] = "Skype-ID:";
 $l['contact_field_google'] = "Google-Hangouts-ID:";
 $l['contact_field_error'] = "Entschuldigung, die Kontaktinformationen können nicht geändert werden, da die eingegebene ID zu lang ist. Google-Hangouts-IDs and Skype-IDs können nur 75 Zeichen lang sein.";
-$l['contact_field_icqerror'] = "Entschuldigung, die ICQ-Nummer kann nicht geändert werden, da die eingegebene Nummer zu lang ist. ICQ-Nummern können nur 10 Zeichen lang sein.";
 $l['additional_information'] = "Zusätzliche Information";
 $l['update_profile'] = "Profil ändern";
 $l['away_information'] = "Abwesenheitsinformation";

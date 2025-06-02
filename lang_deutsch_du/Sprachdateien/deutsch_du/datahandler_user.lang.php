@@ -28,7 +28,6 @@ $l['userdata_email_already_in_use'] = "Die eingegebene E-Mail-Adresse wird berei
 
 $l['userdata_dob_required'] = "Du hast deinen Geburtstag nicht eingegeben. Bitte gib deinen Geburtstag ein um fortzufahren - du kannst deinen Geburtstag und dein Alter vor anderen Benutzern verstecken.";
 $l['userdata_invalid_website'] = 'Die eingegebene Webseiten-Adresse ist ungültig. Bitte gib eine gültige URL ein oder lasse das Feld leer.';
-$l['userdata_invalid_icq_number'] = 'Die eingegebene ICQ-Nummer ist ungültig. Bitte gib eine gültige ICQ-Nummer ein oder lasse das Feld leer.';
 $l['userdata_invalid_birthday'] = 'Das eingegebene Geburtsdatum ist ungültig. Bitte gib ein gültiges Geburtsdatum ein oder lasse das Feld leer.';
 $l['userdata_invalid_birthday_coppa'] = 'Bitte gib das Jahr ein, in dem du geboren wurdest, um dein Alter zu verifizieren. Du kannst dein Alter und dein Geburtsdatum in den Einstellungen verstecken.';
 $l['userdata_invalid_birthday_coppa2'] = 'Du musst mindestens 13 Jahre alt sein, um ein Mitglied dieses Forums zu sein. Bitte kontaktiere einen Administrator.';
