@@ -161,8 +161,6 @@ $l['optional_profile_info'] = "Optionale Profil-Informationen";
 $l['custom_user_title'] = "Eigener Benutzertitel";
 $l['custom_user_title_desc'] = "Wenn leer, wird der Titel der Benutzergruppe verwendet";
 $l['website'] = "Homepage";
-$l['skype_handle'] = "Skype-ID";
-$l['google_handle'] = "Google-Hangouts-ID";
 $l['birthday'] = "Geburtsdatum";
 
 $l['away_information'] = "Abwesenheitsinformation";
@@ -344,8 +342,6 @@ $l['username_contains'] = "Benutzername enthält";
 $l['email_address_contains'] = "E-Mail-Adresse enthält";
 $l['is_member_of_groups'] = "Ist Mitglied einer oder mehrerer dieser Benutzergruppen";
 $l['website_contains'] = "Homepage enthält";
-$l['skype_contains'] = "Skype-ID enthält";
-$l['google_contains'] = "Google-Hangouts-ID enthält";
 $l['signature_contains'] = "Signatur enthält";
 $l['user_title_contains'] = "Eigener Benutzertitel enthält";
 $l['greater_than'] = "Größer als";

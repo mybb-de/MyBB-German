@@ -32,6 +32,6 @@ $l['eventdata_invalid_repeat_week_interval'] = "Du hast ein ungültiges Wochenin
 $l['eventdata_invalid_repeat_weekly_days'] = "Du hast keine Wochentage für dieses Event angegeben.";
 $l['eventdata_invalid_repeat_month_interval'] = "Du hast ein ungültiges Monatsintervall für die Wiederholung angegeben.";
 $l['eventdata_invalid_repeat_year_interval'] = "Du hast ein ungültiges Jahresintervall für die Wiederholung angegeben.";
-$l['eventdata_event_wont_occur'] = "Du kannst nicht gleichzeitig Start- und Enddatum mit den Wiederholungseinstellungen für einen Termin nutzen.";
+$l['eventdata_event_wont_occur'] = "Bitte passe das Start- und Enddatum an, um eine ordnungsgemäße Planung der Veranstaltung sicherzustellen.";
 
 $l['eventdata_no_permission_private_event'] = "Du hast nicht die erforderliche Berechtigung, um private Termine einzutragen.";

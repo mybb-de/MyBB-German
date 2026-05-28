@@ -207,6 +207,7 @@ $l['error_already_leader'] = "Der Benutzer ist bereits ein Leiter dieser Benutze
 $l['error_invalid_group_leader'] = "Sie haben einen ungültigen Gruppenleiter ausgewählt.";
 $l['error_missing_namestyle_username'] = "Der Benutzernamen-Stil muss {username} enthalten";
 $l['error_disallowed_namestyle_username'] = "Sie können die Elemente script, meta und base nicht beim Benutzernamen-Stil verwenden.";
+$l['error_disallowed_starimage_path'] = "Sie können die Elemente script, meta und base nicht beim Sternenbild verwenden.";
 $l['error_default_group_delete'] = "Standard-Benutzergruppen können nicht gelöscht werden";
 $l['error_cannot_have_both_types'] = "Die Beitritte in eine Gruppe können nicht gleichzeitig Einladungen benötigen und moderiert werden. Bitte wählen Sie entweder die eine Option oder die andere.";
 

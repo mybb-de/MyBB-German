@@ -40,7 +40,6 @@ $l['user_id'] = "Benutzernummer:";
 $l['title'] = "Benutzertitel:";
 $l['postnum'] = "Beiträge:";
 $l['posts_day'] = "({1} pro Tag | {2} Prozent aller Beiträge)";
-$l['additional_contact_details'] = "Kontaktmöglichkeiten";
 $l['email'] = "E-Mail:";
 $l['reputation'] = "Bewertung:";
 $l['website'] = "Homepage:";
@@ -211,9 +210,6 @@ $l['change_email_notice'] = "Zum Ändern der E-Mail-Adresse bitte <a href=\"user
 $l['profile_optional'] = "Optionale Felder";
 $l['website_url'] = "Homepage:";
 $l['birthdate'] = "Geburtstag:";
-$l['contact_field_skype'] = "Skype-ID:";
-$l['contact_field_google'] = "Google-Hangouts-ID:";
-$l['contact_field_error'] = "Entschuldigung, die Kontaktinformationen können nicht geändert werden, da die eingegebene ID zu lang ist. Google-Hangouts-IDs and Skype-IDs können nur 75 Zeichen lang sein.";
 $l['additional_information'] = "Zusätzliche Information";
 $l['update_profile'] = "Profil ändern";
 $l['away_information'] = "Abwesenheitsinformation";

@@ -39,7 +39,8 @@ $l['ip_address_desc'] = "Hinweis: Benutzen Sie * (Bsp.: 127.0.0.*) oder CIDR-Not
 $l['ban_ip_address'] = "IP-Adresse ausschließen";
 
 $l['error_missing_ban_input'] = "Sie haben keinen Wert angegeben, der verboten werden soll.";
-$l['error_invalid_filter'] = "Der angegebene Filter existiert nicht.";
+$l['error_invalid_filter'] = "Der angegebene Filter ist ungültig.";
+$l['error_filter_not_found'] = "Der angegebene Filter existiert nicht.";
 $l['error_filter_already_banned'] = "Der angegebene Filter ist bereits ausgeschlossen.";
 
 $l['success_ip_banned'] = "Die IP-Adresse wurde erfolgreich ausgeschlossen.";

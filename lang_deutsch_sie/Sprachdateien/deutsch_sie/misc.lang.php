@@ -81,5 +81,6 @@ $l['error_invalidsearch'] = "Der Suchbegriff ist ungültig. Bitte gehen Sie zur�
 $l['error_no_search_support'] = "Diese Datenbank-Engine unterstützt keine Suchfunktion.";
 $l['error_searchflooding'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch {2} Sekunden und versuchen Sie es dann erneut.";
 $l['error_searchflooding_1'] = "Entschuldigung, Sie können eine Suche nur alle {1} Sekunden durchführen. Bitte warten Sie noch 1 Sekunde und versuchen Sie es dann erneut.";
+$l['error_minsearchlength'] = "Einer oder mehrere Ihrer Suchbegriffe sind zu kurz. Ein Suchbegriff muss mindestens {1} Zeichen lang sein.<br /><br />Wenn Sie nach einer genauen Wortgruppe suchen möchten, setzen Sie sie in doppelte Anführungszeichen. Beispiel: \"Franz jagt im komplett verwahrlosten Taxi quer durch Bayern\".";
 
 $l['dst_settings_updated'] = "Ihre Sommerzeiteinstellungen wurden automatisch geändert.<br /><br />Sie werden jetzt zum Forenindex weitergeleitet.";
