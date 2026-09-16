@@ -213,6 +213,8 @@ $l['error_activated_by_admin'] = "Du kannst dir keine Aktivierungsmail schicken 
 $l['error_alreadyregistered'] = "Entschuldigung, aber Du hast dich schon registriert und die Registrierung von mehreren Accounts wurde unterbunden.";
 $l['error_alreadyregisteredtime'] = "Die Registrierung kann nicht fortgesetzt werden, da es in den letzten {2} Stunden {1} neue Registrierung(en) von deiner IP-Adresse aus gab. Bitte versuche es später erneut.";
 $l['error_badlostpwcode'] = "Du hast einen ungültigen Code eingegeben, um dein Passwort zurückzusetzen. Bitte kontrolliere deine Eingabe oder wende dich an einen Administrator für Hilfe.";
+$l['error_resetpwcodeexpired'] = "Der Reset-Code ist abgelaufen. Bitte fordere ein neues Passwort an und nutze den Link innerhalb von 24 Stunden.";
+$l['error_activationexpired'] = "Der Bestätigungslink ist abgelaufen. Bitte ändere deine E-Mail-Adresse erneut und bestätige innerhalb von 24 Stunden.";
 $l['error_badactivationcode'] = "Du hast einen ungültigen Aktivierungscode eingegeben. <a href=\"member.php?action=resendactivation\">Klicke hier</a>, um die Aktivierungsmail erneut zu verschicken.";
 $l['error_alreadyactivated'] = "Dein Account ist bereits aktiviert oder benötigt keine Aktivierung per E-Mail.";
 $l['error_alreadyvalidated'] = "Deine E-Mail-Adresse wurde bereits überprüft.";

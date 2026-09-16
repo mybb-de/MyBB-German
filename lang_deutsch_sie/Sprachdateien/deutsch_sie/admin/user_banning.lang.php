@@ -24,6 +24,7 @@ $l['disallowed_email_addresses'] = "Verbotene E-Mail-Adressen";
 $l['error_invalid_ban'] = "Die ausgewählte Sperrung existiert nicht.";
 $l['error_invalid_username'] = "Der eingegebene Benutzername ist ungültig und existiert nicht.";
 $l['error_no_perm_to_ban'] = "Sie haben keine Berechtigung diesen Benutzer zu sperren.";
+$l['error_invalid_ban_group'] = "Sie haben keine gültige Ausschlussgruppe ausgewählt.";
 $l['error_already_banned'] = "Der Benutzer ist bereits gesperrt und kann nicht nochmals gesperrt werden.";
 $l['error_ban_self'] = "Sie können sich nicht selber sperren.";
 $l['error_no_reason'] = "Sie haben keinen Grund für die Sperrung eingegeben.";

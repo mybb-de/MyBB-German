@@ -30,7 +30,7 @@ $langinfo['support_link'] = "https://forum.mybb.de/";
 $langinfo['additional_name'] = ".de";
 
 // Compatible version of MyBB
-$langinfo['version'] = "1840";
+$langinfo['version'] = "1841";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;
